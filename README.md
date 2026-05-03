@@ -24,3 +24,10 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 010 | Hacker Psychology | The human element in defense |
 | 011 | Information Gravity | Logic-based anti-misinformation |
 | 012 | Digital Resilience | System recovery and reboot logic |
+| 013 | The Silence Algorithm | Non-verbal strategic analysis |
+| 014 | Multi-Dimensional Decoding | Multidimensional visual analysis |
+| 015 | Autonomous Protocol | Independent logic validation |
+| 016 | Core Persistence | Deep-level logic integration |
+| 017 | Personal Cloud Defense | Privacy and data sovereignty |
+| 018 | Human-in-the-Loop | Ethical leadership in the AI era |
+| 019 | AI: Ally or Adversary? | Information integrity and AI ethics |
