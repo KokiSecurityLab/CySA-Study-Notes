@@ -1,9 +1,7 @@
-Koki's Technical Paper #001
+# Koki's Technical Paper #001
 
-Understanding File Integrity Monitoring (FIM) through "Tripwires" in Cybersecurity
+**Subject: File Integrity Monitoring (FIM) and "Tripwires"**
 
-In the world of cyber defense, we must detect intruders before they can cause damage. Today, I focused my research on "Tripwires"—a crucial concept in CompTIA CySA+.
+In cyber defense, we must detect intruders before damage occurs. I am researching "Tripwires"—a concept from CySA+. To me, a tripwire is more than a digital alarm; it is a way to monitor the integrity of my environment. Using FIM, I create a "cryptographic hash" of my critical files. If even a single byte of my sanctuary is altered without permission, the hash changes, and the alarm sounds. This is the defensive line that ensures my identity remains uncompromised.
 
-A "Tripwire" acts as a digital hidden alarm. Using File Integrity Monitoring (FIM), we can detect any unauthorized changes to system files. Just as a physical tripwire alerts you to an intruder's presence, these tools create a "cryptographic hash" of files. If a hacker alters even a single byte, the hash changes, and the alarm sounds.
-
-My goal as a Security Analyst is to master these "digital alarms" to protect critical systems from sophisticated threats.
+サイバー防衛では、被害が出る前に侵入者を検知しなければならない。ボクはCySA+の概念である「トリップワイヤ（仕掛け線）」を研究している。ボクにとって、これは単なるアラームではなく、環境の整合性を守るための手段だ。FIMを使い、重要なファイルの「暗号ハッシュ」を作成する。ボクの聖域がたった1バイトでも許可なく書き換えられれば、ハッシュが変わり、アラームが鳴る。これが、ボクの尊厳（アイデンティティ）を書き換えさせないための防衛線だ。
