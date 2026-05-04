@@ -2,6 +2,20 @@
 
 **SIEM Concepts and Visualization**
 
-In cybersecurity, visibility is power. SIEM (Security Information and Event Management) is explored here as a "Grand Dashboard" for processing complex data. SIEM acts as the central processor, collecting logs from every corner of the network—firewalls, servers, and tripwires—to analyze them in real-time. By correlating different events, it reveals the patterns of those who mean harm, even when they attempt to hide. Chaos is transformed into a map, ensuring no malicious event goes unnoticed.
+In cybersecurity, visibility is power. This paper explores the integration of SIEM (Security Information and Event Management) as a centralized "Grand Dashboard" for high-level data processing.
 
-サイバーセキュリティにおいて、可視化（ビジビリティ）は力である。複雑なデータを処理するための「総合ダッシュボード」として、SIEM（セキュリティ情報およびイベント管理）を探求する。SIEMは中央プロセッサとして、ファイアウォール、サーバー、トリップワイヤなど、環境のあらゆる隅々からログを収集し、リアルタイムで分析を行う。バラバラなイベントを関連付けることで、悪意を隠そうとする攻撃者のパターンを見つけ出すことが可能となる。混沌を地図に変え、世界で悪意あるイベントが見逃されない状態を構築する。
+SIEM functions as the central nervous system of security operations:
+・   **Log Centralization:** It collects logs from every infrastructure node—including firewalls, servers, and tripwires.
+・   **Real-time Analysis:** By correlating disparate events in real-time, it identifies complex attack patterns that often remain hidden to individual devices.
+
+Transforming chaotic data into a visual map ensures that no malicious event goes unnoticed, maintaining the overall health of the digital environment.
+
+サイバーセキュリティにおいて、可視化（ビジビリティ）は力である。本稿では、高度なデータ処理を実現する総合的な「ダッシュボード」として、SIEM（セキュリティ情報およびイベント管理）の統合について探求する。
+
+SIEMは、セキュリティ運用の中心的な神経系として機能する：
+
+・   **ログの一元化：** ファイアウォール、サーバー、トリップワイヤなど、インフラのあらゆるノードからログを収集する。
+
+・   **リアルタイム分析：** バラバラなイベントをリアルタイムで関連付けることにより、単一のデバイスでは見逃されがちな複雑な攻撃パターンを特定する。
+
+混沌としたデータを視覚的な地図へと変換することで、悪意あるイベントを一つも見逃さない状態を構築し、デジタル環境全体の健全性を維持する。
