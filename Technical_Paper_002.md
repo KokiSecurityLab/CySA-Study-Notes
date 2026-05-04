@@ -4,7 +4,7 @@
 
 In cybersecurity, visibility is power. This paper explores the integration of SIEM (Security Information and Event Management) as a centralized "Grand Dashboard" for high-level data processing.
 
-SIEM functions as the central nervous system of security operations:
+SIEM functions as the central nervous system of security operations :
 
 ・   **Log Centralizatio :** It collects logs from every infrastructure node—including firewalls, servers, and tripwires.
 
