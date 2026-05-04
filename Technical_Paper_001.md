@@ -6,6 +6,7 @@ In the field of cyber defense, detecting intruders before they cause damage is a
 
 A tripwire acts as more than a digital alarm; it is a mechanism to monitor the total integrity of an environment. 
 ・   **Cryptographic Hashing:** By using File Integrity Monitoring (FIM), a cryptographic hash is generated for each critical system file.
+
 ・   **Intrusion Detection:** If even a single byte of the digital sanctuary is altered without authorization, the hash changes, triggering an immediate alert.
 
 Mastering these "digital alarms" is essential for establishing a robust defensive line and ensuring that the identity of the system remains uncompromised.
