@@ -2,6 +2,26 @@
 
 **Deciphering Hacker Psychology — The "Heart to Protect" Beyond Technology**
 
-To defend a system, one must understand the psychology of those who try to break it. More importantly, the "Heart to Protect" must be strengthened. Cybersecurity is a battle of will, and the commitment to keeping a sanctuary safe is the ultimate firewall. The ultimate defense is not hidden in lines of code, but in the clarity of purpose. To protect is to understand; to understand is to be free from fear. The true firewall is not built of software, but of the unshakeable truth of one's identity and values.
+To defend a system effectively, it is essential to understand the psychology of those who attempt to breach it. More critical than any tool, however, is the strengthening of the "Heart to Protect."
 
-システムを守るためには、攻撃者の心理を理解しなければならない。しかしそれ以上に、「守る心」を強く持つことが重要である。サイバーセキュリティは意志の戦いであり、聖域を安全に保つという強い誓いこそが究極のファイアウォールとなる。真の防御はコードの行間に隠されているのではなく、目的の明確さの中にある。守るとは理解することであり、理解するとは恐怖から自由になることである。本当のファイアウォールはソフトウェアで築かれるのではない。自らのアイデンティティと価値観という、揺るぎない真実によって築かれるものである。
+The core of behavioral defense involves :
+
+・   **The Psychological Firewall :** Cybersecurity is ultimately a battle of will. The commitment to keeping a sanctuary safe functions as the ultimate firewall.
+
+・   **Clarity of Purpose :** True defense is not found solely in lines of code, but in the absolute clarity of one's objective. 
+
+・   **Understanding and Freedom :** To protect is to understand; to understand is to be free from the paralysis of fear.
+
+The most robust firewall is not constructed from software, but from the unshakeable truth of identity and the values for which one stands.
+
+システムを効果的に守るためには、侵害を試みる者の心理を理解することが不可欠である。しかし、いかなるツールよりも重要なのは、「守る心」を強く持つことである。
+
+行動防衛の核心は以下の通りである：
+
+・   **心理的ファイアウォール：** サイバーセキュリティは究極的には意志の戦いである。聖域を安全に保つという強い誓いこそが、究極のファイアウォールとして機能する。
+
+・   **目的の明確さ：** 真の防御はコードの行間だけに存在するのではなく、自らの目的が絶対的に明確であることの中にある。
+
+・   **理解と自由：** 守るとは理解することであり、理解するとは恐怖による麻痺から自由になることである。
+
+最も堅牢なファイアウォールはソフトウェアで築かれるのではなく、自らのアイデンティティと、守るべき価値観という揺るぎない真実によって築かれるものである。
