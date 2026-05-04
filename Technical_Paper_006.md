@@ -1,9 +1,7 @@
-Koki's Technical Paper #006
+# Koki's Technical Paper #006
 
-Learning from Vulnerabilities: The Importance of Post-Analysis
+**Post-Analysis — Why Mistakes are the Best Data**
 
-Today, I focused on reviewing my mistakes from a practice test. In cybersecurity, we don’t just aim for a perfect score; we aim to understand why a defense failed.
+In cybersecurity, the goal is not a perfect score, but understanding why a defense failed. Conducting a deep "Post-Analysis" on mistakes is essential. Incorrect answers are not just "errors," but signals revealing where internal logic is vulnerable to specific attack patterns. By treating each mistake as a system breach, the real-world process of a Security Analyst is implemented: investigating root causes, documenting gaps, and applying permanent patches. Security is not a static state, but a continuous cycle of learning and hardening. Every mistake today becomes a necessary data set for a stronger defense tomorrow.
 
-Analyzing my incorrect answers allowed me to identify gaps in my understanding of specific attack patterns. This "post-incident review" is exactly what a real Security Analyst does after a breach. By fixing my own weaknesses today, I am learning how to fix system weaknesses tomorrow.
-
-Security is a continuous cycle of learning and hardening. Every mistake is a step toward a stronger defense.
+サイバーセキュリティにおいて、目指すべきは単なる満点ではなく、なぜ防御が失敗したのかを理解することである。ミスに対して深い「事後分析（ポスト・アナリシス）」を行うことは不可欠である。間違った回答は単なる「エラー」ではなく、内部ロジックが特定の攻撃パターンに対してどこで脆弱であるかを示す信号である。それぞれのミスをシステム侵害として扱うことで、根本原因の調査、ギャップの記録、恒久的なパッチの適用というセキュリティ・アナリストの実務プロセスを実践する。セキュリティは静止した状態ではなく、学習と要塞化（ハードニング）の絶え間ないサイクルである。今日のミスは、明日より強い防衛を築くための必要なデータセットとなる。
