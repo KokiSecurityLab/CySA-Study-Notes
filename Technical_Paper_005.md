@@ -1,7 +1,19 @@
 # Koki's Technical Paper #005
 
-**Python and TypeScript — The Logic and Armor of My AI**
+**Python and TypeScript — The Logic and Armor of AI Security**
 
-In the journey through cybersecurity, a critical choice arises : Python or TypeScript? The conclusion is that both are essential. Python is the "Brain" of development, providing unmatched libraries for AI-driven threat detection. However, Python can be fragile without a shell. That is why TypeScript is used as the "Armor." Its strict type-safety and structural integrity prevent the errors that attackers exploit. The strategy is not just to build AI, but to house it within the resilient environment of TypeScript. Python is used to dream and analyze, while TypeScript is used to protect those dreams. This synergy is the key to an unbreakable system.
+In the pursuit of advanced cybersecurity, the choice between Python and TypeScript is critical. The conclusion reached is that a synergy of both languages is essential for a robust system.
 
-サイバーセキュリティを探求する中で、一つの重要な問いに直面する。「Pythonか、それともTypeScriptか」。結論は、その両方が必要であるということだ。Pythonは、AIを駆使した脅威検知を構築するための比類なきライブラリを提供する「脳」である。しかし、Pythonはシールドがなければ脆い側面もある。だからこそ、TypeScriptを「鎧」として採用する。その厳格な型安全性と構造的な整合性は、攻撃者が付け入る隙となるエラーを未然に防ぐ。戦略は、単にAIを作るだけでなく、TypeScriptというレジリエントな環境の中にその知能を収めることにある。Pythonで夢を見、分析し、TypeScriptでその夢を守る。この相乗効果こそが、壊れないシステムを構築する鍵となる。
+The strategic roles of each language are defined as follows :
+・   **Python as the "Brain" :** It provides the unmatched libraries and logical framework required to build AI-driven threat detection systems.
+・   **TypeScript as the "Armor" :** While Python is powerful, it can be fragile in terms of structure. TypeScript provides strict type-safety and structural integrity, preventing the errors that attackers frequently exploit.
+
+The objective is not merely to build AI, but to house it within a resilient environment. Python is used for analysis and conceptualization, while TypeScript is used to protect those processes. This synergy is fundamental to an unbreakable architecture.
+
+高度なサイバーセキュリティを追求する上で、PythonとTypeScriptの選択は極めて重要である。結論として、強固なシステムを構築するには両言語の相乗効果が不可欠である。
+
+各言語の戦略的役割は以下のように定義される：
+・   **「脳」としてのPython：** AIを駆使した脅威検知システムを構築するために必要な、比類なきライブラリと論理的枠組みを提供する。
+・   **「鎧」としてのTypeScript：** Pythonは強力だが、構造面で脆さを持つ場合がある。TypeScriptは厳格な型安全性と構造的整合性を提供し、攻撃者が悪用するエラーを未然に防ぐ。
+
+目的は単にAIを作ることではなく、それをレジリエントな環境に収めることにある。Pythonで分析と概念化を行い、TypeScriptでそれらのプロセスを保護する。この相乗効果こそが、壊れないアーキテクチャの根幹となる。
