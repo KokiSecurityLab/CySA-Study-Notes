@@ -1,15 +1,7 @@
-Koki's Technical Paper #007
+# Koki's Technical Paper #007
 
-The Architecture of Trust : Why IPsec is Still My Gold Standard
+**The Architecture of Trust — Why IPsec is the Gold Standard**
 
-My Perspective
-As cyber threats become increasingly sophisticated in 2025, the "Tunnel" we build for our data is everything. I’ve been diving deep into VPN protocols, and I keep coming back to IPsec (Internet Protocol Security). Newer protocols are cool, but the raw reliability of IPsec's encryption is something I really trust for a solid defense.
+As cyber threats become increasingly sophisticated, the "Tunnel" built for data protection is critical. IPsec remains the gold standard. While newer protocols are interesting, the raw, structural reliability of IPsec is trusted for solid defense. ESP (Encapsulating Security Payload) serves as the "Shield" that encrypts the environment, while IKEv2 is the "Keymaster" managing authentication. Focusing on "Tunnel Mode" over Transport Mode allows for wrapping original IP packets in a new one, making the internal network topology invisible. In an era where AI can map a network in seconds, this "Invisibility" is the best chance to stay ahead. IPsec is the "Armor" chosen to build a zero-trust environment.
 
-The Core : ESP and IKEv2
-For my work as a Cybersecurity Analyst, I’ve been focusing on the synergy between ESP (Encapsulating Security Payload) and IKEv2 (Internet Key Exchange). To me, ESP is the "Shield" that encrypts everything, while IKEv2 is the "Keymaster" that handles the authentication. Understanding how these two work together to resist modern interception is a huge part of my current CySA+ study.
-
-My Strategy : Why I Choose Tunnel Mode
-I’m specifically focusing on Tunnel Mode over Transport Mode. By wrapping the original IP packet in a new one, IPsec makes our internal network topology invisible. In an era where AI can map a network in seconds, this "Invisibility" is our best chance to stay ahead of attackers. This is exactly the kind of "Armor" I want to build.
-
-Conclusion
-IPsec isn't just old tech; it’s a vital skill for the next generation of Cyber Agents. My goal is to master these architectures to build zero-trust environments that actually stand a chance in the AI era.
+サイバー脅威が巧妙さを増す中で、データ保護のために築く「トンネル」の重要性は極めて高い。IPsecは依然としてゴールドスタンダードである。新しいプロトコルも存在するが、強固な防衛を築く上で信頼に足るのは、IPsecが持つ構造的な信頼性である。ESPは環境を暗号化する「シールド（盾）」であり、IKEv2は認証を管理する「キーマスター」として機能する。トランスポートモードよりも「トンネルモード」に重点を置くことで、元のIPパケットを新しいパケットで包み込み、内部ネットワークの構造を不可視にする。AIが瞬時にネットワークを解析する現代において、この「透明化」こそが攻撃者の先を行くための最善策となる。IPsecは、ゼロトラスト環境を構築するために選ばれた「鎧（アーマー）」である。
