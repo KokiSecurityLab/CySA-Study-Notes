@@ -15,6 +15,7 @@ The core of this strategic analysis includes :
 True insight is found in the spaces between the noise. By mastering the algorithm of silence, a more profound and preemptive layer of defense is established.
 
 
+
 コミュニケーションは言葉による交換に限定されない。信号の間に存在する「沈黙」の分析こそが重要である。本稿では、非言語データを通じて意図を検知する手法、「沈黙のアルゴリズム」について探求する。
 
 この戦略的分析の核心は以下の通りである：
