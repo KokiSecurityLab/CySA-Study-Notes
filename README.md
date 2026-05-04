@@ -24,3 +24,4 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 010 | Hacker Psychology | The human element in defense |
 | 011 | Information Gravity | Logic-based anti-misinformation |
 | 012 | Digital Resilience | System recovery and reboot logic |
+| 013 | The Silence Algorithm | Non-verbal strategic analysis |
