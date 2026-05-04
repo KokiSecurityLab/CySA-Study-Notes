@@ -5,7 +5,9 @@
 In the pursuit of advanced cybersecurity, the choice between Python and TypeScript is critical. The conclusion reached is that a synergy of both languages is essential for a robust system.
 
 The strategic roles of each language are defined as follows :
+
 ・   **Python as the "Brain" :** It provides the unmatched libraries and logical framework required to build AI-driven threat detection systems.
+
 ・   **TypeScript as the "Armor" :** While Python is powerful, it can be fragile in terms of structure. TypeScript provides strict type-safety and structural integrity, preventing the errors that attackers frequently exploit.
 
 The objective is not merely to build AI, but to house it within a resilient environment. Python is used for analysis and conceptualization, while TypeScript is used to protect those processes. This synergy is fundamental to an unbreakable architecture.
