@@ -25,3 +25,4 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 011 | Information Gravity | Logic-based anti-misinformation |
 | 012 | Digital Resilience | System recovery and reboot logic |
 | 013 | The Silence Algorithm | Non-verbal strategic analysis |
+| 014 | Multi-Dimensional Decoding | Multidimensional visual analysis |
