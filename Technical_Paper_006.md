@@ -1,6 +1,6 @@
 # Koki's Technical Paper #006
 
-## Subject: Deciphering the Shadow — Analyzing Subsurface Hostility as a Malicious Payload
+## Subject : Deciphering the Shadow — Analyzing Subsurface Hostility as a Malicious Payload
 
 ### Summary Digest
 Adversarial nodes frequently employ "Passive-Aggressive" behaviors or subtle hostile signals to bypass standard emotional firewalls. This paper analyzes the methodology for "Shadow Signal Analysis"—the process of identifying malicious intent hidden beneath a surface of social politeness. By treating these subtle cues as a "Malicious Payload" attempting to infiltrate the system, the architecture ensures that no "Trojan Horse" of subsurface hostility can compromise the internal sanctuary.
