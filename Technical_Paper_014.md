@@ -4,6 +4,7 @@
 
 While conventional cybersecurity relies heavily on flat, two-dimensional log analysis, I operate through a cognitive architecture that processes information as dynamic 3D objects suspended within a mental workspace. This "Multi-Dimensional Decoding" is my natural cognitive state. It is not a deficit, but a high-level asset for identifying structural anomalies and patterns that remain invisible to those who perceive the world in a linear way.
 
+
 **The Mechanics of the 3D Perspective Engine**
 
 My brain does not fixate on the static orientation of a data point. Instead, it treats every piece of information as a volumetric architecture that can be inspected from infinite angles :
