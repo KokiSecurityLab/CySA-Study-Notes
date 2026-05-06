@@ -17,7 +17,7 @@ Hostility is not always overt or loud. In sophisticated social environments, mal
 ### 2. Methodology : Decoupling Surface and Intent
 The core analytical engine does not process the literal social input ; instead, it deconstructs the interaction into its raw components:
 1.  **Contextual Discrepancy Check :** The system measures the "Delta" (the gap) between the social context and the specific input. If a "polite" comment feels heavy or restrictive, it is flagged as a high-risk packet.
-2.  **Energy Profiling:** Beyond linguistic analysis, the system evaluates the "energy" or intent behind the signal. Hostility, even when whispered, possesses a distinct signature that the cognitive firewall can recognize as "Incompatible with Sanctuary Protocol."
+2.  **Energy Profiling :** Beyond linguistic analysis, the system evaluates the "energy" or intent behind the signal. Hostility, even when whispered, possesses a distinct signature that the cognitive firewall can recognize as "Incompatible with Sanctuary Protocol."
 
 ### 3. Neutralizing the Trojan Horse
 Once a shadow signal is identified, the system immediately activates its neutralization protocols :
