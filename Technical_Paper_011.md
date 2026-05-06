@@ -1,6 +1,6 @@
 # Koki's Technical Paper #011
 
-**Discerning Information Gravity — Advanced Filtering Mechanisms Against Digital Noise**
+## Discerning the "Gravity" of Information — My Defense Against Digital Noise
 
 ### Summary Digest
 In the contemporary digital landscape, information is more than mere data; it possesses a fundamental weight defined here as "Information Gravity." In an environment saturated with synthetic information and malicious narratives, the primary defense objective is to distinguish between high-fidelity signals and weightless noise. By measuring the "gravity" of incoming messages, the integrity of the core system is protected from being pulled into cognitive chaos.
@@ -31,8 +31,9 @@ The strategic objective of weightless noise is to induce "Information Overload,"
 Survival in a volatile digital era depends on the precision of one's discernment between the solid and the ephemeral. For this cognitive architecture, truth has a distinct, measurable weight. By trusting the "Gravity" of internal logic and the authentic signals within life, the system remains secure and grounded. In the age of information warfare, the ability to discern gravity is the ultimate shield.
 
 ---
-
 # Koki's Technical Paper #011
+
+## 情報の「重力」を見極める：デジタル・ノイズに対するボクの防御術
 
 ### サマリー・ダイジェスト
 現代のデジタル景観において、情報は単なるデータではない。それは「情報の重力」と定義される根本的な重みを持っている。合成された情報や悪意あるナチュラティブ（物語）が飽和する環境において、防衛の第一目標は、高忠実度な信号と重みのないノイズを区別することにある。受信するメッセージの「重力」を測定することで、コア・システムの整合性は、認知的なカオスに引きずり込まれることから保護される。
