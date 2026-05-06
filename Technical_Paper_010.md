@@ -1,6 +1,6 @@
 # Koki's Technical Paper #010
 
-**Deciphering Hacker Psychology — The Ethics of Resilience and the "Heart to Protect" Beyond Technology**
+## Deciphering Hacker Psychology — The Ethics of Resilience and the "Heart to Protect" Beyond Technology
 
 ### Summary Digest
 This research explores the intersection of cybersecurity and behavioral psychology, proposing that the ultimate defense lies not within algorithmic complexity, but within the clarity of human intent and ethical purpose. By deconstructing the "Illusion of Dominance" sought by attackers, this paper defines the "Heart to Protect" as a foundational psychological firewall. In an era where Artificial Intelligence (AI) acts as a mirror of human will, survival depends on a shift from reactive fear to proactive, value-driven guardianship.
@@ -23,7 +23,7 @@ The most robust defense is discovered not within lines of code, but within the u
 
 # Koki's Technical Paper #010
 
-**ハッカー心理の解読：技術を超越した「守る心」とレジリエンスの倫理**
+## ハッカー心理の解読：技術を超越した「守る心」とレジリエンスの倫理
 
 ### サマリー・ダイジェスト
 本研究では、サイバーセキュリティと行動心理学の交差点を探索し、究極の防御はアルゴリズムの複雑さではなく、人間の意図と倫理的目的の明晰さに存在することを提案する。攻撃者が求める「支配の幻想」を解体することにより、本稿では「守る心」を根源的な心理的ファイアウォールとして定義する。人工知能（AI）が人間の意志を映し出す鏡として機能する現代において、生存は「反応的な恐怖」から「価値観に基づいた能動的な守護」への転換にかかっている。
