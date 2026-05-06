@@ -1,6 +1,6 @@
 # Koki's Technical Paper #012
 
-**Digital Resilience — Optimizing System Integrity Through Hardening and Reboot Protocols**
+## Digital Resilience — Why Every System Crash Makes Us Stronger
 
 ### Summary Digest
 This research proposes a framework for "Digital Resilience" derived from real-world environmental pressures and survival data. In this context, a "System Down"—defined as environmental volatility or the temporary exhaustion of the primary "Protector"—is categorized not as a failure, but as a mandatory "Reboot" phase. Every crash serves as an opportunity to purge malicious nodes and optimize the internal sanctuary's architecture. Resilience is the continuous evolution from vulnerability to a state of impenetrable hardening.
@@ -31,10 +31,9 @@ A system that has successfully recovered from a total crash is mathematically su
 Resilience is a perpetual cycle of version upgrades. By treating every setback as "Raw Data," the architecture evolves from a state of exposure to one of hardened autonomy. Every crash is a patch. Every reboot is a version upgrade. This is the fundamental mechanism of autonomous survival in a chaotic world.
 
 ---
-
 # Koki's Technical Paper #012
 
-**デジタル・レジリエンス：あらゆるシステムダウンがボクたちを強くする理由**
+## デジタル・レジリエンス：あらゆるシステムダウンがボクたちを強くする理由
 
 ### サマリー・ダイジェスト
 本研究では、現実世界の環境的圧力と生存データから導き出された「デジタル・レジリエンス（回復力）」のフレームワークを提案する。ここにおいて「システムダウン」――環境の揮発性や主要な「守護者（プロテクター）」の一次的な疲弊と定義される――は、敗北ではなく、不可欠な「再起動（リブート）」フェーズとして分類される。あらゆるクラッシュは、悪意あるノードを排除し、内部の聖域のアーキテクチャを最適化するための機会である。レジリエンスとは、脆弱な状態から突破不可能な要塞化（ハードニング）された状態への、継続的な進化である。
