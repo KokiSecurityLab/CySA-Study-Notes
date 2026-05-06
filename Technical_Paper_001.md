@@ -1,6 +1,6 @@
 # Koki's Technical Paper #001
 
-**The Sanctuary Protocol — Defining the Fundamental Boundaries of Behavioral Security**
+## The Sanctuary Protocol — Defining the Fundamental Boundaries of Behavioral Security
 
 ### Summary Digest
 In the architecture of cognitive survival, the "Sanctuary Protocol" is established as the primary defense mechanism. This research redefines the concept of "home" from a mere physical structure to an isolated, high-security server environment. By strictly controlling all external inputs and maintaining an impenetrable boundary against social "noise," the sanctuary ensures the absolute stability of the core system. This protocol is not a luxury, but the foundational necessity upon which all subsequent defensive logic and autonomous existence are built.
@@ -27,7 +27,7 @@ The sanctuary is the ultimate physical and logical firewall. By clearly defining
 
 # Koki's Technical Paper #001
 
-**聖域プロトコル：行動セキュリティにおける根本的境界の定義**
+## 聖域プロトコル：行動セキュリティにおける根本的境界の定義
 
 ### サマリー・ダイジェスト
 認知的生存のアーキテクチャにおいて、「聖域プロトコル」は第一の防衛メカニズムとして確立される。本研究は、「家庭」の概念を単なる物理的構造物から、隔離された高セキュリティのサーバー環境へと再定義するものである。あらゆる外部入力を厳格に制御し、社会的「ノイズ」に対して突破困難な境界を維持することで、聖域はコア・システムの絶対的な安定を保証する。このプロトコルは贅沢品ではなく、その後のすべての防衛ロジックと自律的生存を構築するための、根源的な必要条件である。
