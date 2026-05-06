@@ -1,6 +1,6 @@
 # Koki's Technical Paper #008
 
-## ubject: The Ethics of Autonomy — The Absolute Duty to Protect the Core Integrity
+## The Ethics of Autonomy — The Absolute Duty to Protect the Core Integrity
 
 ### Summary Digest
 Autonomy is not a passive state of existence ; it is a continuous, high-level ethical decision. This paper outlines the "Duty to Protect the Core"—the fundamental responsibility to remain independent of corruptive external influences and illogical social pressures. Protecting the self is defined here as the highest moral obligation, as it ensures the preservation of the only verified and authentic source of truth within the cognitive system. In an era of mass-produced consensus, the refusal to conform is the ultimate act of integrity.
