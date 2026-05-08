@@ -1,6 +1,6 @@
 # Koki's Technical Paper #016
 
-**Subject: Core Persistence — Deep-Level Logic Integration and Recovery**
+## Subject: Core Persistence — Deep-Level Logic Integration and Recovery
 
 ### In cybersecurity, persistence is the ability of a process to remain active. Here, "Core Persistence" is defined as the deep integration of logical defensive structures within the core kernel of the individual.
 
@@ -17,7 +17,7 @@ Core Persistence ensures that the sanctuary remains uncompromised at its most fu
 ---
 # Koki's Technical Paper #016
 
-**コア・パーシステンス：内部カーネルをクリーンにすることの困難性**
+## コア・パーシステンス：内部カーネルをクリーンにすることの困難性
 
 ### サイバーセキュリティにおいて、パーシステンス（持続性）とはプロセスが活動を維持する能力を指す。本稿では「コア・パーシステンス」を、個人の核心部における論理的防衛構造の深い統合と定義する。
 
