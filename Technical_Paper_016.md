@@ -14,6 +14,7 @@ The methodology for maintaining core integrity includes:
 
 Core Persistence ensures that the sanctuary remains uncompromised at its most fundamental level. The defense is as permanent as the identity itself.
 
+---
 # Koki's Technical Paper #016
 
 **コア・パーシステンス：内部カーネルをクリーンにすることの困難性**
