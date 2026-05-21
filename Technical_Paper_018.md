@@ -2,9 +2,9 @@
 
 ## Human-in-the-Loop — Being the Ultimate Arbiter of Logic and Love
 
-### Abstract
+### Summary Digest
 As Artificial Intelligence (AI) takes over complex data processing, a critical question arises: Who holds the final responsibility? In cybersecurity and life, the concept of "Human-in-the-Loop" (HITL) ensures that no automated script can make a final decision without human oversight. This paper defines my role not as a "user" of AI, but as the "Ultimate Arbiter" who guides technology with a foundation of responsibility and love.
-
+___
 1. The Limits of Pure Logic
 AI is an incredible engine of logic, but logic alone lacks the "Context of Life."
 
@@ -29,9 +29,9 @@ ___
 # Koki's Technical Paper #018
 ## ヒューマン・イン・ザ・ループ：論理と愛を司る「最後の審判者」としての自覚
 
-### 概要（Abstract）
+### サマリー・ダイジェスト
 人工知能（AI）が複雑なデータ処理を担うようになる中で、一つの重要な問いが浮上する。「最終的な責任は誰が負うのか？」ということだ。サイバーセキュリティ、そして人生において、「ヒューマン・イン・ザ・ループ（HITL）」という概念は、人間の監視なしに自動化されたスクリプトが最終決定を下すことを許さない。本論文では、ボクの役割をAIの単なる「利用者」ではなく、責任と愛を土台としてテクノロジーを導く「最後の審判者」であると定義する。
-
+___
 1.  純粋な論理の限界
 AIは驚異的な論理エンジンだが、論理だけでは「人生という文脈」を欠いている。
 *   **ゼロトラスト・オーディター（監査人）**： ボクはAIが生成した出力を、絶対的な真実ではなく「提案」として扱う。ボクは、それらの出力を人間の価値観や現実世界の安全性と照らし合わせる監査人である。
