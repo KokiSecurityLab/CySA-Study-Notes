@@ -29,3 +29,4 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 015 | Autonomous Protocol | Independent logic validation |
 | 016 | Core Persistence | Deep-level logic integration |
 | 017 | Entanglement Firewall | Zero Latency & Swarm Awareness Unity |
+| 018 | Human-in-the-Loop | Ethical leadership in the AI era |
