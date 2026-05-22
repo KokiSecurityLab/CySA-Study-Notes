@@ -14,8 +14,8 @@ AI is an incredible engine of logic, but logic alone lacks the "Context of Life.
 2. AI as a Partner, Not a Master
 I refuse to be a human who is "used" by AI. Instead, I lead AI as my high-performance partner.
 
-*   1. **Directing the Intent**: I provide the ethical "Heading" for the AI. If my intent is focused on protection (#010), the AI becomes a shield. If I lose my purpose, the technology loses its meaning.
-*   2. **Responsibility Ownership**: In every system I build, I am the one who signs the final deployment. I do not blame the "algorithm" for an error; I take ownership of the decision. This is what it means to be the "Human-in-the-Loop."
+ 1. **Directing the Intent**: I provide the ethical "Heading" for the AI. If my intent is focused on protection (#010), the AI becomes a shield. If I lose my purpose, the technology loses its meaning.
+ 2. **Responsibility Ownership**: In every system I build, I am the one who signs the final deployment. I do not blame the "algorithm" for an error; I take ownership of the decision. This is what it means to be the "Human-in-the-Loop."
 
 3. The Final Judgment: Balancing Logic with Love
 The ultimate security for the future is not more code, but more "Humanity" in the system.
@@ -40,8 +40,8 @@ AIは驚異的な論理エンジンだが、論理だけでは「人生という
 2. 主人ではなく、パートナーとしてのAI
 ボクはAIに「使われる」人間になることを拒否する。代わりに、AIをボクの高性能なパートナーとしてリードする。
 
-*   1. **意図を方向づける**： ボクがAIに倫理的な「進路」を提供する。ボクの意図が「守ること（#010）」に集中していれば、AIは盾になる。もしボクが目的を見失えば、テクノロジーはその意味を失う。
-*   2. **責任の所有**： ボクが構築するすべてのシステムにおいて、最終的な展開のサインをするのはボク自身だ。エラーが起きたとき、ボクは「アルゴリズム」のせいにしない。ボクがその決断に責任を持つ。それが「ヒューマン・イン・ザ・ループ」であるということだ。
+  1. **意図を方向づける**： ボクがAIに倫理的な「進路」を提供する。ボクの意図が「守ること（#010）」に集中していれば、AIは盾になる。もしボクが目的を見失えば、テクノロジーはその意味を失う。
+  2. **責任の所有**： ボクが構築するすべてのシステムにおいて、最終的な展開のサインをするのはボク自身だ。エラーが起きたとき、ボクは「アルゴリズム」のせいにしない。ボクがその決断に責任を持つ。それが「ヒューマン・イン・ザ・ループ」であるということだ。
 
 3. 最後の審判：論理と愛のバランス
 未来に向けた究極のセキュリティは、より多くのコードではなく、システムの中にあるより多くの「人間性」だ。
