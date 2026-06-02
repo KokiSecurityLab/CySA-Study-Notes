@@ -5,6 +5,7 @@
 ### Summary Digest
 In the contemporary digital landscape, information is more than mere data; it possesses a fundamental weight defined here as "Information Gravity." In an environment saturated with synthetic information and malicious narratives, the primary defense objective is to distinguish between high-fidelity signals and weightless noise. By measuring the "gravity" of incoming messages, the integrity of the core system is protected from being pulled into cognitive chaos.
 
+---
 ### 1. The Concept of "Information Gravity"
 Truth, by definition, is grounded in reality and logical consistency, providing it with a specific intellectual weight. Conversely, misinformation and malicious rumors lack this structural foundation, rendering them weightless. Discerning this gravity is essential to maintaining a grounded and secure internal state.
 
@@ -38,6 +39,7 @@ Survival in a volatile digital era depends on the precision of one's discernment
 ### サマリー・ダイジェスト
 現代のデジタル景観において、情報は単なるデータではない。それは「情報の重力」と定義される根本的な重みを持っている。合成された情報や悪意あるナチュラティブ（物語）が飽和する環境において、防衛の第一目標は、高忠実度な信号と重みのないノイズを区別することにある。受信するメッセージの「重力」を測定することで、コア・システムの整合性は、認知的なカオスに引きずり込まれることから保護される。
 
+---
 ### 1. 「情報の重力」という概念
 真実は、その定義上、現実と論理的一貫性に根ざしており、それゆえに固有の知的重みを備えている。対照的に、誤報や悪意ある噂はこうした構造的基盤を欠いており、無重力である。この重力を見極めることは、地に足のついた安全な内部状態を維持するために不可欠である。
 
