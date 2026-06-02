@@ -10,7 +10,7 @@ Adversarial nodes frequently employ "Passive-Aggressive" behaviors or subtle hos
 ### 1. The Nature of Shadow Signals (Invisible Threats)
 Hostility is not always overt or loud. In sophisticated social environments, malice often hides within the structural gaps of conversation or in micro-shifts in vocal tonality and rhythm. 
 
-・   **Subsurface Scanning :** The system employs high-resolution cognitive scanning to identify these anomalies. A "Shadow Signal" is defined as a data point where the literal meaning of the words (the header) contradicts the underlying emotional energy (the payload).
+・   **Subsurface Scanning :**  The system employs high-resolution cognitive scanning to identify these anomalies. A "Shadow Signal" is defined as a data point where the literal meaning of the words (the header) contradicts the underlying emotional energy (the payload).
 
 ・   **Logic Injection Detection :** These signals are flagged as "Logical Injections" designed to destabilize the user’s self-esteem or sense of reality. By recognizing the pattern early, the system prevents the "execution" of the hostile script.
 
