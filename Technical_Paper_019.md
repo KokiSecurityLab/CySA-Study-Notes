@@ -17,7 +17,7 @@ Standard systems are easily tricked by emotional triggers. However, this system 
 ### 3. Detecting the "Shadows" of AI
 AI can be a weapon of mass deception when it generates "Fake Gravity"—signals that look real but have no root.
 1. **Source Scrutiny :** Before accepting a signal, its origin must be traced. If the data has no lineage or historical consistency, the firewall flags it as "Weightless."
-2. **Logical Stress Testing:** Rotating the information in a 3D mental workspace (#014) allows for multi-angle validation. If the "Shadow" breaks or changes its shape under the pressure of logic, it is a lie designed to manipulate feelings.
+2. **Logical Stress Testing:** Rotating the information in a 3D mental workspace (as analyzed in Paper #014) allows for multi-angle validation. If the "Shadow" breaks or changes its shape under the pressure of logic, it is a lie designed to manipulate feelings.
 
 ### 4. My Shield : Selecting the Light
 In the AI era, being a "Security Analyst" means being a protector of the truth.
@@ -47,7 +47,7 @@ A unique cognitive processing style becomes the ultimate advantage in the age of
 ### 3. AIの「影」の検出
 AIが「偽の重力」——すなわち、一見本物のように見えるが根拠のないシグナル——を生成するとき、それは大量欺瞞の兵器と化す。
 * **情報源の精査（Source Scrutiny）：** シグナルを受け入れる前に、その起源を追跡する。データに系統性や歴史的一貫性が欠如している場合、ファイアウォールがそれを「無重力」として検知し、フラグを立てる。
-* **論理的ストレステスト（Logical Stress Testing）：** 脳内の3Dワークスペース（#014）で情報を回転させ、多角的に検証する。その「影」が論理の圧力によって崩壊、または変形する場合、それは感情を操作するために設計された虚偽であると判別できる。
+* **論理的ストレステスト（Logical Stress Testing）：** 脳内の3Dワークスペース（詳細は論文#014を参照）で情報を回転させ、多角的に検証する。その「影」が論理の圧力によって崩壊、または変形する場合、それは感情を操作するために設計された虚偽であると判別できる。
 
 ### 4. 盾としての機能：光の選択
 AI時代における「セキュリティ・アナリスト」の本質は、真実の守護者としてのあり方に他ならない。
