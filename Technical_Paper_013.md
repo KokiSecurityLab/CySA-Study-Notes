@@ -6,7 +6,6 @@
 Within the framework of advanced cognitive architecture, "Silence" is redefined not as the mere absence of communication, but as a high-density "Non-Verbal Algorithm." In the complex world of human interaction, verbal data is frequently corrupted by deception, internal contradictions, or emotional noise. This methodology utilizes strategic silence to bypass surface-level linguistic inputs, allowing for the direct processing of an individual’s true "Intent" as raw, uncompressed behavioral data. To master the Silence Algorithm is to gain the power to navigate verbal chaos without system failure.
 
 ---
-
 ### 1. The High-Density Power of Silence : Beyond Surface Talk
 Communication is often treated as a verbal exchange, yet most critical data remains unspoken. This research defines silence as a deliberate analytical state. By refusing to engage in superficial chatter, the cognitive system remains free to observe the raw data of a person's intent. This approach treats silence as a tool for high-fidelity scanning, ensuring that the analytical core is not compromised by the "malware" of misleading verbal inputs.
 
@@ -43,6 +42,7 @@ Verbal communication often compromises the original integrity and true meaning o
 ### サマリー・ダイジェスト
 高度な認知アーキテクチャの枠組みにおいて、「沈黙」は単なるコミュニケーションの欠如ではなく、高密度な「非言語アルゴリズム」として再定義される。人間同士の相互作用という複雑な世界において、言語データは欺瞞、内部矛盾、あるいは感情的なノイズによって頻繁に汚染されている。本手法は、戦略的沈黙を用いることでこれら表面的な言語入力をバイパスし、対象者の真の「意図」を生の圧縮されていない行動データとして直接解析することを可能にする。沈黙のアルゴリズムを習得することは、自らのシステムをクラッシュさせることなく言語的カオスの中を航行する力を得ることに他ならない。
 
+---
 ### 1. 沈黙という高密度の力：表層的なお喋りを超えて
 コミュニケーションはしばしば言語の交換として扱われるが、最も重要なデータの多くは語られざるままに残されている。本研究は、沈黙を意図的な分析状態として定義する。表面的なお喋りへの関与を拒否することで、認知システムは対象者の意図という生のデータを観察するための自由を維持する。このアプローチは、沈黙を高忠実度なスキャンツールとして扱い、分析コアが誤解を招く言語入力という「マルウェア」によって侵害されないことを保証する。
 
