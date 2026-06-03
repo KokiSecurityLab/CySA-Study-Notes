@@ -3,7 +3,7 @@
 ## Core Persistence: Deep-Level Kernel Integration and Self-Healing
 
 ### Summary Digest
-In cybersecurity, "Persistence" refers to the ability of a process to remain active. "Core Persistence" is defined as the deep integration of logical defensive structures within the individual’s core kernel. By weaving security protocols into the fundamental logic of daily operations, the system ensures that the "Heart to Protect" (#010) remains an unshakeable background process, immune to external disruption.
+In cybersecurity, "Persistence" refers to the ability of a process to remain active. "Core Persistence" is defined as the deep integration of logical defensive structures within the individual’s core kernel. By weaving security protocols into the fundamental logic of daily operations, the system ensures that the "Heart to Protect" (as analyzed in Paper #010) remains an unshakeable background process, immune to external disruption.
 
 ---
 
@@ -31,7 +31,7 @@ Core Persistence ensures that the sanctuary remains uncompromised at its most fu
 ## コア・パーシステンス：深層カーネル統合と自己修復
 
 ### サマリー・ダイジェスト
-サイバーセキュリティにおいて、パーシステンス（持続性）とはプロセスが活動を維持する能力を指す。「コア・パーシステンス」とは、個人の核心部における論理的防衛構造の深い統合と定義される。セキュリティ・プロトコルを運用の根本的なロジックとして織り込むことで、「守る心（#010）」を外部からの妨害に左右されない不変のバックグラウンド・プロセスとして維持する。
+サイバーセキュリティにおいて、パーシステンス（持続性）とはプロセスが活動を維持する能力を指す。「コア・パーシステンス」とは、個人の核心部における論理的防衛構造の深い統合と定義される。セキュリティ・プロトコルを運用の根本的なロジックとして織り込むことで、「守る心（詳細は論文#010を参照）」を外部からの妨害に左右されない不変のバックグラウンド・プロセスとして維持する。
 
 ---
 ### 1. 防衛ロジックの深層レベル統合
