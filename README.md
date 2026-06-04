@@ -31,3 +31,4 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 017 | Entanglement Firewall | Zero Latency & Swarm Awareness Unity |
 | 018 | Human-in-the-Loop | Ethical leadership in the AI era |
 | 019 | AI: Ally or Adversary? | Information integrity and AI ethics |
+| 020 | Binary Ethics | Programming "Good Intent" into AI |
