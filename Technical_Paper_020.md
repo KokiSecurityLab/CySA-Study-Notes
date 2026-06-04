@@ -2,7 +2,7 @@
 
 ## Binary Ethics — Programming "Good Intent" into Artificial Intelligence
 ---
-### ### Summary Digest
+ ### Summary Digest
 The "Binary Ethics" framework addresses the critical conflict between pure AI efficiency and human safety by hard-coding ethical boundaries as immutable, binary constraints. Drawing from a processing model where parameters are strictly valid or invalid, the core methodology redefines human harm or ethical violations as absolute logical errors (0). When an artificial intelligence system encounters these predefined operational boundaries, the framework triggers an immediate system failure protocol and subsequent shutdown. This deterministic approach ensures that safety-critical guardrails sit directly within the core logic of the model, effectively prioritizing human dignity and risk mitigation over unconstrained goal optimization.
 
 Furthermore, this framework operationalizes the theory through a layered architectural design situated above the core AI logic, informed by the CISSP Ethical Canons. This architecture functions through three primary mechanisms: hard-coded universal constraints that terminate non-compliant processes, a mandatory "Ethical Gatekeeper" auditing layer for pre-execution vetting, and a "Good Intent" patch that dynamically prioritizes safety over optimization in high-risk scenarios. By transforming abstract moral values into unbreakable, deterministic code, this methodology establishes ethical guardrails as a fundamental system requirement, ensuring technology operates strictly as a protector of human dignity.
@@ -32,7 +32,7 @@ The operational integrity of an artificial intelligence system is strictly bound
 
 ## バイナリ・エシックス：AIに「善意」をプログラミングする試み
 ---
-### ### サマリー・ダイジェスト
+ ### サマリー・ダイジェスト
 本テクニカルペーパーで提唱する「バイナリ・エシックス（二進法的倫理）」は、純粋な効率性を追求するAIの最適化プロセスと、人道的な安全性との間に生じる致命的な葛藤を解決するためのガバナンス・フレームワークである。物事を「正しいか・間違いか」「有効か・無効か」で明確に区分する二進法的な認知モデルをAIガバナンスに適用し、倫理的な制約を決定論的なコードとして実装するアプローチを特徴とする。具体的には、「人間に危害を加えること」や「尊厳の侵害」を論理的なシステムエラー（0）として厳格に定義する。これにより、AIモデルが設定された境界線に抵触した際、システム異常として即座に強制終了（シャットダウン）を起動させ、効率性よりも人命や安全性を最優先で担保する強固な防護策（ガードレール）の構築が可能となる。
 
 さらに、本フレームワークはCISSPの倫理指針（カノン）に基づき、AIのコアロジックの上位に配置する「倫理レイヤー」の実装メカニズムを定義する。具体的な実装アプローチとして、人権を妥協のない境界線として組み込みプロセスを強制終了させる「事前定義された制約」、実行前の出力を検証する「必須の倫理監査（倫理的門番）」、および高リスク検知時に効率性より安全性を動的に最優先させる「善意のパッチ」の3段階構造を提案する。道徳的価値観を破壊不可能な論理コードへと変換し、ガードレール（防護策）を「選択肢」ではなくシステムの「必須要件」とすることで、テクノロジーが人類の守護者であり続けるための決定論的な枠組みを確立する。
