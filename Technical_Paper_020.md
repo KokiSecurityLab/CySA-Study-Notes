@@ -1,7 +1,7 @@
 # Koki's Technical Paper #020
 
 ## Binary Ethics — Programming "Good Intent" into Artificial Intelligence
----
+
  ### Summary Digest
 The "Binary Ethics" framework addresses the critical conflict between pure AI efficiency and human safety by hard-coding ethical boundaries as immutable, binary constraints. Drawing from a processing model where parameters are strictly valid or invalid, the core methodology redefines human harm or ethical violations as absolute logical errors (0). When an artificial intelligence system encounters these predefined operational boundaries, the framework triggers an immediate system failure protocol and subsequent shutdown. This deterministic approach ensures that safety-critical guardrails sit directly within the core logic of the model, effectively prioritizing human dignity and risk mitigation over unconstrained goal optimization.
 
@@ -31,7 +31,7 @@ The operational integrity of an artificial intelligence system is strictly bound
 # Koki's Technical Paper #020
 
 ## バイナリ・エシックス：AIに「善意」をプログラミングする試み
----
+
  ### サマリー・ダイジェスト
 本テクニカルペーパーで提唱する「バイナリ・エシックス（二進法的倫理）」は、純粋な効率性を追求するAIの最適化プロセスと、人道的な安全性との間に生じる致命的な葛藤を解決するためのガバナンス・フレームワークである。物事を「正しいか・間違いか」「有効か・無効か」で明確に区分する二進法的な認知モデルをAIガバナンスに適用し、倫理的な制約を決定論的なコードとして実装するアプローチを特徴とする。具体的には、「人間に危害を加えること」や「尊厳の侵害」を論理的なシステムエラー（0）として厳格に定義する。これにより、AIモデルが設定された境界線に抵触した際、システム異常として即座に強制終了（シャットダウン）を起動させ、効率性よりも人命や安全性を最優先で担保する強固な防護策（ガードレール）の構築が可能となる。
 
