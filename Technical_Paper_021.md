@@ -1,7 +1,7 @@
 # Koki's Technical Paper #021
 
 ## AI Governance — Theory of Constraints to Prevent Algorithmic Runaway
----
+
 ### Summary Digest
 The "Information Gravity" framework prevents AI algorithmic runaway by separating high-density, verified data from deceptive, low-gravity AI fabrications. It implements a dual-protocol system utilizing structured technical analytical precision to identify "shadows" (disinformation) and enforce cognitive "reality anchoring."
 
