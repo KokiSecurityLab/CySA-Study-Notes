@@ -31,7 +31,7 @@ Systemic governance does not function to impede technological innovation; rather
 ---
 # Koki's Technical Paper #021
 
-## AI Governance — Theory of Constraints to Prevent Algorithmic Runaway
+## AIガバナンス —— アルゴリズム逸脱を防止するシステム制約論
 
 ### サマリー・ダイジェスト
 「情報重力」フレームワークは、高密度で検証済みのデータと、低重力で欺瞞に満ちたAI生成の捏造情報とを分離することにより、AIのアルゴリズム暴走を防止する。高度な分析精度を活用して「影（ディスインフォメーション）」を特定し、認知的な「現実への固定（リアリティ・アンカリング）」を強制する、デュアルプロトコル（二段階検証）システムの構築を提唱する。
