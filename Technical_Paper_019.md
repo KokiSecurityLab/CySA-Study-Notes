@@ -1,7 +1,7 @@
 # Koki's Technical Paper #019
----
+
 ## AI : Ally or Adversary? — Information Integrity and AI Ethics
----
+
 ### Summary Digest
 This paper presents a unique analytical framework leveraging advanced multi-dimensional perceptual characteristics to discern the truth ("Light") from deception ("Shadow") propagated by Artificial Intelligence within high-density digital data streams. By introducing the concept of "Information Gravity"—a method that evaluates the logical consistency of data as weight rather than relying on emotional or social biases—this study establishes the strategic advantages and pivotal role of next-generation security analysts as guardians of objective truth in the AI era. Driven by an unwavering commitment to clarity, this framework transforms unique analytical cognitive processing into the ultimate defensive asset against automated misinformation.
 
@@ -29,9 +29,9 @@ A unique cognitive processing style becomes the ultimate advantage in the age of
 
 ---
 # Koki's Technical Paper #019
----
+
 ## AI：味方か、それとも敵か？ —— 情報の整合性とAIの倫理
----
+
 ### サマリー・ダイジェスト
 本論文は、高密度な生データが行き交う現代のデジタル社会において、多角的かつ高度な知覚特性を活かしてAIがもたらす「真実（光）」と「欺瞞（影）」を識別する独自のアプローチを提示するものである。感情や社会的バイアスに惑わされず、情報の論理的整合性を重量として捉える「情報の重力（Information Gravity）」理論について解説し、AI時代における新たなセキュリティ・アナリストとしての優位性と真実の守護者としての役割を定義する。明確さへの確固たるコミットメントを原動力として、このフレームワークは独自の認知処理能力を、自動化された偽情報に対する究極の防御資産へと昇華させる。
 
