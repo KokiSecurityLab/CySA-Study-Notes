@@ -33,3 +33,4 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 019 | AI: Ally or Adversary? | Information integrity and AI ethics |
 | 020 | Binary Ethics | Programming "Good Intent" into AI |
 | 021 | AI Governance | Guardrails and Alignment Strategies |
+| 022 | Adversarial ML | Detecting "Noise" and anomalies |
