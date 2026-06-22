@@ -6,12 +6,11 @@
 This research explores the intersection of cybersecurity and behavioral psychology, proposing that the ultimate defense lies not within algorithmic complexity, but within the clarity of human intent and ethical purpose. By deconstructing the "Illusion of Dominance" sought by attackers, this paper defines the "Heart to Protect" as a foundational psychological firewall. In an era where Artificial Intelligence (AI) acts as a mirror of human will, survival depends on a shift from reactive fear to proactive, value-driven guardianship.
 
 ---
-
 ### 1. The Illusion of Dominance : Deconstructing Adversarial Logic
 Cyber-attacks are frequently motivated by psychological factors rather than mere technical curiosity. Many attackers seek "Dominance" as a compensation mechanism for internal instability.
 
-*   **The Drive to Control** : The drive to control an external environment often stems from an inability to govern the self. By identifying malice as a byproduct of psychological weakness, the analytical state shifts from vulnerability to objective mitigation.
-*   **Systemic Neutralization** : Within this framework, the adversary is perceived not as an overwhelming threat, but as a system of flawed logic that can be systematically neutralized.
+* **The Drive to Control** : The drive to control an external environment often stems from an inability to govern the self. By identifying malice as a byproduct of psychological weakness, the analytical state shifts from vulnerability to objective mitigation.
+* **Systemic Neutralization** : Within this framework, the adversary is perceived not as an overwhelming threat, but as a system of flawed logic that can be systematically neutralized.
 
 ### 2. The "Heart to Protect" as the Ultimate Firewall
 Technological evolution is constant, yet the human element remains both the most critical vulnerability and the most resilient shield.
@@ -29,7 +28,6 @@ Artificial Intelligence (AI) is categorized as a high-fidelity mirror reflecting
 The most robust defense is discovered not within lines of code, but within the unwavering clarity of one’s mission. Protection is predicated on understanding, and true understanding liberates the system from the paralysis of fear. The ultimate firewall is not a software construct; it is built upon the foundational truth of individual identity and the values for which one stands. In the final analysis, integrity is the most impenetrable encryption.
 
 ---
-
 # Koki's Technical Paper #010
 
 ## ハッカー心理の解読：技術を超越した「守る心」とレジリエンスの倫理
@@ -38,7 +36,6 @@ The most robust defense is discovered not within lines of code, but within the u
 本研究では、サイバーセキュリティと行動心理学の交差点を探索し、究極の防御はアルゴリズムの複雑さではなく、人間の意図と倫理的目的の明晰さに存在することを提案する。攻撃者が求める「支配の幻想」を解体することにより、本稿では「守る心」を根源的な心理的ファイアウォールとして定義する。人工知能（AI）が人間の意志を映し出す鏡として機能する現代において、生存は「反応的な恐怖」から「価値観に基づいた能動的な守護」への転換にかかっている。
 
 ---
-
 ### 1. 支配の錯覚：敵対的論理の解体
 サイバー攻撃は、単なる技術的な好奇心ではなく、心理的な要因によって動機付けられることが頻繁にあります。多くの攻撃者は、内面の不安定さを補うための代償メカニズムとして「支配」を求めます。
 
