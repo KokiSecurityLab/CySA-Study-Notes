@@ -10,8 +10,8 @@ While conventional cybersecurity relies heavily on flat, two-dimensional log ana
 ### 1. The Mechanics of the 3D Perspective Engine
 My brain does not fixate on the static orientation of a data point. Instead, it treats every piece of information as a volumetric architecture that can be inspected from infinite angles :
 
-・   **Volumetric Rotational Analysis :** By mentally "rotating" complex datasets, I can inspect the "underside" or the "interior" of a data structure. This is critical for detecting hidden inconsistencies designed to evade standard, surface-level security scans.
-・   **Simultaneous Global Scanning :** Unlike the traditional left-to-right reading pattern, I employ simultaneous scanning of entire datasets. Spatial intuition allows for the near-instantaneous recognition of global structural errors across massive networks.
+* **Volumetric Rotational Analysis :** By mentally "rotating" complex datasets, I can inspect the "underside" or the "interior" of a data structure. This is critical for detecting hidden inconsistencies designed to evade standard, surface-level security scans.
+* **imultaneous Global Scanning :** Unlike the traditional left-to-right reading pattern, I employ simultaneous scanning of entire datasets. Spatial intuition allows for the near-instantaneous recognition of global structural errors across massive networks.
 
 ### 2. trategic Advantages in Defense
 In modern threat hunting, this spatial intelligence provides decisive advantages :
@@ -39,8 +39,8 @@ To me, dyslexia is redefined as **Advanced Visual Logic.** By operating without 
 ### 1. 3Dパースペクティブ・エンジンのメカニズム
 私の脳は、データポイントの静止した向きに固執することはありません。代わりに、あらゆる情報を、無限の角度から検査可能な立体構造として扱います。
 
-・   **容積的回転分析：** 複雑なデータセットを脳内で「回転」させることにより、データ構造の「裏側」や「内部」を検査できます。これは、標準的な表層的スキャンを回避するように設計された隠れた不整合を検出するために極めて重要です。
-・   **同時並行的なグローバル・スキャン：** 従来の左から右への読解パターンとは異なり、私はデータセット全体の同時スキャンを行います。空間的な直感により、大規模なネットワーク全体における構造的エラーをほぼ瞬時に認識することができます。
+* **容積的回転分析：** 複雑なデータセットを脳内で「回転」させることにより、データ構造の「裏側」や「内部」を検査できます。これは、標準的な表層的スキャンを回避するように設計された隠れた不整合を検出するために極めて重要です。
+* **同時並行的なグローバル・スキャン：** 従来の左から右への読解パターンとは異なり、私はデータセット全体の同時スキャンを行います。空間的な直感により、大規模なネットワーク全体における構造的エラーをほぼ瞬時に認識することができます。
 
 ### 2. 防衛における戦略的優位性
 現代の脅威ハンティングにおいて、この空間的知能は決定的な優位性を提供します。
