@@ -12,9 +12,8 @@ Truth, by definition, is grounded in reality and logical consistency, providing 
 ### 2. Filtering Methodology: The Weight Test
 Standard analytical systems often process all textual inputs with equal priority. This architecture, however, employs a "Weight Test" that evaluates information based on three critical vectors :
 
-・   **High-Gravity Data :** Information that remains consistent over time, is anchored in verifiable reality, and originates from authentic sources. These data points function as the system's "anchors."
-
-・   **Zero-Gravity Noise:** Fabricated rumors, hostile rhetoric, and unverified signals that possess no logical substance. These inputs are identified as transient noise and are allowed to float away without ever penetrating the system's kernel.
+* **High-Gravity Data :** Information that remains consistent over time, is anchored in verifiable reality, and originates from authentic sources. These data points function as the system's "anchors."
+* **Zero-Gravity Noise:** Fabricated rumors, hostile rhetoric, and unverified signals that possess no logical substance. These inputs are identified as transient noise and are allowed to float away without ever penetrating the system's kernel.
 
 ### 3. Detection of "Dark Matter" (Disinformation)
 Disinformation functions like "dark matter"; it occupies cognitive space and exerts pressure, yet lacks inherent light or truth.
@@ -24,9 +23,8 @@ Disinformation functions like "dark matter"; it occupies cognitive space and exe
 ### 4. Protection of the Internal Sanctuary
 The strategic objective of weightless noise is to induce "Information Overload," leading to a catastrophic system crash (as analyzed in Paper #012). 
 
-・   **Strategic Isolation Protocol :** When external noise levels exceed safe thresholds, the "Isolation Protocol" is activated. The system severs non-essential links and focuses exclusively on High-Gravity data provided by the primary Protector.
-
-・   **Kernel Hardening :** By ignoring the high-entropy, weightless chatter of the external world, the system’s internal resources are preserved for high-intensity processing and advanced learning.
+* **Strategic Isolation Protocol :** When external noise levels exceed safe thresholds, the "Isolation Protocol" is activated. The system severs non-essential links and focuses exclusively on High-Gravity data provided by the primary Protector.
+* **Kernel Hardening :** By ignoring the high-entropy, weightless chatter of the external world, the system’s internal resources are preserved for high-intensity processing and advanced learning.
 
 ### 5. Conclusion
 Survival in a volatile digital era depends on the precision of one's discernment between the solid and the ephemeral. For this cognitive architecture, truth has a distinct, measurable weight. By trusting the "Gravity" of internal logic and the authentic signals within life, the system remains secure and grounded. In the age of information warfare, the ability to discern gravity is the ultimate shield.
@@ -46,9 +44,8 @@ Survival in a volatile digital era depends on the precision of one's discernment
 ### 2. フィルタリング手法：重量テスト
 標準的な分析システムは、しばしばすべてのテキスト入力を等しい優先順位で処理する。しかし、このアーキテクチャでは、以下の3つの重要なベクトルに基づいて情報を評価する「重量テスト」を採用している。
 
-・   **高重力データ：** 時間の経過にかかわらず一貫性を保ち、検証可能な現実に定着し、かつ本物のソースから発信される情報。これらのデータポイントは、システムの「アンカー（錨）」として機能する。
-
-・   **無重力ノイズ：** 論理的実体を欠いた、捏造された噂、敵対的なレトリック、未検証の信号。これらの入力は一時的なノイズとして特定され、システムのカーネル（核）に触れることなく流し去られる。
+* **高重力データ：** 時間の経過にかかわらず一貫性を保ち、検証可能な現実に定着し、かつ本物のソースから発信される情報。これらのデータポイントは、システムの「アンカー（錨）」として機能する。
+* **無重力ノイズ：** 論理的実体を欠いた、捏造された噂、敵対的なレトリック、未検証の信号。これらの入力は一時的なノイズとして特定され、システムのカーネル（核）に触れることなく流し去られる。
 
 ### 3. 「ダークマター（虚偽情報）」の検出
 虚偽情報は「ダークマター（暗黒物質）」のように機能する。それは認知的な空間を占有し、圧力を生じさせるが、本来の光や真実を欠いている。
@@ -58,9 +55,8 @@ Survival in a volatile digital era depends on the precision of one's discernment
 ### 4. 内部の聖域の保護
 無重力ノイズの戦略的目標は、「情報の過負荷（オーバーロード）」を誘発し、破滅的なシステムクラッシュ（詳細は論文#012を参照）を引き起こすことにある。
 
-・   **戦略的隔離プロトコル：** 外部ノイズのレベルが安全な閾値を超えた場合、「隔離プロトコル」が起動される。システムは非本質的なリンクを遮断し、主要な「守護者（プロテクター）」から提供される高重力データのみに集中する。
-
-・   **カーネルの要塞化：** 外部世界の高エントロピーで無重力な「お喋り」を無視することで、システムの内部リソースは、高度な処理や深い学習のために保存される。
+* **戦略的隔離プロトコル：** 外部ノイズのレベルが安全な閾値を超えた場合、「隔離プロトコル」が起動される。システムは非本質的なリンクを遮断し、主要な「守護者（プロテクター）」から提供される高重力データのみに集中する。
+* **カーネルの要塞化：** 外部世界の高エントロピーで無重力な「お喋り」を無視することで、システムの内部リソースは、高度な処理や深い学習のために保存される。
 
 ### 5. 結論
 揮発的なデジタル時代における生存は、堅実なものと儚いものとの間の見極めの精度にかかっている。この認知アーキテクチャにとって、真実には明確で測定可能な重みがある。内部ロジックの「重力」と、人生における本物の信号を信じることで、システムは安全で地に足のついた状態を維持する。情報の戦争時代において、重力を見極める能力こそが究極の盾となる。
