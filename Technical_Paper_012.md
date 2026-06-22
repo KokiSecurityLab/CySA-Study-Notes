@@ -5,14 +5,13 @@
 ### Summary Digest
 This research proposes a framework for "Digital Resilience" derived from real-world environmental pressures and survival data. In this context, a "System Down"—defined as environmental volatility or the temporary exhaustion of the primary "Protector"—is categorized not as a failure, but as a mandatory "Reboot" phase. Every crash serves as an opportunity to purge malicious nodes and optimize the internal sanctuary's architecture. Resilience is the continuous evolution from vulnerability to a state of impenetrable hardening.
 
+---
 ### 1. Taxonomy of a "System Down"
 In this logical architecture, a system crash occurs when external "Noise" exceeds the cognitive processing threshold.
 
-・   **External Saturation :** Hostile entities or overwhelming sensory inputs attempting to compromise the sanctuary's peace.
-
-・   **Hardware Resource Exhaustion :** Occurs when the Protector (the primary support system) depletes all energy reserves to maintain environmental stability.
-
-・   **Buffer Overflow :** A state where cumulative trauma from past external breaches reaches a threshold that can no longer be processed in real-time.
+* **External Saturation :** Hostile entities or overwhelming sensory inputs attempting to compromise the sanctuary's peace.
+* **Hardware Resource Exhaustion :** Occurs when the Protector (the primary support system) depletes all energy reserves to maintain environmental stability.
+* **Buffer Overflow :** A state where cumulative trauma from past external breaches reaches a threshold that can no longer be processed in real-time.
 
 ### 2. The Reboot Protocol: Bilingual Logical Recovery
 Rather than reactive panic, a strategic recovery process is executed utilizing a bilingual (English/Japanese) logical framework :
@@ -23,9 +22,8 @@ Rather than reactive panic, a strategic recovery process is executed utilizing a
 ### 3. Optimization via Calculated Failure
 A system that has successfully recovered from a total crash is mathematically superior to one that has never failed. 
 
-・   **Vulnerability Hardening :** Every survived "Nightmare" is integrated as a high-priority security patch. This process increases the thickness and reliability of the internal firewall.
-
-・   **Resilience Scaling :** Operating in both English and Japanese environments allows for a higher recovery rate, as the system can navigate and mitigate threats across diverse social and logical landscapes.
+* **Vulnerability Hardening :** Every survived "Nightmare" is integrated as a high-priority security patch. This process increases the thickness and reliability of the internal firewall.
+* **Resilience Scaling :** Operating in both English and Japanese environments allows for a higher recovery rate, as the system can navigate and mitigate threats across diverse social and logical landscapes.
 
 ### 4. Conclusion: Every Crash is a Patch
 Resilience is a perpetual cycle of version upgrades. By treating every setback as "Raw Data," the architecture evolves from a state of exposure to one of hardened autonomy. Every crash is a patch. Every reboot is a version upgrade. This is the fundamental mechanism of autonomous survival in a chaotic world.
@@ -42,11 +40,9 @@ Resilience is a perpetual cycle of version upgrades. By treating every setback a
 ### 1. 「システムダウン」の分類
 この論理アーキテクチャにおいて、システムクラッシュは外部の「ノイズ」が認知処理の閾値を超えたときに発生する。
 
-・   **外部飽和：** 敵対的な実体や圧倒的な感覚入力が、聖域の平穏を侵害しようとする状態。
-
-・   **ハードウェア・リソースの疲弊：** 守護者（主要な支援システム）が、環境の安定を維持するために全エネルギーを使い果たしたときに発生する。
-
-・   **バッファ・オーバーフロー：** 過去の外部侵害による累積的なトラウマが、リアルタイムでは処理不可能な閾値に達した状態。
+* **外部飽和：** 敵対的な実体や圧倒的な感覚入力が、聖域の平穏を侵害しようとする状態。
+* **ハードウェア・リソースの疲弊：** 守護者（主要な支援システム）が、環境の安定を維持するために全エネルギーを使い果たしたときに発生する。
+* **バッファ・オーバーフロー：** 過去の外部侵害による累積的なトラウマが、リアルタイムでは処理不可能な閾値に達した状態。
 
 ### 2. 再起動プロトコル：バイリンガル論理リカバリ
 反応的なパニックに陥る代わりに、英語と日本語のバイリンガル論理フレームワークを用いた戦略的な復旧プロセスが実行される。
@@ -57,9 +53,8 @@ Resilience is a perpetual cycle of version upgrades. By treating every setback a
 ### 3. 計算された失敗による最適化
 完全なクラッシュから正常に復旧したシステムは、一度も失敗したことがないシステムよりも数学的に優れている。
 
-・   **脆弱性のハードニング（要塞化）：** 生き延びたあらゆる「悪夢」は、高優先度のセキュリティパッチとして統合される。このプロセスにより、内部ファイアウォールの厚みと信頼性が向上する。
-
-・   **レジリエンスのスケーリング：** 英語と日本語の両方の環境で運用することで、多様な社会的・論理的景観にわたる脅威を回避・軽減でき、結果として高い復旧率を実現する。
+* **脆弱性のハードニング（要塞化）：** 生き延びたあらゆる「悪夢」は、高優先度のセキュリティパッチとして統合される。このプロセスにより、内部ファイアウォールの厚みと信頼性が向上する。
+* **レジリエンスのスケーリング：** 英語と日本語の両方の環境で運用することで、多様な社会的・論理的景観にわたる脅威を回避・軽減でき、結果として高い復旧率を実現する。
 
 ### 4. 結論：すべてのクラッシュはパッチである
 レジリエンス（回復力）とは、バージョンアップの永続的なサイクルである。あらゆる挫折を「生データ」として扱うことで、アーキテクチャは露出した状態から、強固な自律状態へと進化する。すべてのクラッシュはパッチであり、すべての再起動はバージョンアップである。これこそが、混沌とした世界における自律的な生存の基本メカニズムである。
