@@ -1,6 +1,7 @@
 # Koki's Technical Paper #023
 
 ## AI Hallucinations — Theory of Information Gravity and Verification via Grounding
+
 ---
 ### Summary Digest
 The "Information Gravity" framework mitigates the operational risks of artificial intelligence hallucinations by implementing strict data grounding techniques to anchor generative outputs to validated metrics. By modeling factual data as a gravitational baseline, this methodology identifies unsubstantiated or probabilistic outputs as floating, zero-gravity anomalies. This approach converts abstract reliability standards into verifiable data weights, preventing the proliferation of automated misinformation across critical operational domains.
