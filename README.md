@@ -35,4 +35,4 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 021 | AI Governance | Guardrails and Alignment Strategies |
 | 022 | Adversarial ML | Detecting "Noise" and anomalies |
 | 023 | AI Hallucinations | Measuring the "Gravity" of Truth via Grounding |
-| 024 | AI "Soul" Design | Fine-tuning and Contextual Syncing |
+| 024 | AI Hallucinations | Theory of Information Gravity and Verification via Grounding |
