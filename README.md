@@ -33,6 +33,6 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 019 | AI: Ally or Adversary? | Information integrity and AI ethics |
 | 020 | Binary Ethics | Programming "Good Intent" into AI |
 | 021 | AI Governance | Guardrails and Alignment Strategies |
-| 022 | Adversarial ML | Detecting "Noise" and anomalies |
+| 022 | Adversarial ML | Overcoming Algorithmic Biases with Patterns |
 | 023 | AI Hallucinations | Measuring the "Gravity" of Truth via Grounding |
-| 024 | AI Hallucinations | Theory of Information Gravity and Verification via Grounding |
+| 024 | AI Hallucinations | Information Gravity and Grounding |
