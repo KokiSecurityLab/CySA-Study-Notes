@@ -36,4 +36,4 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 022 | Adversarial ML | Overcoming Algorithmic Biases with Patterns |
 | 023 | AI Hallucinations | Theory of Information Gravity via Grounding |
 | 024 | AI "Soul" Design  | Cognitive Synchronization via Context Window |
-| 025 | Deepfake Detection | Biometric Resonance Verification and Artifact Detection Metrics |
+| 025 | Deepfake Detection | Biometric Resonance & Artifact Metrics |
