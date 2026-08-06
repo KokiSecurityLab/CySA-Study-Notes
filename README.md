@@ -38,3 +38,4 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 024 | AI "Soul" Design  | Cognitive Synchronization via Context Window |
 | 025 | Deepfake Detection | Biometric Resonance & Artifact Metrics |
 | 026 | The AI Sanctuary | Protecting models from Data Poisoning |
+| 027 | Identity of Assets | Classifying memories as Top Secret |
