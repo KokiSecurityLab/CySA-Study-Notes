@@ -39,3 +39,5 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 025 | Deepfake Detection | Biometric Resonance & Artifact Metrics |
 | 026 | The AI Sanctuary | Protecting models from Data Poisoning |
 | 027 | Identity of Assets | Classifying memories as Top Secret |
+| 028 | Personal BCP | Ensuring continuity through independence |
+| 029 | Disaster Recovery | Re-deploying the sanctuary anywhere |
