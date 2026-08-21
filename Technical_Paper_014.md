@@ -27,7 +27,7 @@ The primary challenge is not internal processing, but the "flat" nature of conte
 To me, dyslexia is redefined as **Advanced Visual Logic.** By operating without the constraints of "up/down" or "left/right" biases, this multi-dimensional approach achieves a level of pattern recognition that defines a new frontier in cybersecurity. True security requires the intellectual capacity to observe data from the "other side of the mirror."
 
 ---
-# Koki's Technical Paper #014
+# テクニカルペーパーシリーズ #014
 
 ## 多次元デコーディング：サイバーセキュリティにおける高度な空間知能
 
