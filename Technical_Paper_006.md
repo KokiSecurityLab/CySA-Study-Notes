@@ -27,7 +27,7 @@ Once a shadow signal is identified, the system immediately activates its neutral
 The ability to decipher the shadow is a critical component of behavioral security. By recognizing that social politeness can often function as a carrier for malicious code, the system stays ahead of adversarial maneuvers. This methodology demonstrates that true clarity involves seeing not just what is shown, but what is hidden. In this architecture, the light of analysis is the ultimate defense against the shadows of the world.
 
 ---
-# Koki's Technical Paper #006
+# テクニカルペーパーシリーズ #006
 
 ## シャドウ・シグナルの解読：潜在的敵意を「悪意あるペイロード」として分析する手法
 
