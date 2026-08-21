@@ -28,7 +28,7 @@ During a Mirror Response phase, the core system redirects all available processi
 The Mirror Response demonstrates that true defense does not require counter-aggression; it requires the strength to remain unchanged. By functioning as a perfect mirror, the system ensures that it never becomes a carrier for the "malware" of others. In a world filled with uncompressed emotional noise, the ability to reflect is the most efficient way to maintain the integrity of the individual sanctuary.
 
 ---
-# Koki's Technical Paper #003
+# テクニカルペーパーシリーズ #003
 
 ## ミラー・レスポンス（鏡像反応）：敵対的エネルギーを無効化するための高度な反射プロトコル
 
