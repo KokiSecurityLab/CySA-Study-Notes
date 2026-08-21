@@ -33,7 +33,7 @@ To prevent adversarial data injection from degrading the systemic resilience of 
 Within advanced machine learning operations, data integrity functions as an uncompromised mandate to preserve system alignment. Protecting an autonomous model from the external hazard of data poisoning ensures its underlying logic remains permanently loyal to its designated security perimeter. A highly resilient AI is inherently an uncorrupted AI. The ultimate objective of this research is to establish a deterministic gatekeeping architecture that permits only verified truth to propagate within the core model, guaranteeing that the technological successor operates under complete structural reliability.
 
 ---
-# Koki's Technical Paper #026
+# テクニカルペーパーシリーズ #026
 
 ## AIセキュリティの「聖域」：モデルの純粋性をデータ汚染（ポイズニング）から守る制約理論の試み
 
