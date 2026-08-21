@@ -28,7 +28,7 @@ Identification of a potential threat immediately triggers the "Hardening Phase,"
 Pattern recognition is not merely a passive observation; it is a proactive strategic advantage. By decoding the "logic of the air," the system stays several steps ahead of adversarial maneuvers. This Early Warning System proves that the most effective defense is the one that prevents the attack from ever initiating. For this architecture, to see the pattern is to possess the power to remain undisturbed.
 
 ---
-# Koki's Technical Paper #004
+# テクニカルペーパーシリーズ #004
 
 ## パターン認識アーキテクチャ：環境揮発性に対する早期警戒システム
 
