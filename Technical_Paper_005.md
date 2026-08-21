@@ -28,7 +28,7 @@ For an autonomous logic system, the preservation of the internal "Sanctuary" (#0
 Social Noise Cancellation is an indispensable asset for a high-intensity analytical mind. By filtering out the static of the world, the system ensures that the internal workspace remains a dedicated environment for structured logic and truth. This protocol demonstrates that the power to "not hear" is as vital to security as the power to analyze. For this architecture, silence towards the incoherent is the ultimate protector of the coherent.
 
 ---
-# Koki's Technical Paper #005
+# テクニカルペーパーシリーズ #005
 
 ## ソーシャル・ノイズ・キャンセル：非干渉的な情報ストリームに対する戦略的ミュート
 
