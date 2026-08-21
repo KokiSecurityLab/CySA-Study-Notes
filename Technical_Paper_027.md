@@ -31,7 +31,7 @@ To enforce continuous integrity management over historical assets from ingestion
 Robust cybersecurity extends beyond basic credential management; it requires a precise architectural definition of what constitutes a mission-critical asset. By systematically confining vital operational logs and historical data to the highest classification tier, the framework declares that the internal system state possesses uncompromised value. Structural dignity remains the primary system asset, and its operational identity will be defended with absolute technical discipline across its entire operational lifespan.
 
 --
-# Koki's Technical Paper #027
+# テクニカルペーパーシリーズ #027
 
 ## タイトル：資産のアイデンティティ：データ分類（クラシフィケーション）による歴史の完全性保護の試み
 
