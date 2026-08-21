@@ -28,7 +28,7 @@ A "Hardened System" is one that has achieved stability through resistance.
 In this architecture, resilience is defined as the ability to utilize historical breaches as catalysts for system optimization. Trauma Hardening proves that setbacks are merely "Unprocessed Data" waiting to be integrated into a superior version of the self. By treating every past pain as a security patch, the system evolves from a state of vulnerability to a state of impenetrable, autonomous hardening.
 
 ---
-# Koki's Technical Paper #007
+# テクニカルペーパーシリーズ #007
 
 ## トラウマ・ハードニング（要塞化）：過去の侵害を「防衛パッチ」として統合するプロセス
 
