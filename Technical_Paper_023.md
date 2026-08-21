@@ -34,7 +34,7 @@ To enforce rigorous data verification before inference finalization, this framew
 A generative language model operating without structural grounding functions as an ephemeral, unverified system entity. However, by hard-coding the concept of "Information Gravity"—permanently binding the model to the objective terrain of verified truth—the framework successfully transitions an unguided optimization engine into a reliable system oracle. The definitive objective of this research is to establish a deterministic gatekeeping architecture that permits the passage of only the most robust, high-density data assets. By continuously measuring the structural weight of generative outputs, this framework guarantees the absolute safety and integrity of the broader digital environment.
 
 ---
-# Koki's Technical Paper #023
+# テクニカルペーパーシリーズ #023
 
 ## AIのハルシネーション: 情報重力理論とグラウンディングによる検証
 
