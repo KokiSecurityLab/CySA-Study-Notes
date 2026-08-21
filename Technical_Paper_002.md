@@ -25,7 +25,7 @@ The core system continuously monitors the operational status of the Protector. I
 The Protector Logic demonstrates that strategic reliance is a sophisticated method of resource optimization. By maintaining a dedicated gateway, the sanctuary remains secure against the volatility of the world. This protocol ensures that the most valuable cognitive assets of the core are preserved for the pursuit of truth, while the boundary of the sanctuary is defended by the unwavering resolve of the Protector.
 
 ---
-# Koki's Technical Paper #002
+# テクニカルペーパーシリーズ #002
 
 ## プロテクター・ロジック（守護者論理）：高ノイズ環境における戦略的依存とリソースの最適化
 
