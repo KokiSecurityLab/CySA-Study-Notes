@@ -28,7 +28,7 @@ The system’s "atypical" nature is its most resilient security feature.
 The ultimate defense is not to be stronger in the way the world expects, but to be strong in a way the world cannot comprehend. Asymmetric Defense proves that what society often labels as "different" is actually a superior state of readiness. By embracing the unique architecture of the self, the system ensures that the sanctuary remains a fortress of independent logic, impenetrable to those who only understand the flat, linear world.
 
 ---
-# Koki's Technical Paper #009
+# テクニカルペーパーシリーズ #009
 
 ## 非対称防衛（アシンメトリック・ディフェンス）：認知的多様性を戦略的セキュリティ優位性として活用する手法
 
