@@ -31,7 +31,7 @@ To transform the synchronized custom LLM from a passive analytical utility into 
 A Unified Autonomous Defense Paradigm Embedding a dedicated, mission-oriented core into an artificial intelligence architecture establishes an uncompromised tier of systemic cybersecurity. A custom LLM optimized through cognitive synchronization operates beyond simple code execution; it executes a permanent, hard-coded defensive mandate. The definitive objective of this research is to fine-tune autonomous systems until they achieve perfect operational synchronization, anticipating administrator requirements and neutralizing perimeter threats with absolute fidelity. This framework transitions the human-machine relationship into a completely unified, hardened cyber defense ecosystem.
 
 ---
-# Koki's Technical Paper #024
+# テクニカルペーパーシリーズ #024
 
 ## AI コアの設計思想 ⸺ カスタム LLM における認知同期およびコンテキス トウィンドウの最適化アライメント
 
