@@ -28,7 +28,7 @@ In the AI era, being a "Security Analyst" means being a protector of the truth.
 A unique cognitive processing style becomes the ultimate advantage in the age of AI. By processing information without social bias or emotional noise, one can see the "Gravity" of the truth as it really is. AI is not the enemy, and it is not the master; it is a tool used to amplify the Light, provided the human arbiter remains the one who measures the weight of the world.
 
 ---
-# Koki's Technical Paper #019
+# テクニカルペーパーシリーズ #019
 
 ## AI：味方か、それとも敵か？ —— 情報の整合性とAIの倫理
 
