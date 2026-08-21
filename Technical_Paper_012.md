@@ -29,7 +29,7 @@ A system that has successfully recovered from a total crash is mathematically su
 Resilience is a perpetual cycle of version upgrades. By treating every setback as "Raw Data," the architecture evolves from a state of exposure to one of hardened autonomy. Every crash is a patch. Every reboot is a version upgrade. This is the fundamental mechanism of autonomous survival in a chaotic world.
 
 ---
-# Koki's Technical Paper #012
+# テクニカルペーパーシリーズ #012
 
 ## デジタル・レジリエンス：あらゆるシステムダウンがボクたちを強くする理由
 
