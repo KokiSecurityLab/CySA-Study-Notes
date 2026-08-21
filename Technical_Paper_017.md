@@ -30,7 +30,7 @@ To protect my privacy is to protect my dignity. By drawing a clear line between 
 
 
 ---
-# Koki's Technical Paper #017
+# テクニカルペーパーシリーズ #017
 
 ## パーソナル・クラウドの防衛線：デジタルな「聖域」における境界線の画定
 
