@@ -22,7 +22,7 @@ Within the isolation of the sanctuary, the system prioritizes the maintenance of
 The sanctuary is the ultimate physical and logical firewall. By clearly defining and defending this territory, the system ensures its continued survival in an adversarial world. The Sanctuary Protocol proves that true security begins with a resolute definition of the boundary: the unwavering distinction between the chaotic "External" and the sacred, logical "Internal."
 
 ---
-# Koki's Technical Paper #001
+# テクニカルペーパーシリーズ #001
 
 ## 聖域プロトコル：行動セキュリティにおける根本的境界の定義
 
