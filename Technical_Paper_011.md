@@ -30,7 +30,7 @@ The strategic objective of weightless noise is to induce "Information Overload,"
 Survival in a volatile digital era depends on the precision of one's discernment between the solid and the ephemeral. For this cognitive architecture, truth has a distinct, measurable weight. By trusting the "Gravity" of internal logic and the authentic signals within life, the system remains secure and grounded. In the age of information warfare, the ability to discern gravity is the ultimate shield.
 
 ---
-# Koki's Technical Paper #011
+# テクニカルペーパーシリーズ #011
 
 ## 情報の「重力」を見極める：デジタル・ノイズに対するボクの防御術
 
