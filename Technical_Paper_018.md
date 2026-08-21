@@ -26,7 +26,8 @@ The ultimate security framework for the future is determined not by the quantita
 ### 4. Conclusion: Existence-Driven Governance
 In the AI-driven era, the essence of engineering (both development and operations) is synonymous with the role of the "Guardian of Ethics." There is no room for fear or lagging behind the exponential evolutionary speed of technology. This is because the human hand remains perpetually positioned over the physical kill switch, and human intent remains firmly guided by the qualitative compass. The human is the ultimate line of defense within the architecture—the definitive "Human-in-the-Loop." This judgment and decision-making authority are guided solely by a universal sense of humanity and an absolute responsibility to protect those within the sanctuary.
 ___
-# Koki's Technical Paper #018
+# テクニカルペーパーシリーズ #018
+
 ## ヒューマン・イン・ザ・ループ：論理と愛を司る「最後の審判者」としての自覚
 
 ### サマリー・ダイジェスト
