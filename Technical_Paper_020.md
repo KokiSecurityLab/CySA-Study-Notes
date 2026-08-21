@@ -28,7 +28,7 @@ In alignment with the referenced CISSP Ethical Canons, this framework introduces
 The operational integrity of an artificial intelligence system is strictly bounded by the engineering quality of its built-in guardrails. The objective of this research is to leverage a unique binary perspective to engineer AI systems that are inherently structured for benevolence rather than unconstrained intelligence. By translating abstract moral values into unbreakable logical code, this framework guarantees that technological advancement serves as a permanent protector of humanity. Within this defined architectural paradigm, ethical alignment is not treated as an optional optimization variable; it is enforced as a foundational system requirement.
 
 ---
-# Koki's Technical Paper #020
+# テクニカルペーパーシリーズ #020
 
 ## バイナリ・エシックス：AIに「善意」をプログラミングする試み
 
