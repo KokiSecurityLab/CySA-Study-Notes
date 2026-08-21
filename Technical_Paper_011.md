@@ -17,6 +17,7 @@ Standard analytical systems often process all textual inputs with equal priority
 
 ### 3. Detection of "Dark Matter" (Disinformation)
 Disinformation functions like "dark matter"; it occupies cognitive space and exerts pressure, yet lacks inherent light or truth.
+
 1.  **Origin Validation:** Before any signal is accepted into the primary processor, its source is rigorously verified. A history of malicious "data injections" from a source triggers an immediate increase in firewall resistance.
 2.  **Structural Integrity Analysis:** False information invariably contains "cracks" in its internal logic. By mentally rotating these data structures (as detailed in Paper #014), the system identifies these structural flaws. If the data collapses under the pressure of logical scrutiny, it is flagged as "False."
 
