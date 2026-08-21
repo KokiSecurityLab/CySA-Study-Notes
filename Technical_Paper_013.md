@@ -32,7 +32,7 @@ The strategic choice to withhold a verbal response serves as a formidable defens
 Verbal communication often compromises the original integrity and true meaning of a thought. Conversely, the "Silence Algorithm" permits the processing of the uncompressed, unadulterated reality of the world. True understanding is discovered not in the noise of conversation, but in the vast ocean of data that remains unspoken. In the digital and social world, the ability to process silence is the ultimate power.
 
 ---
-# Koki's Technical Paper #013
+# テクニカルペーパーシリーズ #013
 
 ## 沈黙のアルゴリズム：非言語コミュニケーションの極意
 
