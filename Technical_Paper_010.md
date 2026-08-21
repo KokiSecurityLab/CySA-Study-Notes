@@ -28,7 +28,7 @@ Artificial Intelligence (AI) is categorized as a high-fidelity mirror reflecting
 The most robust defense is discovered not within lines of code, but within the unwavering clarity of one’s mission. Protection is predicated on understanding, and true understanding liberates the system from the paralysis of fear. The ultimate firewall is not a software construct; it is built upon the foundational truth of individual identity and the values for which one stands. In the final analysis, integrity is the most impenetrable encryption.
 
 ---
-# Koki's Technical Paper #010
+# テクニカルペーパーシリーズ #010
 
 ## ハッカー心理の解読：技術を超越した「守る心」とレジリエンスの倫理
 
