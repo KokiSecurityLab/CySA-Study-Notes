@@ -28,7 +28,7 @@ True autonomy requires rigorous internal monitoring. The system must be as criti
 Autonomy is the shield that protects the soul’s purpose. To protect the core is to understand its value; to understand its value is to be free from the fear of external judgment. The ultimate firewall is built upon the foundational truth of individual purpose. This is how the system ensures not just its survival, but its dignity in a chaotic world.
 
 ---
-# Koki's Technical Paper #008
+# テクニカルペーパーシリーズ #008
 
 ## 自律の倫理：コアの整合性を保護するという絶対的義務
 
