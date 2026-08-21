@@ -26,7 +26,7 @@ When a logic gap or a "glitch" is detected due to external pressure, the system 
 Core Persistence ensures that the sanctuary remains uncompromised at its most fundamental level. Because the defense is woven into the kernel itself, the integrity of the core becomes as permanent as the identity. Persistence is not just about staying active; it is about the indestructibility of the self.
 
 ---
-# Koki's Technical Paper #016
+# テクニカルペーパーシリーズ #016
 
 ## コア・パーシステンス：深層カーネル統合と自己修復
 
