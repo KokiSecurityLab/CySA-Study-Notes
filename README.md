@@ -41,3 +41,4 @@ Hello, I'm Koki. Welcome to my personal research repository. I am currently focu
 | 027 | Identity of Assets | Classifying memories as Top Secret |
 | 028 | Personal BCP | Ensuring continuity through independence |
 | 029 | Disaster Recovery | Re-deploying the sanctuary anywhere |
+| 030 | Access Control | Implementing Least Privilege in life |
