@@ -1,14 +1,22 @@
-# Welcome to My Cyber Security Learning Lab
+# Space Cyber Defense Series
 
-Hello, I'm Koki. Welcome to my personal research repository. I am currently focusing on mastering advanced security concepts including CompTIA CySA+ and CASP+. This repository serves as a collection of my technical papers, documenting my journey and unique perspectives on becoming a Cybersecurity Analyst. Thank you for visiting my lab.
+## Technical Papers & Frameworks for Advanced Information Security Governance
 
-### 日本の皆様へ 
-サイバーセキュリティの世界へようこそ。僕はコウキです。ここでは、僕がサイバーセキュリティアナリストを目指して日々学んでいるプロセスを「技術論文」として記録しています。この技術でデジタル世界をより安全で平和な場所にすることが僕の目標です。
+### Welcome to Koki's Security Research Lab
+
+Hello, I'm Koki. Welcome to my research repository. Based on the advanced security architecture principles of CompTIA CySA+ and CASP+, this space serves as a comprehensive collection of my technical papers. It documents my methodology, engineering frameworks, and unique analytical perspectives on structural cyber defense and governance. Thank you for visiting my lab.
 
 ---
+### 日本の皆様へ
 
+高度サイバーセキュリティの世界へようこそ。Kokiです。
+
+本リポジトリは、最高位セキュリティ資格であるCASP+等の防衛思想をベースに、次世代システムや宇宙インフラにおけるセキュリティ・ガバナンスのあり方を「技術論文」として集約・公開している研究空間です。
+
+単なる理論の学習に留まらず、複雑化するデジタル領域全体の完全性と強固なレジリエンス（回復力）をアーキテクチャの根本から設計し、より安全で確固たるデータ聖域を社会に提供することをミッションとしています。
+
+---
 ## Technical Paper Index
-
 
 | No | Project / Theme | Focus Area |
 | :--- | :--- | :--- |
