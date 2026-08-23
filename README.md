@@ -45,7 +45,7 @@ Hello, I'm Koki. Welcome to my research repository. Based on the advanced securi
 | 023 | AI Hallucinations | Theory of Information Gravity via Grounding |
 | 024 | AI "Soul" Design  | Cognitive Synchronization and Context Window |
 | 025 | Deepfake Detection | Biometric Resonance & Artifact Metrics |
-| 026 | The AI Sanctuary | Protecting models from Data Poisoning |
+| 026 | The AI Sanctuary | Supply Chain Risk Management |
 | 027 | Identity of Assets | Classifying memories as Top Secret |
 | 028 | Personal BCP | Ensuring continuity through independence |
 | 029 | Disaster Recovery | Re-deploying the sanctuary anywhere |
