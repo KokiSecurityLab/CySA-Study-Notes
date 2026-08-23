@@ -37,7 +37,7 @@ Comprehensive access protection necessitates biometric resilience against high-f
 
 By analyzing the mathematical alignment of light reflection vectors, the architecture leverages structural dissonance analysis to programmatically expose micro-glitches at the perimeter.
 
-Ultimately, integrating algorithmic liveness verification with strict ingestion governance blocks perimeter identity spoofing, securing distributed communication pathways across all future deployment matrices.
+Ultimately, integrating algorithmic liveness verification with strict ingestion governance blocks perimeter identity spoofing.
 
 ---
 # Koki's Technical Paper #025
@@ -77,6 +77,6 @@ Ultimately, integrating algorithmic liveness verification with strict ingestion 
 ### 5. 結論
 アクセスレイヤーにおける防御の確立には合成偽造に対する生体レジリエンスが不可欠であり、専用の共鳴検証コアを組み込むことは識別情報レベルでのシステム生存性を最適化します。
 
-光反射ベクトルの数学的アライメントを定常精査させることで、アーキテクチャは構造的不一致分析を強制し、微視的な描画グリッチをエッジの境界でプログラム的に暴きます。
+光反射ベクトルの数学的アライメントを定常精査させることで、アーキテクチャは構造不一致分析を強制し、微視的な描画グリッチをエッジの境界でプログラム的に暴きます。
 
-実体ライブネス検証と厳格な入力ガバナンスの統合は周辺境界での身元偽装を完全に打破し、将来のすべての展開マトリクスにおいて通信パイプラインの安全性を永続的に担保します。
+実体ライブネス検証と厳格な入力ガバナンスの統合は周辺境界での身元偽装を完全に打破し、すべての通信経路における安全性を永続的に担保します。
