@@ -49,7 +49,7 @@ The integration of advanced correlation engines with strict human intuitive gove
 The completion of this centralized event monitoring framework proves that log aggregation is a sophisticated method of resource optimization. By locking in a deterministic, partnership-driven governance model, the framework guarantees that the system's structural integrity remains unhackable across all future confrontation matrices.
 
 ---
-テクニカルペーパーシリーズ #002
+# テクニカルペーパーシリーズ #002
 
 ## SIEMの概念：集中管理型イベント監視、ログ集約、およびセキュリティ情報ガバナンス
 
