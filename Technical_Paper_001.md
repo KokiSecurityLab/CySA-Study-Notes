@@ -3,7 +3,7 @@
 ## FIM & Tripwires — File Integrity Monitoring, Ingestion Ingress Auditing, and Perimeter Intrusion Detection Systems
 
 ### Summary Digest
-This technical paper establishes a structured framework for endpoint and network security operations by deploying integrated File Integrity Monitoring (FIM) and automated tripwire systems. Grounded in the access control configurations defined in CISSP Domain 7 and advanced CASP+ infrastructure blueprints, this model systemically mitigates parameter drift at the enterprise perimeter.
+This technical paper establishes a structured framework for endpoint and network security operations by deploying integrated File Integrity Monitoring (FIM) and automated tripwire systems. Grounded in the access control configurations defined in CISSP Domain 7 and advanced CySA+ infrastructure blueprints, this model systemically mitigates parameter drift at the enterprise perimeter.
 
 By executing cryptographic baseline verification across secure data pathways, the architecture successfully enforces a default-deny enclave topology. This methodology establishes continuous validation loops to dynamically audit all incoming metadata streams prior to final execution within secure processing environments, protecting core system assets from undetected manipulation.
 
@@ -45,7 +45,7 @@ Ultimately, integrating advanced intrusion detection with rigorous governance pr
 ## FIM ＆ トリップワイヤー：ファイル整合性監視、取り込み境界監査、および周辺侵入検知システムの構築
 
 ## サマリー・ダイジェスト
-本テクニカルペーパーでは、ファイル整合性監視（FIM）と自動化されたトリップワイヤーシステムを統合展開することにより、エンドポイントおよびネットワーク防衛運用の構造的枠組みを確立します。CISSPドメイン7および高度なCASP+インフラ設計図に準拠した厳格なアクセス制御に依拠し、境界周辺における構成パラメータの意図しない変更（インフラ・ドリフト）を体系的に抑制します。
+本テクニカルペーパーでは、ファイル整合性監視（FIM）と自動化されたトリップワイヤーシステムを統合展開することにより、エンドポイントおよびネットワーク防衛運用の構造的枠組みを確立します。CISSPドメイン7および高度なCySA+インフラ設計図に準拠した厳格なアクセス制御に依拠し、境界周辺における構成パラメータの意図しない変更（インフラ・ドリフト）を体系的に抑制します。
 
 確実なデータ経路全体にわたり暗号化基準線（ベースライン）検証を実行することで、明示的な原則拒否（デフォルト・デナイ）を適用した隔離環境（エンクレーブ・トポロジー）の強制確立に成功しました。これにより、安全な処理環境内部で実行される前に、すべての着信メタデータストリームが動的に監査される継続的な検証ループが確立されます。
 
