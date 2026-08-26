@@ -1,19 +1,19 @@
 # Space Cyber Defense Series
 
-## Technical Papers & Frameworks for Advanced Information Security Governance
+Technical Papers & Frameworks for Advanced Information Security Governance
+Welcome to Koki's Security Research Lab
 
-### Welcome to Koki's Security Research Lab
+Hello, I'm Koki. Welcome to my research repository. Based on the advanced security architecture principles of CompTIA Security+ and CompTIA CySA+ (Cybersecurity Analyst), this space serves as a comprehensive collection of my technical papers. It documents my methodology, engineering frameworks, and unique analytical perspectives on structural cyber defense and governance. Thank you for visiting my lab.
 
-Hello, I'm Koki. Welcome to my research repository. Based on the advanced security architecture principles of CompTIA CySA+ and CASP+, this space serves as a comprehensive collection of my technical papers. It documents my methodology, engineering frameworks, and unique analytical perspectives on structural cyber defense and governance. Thank you for visiting my lab.
 
 ---
 ### 日本の皆様へ
 
 高度サイバーセキュリティの世界へようこそ。Kokiです。
 
-本リポジトリは、最高位セキュリティ資格であるCASP+等の防衛思想をベースに、次世代システムや宇宙インフラにおけるセキュリティ・ガバナンスのあり方を「技術論文」として集約・公開している研究空間です。
+本リポジトリは、CompTIA Security+ および CompTIA CySA+ 等の防衛思想をベースに、次世代システムやインフラにおけるセキュリティ・ガバナンスのあり方を「技術論文」として集約・公開している研究空間です。
 
-単なる理論の学習に留まらず、複雑化するデジタル領域全体の完全性と強固なレジリエンス（回復力）をアーキテクチャの根本から設計し、より安全で確固たるデータ聖域を社会に提供することをミッションとしています。
+単なる理論の学習に留まらず、複雑化するデジタル領域全体の完全性と強固なレジリエンス（回復力）をアーキテクチャの根本から設計し、より安全で確固たる情報インフラ環境を社会に提供することをミッションとしています。現在、最高峰のセキュリティ資格であるCISSPの全セキュリティドメイン指標に直結した、次世代の先行的防衛フレームワークを定常的に研究・モデリングしています。
 
 ---
 ## Technical Paper Index
