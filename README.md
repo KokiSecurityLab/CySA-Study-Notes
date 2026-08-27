@@ -2,7 +2,9 @@
 
 ## Technical Papers & Frameworks for Advanced Information Security Governance
 
-Hello, I'm Koki. Welcome to my research repository. Based on the advanced security architecture principles of CompTIA Security+ and CompTIA CySA+ (Cybersecurity Analyst), this space serves as a comprehensive collection of my technical papers. It documents my methodology, engineering frameworks, and unique analytical perspectives on structural cyber defense and governance. Thank you for visiting my lab.
+Hello, I'm Koki. Welcome to my research repository. 
+
+Based on the advanced security architecture principles of CompTIA Security+ and CompTIA CySA+ (Cybersecurity Analyst), this space serves as a comprehensive collection of my technical papers. It documents my methodology, engineering frameworks, and unique analytical perspectives on structural cyber defense and governance. Thank you for visiting my lab.
 
 This repository goes beyond theoretical learning. It focuses on designing the integrity and robust resilience of the entire digital domain from the architectural core, fulfilling the mission to provide a secure and steadfast information infrastructure to society. Currently, this lab consistently researches and models next-generation proactive defense frameworks directly aligned with all security domain indicators of CISSP, the pinnacle of cybersecurity certifications.
 
