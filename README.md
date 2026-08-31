@@ -72,3 +72,4 @@ The foundational security controls documented in this series are actively scaled
 | 028 | Personal BCP | Ensuring continuity through independence |
 | 029 | Disaster Recovery | Re-deploying the sanctuary anywhere |
 | 030 | Access Control | Implementing Least Privilege in life |
+| 031 | Supply Chain Risk Management | Dependency, Infrastructure & Ingestion Control |
