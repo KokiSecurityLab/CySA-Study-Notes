@@ -1,6 +1,6 @@
 # Koki's Technical Paper #031
 
-## Supply Chain Risk — Managing External Dependencies, Supply Chain Risk Management, and Third-Party Infrastructure Mitigation
+## Supply Chain Risk Management — Managing External Dependencies and Third-Party Infrastructure Mitigation
 
 ### Summary Digest
 The Supply Chain Risk Management (SCRM) framework established in this technical paper introduces a methodological approach to infrastructure boundary protection by translating third-party dependency vulnerabilities into deterministic risk mitigation variables. Inspired by CISSP Domain 1 and advanced CCSP cloud vendor compliance rules, this approach recognizes that an architectural ecosystem is only as strong as its weakest computational or logistical link.
