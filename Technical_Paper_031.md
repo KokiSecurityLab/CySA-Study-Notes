@@ -7,6 +7,7 @@ The Supply Chain Risk Management (SCRM) framework established in this technical 
 
 Additionally, this framework implements personalized, high-granularity guardrails directly within the application ingestion layers. By mapping external dependency vectors to hard-coded redundancy layers, the architecture programmatically eliminates single-node dependency constraints. This proactive security alignment ensures that supply chain disruptions do not trigger systemic failures, neutralizing peripheral exploits long before they can breach secure environments.
 
+---
 ### 1. Third-Party Dependency HazardsThe 
 Structural Vulnerabilities of Unverified Third-Party Infrastructure Topologies:
 
@@ -42,6 +43,7 @@ Implementing rigorous history-matching verification filters directly within inge
 
 Ultimately, integrating structural risk diversification with strict service level enforcements thwarts vendor degradation, securing core processing registries against weakest link vulnerabilities.
 
+---
 # Koki's Technical Paper #031
 
 ## サプライチェーンリスク：外部依存関係管理、サプライチェーン・リスク管理、およびサードパーティインフラ能動緩和プロトコル
@@ -51,6 +53,7 @@ Ultimately, integrating structural risk diversification with strict service leve
 
 さらに本フレームワークは、アプリケーションのデータ取り込みレイヤー内にリスク分散戦略を直接運用化します。外部の依存関係ベクトルをハードコーディングされた冗長化レイヤーにマッピングすることで、単一ノードへの依存制約をプログラム的に完全に排除します。この先行的アライメントにより、サプライチェーンの機能不全がシステム全体の崩壊を引き起こすリスクを封じ込めます。
 
+---
 ### 1. サードパーティ依存のハザード
 未検証の外部依存トポロジモデルにおける構造的脆弱性の分析:
 
