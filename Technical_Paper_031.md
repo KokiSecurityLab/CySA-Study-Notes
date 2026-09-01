@@ -18,7 +18,7 @@ Structural Vulnerabilities of Unverified Third-Party Infrastructure Topologies:
 SCRM and Strict Vendor Assessment Criteria:
 
 * **Rigorous Ingress Integrity Evaluation**: Critical external providers are subjected to historical stability verification, transforming passive acceptance into a rule-bounded authentication process that treats unreliable entities as high-risk anomalies.
-* * **Structural Risk Diversification Protocols**: Systemic reliance is strictly barred from single external nodes, enforcing an algorithmic redundancy strategy that distributes core dependency requirements across multiple verified backup paths.
+* **Structural Risk Diversification Protocols**: Systemic reliance is strictly barred from single external nodes, enforcing an algorithmic redundancy strategy that distributes core dependency requirements across multiple verified backup paths.
 * **Continuous Ingestion Telemetry Monitoring**: External operational baselines are systematically mapped and audited, ensuring that any statistical decline in a supplier's quality or reliability programmatically triggers defensive countermeasures.
 
 ### 3. Pipeline Implementation
