@@ -1,6 +1,6 @@
 # Koki's Technical Paper #032
 
-## Quantum Defense — Protecting Memories from Future Threats, Post-Quantum Cryptography, and Lattice-Based Encryption
+## Quantum Defense: Protecting Memories with Lattice-Based Cryptography
 
 ## Summary Digest
 The Post-Quantum Cryptography (PQC) framework established in this technical paper introduces a deterministic approach to network infrastructure longevity by translating upcoming quantum computing threat vectors into verifiable cryptographic variables. Inspired by CISSP Domain 3 and advanced CCSP cloud application validation rules, this architecture addresses the structural vulnerabilities of current encryption standards like AES and RSA against asymmetric Shor's algorithm exploits. By implementing advanced mathematical defense structures, the system transitions historical telemetry and private repositories into an immutable, quantum-resistant enclave.
@@ -44,7 +44,7 @@ By hard-coding strict forward secrecy protocols deep within the storage architec
 ---
 # Koki's Technical Paper #032
 
-## 量子防衛：将来の脅威からの歴史（メモリー）保護、耐量子計算機暗号、および格子暗号による長期保護フレームワーク
+## 量子防衛：格子暗号によるメモリー保護)
 
 ## サマリー・ダイジェスト
 本テクニカルペーパーで提唱する耐量子計算機暗号（Post-Quantum Cryptography: PQC）フレームワークは、将来的な量子コンピューティングの脅威ベクトルを決定論的な暗号変数へと変換し、ネットワークインフラの長期的な生存性を確立するための体系的アプローチです。CISSPドメイン3および高度なCCSPクラウドアプリケーション検証規則に着想を得た本中核構造は、ショアのアルゴリズムを駆使した非対称暗号解読攻撃に対し、今日のAESやRSAといった暗号化標準が抱える構造的脆弱性に対処します。高度な数学的防御構造を実装することにより、歴史的テレメトリや専用保管庫（プライベートリポジトリ）を、不変の耐量子隔離領域（耐量子エンクレイヴ）へと移行させます。
