@@ -1,4 +1,5 @@
 # Space Cyber Defense Series
+
 ## Technical Papers & Frameworks for Advanced Information Security Governance
 
 Hello, I'm Koki. Welcome to my research repository. 
@@ -20,6 +21,7 @@ The foundational security controls documented in this series are actively scaled
 
 ---
 # 日本の皆様へ
+
 ## 高度情報セキュリティガバナンスにおける技術論文およびフレームワーク
 
 高度サイバーセキュリティの世界へようこそ。Kokiです。 
@@ -73,3 +75,4 @@ The foundational security controls documented in this series are actively scaled
 | 029 | Disaster Recovery | Re-deploying the sanctuary anywhere |
 | 030 | Access Control | Implementing Least Privilege in life |
 | 031 | Supply Chain Risk Management | Dependency, Infrastructure & Ingestion Control |
+| 032 | Quantum Defense | Protecting memories from future threats |
