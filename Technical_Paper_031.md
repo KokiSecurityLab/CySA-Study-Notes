@@ -29,7 +29,7 @@ Strategic Ingestion Filtering and Redundancy Strategies:
 * **Proactive Replacement Execution Routines**: Deploying automated scanning loops to detect quality anomalies in external streams, initiating an active search for alternative nodes before peripheral degradation reaches a critical threshold.
 * **Strict Node Selection Architecture**: Forcing the procurement engine to prioritize systemic privacy and data safety metrics aligned with the information gravity principles established in Technical Paper #011, ensuring that only certified high-density providers intersect with the inner core.
 
-### 4. Operational Transition
+### 4. Autonomous Operation of Third-Party Ingestion Risk
 Deterministic Resource Ingestion Governance and Robustness:
 
 * **Conversion from Vulnerable Dependency Postures**: Transitioning the ingestion gateway from a state of passive dependency to an automated verification architecture that rigorously filters incoming logistical packages.
@@ -74,7 +74,7 @@ Ultimately, integrating structural risk diversification with strict service leve
 * **先行的な代替ノード探索ルーチンの実行**: 外部ストリームの品質異常を検出する自動スキャンループを展開し、周辺の劣化がシステム全体の臨界しきい値に達する前に、能動的に代替リンクへの切り替えを実行します。
 * **厳格なノード選定アーキテクチャの適用**: 調達エンジンに対して単なる利便性よりもシステム的なプライバシーと安全性のメトリクスを最優先させ、テクニカルペーパー#011の原則に準拠した、検証された高密度な提供者のみをコアレイヤーにバインドします。
 
-### 4. 運用の移行プロセス
+### 4. サードパーティリスク管理の自律的実装
 決定論的リソース入力ガバナンスと堅牢性の統治基準:
 
 * **受動的「外部依存関係」からの完全自動脱却**: リソースの取り込みゲートウェイを、脆弱な受動的外部依存関係から、着信する物流パッケージを最前線のエッジで厳格にフィルタリングする自動化された検証アーキテクチャへと移行させます。
