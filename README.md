@@ -76,4 +76,4 @@ The foundational security controls documented in this series are actively scaled
 | 030 | Access Control | Implementing Least Privilege in life |
 | 031 | Supply Chain Risk Management | Dependency, Infrastructure & Ingestion Control |
 | 032 | Quantum Defense | Protecting memories from future threats |
-| 033 | Incident Response | Managing panic through protocols |
+| 033 | Incident Response | Structured Handling Protocols |
