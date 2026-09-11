@@ -1,81 +1,86 @@
 # Koki's Technical Paper #005
 
-## Python & TypeScript — Programming Synergy, Secure Code Execution, and Ingestion Validation in Cloud Security
+## Python & TypeScript — Programming Synergy in AI Security, Structured Output Validation, and LLM Ingestion Control
 
-## Summary Digest
-This technical paper introduces an autonomous approach to application development security by operationalizing the cooperative integration of Python and TypeScript. Grounded in CISSP Domain 8 and advanced CCSP guardrails, this multi-tiered architecture filters out unexpected programmatic anomalies long before they can cause resource exhaustion within the core system kernel.
+### Summary Digest
+This paper defines a secure integration pattern pairing TypeScript's static typing with Python-based AI inference services, aligned with CISSP Domain 8 and the OWASP LLM Top 10, to validate prompts and model outputs at each boundary.
 
-Rather than relying on a single language layer to manage cloud telemetry, this methodology distributes operational responsibilities to maximize type safety. By checking the structural integrity of inbound code components at the application frontier, the architecture programmatically eliminates validation latency and ensures memory-safe operations.
+Structured-output validation prevents unverified model responses from being executed as trusted application logic.
 
 ---
-### 1. Centralized Log Aggregation
-The Structural Framework of Cross-Language Validation Gates:
-* **The Vulnerability of Distributed Event Logs**: Unchecked data streams generate a continuous source of software bugs and type discrepancies, presenting severe operational risks if allowed to intersect with the core processor without a central validation point.
-* **The Role of the Primary Monitoring Node**: A strict, type-safe architecture is established at the application ingress layer to intercept and block non-compliant code payloads, serving as an automated gatekeeper that prevents logical corruption.
-* **The Division of Systemic Layer Responsibilities**: By identifying and purging syntax errors at the outermost boundary, the system ensures that the core backend does not waste processing capacity attempting to find meaning in corrupted data streams.
+### 1. AI Ingestion and Output Risk
+Structural Risks of Unvalidated Prompts and Model Output:
+
+* **Prompt Injection via Unvalidated User Input**: User-supplied text forwarded directly into a model prompt without sanitization can override intended system instructions, a risk documented as LLM01 in the OWASP Top 10 for LLM Applications.
+* **Unverified Structured Output Consumption**: Treating a model's JSON or function-call output as inherently trustworthy allows a manipulated response to trigger unintended application behavior, corresponding to LLM02 (Insecure Output Handling).
+* **Type Ambiguity in Cross-Language Model Responses**: Passing loosely-typed model output directly into a dynamically-typed Python execution path without schema validation increases the risk that malformed fields reach downstream logic unexamined.
 
 ### 2. Methodological Foundation
-Asynchronous Execution and Micro-Service Separation:
-* **Automated Noise Suppression**: The frontier interface absorbs and deflects unverified external inputs based on the initial perimeter isolation concepts defined in Technical Paper #001, preventing informational overload from degrading backend stability.
-* **Contextual Data Translation**: When essential external events must be processed, the frontend gateway translates unorganized signals into a structured JSON format that the backend can parse without triggering errors.
-* **Ingestion Integrity Verification**: Implementing continuous type-checking criteria to ensure that only pre-authenticated, low-risk data packages are permitted to cross the inner system perimeter.
+Static Typing and Schema Validation Alignment for AI Interfaces:
+
+* **Compile-Time Contract Enforcement**: A TypeScript-based interface layer defines strict types for both outbound prompts and expected model response shapes, catching structural mismatches before a request or response reaches Python services.
+* **Schema Validation of Model Output**: Model responses, particularly structured tool-call or function-call output, are validated against a defined JSON schema before being accepted as input to any downstream action.
+* **Alignment with CISSP Domain 8 and OWASP LLM Guidance**: Input and output validation controls for the AI interface are mapped to CISSP Domain 8 secure-development practices and the OWASP Top 10 for LLM Applications.
 
 ### 3. Pipeline Implementation
-Python Backend Optimization and Memory Safety Strategies:
-1. **High-Velocity Data Analysis Routing**: Compiling a comprehensive dataset of analytical data tasks, forcing the core system to route heavy computing variables through dedicated Python micro-services for optimal performance.
-2. **Real-Time Code Exception Auditing**: Executing automated, micro-granular scanning loops that check for logic vulnerabilities, neutralizing script anomalies the exact millisecond a failure is flagged.
-3. **Automated Secondary Failover Activation**: Achieving a continuous state where any component exception instantly triggers a secure support mode, ensuring the long-term integrity and sustainability of the entire dual-language ecosystem.
+Three-Stage Validation for AI Request and Response Handling:
 
-### 4. Boundary Enforcement
-Collaboration Autonomy and Core Asset Protection:
-* **Preservation of Critical Analytical Space**: Ensuring that the system's most valuable programming resources are preserved for consistent independent learning and the continuous refinement of internal software algorithms.
-* **Rule-Bounded Ingestion Pathfinding**: Forcing all incoming third-party software links to route through designated verification endpoints, transforming speculative development into a rule-bounded compliance process.
-* **Absolute Perimeter Stability Defenses**: Ensuring that continuous cross-language auditing functions as an uncompromised defensive control layer to guarantee the absolute safety and permanent protection of the individual system.
+1. **Outbound Prompt Schema Enforcement**: The TypeScript layer validates user input against an allowed-input schema before it is incorporated into a prompt sent to the model.
+2. **Inbound Output Schema Validation**: Model responses are parsed against a strict response schema in Python before any structured field is used to trigger an application action.
+3. **Rejection and Logging of Non-Conforming Responses**: Responses that fail schema validation are rejected and logged for review rather than passed to execution logic (see Technical Paper #002 for related SIEM correlation).
+
+### 4. Boundary Governance
+Trust Boundary Enforcement Between Model Output and Application Logic:
+
+* **Model Output Treated as Untrusted Input**: Structured output from the model is treated with the same trust level as external user input, requiring validation before it can affect application state.
+* **Restricted Tool-Call Execution Scope**: Function-calling actions requested by the model are restricted to a pre-approved allow-list of operations, preventing an unexpected or manipulated call from reaching sensitive functions.
+* **Continuous Interface Contract Auditing**: The schema contract between the TypeScript interface and Python execution layer is reviewed on an ongoing basis to identify drift introduced by model or application updates.
 
 ### 5. Conclusion
-Comprehensive application security necessitates secure code execution, and embedding a professional cross-language validation core optimizes software ecosystem survival.
+Treating prompts and model output as inputs requiring validation, not trusted internal data, closes a gap generic validation patterns often miss in AI-integrated applications.
 
-By delegating initial input verification to a type-safe TypeScript frontier layer, the architecture preserves backend Python computing power for intensive data processing.
-
-Ultimately, integrating automated exception auditing with rigorous development governance safeguards core code registries, securing distributed application deployment frameworks against programmatic injection risks.
+Applying CISSP Domain 8 practices alongside the OWASP LLM Top 10 gives this TypeScript-Python pairing a concrete basis for handling unpredictable model behavior.
 
 ---
 # Koki's Technical Paper #005
-## Python ＆ TypeScript：プログラミングシナジー、セキュアコード実行、およびクラウドセキュリティにおける入力検証ガードレール
 
-## サマリー・ダイジェスト
-本テクニカルペーパーでは、PythonとTypeScriptの協調統合を運用化し、アプリケーション開発における自律的なセキュリティを確立する体系的アプローチを提案します。CISSPドメイン8および高度なCCSP保護指針に準拠し、多層的な開発構造（フレームワーク）によってプログラム的な異常をカーネル層の手前でフィルタリングして排除します。
+## Python＆TypeScript — AIセキュリティにおけるプログラミングシナジー、構造化出力の検証、およびLLM入力制御
 
-単一の言語レイヤーに依存せず、運用の責任を分散させることで型安全（タイプセーフティ）とスキャン性能を最大化します。最も外側のアプリケーション境界で受信コードコンポーネントの構造的整合性をチェックし、検証の遅延（レイテンシ）を完全に排除します。
+### サマリー・ダイジェスト
+本論文は、CISSPドメイン8およびOWASP LLM Top 10に準拠し、TypeScriptの静的型付けとPythonベースのAI推論サービスを組み合わせた安全な統合パターンを定義し、各境界でプロンプトとモデル出力を検証します。
+
+構造化出力の検証により、未検証のモデル応答が信頼済みのアプリケーションロジックとして実行されることを防ぎます。
 
 ---
-### 1. プログラム雑音の能動的緩和
-クロス言語検証ゲートにおける構造的枠組み:
-* **型定義のないソフトウェア入力の脆弱性**: チェックされていないデータストリームは、ソフトウェアバグや型の不一致を絶えず発生させるため、中央に検証ポイントがない場合、コアプロセッサに深刻な運用リスクを招きます。
-* **最前線フィルターとしてのTypeScriptの役割**: アプリケーションの入力レイヤーに厳格な型安全構造（アーキテクチャ）を確立し、非準拠のコードペイロードを遮断・ブロックする自動ゲートキーパーとして機能させ、論理的な汚染を未然に防止します。
-* **システムリソース枯渇の未然防止制御**: 最も外側の境界線で構文エラーを特定してパージ（排除）することにより、意味のない破損したデータストリームの分析処理で後方処理基盤（バックエンド側）がパワーを浪費するのを確実に防ぎます。
+### 1. AI入出力に関するリスク
+未検証のプロンプトとモデル出力に伴う構造的リスク:
+
+* **未検証ユーザー入力によるプロンプトインジェクション**: サニタイズされていないユーザー入力をそのままモデルへのプロンプトに組み込むと、意図したシステム指示が上書きされる恐れがあります。これはOWASP LLM Top 10のLLM01（プロンプトインジェクション）に該当します。
+* **未検証の構造化出力の消費**: モデルが返すJSONや関数呼び出し出力を無条件に信頼すると、改変された応答が意図しないアプリケーション動作を引き起こす恐れがあります。これはLLM02（不適切な出力処理）に相当します。
+* **言語間でのモデル応答における型の曖昧性**: 型の緩いモデル出力をスキーマ検証なしに動的型付けのPython実行経路へ直接渡すと、不正な形式のフィールドが未検査のまま下流ロジックに到達するリスクが高まります。
 
 ### 2. 方法論的基盤
-非同期実行とマイクロサービスの分離原則:
-* **サービス誘導（デフレクション）構造**: 前方通信制御（フロントエンド）のインターフェースが未検証の外部入力を事前に制御し、テクニカルペーパー#001で定義した初期の境界隔離モデルに沿って制御することで、情報の過負荷によって後方データベースの安定性が低下するのを防止します。
-* **文脈に応じたデータフォーマットの変換**: 不可欠な外部イベントを統合する必要がある場合、前方制御ゲートウェイが整理されていないシグナルを、後方処理基盤がエラーを起こさずに解析できる構造化されたJSONフォーマットへと正確に翻訳します。
-* **動的な入力サニライズ（データ洗浄）の強制**: 継続的な型チェック基準を強制し、あらかじめ認証されたリスクの低いデータパッケージのみが内部のシステムペリメーター（境界）を通過することを許可します。
+AIインターフェースにおける静的型付けとスキーマ検証の整合:
 
-### 3. パイプラインの実装方法
-Pythonバックエンド最適化とメモリ安全の手順:
-1. **高速データ分析のルーティングシーケンス**: 分析データタスクの網羅的なデータセット（マトリクスをパージ）をコンパイルし、重い計算変数を専用のPythonマイクロサービスへと強制ルーティングさせ、システム性能を最適化します。
-2. **リアルタイムのエラー（例外）監査制御**: 論理的な脆弱性をチェックする自動スキャンループを展開し、悪意ある不正スクリプトが検知された瞬間に中和を実行します。
-3. **自動化されたセキュアフェイルオーバー構成**: コンポーネントのエラー発生時に即座に安全な支援モードが起動し、2つの言語によるエコシステム全体の長期的な完全性を保証するステートを維持します。
+* **コンパイル時の契約強制**: TypeScriptベースのインターフェース層が送信するプロンプトと想定されるモデル応答の形状の両方に厳格な型を定義し、リクエストや応答がPythonサービスに到達する前に構造上の不一致を検出します。
+* **モデル出力のスキーマ検証**: 特に構造化されたツール呼び出しや関数呼び出しの出力を、下流アクションへの入力として受け入れる前に定義済みのJSONスキーマと照合します。
+* **CISSPドメイン8およびOWASP LLMガイダンスとの整合**: AIインターフェースの入出力検証統制を、CISSPドメイン8のセキュア開発実務およびOWASP LLM Top 10に対応付けます。
 
-### 4. 運用への移行プロセス
-協調的自律とコア資産の恒久維持基準:
-* **クリティカルな分析空間の死守**: システムの最も価値あるプログラミングリソースを、一貫した自律学習や内部ソフトウェアアルゴリズムの継続的な洗練のために確実に保存・死守します。
-* **規則に拘束された開発経路探索の強制**: すべての着信サードパーティ・ソフトウェアリンクに対して指定された検証エンドポイントの通過を強制し、推測的な開発をルールに縛られたコンプライアンスプロセスへと転換します。
-* **絶対的なクラウド構造の安全死守**: 継続的なクロス言語監査を妥協のない防衛コントロールレイヤーとして機能させることにより、個別システムの絶対的な安全性と、不変の保護ステートを強固に維持します。
+### 3. パイプラインの実装
+AIリクエストおよび応答処理のための3段階検証:
+
+1. **送信プロンプトのスキーマ強制**: TypeScript層は、モデルへ送信するプロンプトに組み込まれる前のユーザー入力を許可済みスキーマと照合します。
+2. **受信出力のスキーマ検証**: モデル応答は、構造化されたフィールドがアプリケーションの動作を引き起こす前に、Python側で厳格な応答スキーマと照合されます。
+3. **非準拠応答の拒否とログ記録**: スキーマ検証に失敗した応答は実行ロジックへ渡されずに拒否・記録されます（SIEM連携の詳細はTechnical Paper #002を参照）。
+
+### 4. 境界統治
+モデル出力とアプリケーションロジック間の信頼境界の強制:
+
+* **モデル出力を未信頼入力として扱う**: モデルからの構造化出力は外部ユーザー入力と同等の信頼レベルで扱われ、アプリケーションの状態に影響を与える前に検証が必要とされます。
+* **ツール呼び出しの実行範囲の制限**: モデルが要求する関数呼び出しは事前承認済みの許可リストに限定され、予期しない、または改変された呼び出しが機微な機能へ到達することを防ぎます。
+* **インターフェース契約の継続的監査**: TypeScriptインターフェースとPython実行層の間のスキーマ契約を継続的にレビューし、モデルまたはアプリケーションの更新によって生じる乖離を特定します。
 
 ### 5. 結論
-アプリケーション保護の確立にはセキュアなコード実行が不可欠であり、クロス言語検証コアを組み込むことはソフトウェアエコシステムの生存性を最適化します.
+プロンプトとモデル出力の両方を、信頼済みの内部データではなく検証が必要な入力として扱うことで、AI連携アプリケーションで見落とされがちな一般的な入力検証の隙間を解消します。
 
-初期の入力検証タスクを型安全なTypeScript最前線レイヤーに委ねることで、アーキテクチャは後方処理基盤であるPythonの演算リソースを高強度なデータ処理のために保存します.
-
-自動化された例外監査と厳格な開発ガバナンスの統合はコアコードレジストリを保護し、分散型アプリケーションの展開環境をプログラム的なインジェクションリスクから永続的に防衛します.
+CISSPドメイン8の実務とOWASP LLM Top 10を組み合わせることで、このTypeScriptとPythonの連携は、事前に完全には予測できないモデルの挙動を扱うための具体的な基盤を得ます。
