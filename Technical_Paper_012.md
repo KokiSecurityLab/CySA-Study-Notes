@@ -15,21 +15,21 @@ The Operational Framework of Infrastructure Saturation and Resource Exhaustion:
 * **Single Point of Failure in Gateway Nodes**: A primary gateway node that has no defined failover path becomes a single point of failure, risking a broader outage if that node exhausts its available resources.
 * **Delayed Detection of Cumulative Load**: Without continuous resource monitoring, gradually increasing load can reach a critical threshold before it is noticed, leaving little time to respond before service is affected.
 
-### 2. Health-Check Recovery Principles
+### 2. Health Checks as the Trigger, Root Cause as the Target
 Health-Check-Triggered Recovery and Root-Cause Diagnostics:
 
 * **Automated Health-Check Restart**: Services are monitored through periodic health checks, for example Kubernetes liveness probes, and a service that fails repeated checks is automatically restarted or replaced rather than left in a degraded state.
 * **Root-Cause Log Correlation**: Error logs from the failed instance are correlated against recent configuration changes and known failure signatures to identify the specific cause before the same condition recurs.
 * **Alignment with Baseline Boundary Controls**: Recovery configuration is reconciled with the baseline boundary controls defined in Technical Paper #001, keeping restart behavior consistent with the wider security architecture.
 
-### 3. RTO/RPO Recovery Sequence
+### 3. RTO and RPO Turn Recovery Into a Target
 RTO/RPO-Aligned Recovery and Hardening Integration:
 
 1. **Defined RTO and RPO Targets**: Recovery Time Objective (RTO) and Recovery Point Objective (RPO) values are defined for each service, setting explicit targets for how quickly a service must be restored and how much data loss is acceptable.
 2. **Automated Failover Execution**: When a service exceeds its failure threshold, traffic is automatically redirected to a standby instance or region, consistent with the defined RTO.
 3. **Post-Incident Hardening Integration**: Configuration changes identified during root-cause analysis of a failure are integrated into the baseline configuration used for future deployments, consistent with the post-incident process defined in Technical Paper #006.
 
-### 4. Recovery Governance Review
+### 4. Keeping Recovery Honest
 Recovery Governance and Continuity Review:
 
 * **Recovery Actions Bound by Defined Procedures**: Automated recovery actions follow a documented runbook rather than improvised response, reducing the risk that an automated restart masks an underlying issue that requires manual review.
@@ -59,21 +59,21 @@ Correlating each failure root cause with recovery configuration changes, consist
 * **ゲートウェイノードにおける単一障害点**: フェイルオーバー経路が定義されていない主要ゲートウェイノードは単一障害点となり、そのノードが利用可能なリソースを使い果たした場合、より広範な障害につながる恐れがあります。
 * **累積負荷の検知遅延**: 継続的なリソース監視がない場合、徐々に増加する負荷が重大なしきい値に達するまで気づかれず、サービスへの影響が出る前に対応する時間がほとんど残らなくなります。
 
-### 2. ヘルスチェック復旧の原則
+### 2. ヘルスチェックは引き金、根本原因は標的
 ヘルスチェックを契機とした復旧と根本原因診断:
 
 * **ヘルスチェックに基づく自動再起動**: サービスはKubernetesのliveness probe等の定期的なヘルスチェックによって監視され、繰り返しチェックに失敗したサービスは劣化状態のまま放置されるのではなく自動的に再起動または置き換えられます。
 * **根本原因のログ相関分析**: 障害インスタンスのエラーログを、直近の構成変更や既知の障害シグネチャと照合し、同様の状態が再発する前に具体的な原因を特定します。
 * **ベースライン境界統制との整合**: 復旧構成をTechnical Paper #001で定義されたベースライン境界統制と突き合わせ、再起動時の挙動をより広いセキュリティアーキテクチャと一貫させます。
 
-### 3. RTO/RPO復旧手順
+### 3. RTOとRPOが復旧を目標に変える
 RTO・RPOに基づく復旧と強化策の統合:
 
 1. **RTO・RPO目標の設定**: 各サービスについてRTO（目標復旧時間）とRPO（目標復旧時点）の値を定義し、サービスをどれだけ迅速に復旧させるべきか、どの程度のデータ損失が許容されるかを明確な目標として設定します。
 2. **自動フェイルオーバーの実行**: サービスが障害しきい値を超えた場合、定義済みのRTOに沿ってトラフィックがスタンバイ用のインスタンスまたはリージョンへ自動的にリダイレクトされます。
 3. **インシデント後の強化策統合**: 障害の根本原因分析で特定された構成変更は、将来のデプロイに使用されるベースライン構成へ統合されます。これはTechnical Paper #006で定義したポストインシデントプロセスと整合します。
 
-### 4. 復旧ガバナンスレビュー
+### 4. 復旧を誠実な状態に保つ
 復旧ガバナンスと継続性レビュー:
 
 * **定義済み手順に基づく復旧対応**: 自動復旧対応は即興の対応ではなく文書化されたランブックに従うため、自動再起動が手動レビューを要する根本的な問題を覆い隠してしまうリスクを低減します。
