@@ -15,21 +15,21 @@ The Operational Framework of Continuous Asset Infrastructure Scanning:
 * **High-Resolution Telemetry Ingestion**: Continuous scanning of peripheral interfaces surfaces minor behavioral anomalies that broader, lower-resolution monitoring would otherwise miss.
 * **Aggregation of Distributed Event Indicators**: Combining metrics such as session duration and communication logs from across the environment builds a current, evidence-based view of exposure.
 
-### 2. Methodological Foundation
+### 2. Signature Recognition and CVSS Scoring
 Predictive Data Refinement and Signature Recognition Metrics:
 
 * **Signature-Based Threat Recognition**: The correlation layer identifies known attack patterns in scan results by comparing them against a maintained threat-signature database, similar to signature-based malware detection.
 * **Trend-Based Exposure Projection**: Tracking how detected weaknesses change over time allows countermeasures to be scheduled before related exposures compound into a more severe finding.
 * **CVSS-Based Risk Prioritization**: Detected vulnerabilities are scored using the Common Vulnerability Scoring System (CVSS), ensuring that remediation effort is directed first at the highest-severity findings.
 
-### 3. Pipeline Implementation
+### 3. Hardening and Segmentation Sequence
 Tactical System Hardening and Infrastructure Isolation Strategies:
 
 1. **Automated Configuration Hardening**: Scan findings trigger predefined hardening profiles that adjust affected configuration settings, closing identified gaps before they can be leveraged (see Technical Paper #003 for related reverse-proxy controls).
 2. **Segmentation of Affected Assets**: Systems with unresolved high-severity findings are isolated from broader network segments until remediation is confirmed, limiting unnecessary exposure to external networks (see Technical Paper #001 for related boundary controls).
 3. **Verification of Remediation**: Rescanning confirms that identified vulnerabilities have been resolved before affected systems are returned to normal network segmentation.
 
-### 4. Boundary Governance
+### 4. Preventive Posture and Log Correlation
 Foresight Optimization and Analytical Asset Protection:
 
 * **Shifting from Reactive to Preventive Defense**: Proactive vulnerability management reduces reliance on post-incident remediation by addressing weaknesses before they can be incorporated into an active exploit chain.
@@ -59,21 +59,21 @@ Scoring vulnerabilities with CVSS and routing high-severity findings through the
 * **高解像度テレメトリの取り込み**: 周辺インターフェースの継続的なスキャンにより、より広範囲・低解像度の監視では見落とされがちな微細な挙動異常を検出します。
 * **分散されたイベントインジケーターの集約**: セッション時間や通信ログなど環境全体のメトリクスを組み合わせることで、根拠に基づいた最新の露出状況を把握します。
 
-### 2. 方法論的基盤
+### 2. シグネチャ認識とCVSSスコアリング
 予測的なデータ精査とシグネチャ認識基準:
 
 * **シグネチャベースの脅威認識**: 相関分析レイヤーは、シグネチャベースのマルウェア検知と同様に、維持管理された脅威シグネチャデータベースと照合してスキャン結果内の既知の攻撃パターンを識別します。
 * **傾向に基づく露出予測**: 検出された弱点の経時変化を追跡することで、関連する露出がより深刻な事象へ複合化する前に対策を計画できます。
 * **CVSSに基づくリスクの優先順位付け**: 検出された脆弱性は共通脆弱性評価システム（CVSS）でスコアリングされ、深刻度の高い事案から優先的に修復対応が行われます。
 
-### 3. パイプラインの実装
+### 3. 強化とセグメント化の手順
 戦術的システム強化とインフラ隔離の戦略:
 
 1. **自動化された構成強化**: スキャン結果に応じて定義済みの強化プロファイルが適用され、該当する構成設定を調整して悪用される前に既知のギャップを解消します（リバースプロキシ関連の統制はTechnical Paper #003を参照）。
 2. **該当資産のセグメント化**: 未解決の高深刻度事案を抱えるシステムは、修復が確認されるまで広範なネットワークセグメントから隔離され、外部ネットワークへの不要な露出を制限します（境界統制の詳細はTechnical Paper #001を参照）。
 3. **修復状況の検証**: 再スキャンにより、対象システムが通常のネットワークセグメントに復帰する前に、特定された脆弱性が解消されていることを確認します。
 
-### 4. 境界統治
+### 4. 予防的姿勢とログ相関
 先見性の最適化と分析資産の保護基準:
 
 * **受動的対応から予防的防御への転換**: 先行的な脆弱性管理は、弱点が実際の攻撃連鎖に組み込まれる前に対処することで、事後対応への依存を減らします。
