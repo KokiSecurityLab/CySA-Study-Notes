@@ -15,21 +15,21 @@ Structural Risks of Content-Only Authentication:
 * **Absence of Behavioral Baseline Comparison**: Without a record of a user's typical interaction pattern, an authentication system has no basis for distinguishing a legitimate user from someone operating a stolen session or credential.
 * **Undetected Automation of Legitimate-Looking Requests**: Scripted or automated submissions that supply technically valid credentials can pass content-based checks while exhibiting timing and interaction patterns that differ measurably from genuine human input.
 
-### 2. What Keystrokes and Mouse Movement Reveal
+### 2. Keystroke and Mouse Dynamics
 Behavioral Biometrics and Baseline Modeling:
 
 * **Keystroke and Mouse Dynamics**: Metrics such as typing rhythm, key-hold duration, and mouse movement patterns are recorded and compared against a user's established profile, consistent with behavioral-biometric approaches used in User and Entity Behavior Analytics (UEBA).
 * **Session Risk Scoring**: Interaction data is combined into a continuous risk score for the active session, rather than a single pass/fail decision made only at login.
 * **Alignment with Baseline Boundary Controls**: Behavioral-baseline configuration is reconciled with the baseline boundary controls defined in Technical Paper #001, keeping continuous-authentication protections consistent with the wider security architecture.
 
-### 3. From Baseline to Step-Up Challenge
+### 3. Baseline Modeling and Step-Up Authentication
 Continuous Verification and Step-Up Authentication:
 
 1. **Baseline Profile Establishment**: A behavioral profile is built for each user over an initial observation period, capturing typical interaction patterns under normal conditions.
 2. **Real-Time Deviation Scoring**: Live session activity is compared against the stored baseline on an ongoing basis, generating a deviation score whenever interaction patterns diverge significantly.
 3. **Step-Up Authentication on High Deviation**: Sessions that exceed a defined deviation threshold are prompted for an additional authentication factor before continuing, consistent with CISSP Domain 5 multi-factor authentication practices.
 
-### 4. Collecting Only What Authentication Needs
+### 4. Data Minimization and Model Accuracy Review
 Privacy-Aware Behavioral Data Handling:
 
 * **Scoped Collection of Behavioral Data**: Interaction data is collected only to the extent needed for authentication risk scoring, consistent with data-minimization principles rather than general-purpose behavioral profiling.
@@ -59,21 +59,21 @@ Keeping that behavioral check continuous, rather than confined to login, is what
 * **行動ベースライン比較の欠如**: ユーザーの典型的な操作パターンの記録がない認証システムには、正規ユーザーと、盗まれたセッションや資格情報を操作する第三者とを区別する根拠がありません。
 * **正規に見える自動化リクエストの未検知**: 技術的に有効な資格情報を提示するスクリプトや自動送信は、コンテンツベースのチェックを通過する一方、実際の人間の入力とは測定可能な差異を持つタイミングや操作パターンを示すことがあります。
 
-### 2. キーストロークとマウスの動きが示すもの
+### 2. キーストロークとマウスのダイナミクス
 行動生体認証とベースラインモデリング:
 
 * **キーストロークとマウスのダイナミクス**: タイピングのリズム、キーを押している時間、マウスの動きのパターンといった指標を記録し、ユーザーごとに確立されたプロファイルと照合します。これはUEBA（User and Entity Behavior Analytics）で用いられる行動生体認証の手法と一致します。
 * **セッションリスクスコアリング**: 操作データはログイン時のみの合否判定ではなく、アクティブなセッション全体を通じた継続的なリスクスコアへと統合されます。
 * **ベースライン境界統制との整合**: 行動ベースラインの構成をTechnical Paper #001で定義されたベースライン境界統制と突き合わせ、継続的認証の保護をより広いセキュリティアーキテクチャと一貫させます。
 
-### 3. ベースラインからステップアップ認証へ
+### 3. ベースラインモデリングとステップアップ認証
 継続的検証とステップアップ認証:
 
 1. **ベースラインプロファイルの確立**: 初期の観察期間を通じて各ユーザーの行動プロファイルを構築し、通常状態における典型的な操作パターンを記録します。
 2. **リアルタイムの逸脱スコアリング**: ライブセッションの活動を保存済みのベースラインと継続的に照合し、操作パターンが大きく乖離するたびに逸脱スコアを生成します。
 3. **高逸脱時のステップアップ認証**: 定義済みの逸脱しきい値を超えたセッションには、継続前に追加の認証要素の入力が求められます。これはCISSPドメイン5の多要素認証実務と整合します。
 
-### 4. 認証に必要な範囲だけを収集する
+### 4. データ最小化とモデル精度レビュー
 プライバシーに配慮した行動データの取り扱い:
 
 * **行動データ収集範囲の限定**: 操作データは、汎用的な行動プロファイリングのためではなく、認証リスクスコアリングに必要な範囲に限定して収集され、データ最小化の原則と整合します。
