@@ -42,7 +42,7 @@ Encapsulating Security Payload and Authentication Header configurations give an 
 Deriving these configurations from documented connection-failure history, rather than generic defaults, keeps CISSP Domain 4 and CCSP-aligned tunnel hardening grounded in the environment's actual threat history.
 
 ---
-# Koki's Technical Paper #007
+# テクニカルペーパーシリーズ #007
 
 ## IPsecアーキテクチャ — 安全なトンネルプロトコル、カプセル化セキュリティペイロード、およびインフラレジリエンスの更新手順
 
