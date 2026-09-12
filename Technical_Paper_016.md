@@ -15,21 +15,21 @@ Structural Vulnerabilities of Externally Deployed Security Tools:
 * **Absence of a Verified Boot Chain**: Systems that do not verify each stage of the boot process against a trusted reference have no guarantee that the operating system loaded at startup matches its intended, unmodified state.
 * **Undetected Configuration Drift at the Kernel Level**: Without continuous comparison against a known-good baseline, low-level configuration changes, including those made by a rootkit, can persist undetected for extended periods.
 
-### 2. Anchoring Trust in Hardware, Not Software Alone
+### 2. Hardware Root of Trust Principles
 Root of Trust and Continuous Integrity Verification:
 
 * **Hardware Root of Trust**: A hardware-anchored root of trust, such as a Trusted Platform Module (TPM), provides a verified starting point that later boot and configuration checks can be measured against.
 * **Continuous Integrity Measurement**: Runtime configuration is compared against the verified baseline on an ongoing basis, extending the boot-time verification model into continuous operation rather than a single check at startup.
 * **Alignment with Baseline Boundary and Behavioral Controls**: Kernel-integrity findings are reconciled with the baseline boundary controls defined in Technical Paper #001 and the behavioral-anomaly indicators defined in Technical Paper #013, keeping detection consistent across the wider security architecture.
 
-### 3. From Signature to Automatic Restoration
+### 3. Signature Capture and Automated Restoration
 Root of Trust Verification and Automated Remediation:
 
 1. **Baseline Signature Capture**: A cryptographic signature of the verified, known-good kernel and configuration state is captured and stored as the reference for later comparison.
 2. **Continuous Discrepancy Scanning**: Automated scans compare the current runtime state against the stored signature on a defined interval, flagging any deviation for review.
 3. **Automated Configuration Remediation**: When a deviation is confirmed, the affected configuration is automatically restored to the verified baseline, and the incident is logged for correlation with related security events (see Technical Paper #006 for post-incident review).
 
-### 4. Keeping Recovery Bounded and Auditable
+### 4. Isolation and Bounded Remediation
 Long-Term Integrity Assurance and Recovery Review:
 
 * **Isolating Kernel Integrity from Application-Layer Compromise**: Kernel-level integrity checks operate independently of application-layer processes, so a compromise at the application level does not automatically extend to the verified kernel state.
@@ -59,21 +59,21 @@ Extending that verification into continuous runtime monitoring, consistent with 
 * **検証済み起動チェーンの欠如**: 起動プロセスの各段階を信頼済みの参照値と照合しないシステムには、起動時に読み込まれるオペレーティングシステムが意図した未改ざんの状態と一致しているという保証がありません。
 * **カーネルレベルでの検知されない構成ドリフト**: 既知の正常なベースラインとの継続的な比較がなければ、ルートキットによるものを含む低レイヤーの構成変更が長期間検知されないまま持続する可能性があります。
 
-### 2. ソフトウェアだけでなくハードウェアに信頼を固定する
+### 2. ハードウェアRoot of Trustの原則
 Root of Trustと継続的な整合性検証:
 
 * **ハードウェアRoot of Trust**: TPM（Trusted Platform Module）などハードウェアに固定されたRoot of Trustは、以降の起動チェックや構成チェックの基準となる検証済みの出発点を提供します。
 * **継続的な整合性測定**: ランタイム構成を検証済みベースラインと継続的に比較することで、起動時のみの検証モデルを継続的な運用へと拡張します。
 * **ベースライン境界統制および行動統制との整合**: カーネル整合性の検知結果をTechnical Paper #001で定義されたベースライン境界統制、およびTechnical Paper #013で定義された行動異常指標と突き合わせ、より広いセキュリティアーキテクチャ全体で検知を一貫させます。
 
-### 3. 署名から自動復元まで
+### 3. 署名取得と自動復元
 Root of Trustの検証と自動修復:
 
 1. **ベースライン署名の取得**: 検証済みで既知の正常なカーネルおよび構成状態の暗号学的署名を取得し、以降の比較の基準として保存します。
 2. **継続的な不一致スキャン**: 定義済みの間隔で現在のランタイム状態を保存済みの署名と自動比較し、逸脱を検出した場合はレビュー対象としてフラグ付けします。
 3. **自動化された構成修復**: 逸脱が確認された場合、該当する構成は自動的に検証済みベースラインへ復元され、そのインシデントは関連するセキュリティイベントとの相関分析のために記録されます（ポストインシデントレビューの詳細はTechnical Paper #006を参照）。
 
-### 4. 復旧を限定的かつ監査可能に保つ
+### 4. 隔離と範囲限定された修復
 長期的な整合性保証と復旧レビュー:
 
 * **カーネル整合性とアプリケーション層侵害の分離**: カーネルレベルの整合性チェックはアプリケーション層のプロセスから独立して動作するため、アプリケーション層での侵害が自動的に検証済みのカーネル状態にまで及ぶことはありません。
