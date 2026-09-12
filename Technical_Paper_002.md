@@ -42,7 +42,7 @@ Without centralization, event data scatters across sources faster than analysts 
 A dedicated SIEM layer, built on CISSP Domain 7 practice, keeps that correlation automated and keeps unconsolidated log volume from degrading the systems it is meant to protect.
 
 ---
-# Koki's Technical Paper #002
+# テクニカルペーパーシリーズ #002
 
 ## SIEMの概念 — 集中管理型イベント監視、ログ集約、およびセキュリティガバナンス
 
