@@ -15,21 +15,21 @@ The Operational Framework of Incident Data Log Aggregation:
 * **Identification of Obfuscated Attack Signatures**: A dedicated audit process reviews completed session data for subtle anomalies, surfacing attack patterns that mimicked legitimate credentials closely enough to bypass standard filters.
 * **Preservation of Incident Log Integrity**: Isolating completed session logs in a separate, access-controlled repository reduces the risk that an attacker could alter or delete evidence needed for later analysis.
 
-### 2. From Incident Data to Root Cause
+### 2. Root-Cause Analysis and Hardening Rules
 Root Cause Analysis and Infrastructure Hardening Metrics:
 
 * **Quantifying Deviation from Expected Behavior**: The analysis process measures the gap between expected system behavior and observed runtime telemetry, replacing speculative troubleshooting with a defined verification process.
 * **Updating Firewall and Detection Rules**: Techniques identified during root-cause analysis of a past incident are used to update firewall rules and detection signatures so that similar methods are blocked at the perimeter.
 * **Alignment with Baseline Controls**: Post-analysis findings are reconciled with the baseline boundary controls defined in Technical Paper #001, so that defensive updates are grounded in the same configuration baseline.
 
-### 3. Turning Findings Into Deployed Patches
+### 3. Patch Generation and Access-Control Tuning
 Tactical Patch Deployment and Optimization Strategies:
 
 1. **Historical Log Cross-Verification**: Compile a dataset of past incidents and related security events to identify recurring attack patterns and inform prioritization of remediation work.
 2. **Automated Signature and Patch Generation**: Newly identified vulnerabilities are translated into updated detection signatures and patches, applied once validated to prevent regression to a previously exploited state.
 3. **Access-Control Rule Tuning**: Access control lists are refined based on post-analysis findings, reducing the chance that a localized issue affects broader system availability.
 
-### 4. Making Prevention the Default Posture
+### 4. Preventive Controls and Change Verification
 Deterministic Lifecycle Security and Prevention Metrics:
 
 * **Shifting from Reactive Recovery to Preventive Controls**: Findings from post-incident review are used to move the security posture from responding after an incident toward preventing similar conditions from recurring.
@@ -59,21 +59,21 @@ This process, aligned with CISSP Domain 7 and the NIST incident-response lifecyc
 * **難読化された攻撃シグネチャの特定**: 完了したセッションデータの微細な異常を精査する専用の監査プロセスにより、正規の認証情報を巧妙に模倣し標準フィルターを回避した攻撃パターンを特定します。
 * **インシデントログの完全性保持**: 完了したセッションログをアクセス制御された独立リポジトリに隔離することで、後の分析に必要な証拠が攻撃者に改ざん・削除されるリスクを低減します。
 
-### 2. インシデントデータから根本原因へ
+### 2. 根本原因分析と強化ルール
 根本原因分析（RCA）とインフラ強化の指標:
 
 * **想定挙動からの逸脱の定量化**: 分析プロセスは想定されるシステム挙動と観測されたランタイムテレメトリとの差分を測定し、推測的なトラブルシューティングを定義済みの検証プロセスに置き換えます。
 * **ファイアウォールおよび検知ルールの更新**: 過去のインシデントに対する根本原因分析で特定された手法をもとにファイアウォールルールと検知シグネチャを更新し、同様の手口を境界で遮断します。
 * **ベースライン統制との整合**: 事後分析の知見をTechnical Paper #001で定義されたベースライン境界統制と突き合わせ、防御策の更新が同一の構成ベースラインに基づくようにします。
 
-### 3. 知見を実際のパッチ展開へ変える
+### 3. パッチ生成とアクセス制御の調整
 戦術的パッチ展開と最適化の戦略:
 
 1. **履歴ログの相互検証**: 過去のインシデントおよび関連するセキュリティイベントのデータセットを収集し、繰り返し発生する攻撃パターンを特定して修復作業の優先順位付けに役立てます。
 2. **シグネチャおよびパッチの自動生成**: 新たに特定された脆弱性を更新済みの検知シグネチャとパッチへ変換し、検証後に適用することで過去に悪用された状態への退行を防ぎます。
 3. **アクセス制御ルールの調整**: 事後分析の知見に基づいてアクセス制御リストを調整し、局所的な問題が広範なシステム可用性に影響を及ぼす可能性を低減します。
 
-### 4. 予防をデフォルトの姿勢にする
+### 4. 予防的統制と変更の検証
 決定論的ライフサイクルセキュリティと未然防止の指標:
 
 * **受動的復旧から予防的統制への転換**: ポストインシデントレビューの知見を活用し、インシデント対応後の受動的な姿勢から、同様の状況の再発を防止する方向へセキュリティ態勢を移行させます。
