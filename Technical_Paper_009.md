@@ -42,7 +42,7 @@ Rate limiting and resource quotas do not increase available hardware capacity; t
 Applying these controls consistent with CISSP Domain 3 and NIST SP 800-63B keeps a single traffic burst or credential-stuffing attempt from degrading service for legitimate users.
 
 ---
-# Koki's Technical Paper #009
+# テクニカルペーパーシリーズ #009
 
 ## リソース制限 — ハードウェア制約下のセキュリティ、レート制限アーキテクチャ、および総当たり攻撃緩和
 
