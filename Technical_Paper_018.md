@@ -29,7 +29,7 @@ Review Routing and Accountability Logging:
 2. **Routing to a Designated Reviewer**: Outputs requiring review are routed to a designated human reviewer with the relevant context, rather than a general queue lacking supporting information.
 3. **Signed Decision Logging**: The reviewer's decision, along with their identity and the rationale provided, is logged for accountability and later audit, consistent with the logging approach in Technical Paper #002.
 
-### 4. Override Authority and Independence
+### 4. Independent Pause Mechanism Design
 Override Authority and Escalation Review:
 
 * **Defined Override Authority**: Specific roles are authorized to override or halt an automated process, and that authority is documented rather than left informal or assumed.
@@ -73,7 +73,7 @@ Aligning those criteria with CISSP Domain 1 and EU AI Act human-oversight expect
 2. **指定レビュー担当者への振り分け**: レビューが必要な出力は、補足情報のない一般的なキューではなく、関連する文脈情報とともに指定されたレビュー担当者へ振り分けられます。
 3. **署名付きの判断ログ記録**: レビュー担当者の判断は、その担当者の識別情報および判断理由とともに、説明責任と後の監査のために記録されます。これはTechnical Paper #002で述べたログ記録の考え方と整合します。
 
-### 4. 上書き権限とその独立性
+### 4. 独立した一時停止機構の設計
 上書き権限とエスカレーションレビュー:
 
 * **明確化された上書き権限**: 自動化プロセスを上書きまたは停止できる権限は特定の役割に限定して付与され、その権限は非公式なものや暗黙の了解に留めず文書化されます。
