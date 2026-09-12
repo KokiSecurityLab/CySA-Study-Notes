@@ -1,4 +1,3 @@
-markdown
 # Koki's Technical Paper #014
 
 ## Multi-Dimensional Decoding — Multidimensional Visual Analysis, Network Topology Threat Hunting, and Obfuscated Payload Detection
@@ -43,7 +42,7 @@ A dependency graph makes single points of failure visible in a way that a chrono
 Combining that graph view with entropy-based file screening, consistent with CISSP Domain 3 and MITRE ATT&CK-aligned analysis, gives threat hunters two independent signals instead of relying on either one alone.
 
 ---
-# Koki's Technical Paper #014
+# テクニカルペーパーシリーズ #014
 
 ## 多次元デコーディング — 多次元の視覚的分析、ネットワークトポロジによる脅威ハンティング、および難読化ペイロード検出
 
