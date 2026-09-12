@@ -15,21 +15,21 @@ Structural Limits of Two-Dimensional Log Review:
 * **Undetected Single Points of Failure**: Without a topology-level view of how systems and services depend on one another, a single component whose compromise would affect many downstream systems can remain unidentified.
 * **Obfuscated Payloads Passing Signature Checks**: Malware that is packed, encrypted, or otherwise obfuscated can evade signature-based detection that expects to match known plaintext patterns.
 
-### 2. Methodological Foundation
+### 2. Topology and Entropy Detection Principles
 Graph-Based Topology Mapping and Entropy-Based Obfuscation Detection:
 
 * **Graph-Based Dependency Mapping**: Infrastructure components and their dependencies are modeled as a graph rather than a flat list, allowing analysts to visualize multi-hop relationships and potential lateral-movement paths consistent with MITRE ATT&CK technique categories.
 * **Shannon Entropy Analysis**: Files and code sections with entropy values statistically consistent with packed or encrypted content are flagged for manual or automated malware analysis, a heuristic widely used in static malware detection.
 * **Alignment with Baseline Boundary Controls**: Topology and entropy-based findings are reconciled with the baseline boundary controls defined in Technical Paper #001, keeping detection consistent with the wider security architecture.
 
-### 3. Pipeline Implementation
+### 3. Topology Rendering Sequence
 Topology Rendering and Anomaly Correlation:
 
 1. **Dependency Graph Construction**: Asset and network dependency data is compiled into a graph structure, replacing flat log review with a visual representation of how systems connect.
 2. **Automated Entropy Scanning**: Files entering the environment are scanned for entropy values above a defined threshold, flagging candidates for deeper static or dynamic malware analysis.
 3. **Path-Based Anomaly Correlation**: Correlation logic evaluates whether flagged files or connections form a plausible attack path across the dependency graph, prioritizing findings that align with a coherent multi-step technique sequence.
 
-### 4. Boundary Governance
+### 4. Topology-Aware Governance
 Topology-Aware Access Review:
 
 * **Prioritizing Single Points of Failure**: Topology analysis is used to prioritize hardening and monitoring effort on components whose compromise would affect the largest number of downstream systems.
