@@ -22,14 +22,14 @@ Response Minimization and Tokenization Controls:
 * **Session Isolation on Repeated Failure**: Nodes that repeatedly fail authentication are routed to an isolated handling path, preventing them from consuming resources allocated to verified sessions (see Technical Paper #013 for related response-timing controls).
 * **Inline Data Tokenization**: Sensitive data fields are replaced with non-reversible tokens before leaving the trust boundary, limiting exposure if a downstream system is compromised.
 
-### 3. Reverse Proxy Deployment Sequence
+### 3. Reverse Proxy Enforcement Sequence
 Three-Stage Deployment for Reverse Proxy Enforcement:
 
 1. **Baseline Policy Configuration**: Define allow-lists, authentication requirements, and tokenization rules for each cloud service integrated with the CASB.
 2. **Real-Time Traffic Inspection**: Inspect inbound and outbound traffic against the configured policy, flagging requests that do not meet authentication or data-handling requirements.
 3. **Automated Request Rejection and Logging**: Reject non-compliant requests at the perimeter and log the rejection for correlation with related security events (see Technical Paper #002 for SIEM integration).
 
-### 4. Resource Preservation and Threat Containment
+### 4. Containing the Cost of Reconnaissance
 Resource Preservation and Threat Containment:
 
 * **Limiting Response to Non-Compliant Requests**: Declining to process malformed or unauthenticated requests reduces the resources spent responding to reconnaissance and scanning activity.
@@ -66,14 +66,14 @@ Inline tokenization adds a second layer, so that traffic which does pass inspect
 * **認証失敗時のセッション分離**: 認証に繰り返し失敗するノードを分離された処理経路へルーティングし、検証済みセッションに割り当てられたリソースを消費させないようにします（応答タイミング制御の詳細はTechnical Paper #013を参照）。
 * **インライン型データトークン化**: 機密データフィールドは信頼境界を離れる前に復元不能なトークンへ置き換えられ、下流システムが侵害された場合の露出を制限します。
 
-### 3. リバースプロキシの展開手順
+### 3. リバースプロキシ適用の順序
 リバースプロキシ適用のための3段階の展開:
 
 1. **ベースラインポリシーの設定**: CASBと連携する各クラウドサービスについて、許可リスト、認証要件、トークン化ルールを定義します。
 2. **リアルタイムトラフィック検査**: 着信・発信トラフィックを設定済みポリシーと照合し、認証またはデータ取り扱い要件を満たさないリクエストを検出します。
 3. **自動拒否とログ記録**: 非準拠のリクエストを境界で拒否し、関連するセキュリティイベントとの相関分析のためにログを記録します（SIEM連携の詳細はTechnical Paper #002を参照）。
 
-### 4. リソース保全と脅威封じ込め
+### 4. 偵察コストの封じ込め
 リソース保全と脅威の封じ込め:
 
 * **非準拠リクエストへの応答制限**: 不正な形式や未認証のリクエストの処理を見送ることで、偵察・スキャン活動への対応に費やすリソースを削減します。
