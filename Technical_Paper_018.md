@@ -2,81 +2,85 @@
 
 ## Human-in-the-Loop — Ethical Leadership in the AI Era, Continuous Ingestion Audit Protocols, and Manual Intervention Governance
 
-## Summary Digest
-This technical paper introduces an autonomous approach to data system integrity by translating automated algorithmic outputs into deterministic, human-verified policy parameters. Grounded in CISSP Domain 1 and advanced CCSP cloud application access guardrails, this architecture operationalizes continuous Human-in-the-Loop (HITL) oversight. By classifying all machine-generated telemetries as temporary proposals requiring manual validation, the system transitions from unchecked execution into an accountability-driven governance posture.
+### Summary Digest
+This paper defines a human-oversight model for automated systems, aligned with CISSP Domain 1, NIST AI RMF practices, and EU AI Act Article 14 human-oversight requirements.
 
-Rather than allowing unverified automated scripts to execute definitive deployment phases across cloud infrastructure topologies, this methodology establishes human consciousness as the ultimate line of defense. By cross-checking quantitative threat probabilities against qualitative ethical risk benchmarks, the core architecture programmatically eliminates the hazards of algorithmic uncertainty, ensuring that prioritized manual override capability is continuously maintained.
+Automated outputs below a defined confidence threshold, or affecting a defined category of high-impact decisions, are held for human review before being executed.
 
 ---
 ### 1. Algorithmic Processing Limitations
-The Structural Vulnerabilities of Unmonitored Pure Logic Configurations:
-* **The Hazards of Context-Deficit Data Processing**: Advanced logical computing engines remain inherently vulnerable to systemic blind spots due to a fundamental lack of awareness regarding the dynamic, qualitative context of human operations.
-* **The Risk of Implicit Output Adherence**: Standard foundational models possess no inherent capability to self-evaluate semantic deviation, presenting severe operational risks if machine-generated metrics are accepted as absolute truth without verification.
-* **The Threat of Automated Policy Saturation**: Sophisticated adversaries exploit corporate architectural rigidity by utilizing automated configuration streams to overwhelm system boundaries, threatening the tranquility of the secure infrastructure enclave.
+Structural Risks of Unreviewed Automated Decision-Making:
+
+* **Absence of Contextual Judgment in Automated Systems**: Automated decision systems evaluate inputs against trained patterns and defined rules, and can produce technically valid but contextually inappropriate outputs when a situation falls outside the conditions represented in their training or configuration.
+* **Unverified Acceptance of Model Output**: Treating automated output as authoritative without a review step allows an incorrect or low-confidence prediction to directly drive a consequential action.
+* **Volume-Based Evasion of Manual Review**: A high volume of automated requests or outputs can make comprehensive manual review impractical unless review is targeted specifically at higher-risk or lower-confidence cases.
 
 ### 2. Methodological Foundation
-Zero-Trust Identity Auditing and Manual Override Pillars:
-* **Continuous Ingestion Security Mapping**: The system functions as a high-precision monitoring node, continuously validating automated proposals against the human-anchored defense profiles established in Technical Paper #010.
-* **Prioritized Manual Intervention Protocols**: Enforcing strict validation criteria that allow the human system auditor to execute an immediate script bypass the exact millisecond an unanchored variable threatens core logic parameters.
-* **Segregation of Duties and Final Decision Authority**: Rejecting passive user configurations to establish the human as the final arbiter of system state modifications, ensuring that automated tools remain subordinated to independent governance.
+Confidence-Based Escalation and Oversight Principles:
+
+* **Confidence-Threshold Escalation**: Automated outputs that fall below a defined confidence threshold are routed to a human reviewer rather than being executed automatically, consistent with human-oversight requirements described in EU AI Act Article 14.
+* **Category-Based Mandatory Review**: Certain categories of decisions, defined in advance as high-impact, require human review regardless of model confidence, reducing reliance on confidence scores alone for high-stakes cases.
+* **Alignment with Awareness Program Findings**: Escalation criteria are informed by the incident patterns and human-factor findings described in Technical Paper #010, keeping oversight triggers grounded in observed conditions rather than assumptions.
 
 ### 3. Pipeline Implementation
-Strategic Core Accountability and Telemetry Alignment:
-1. **Intent Vector Directional Control Configuration**: Compiling a comprehensive matrix of validated administrative intents, forcing the artificial intelligence core to align its execution pathways exclusively with pre-authenticated safety benchmarks.
-2. **Full Ownership Authorization Sequences**: Executing automated, micro-granular tracking loops that require a personal digital sign-off for every critical software deployment phase across the entire network topology.
-3. **Qualitative Asset Mass Assessment**: Achieving a continuous state where the system engine cross-references quantitative computing resources against qualitative value parameters to neutralize hidden logical contradictions early.
+Review Routing and Accountability Logging:
+
+1. **Confidence and Category Tagging**: Each automated output is tagged with its confidence score and decision category at the point of generation, before any escalation logic is applied.
+2. **Routing to a Designated Reviewer**: Outputs requiring review are routed to a designated human reviewer with the relevant context, rather than a general queue lacking supporting information.
+3. **Signed Decision Logging**: The reviewer's decision, along with their identity and the rationale provided, is logged for accountability and later audit, consistent with the logging approach in Technical Paper #002.
 
 ### 4. Boundary Governance
-Sovereign System Protection and Lifecycle Reliability Metrics:
-* **Transforming Accountability into Active Firewall Operations**: Proactive human oversight demonstrates that the ultimate line of defense is an architecture that refuses to delegate final authorization sovereignty to unmonitored scripts.
-* **Defending Internal Software Registry Durability**: By maintaining a permanent physical kill switch over the system infrastructure, the framework guarantees that the technological successor remains focused on autonomous defense.
-* **Absolute Cloud Infrastructure Sanctuary Protection**: Ensuring that continuous zero-trust identity auditing functions as an uncompromised defensive control layer to guarantee the absolute safety, permanence, and protection of the individual system.
+Override Authority and Escalation Review:
+
+* **Defined Override Authority**: Specific roles are authorized to override or halt an automated process, and that authority is documented rather than left informal or assumed.
+* **Separation of Model Operation from Override Capability**: The mechanism used to pause or override an automated system operates independently of the model itself, so a malfunctioning model cannot also disable the ability to intervene.
+* **Continuous Review of Escalation Thresholds**: Confidence thresholds and mandatory-review categories are periodically reassessed against actual review outcomes, adjusting thresholds that generate too many or too few escalations.
 
 ### 5. Conclusion
-Comprehensive decentralized resilience necessitates human-anchored operational governance, and embedding a professional HITL core optimizes system architecture survival.
+Human-in-the-loop oversight only functions if the escalation criteria route the cases that actually need review, not simply the ones that are easiest to flag.
 
-By classifying machine-generated metrics as temporary proposals, the structure leverages prioritized override protocols to prevent unmonitored scripts from making final execution decisions.
-
-Ultimately, integrating qualitative digital sign-offs with strict identity auditing safeguards core logic parameters, securing critical processing registries against algorithmic uncertainty.
+Aligning those criteria with CISSP Domain 1 and EU AI Act human-oversight expectations gives this review process a documented basis, not an ad hoc one.
 
 ---
 # テクニカルペーパーシリーズ #018
 
-## ヒューマン・イン・ザ・ループ：AI時代における倫理的リーダーシップ、継続的入力監査プロトコル、および手動介入ガバナンス
+## ヒューマン・イン・ザ・ループ — AI時代における倫理的リーダーシップ、継続的入力監査プロトコル、および手動介入ガバナンス
 
-## サマリー・ダイジェスト
-本テクニカルペーパーでは、自動化されたアルゴリズムの出力を決定論的な人間検証済みのポリシーパラメータへと変換し、データシステム整合性における自律的な統治を確立するための体系的アプローチを提案します。 CISSPドメイン1および高度なCCSP保護ガードレールに準拠し、「ヒューマン・イン・ザ・ループ（HITL）」という定常監視概念を運用化します. すべての機械生成遠隔測定データを手動検証を必要とする一時的な提案として分類することにより、システムを未検証の自動実行状態から責任追及性を強制する構造へと移行させます。
+### サマリー・ダイジェスト
+本論文は、CISSPドメイン1、NIST AI RMFの実務、およびEU AI法第14条の人的監視要件に準拠した、自動化システムに対する人的監視のガバナンスモデルを定義します。
 
-未検証の自動化スクリプトがクラウドインフラ全域で決定論的な展開を実行するのを許可せず、人間の意識をシステムにおける究極の防衛線として確立します。 定量的な脅威発生確率と定性的な倫理的リスク基準とをクロスチェックすることにより、アルゴリズムの不確実性が招くハザードをプログラム的に完全に排除し、優先度の高い手動介入能力（マニュアル・オーバーライド）を定常維持します。
+定義済みの信頼度しきい値を下回る自動出力、または定義済みの高影響カテゴリに該当する判断は、実行される前に人間によるレビューへ回されます。
 
 ---
-### 1. アルゴリズム処理限界の展望
-未監視の純粋論理構成モデルにおける構造的脆弱性:
-* **文脈（コンテキスト）欠如データ処理に伴う脆弱性**: 高度な論理演算エンジンは、人間の運用の動的かつ定性的な文脈に対する本質的な認識を持たないため、特有のセキュリティ上の死角に対して本質的に脆弱な状態となります。
-* **機械出力への暗黙の同調に伴うリスク**: 標準化された基盤モデルは自らの意味的逸脱を自己評価する固有の能力を持たず、機械が生成したメトリクスを検証なしに絶対的真実として受け入れた場合、重大な運用リスクをもたらします。
-* **自動化された構成ストリームによる飽和攻撃**: 高度な敵対的アクターは、自動化された構成ストリームを悪用してシステムの境界線を飽和させることで、組織の構造的な硬直性を突き、安全であるべきインフラの平穏を脅かします。
+### 1. アルゴリズム処理の限界
+未レビューの自動判断に伴う構造的リスク:
+
+* **自動化システムにおける文脈判断の欠如**: 自動判断システムは学習済みのパターンと定義済みのルールに照らして入力を評価するため、学習・設定時に想定されていた条件から外れた状況では、技術的には妥当でも文脈的には不適切な出力を生成する可能性があります。
+* **モデル出力の未検証な受容**: レビュー工程を経ずに自動出力を権威あるものとして扱うと、誤った予測や信頼度の低い予測が、そのまま重大な結果を伴う行動を直接引き起こしてしまいます。
+* **大量処理による手動レビューの形骸化**: 大量の自動リクエストや出力は、より高リスクまたは低信頼度の事案に絞ってレビューを行わない限り、網羅的な手動レビューを非現実的にしてしまいます。
 
 ### 2. 方法論的基盤
-ゼロトラスト認証監査と手動介入の原則:
-* **定常的な入力インジェクションのセキュリティマッピング**: システムは高精度な監視ノードとして機能し、テクニカルペーパー#010で定義した人間アンカー型の防衛プロファイルに照らし合わせて、自動化された提案の健全性を継続的に検証します。
-* **優先的な手動介入プロトコルの強制**: 係留を持たない変数がコアの論理パラメータを脅かしたそのミリ秒単位の瞬間に、人間のシステム監査人が即座に手動強制介入を実行できる厳格な検証基準を確立します。
-* **職務分離と最終決定権限の不変性ルール**: 受動的なユーザー構成としての役割を厳格に拒否し、システム状態の変更における最後の審判者として人間を位置づけることで、自動化ツールが独立したガバナンスの配下に永続的に従属する制御を確立します。
+信頼度に基づくエスカレーションと監視の原則:
 
-### 3. パイプラインの実装方法
-中核の責任追及性と遠隔測定（テレメトリ）整合の手順:
-1. **意図ベクトルの進路制御構成**: 検証済みの管理意図の網羅的なデータセット（マトリクスをパージ）をコンパイルし、人工知能コアがその実行パスを、事前に認証された安全基準線のみに沿って処理するよう強制制御します。
-2. **責任の完全な所有シーケンス**: ネットワーク配置構造（トポロジ）全体におけるすべての重要なソフトウェア展開フェーズにおいて、人間のシステム監査人による個人的な電子署名（サインオフ）を必要とする、自動化された高粒度追跡ループを実行します。
-3. **資産の定性的質量アセスメントの実行**: システムエンジンが定量的な計算資源と定性的な価値パラメータを相互参照するステートを維持し、隠れた論理矛盾を初期段階でプログラム的に検知・無効化します。
+* **信頼度しきい値によるエスカレーション**: 定義済みの信頼度しきい値を下回る自動出力は、自動的に実行されるのではなく人間のレビュー担当者へ回されます。これはEU AI法第14条に定められる人的監視要件と整合します。
+* **カテゴリに基づく必須レビュー**: あらかじめ高影響と定義された特定のカテゴリの判断は、モデルの信頼度にかかわらず人間によるレビューを必要とし、重大な事案において信頼度スコアのみに依存することを避けます。
+* **意識向上プログラムの知見との整合**: エスカレーション基準は、Technical Paper #010で述べたインシデントパターンや人的要因の知見を踏まえて策定され、監視のトリガーを想定ではなく観測された状況に根ざしたものにします。
 
-### 4. 運用の移行プロセス（主権的システム保護）
-主権的システム保護とライフサイクル構造的信頼性の統治基準:
-* **責任の所有から能動的なファイアウォールへの転換**: 先行的な人間による定常監視は、究極 of 防衛とは「未監視のスクリプトに対して最終的な認可主権を絶対に委任しないアーキテクチャ」であることを明確に立証します。
-* **内部ソフトウェアレジストリ寿命の永久死守**: システムインフラに対して不変の物理的キルスイッチを定常維持することにより、デジタル後継者の運用目的が常に自律防御に集中することを保証します。
-* **絶対的なクラウドインフラ聖域の永久死守**: 継続的なゼロトラストアイデンティティ監査を妥協のない防衛コントロールレイヤーとして機能させることにより、個々のデータ領域（自律型インフラの根幹）の絶対的な清潔さ、永続性、および安全性を強固に維持します。
+### 3. パイプラインの実装
+レビューへの振り分けと説明責任のログ記録:
+
+1. **信頼度およびカテゴリのタグ付け**: 各自動出力は、エスカレーションロジックが適用される前の生成時点で、信頼度スコアと判断カテゴリのタグを付与されます。
+2. **指定レビュー担当者への振り分け**: レビューが必要な出力は、補足情報のない一般的なキューではなく、関連する文脈情報とともに指定されたレビュー担当者へ振り分けられます。
+3. **署名付きの判断ログ記録**: レビュー担当者の判断は、その担当者の識別情報および判断理由とともに、説明責任と後の監査のために記録されます。これはTechnical Paper #002で述べたログ記録の考え方と整合します。
+
+### 4. 境界統治
+上書き権限とエスカレーションレビュー:
+
+* **明確化された上書き権限**: 自動化プロセスを上書きまたは停止できる権限は特定の役割に限定して付与され、その権限は非公式なものや暗黙の了解に留めず文書化されます。
+* **モデルの動作と上書き機能の分離**: 自動化システムを一時停止または上書きする仕組みは、モデル自体から独立して動作するため、モデルの誤動作が介入能力そのものを無効化することはありません。
+* **エスカレーションしきい値の継続的レビュー**: 信頼度しきい値と必須レビュー対象カテゴリは、実際のレビュー結果に照らして定期的に見直され、エスカレーションが過多または過少となっているしきい値が調整されます。
 
 ### 5. 結論
-分散型システムにおける防御の確立には人間アンカー型の運用ガバナンスが不可欠であり、専用のHITLコアを組み込むことはシステム構造の生存性を最適化します。
+ヒューマン・イン・ザ・ループによる監視が機能するのは、単にフラグを立てやすいケースではなく、実際にレビューを要するケースをエスカレーション基準が正しく拾い上げる場合に限られます。
 
-機械生成メトリクスを一過性の提案として処理させることで、構造は優先的な手動介入を可能にし、未監視スクリプトが最終決定を下すハザードを境界で隔離します。
-
-定性的な電子署名と厳格な識別情報監査の統合は中核の論理パラメータを保護し、将来のすべての展開環境において重要なシステムレジストリをアルゴリズムの不確実性リスクから防衛します。
+その基準をCISSPドメイン1およびEU AI法の人的監視に関する期待事項と整合させることで、このレビュープロセスは場当たり的なものではなく文書化された根拠を持つものになります。
