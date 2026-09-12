@@ -22,14 +22,14 @@ Security Awareness Training and Behavioral Reinforcement:
 * **Alignment with NIST SP 800-50 Guidance**: Awareness training content is structured according to NIST SP 800-50 recommendations for role-based training frequency and content depth.
 * **Positive Reporting Incentives**: Reporting a suspected phishing message is treated as a successful security outcome rather than a disruption, encouraging personnel to report rather than ignore suspicious messages.
 
-### 3. CVerification and Reporting Procedures
+### 3. Confirmation Channels and Reporting Workflow
 Verification Procedures and Escalation Pathways:
 
 1. **Out-of-Band Confirmation for Sensitive Requests**: Requests involving financial transactions, credential resets, or access changes are confirmed through a pre-established secondary channel before being processed.
 2. **Standardized Reporting Workflow**: A single, well-publicized reporting channel, such as a dedicated mailbox or a button integrated into the email client, is used to route suspected phishing messages to the security team for analysis.
 3. **Post-Incident Awareness Feedback**: Findings from reported or successful phishing attempts are used to update training content and simulation scenarios, closing the loop between incidents and awareness programs.
 
-### 4. Escalation Authority and Physical Access Controls
+### 4. Approval Authority and Physical Security Alignment
 Organizational Policy and Escalation Controls:
 
 * **Defined Escalation Authority**: Policies specify who is authorized to approve sensitive requests, reducing the ability of an impersonation attempt to succeed by claiming urgency or authority alone.
@@ -66,14 +66,14 @@ Consistent phishing simulation, out-of-band verification procedures, and CISSP D
 * **NIST SP 800-50指針との整合**: 意識向上教育の内容は、役割に応じた教育頻度と深度に関するNIST SP 800-50の推奨事項に沿って構成されます。
 * **報告行動への肯定的なインセンティブ**: フィッシングが疑われるメッセージの報告を、業務の妨げではなくセキュリティ上の成功と位置づけることで、不審なメッセージを無視せず報告する行動を促します。
 
-### 3. 確認と報告の手続き
+### 3. 確認経路と報告ワークフロー
 確認手続きとエスカレーション経路:
 
 1. **機微なリクエストに対する複数経路での確認**: 送金、認証情報のリセット、アクセス権変更を伴うリクエストは、処理される前に事前に定めた第二の経路で確認されます。
 2. **標準化された報告ワークフロー**: 専用の受付メールアドレスやメールクライアントに組み込まれたボタンなど、単一かつ周知された報告経路を用いて、フィッシングが疑われるメッセージをセキュリティチームの分析へ回します。
 3. **インシデント後の教育へのフィードバック**: 報告された、または成功してしまったフィッシング事案の知見を教育内容や演習シナリオの更新に活用し、インシデントと意識向上プログラムを結びつけます。
 
-### 4. エスカレーション権限と物理アクセス制御
+### 4. 承認権限と物理セキュリティの整合
 組織的なポリシーとエスカレーション統制:
 
 * **明確化されたエスカレーション権限**: 機微なリクエストを承認できる者をポリシーで明確に定めることで、緊急性や権威性を主張するだけでなりすましが成功する余地を減らします。
