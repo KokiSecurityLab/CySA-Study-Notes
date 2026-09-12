@@ -42,7 +42,7 @@ Automated recovery is only as reliable as the RTO and RPO targets and runbooks t
 Correlating each failure root cause with recovery configuration changes, consistent with CISSP Domain 7 and NIST SP 800-34, keeps hardening grounded in actual incident history.
 
 ---
-# Koki's Technical Paper #012
+# テクニカルペーパーシリーズ #012
 
 ## デジタルレジリエンス — システム復旧と再起動ロジック、根本原因に基づく強化、およびリカバリタイムオブジェクティブ
 
