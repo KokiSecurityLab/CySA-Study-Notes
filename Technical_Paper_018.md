@@ -40,7 +40,7 @@ By classifying machine-generated metrics as temporary proposals, the structure l
 Ultimately, integrating qualitative digital sign-offs with strict identity auditing safeguards core logic parameters, securing critical processing registries against algorithmic uncertainty.
 
 ---
-# Koki's Technical Paper #018
+# テクニカルペーパーシリーズ #018
 
 ## ヒューマン・イン・ザ・ループ：AI時代における倫理的リーダーシップ、継続的入力監査プロトコル、および手動介入ガバナンス
 
