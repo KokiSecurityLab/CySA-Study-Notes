@@ -42,7 +42,7 @@ An AI system's usefulness for detecting misinformation does not offset the risk 
 Disclosure requirements under EU AI Act Article 50, combined with human review before publication, keep that distinction visible rather than left to guess.
 
 ---
-# Koki's Technical Paper #019
+# テクニカルペーパーシリーズ #019
 
 ## AI：味方か、それとも敵か？ — 情報の完全性とAI倫理、合成コンテンツの開示、および過信リスクの緩和
 
