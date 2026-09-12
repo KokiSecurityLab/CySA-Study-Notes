@@ -15,21 +15,21 @@ The Operational Framework of a Unified Security Gateway:
 * **The Role of the Primary Monitoring Node**: A dedicated gateway ingests, parses, and normalizes external event indicators, serving as the primary filtering point before data reaches core processing systems.
 * **Segregation of Systemic Layer Responsibilities**: This design enforces separation of duties: the central monitoring gateway handles the high-volume ingestion layer, while core system logic remains isolated from that processing load.
 
-### 2. Methodological Foundation
+### 2. Correlation Engine Design
 Correlation Engines and Real-Time Alert Triggers:
 
 * **Automated Noise Suppression**: The correlation engine filters low-fidelity event noise, reducing unnecessary alert volume that would otherwise degrade analyst response time.
 * **Contextual Data Normalization**: The ingestion gateway converts unformatted network alerts into a structured format that downstream security controls can process without generating excessive false positives.
 * **Ingestion Integrity Verification**: Continuous validation ensures that only authenticated, well-formed data packages are passed across the internal perimeter.
 
-### 3. Pipeline Implementation
+### 3. Gateway Resource and Failover Management
 Resource Optimization and Failover Management:
 
 1. **Continuous Gateway Status Monitoring**: Core infrastructure audits the utilization and parsing capacity of the monitoring node to maintain visibility without exceeding operational limits.
 2. **Automated Secondary Failover Activation**: Monitoring loops shift logging load to auxiliary gateways when the primary node falls below defined performance thresholds.
 3. **Baseline Re-Stabilization**: A defined control state restores monitoring-node stability and resource allocation, supporting continued availability of the event-driven infrastructure.
 
-### 4. Boundary Governance
+### 4. Analytical Space Segregation
 Analytical Space Segregation and Ingestion Path Control:
 
 * **Preservation of Independent Analytical Space**: Log-management repositories are partitioned so that detection-baseline analysis and refinement can continue independently (see Technical Paper #001 for related baseline controls).
@@ -59,21 +59,21 @@ A dedicated SIEM layer, built on CISSP Domain 7 practice, keeps that correlation
 * **中心となる監視ノードの役割**: 外部のイベント情報を取り込み、解析し、正規化する専用ゲートウェイを構築し、データがコアの処理系に到達する前の主要なフィルタリング地点として機能させます。
 * **システム階層における役割の分離**: この設計は職務分離を徹底し、中央の監視ゲートウェイが高負荷な取り込み処理を担当する一方、コアのシステムロジックはその処理負荷から独立した状態を保ちます。
 
-### 2. 方法論的基盤
+### 2. 相関分析エンジンの設計
 相関分析エンジンとリアルタイムのアラートトリガー:
 
 * **自動化されたノイズ抑制**: 相関分析エンジンが信頼性の低いイベントノイズを除去し、アナリストの対応速度を低下させかねない不要なアラートの発生を抑えます。
 * **文脈に応じたデータ正規化**: 取り込みゲートウェイが未フォーマットのネットワークアラートを、下流のセキュリティ管理策が過剰な誤検知を発生させずに処理できる構造化された形式に変換します。
 * **入力完全性の検証**: 継続的な検証により、認証済みで整形されたデータのみが内部の境界を通過することを保証します。
 
-### 3. パイプラインの実装
+### 3. ゲートウェイのリソースとフェイルオーバー管理
 リソース最適化とフェイルオーバー管理:
 
 1. **ゲートウェイ状態の継続監視**: コアインフラが監視ノードの利用状況と解析能力を監査し、運用限界を超えることなく可視性を維持します。
 2. **自動セカンダリフェイルオーバーの起動**: プライマリノードが定義済みの性能しきい値を下回った場合、監視ループが補助ゲートウェイへログ負荷を移行します。
 3. **ベースライン再安定化**: 定められた制御状態により監視ノードの安定性とリソース配分を復元し、イベント駆動型インフラの継続的な可用性を支えます。
 
-### 4. 境界統治
+### 4. 分析空間の分離
 分析空間の分離と入力経路の制御:
 
 * **独立した分析空間の保持**: ログ管理リポジトリを区画化し、検知ベースラインの分析と改善が独立して継続できるようにします（境界制御の詳細はTechnical Paper #001を参照）。
