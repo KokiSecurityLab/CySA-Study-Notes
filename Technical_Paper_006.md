@@ -42,7 +42,7 @@ Post-incident findings become most useful when they are systematically converted
 This process, aligned with CISSP Domain 7 and the NIST incident-response lifecycle, reduces the likelihood that a previously exploited technique succeeds again.
 
 ---
-# Koki's Technical Paper #006
+# テクニカルペーパーシリーズ #006
 
 ## 事後分析 — 失敗に基づく防御最適化、ポストインシデント監査、およびインフラ強化アップデートプロトコル
 
