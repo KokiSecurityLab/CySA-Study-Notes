@@ -22,14 +22,14 @@ Resilience Through Cryptographic Tunnel Integration:
 * **Encapsulating Security Payload (ESP) Implementation**: Strict packet-encapsulation rules separate the data payload from transport headers, limiting what internal metadata is observable to external monitoring.
 * **Alignment with Baseline Boundary Controls**: Tunnel configuration updates are reconciled with the baseline boundary controls defined in Technical Paper #001, keeping cryptographic defenses consistent with the wider security architecture.
 
-### 3. Authenticating the Tunnel Before Trusting It
+### 3. Authentication and Integrity Verification for Tunnels
 Asynchronous Gateway Hardening and Authentication Strategies:
 
 1. **Authentication Header (AH) Configuration**: A dataset of trusted node identities is compiled, and real-time data-origin authentication is deployed to verify the integrity and origin of incoming traffic streams.
 2. **Real-Time Tunnel Integrity Auditing**: Automated scanning loops check for packet manipulation within transit buffers, isolating affected traffic as soon as a manipulation flag is raised.
 3. **Scheduled Protocol Version Review**: The system undergoes scheduled review of tunnel configuration and protocol versions against known injection and downgrade tactics, applying updates before affected versions remain in production.
 
-### 4. Migrating Away From Implicit Trust
+### 4. Trust Migration and Access Control at the Perimeter
 Deterministic Network Governance and Tunnel Robustness Metrics:
 
 * **Conversion from Unprotected Traffic States**: The communication interface is migrated from unencrypted, openly exposed connections to a structured gateway architecture that enforces IPsec tunnel protocols by default.
@@ -66,14 +66,14 @@ Deriving these configurations from documented connection-failure history, rather
 * **カプセル化セキュリティペイロード（ESP）の実装**: データペイロードをトランスポートヘッダーから分離する厳格なパケットカプセル化ルールを適用し、外部の監視から観測可能な内部メタデータの範囲を制限します。
 * **ベースライン境界統制との整合**: トンネル構成の更新をTechnical Paper #001で定義されたベースライン境界統制と突き合わせ、暗号による防御をより広いセキュリティアーキテクチャと一貫させます。
 
-### 3. 信頼する前にトンネルを認証する
+### 3. トンネルにおける認証と整合性検証
 非同期ゲートウェイ強化と認証戦略:
 
 1. **認証ヘッダー（AH）の構成**: 信頼されたノードIDのデータセットを収集し、着信するトラフィックストリームの完全性と発信元を検証するリアルタイムのデータ発信元認証を導入します。
 2. **リアルタイムのトンネル完全性監査**: 転送バッファ内のパケット改ざんを検出する自動スキャンループを展開し、改ざんフラグが立った時点で該当トラフィックを隔離します。
 3. **定期的なプロトコルバージョンレビュー**: 既知のインジェクションおよびダウングレード手法に照らして、トンネル構成とプロトコルバージョンを定期的にレビューし、該当バージョンが本番環境に残る前に更新を適用します。
 
-### 4. 暗黙の信頼からの移行
+### 4. 信頼モデルの移行と境界でのアクセス制御
 決定論的ネットワークガバナンスとトンネル堅牢性の指標:
 
 * **未保護のトラフィック状態からの移行**: 通信インターフェースを、暗号化されず露出した状態から、既定でIPsecトンネルプロトコルを強制する構造化されたゲートウェイアーキテクチャへ移行させます。
