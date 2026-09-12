@@ -42,7 +42,7 @@ Scanning alone does not reduce risk until findings are prioritized and acted on.
 Scoring vulnerabilities with CVSS and routing high-severity findings through the hardening pipeline defined here, consistent with CISSP Domain 1 and CASP+ guidance, converts a scan report into an actual reduction in exposure.
 
 ---
-# Koki's Technical Paper #004
+# テクニカルペーパーシリーズ #004
 
 ## 脆弱性管理 — 先行的な脅威モデリング、定常スキャン、およびリスクの優先順位付けと緩和プロトコル
 
