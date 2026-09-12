@@ -15,21 +15,21 @@ Structural Risks of Unreviewed Automated Decision-Making:
 * **Unverified Acceptance of Model Output**: Treating automated output as authoritative without a review step allows an incorrect or low-confidence prediction to directly drive a consequential action.
 * **Volume-Based Evasion of Manual Review**: A high volume of automated requests or outputs can make comprehensive manual review impractical unless review is targeted specifically at higher-risk or lower-confidence cases.
 
-### 2. Escalation Principles
+### 2. Confidence Scores Decide Who Reviews What
 Confidence-Based Escalation and Oversight Principles:
 
 * **Confidence-Threshold Escalation**: Automated outputs that fall below a defined confidence threshold are routed to a human reviewer rather than being executed automatically, consistent with human-oversight requirements described in EU AI Act Article 14.
 * **Category-Based Mandatory Review**: Certain categories of decisions, defined in advance as high-impact, require human review regardless of model confidence, reducing reliance on confidence scores alone for high-stakes cases.
 * **Alignment with Awareness Program Findings**: Escalation criteria are informed by the incident patterns and human-factor findings described in Technical Paper #010, keeping oversight triggers grounded in observed conditions rather than assumptions.
 
-### 3. Review Routing Sequence
+### 3. Tagging, Routing, and Logging the Decision
 Review Routing and Accountability Logging:
 
 1. **Confidence and Category Tagging**: Each automated output is tagged with its confidence score and decision category at the point of generation, before any escalation logic is applied.
 2. **Routing to a Designated Reviewer**: Outputs requiring review are routed to a designated human reviewer with the relevant context, rather than a general queue lacking supporting information.
 3. **Signed Decision Logging**: The reviewer's decision, along with their identity and the rationale provided, is logged for accountability and later audit, consistent with the logging approach in Technical Paper #002.
 
-### 4. Override Authority Review
+### 4. Keeping the Override Switch Independent
 Override Authority and Escalation Review:
 
 * **Defined Override Authority**: Specific roles are authorized to override or halt an automated process, and that authority is documented rather than left informal or assumed.
@@ -59,21 +59,21 @@ Aligning those criteria with CISSP Domain 1 and EU AI Act human-oversight expect
 * **モデル出力の未検証な受容**: レビュー工程を経ずに自動出力を権威あるものとして扱うと、誤った予測や信頼度の低い予測が、そのまま重大な結果を伴う行動を直接引き起こしてしまいます。
 * **大量処理による手動レビューの形骸化**: 大量の自動リクエストや出力は、より高リスクまたは低信頼度の事案に絞ってレビューを行わない限り、網羅的な手動レビューを非現実的にしてしまいます。
 
-### 2. エスカレーションの原則
+### 2. 信頼度スコアが誰のレビューかを決める
 信頼度に基づくエスカレーションと監視の原則:
 
 * **信頼度しきい値によるエスカレーション**: 定義済みの信頼度しきい値を下回る自動出力は、自動的に実行されるのではなく人間のレビュー担当者へ回されます。これはEU AI法第14条に定められる人的監視要件と整合します。
 * **カテゴリに基づく必須レビュー**: あらかじめ高影響と定義された特定のカテゴリの判断は、モデルの信頼度にかかわらず人間によるレビューを必要とし、重大な事案において信頼度スコアのみに依存することを避けます。
 * **意識向上プログラムの知見との整合**: エスカレーション基準は、Technical Paper #010で述べたインシデントパターンや人的要因の知見を踏まえて策定され、監視のトリガーを想定ではなく観測された状況に根ざしたものにします。
 
-### 3. レビュー振り分け手順
+### 3. タグ付け・振り分け・判断の記録
 レビューへの振り分けと説明責任のログ記録:
 
 1. **信頼度およびカテゴリのタグ付け**: 各自動出力は、エスカレーションロジックが適用される前の生成時点で、信頼度スコアと判断カテゴリのタグを付与されます。
 2. **指定レビュー担当者への振り分け**: レビューが必要な出力は、補足情報のない一般的なキューではなく、関連する文脈情報とともに指定されたレビュー担当者へ振り分けられます。
 3. **署名付きの判断ログ記録**: レビュー担当者の判断は、その担当者の識別情報および判断理由とともに、説明責任と後の監査のために記録されます。これはTechnical Paper #002で述べたログ記録の考え方と整合します。
 
-### 4. 上書き権限レビュー
+### 4. 上書きスイッチを独立させておく
 上書き権限とエスカレーションレビュー:
 
 * **明確化された上書き権限**: 自動化プロセスを上書きまたは停止できる権限は特定の役割に限定して付与され、その権限は非公式なものや暗黙の了解に留めず文書化されます。
