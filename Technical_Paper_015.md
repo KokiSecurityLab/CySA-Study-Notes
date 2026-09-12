@@ -42,7 +42,7 @@ An allow-list only provides protection if it is actually smaller than the set of
 Pairing that allow-list with digital signature verification, consistent with OWASP Top 10 and CISSP Domain 1, closes the gap session-metadata-only trust would otherwise leave open.
 
 ---
-# Koki's Technical Paper #015
+# テクニカルペーパーシリーズ #015
 
 ## 自律型プロトコル — 独立した論理検証、入力コマンドのサニタイズ、および分散型アクセス制御ガバナンス
 
