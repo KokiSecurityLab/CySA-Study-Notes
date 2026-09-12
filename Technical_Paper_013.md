@@ -42,7 +42,7 @@ A stolen but technically valid credential still has to pass as the account's nor
 Keeping that behavioral check continuous, rather than confined to login, is what separates this approach from traditional single-point authentication under CISSP Domain 5.
 
 ---
-# Koki's Technical Paper #013
+# テクニカルペーパーシリーズ #013
 
 ## サイレンス・アルゴリズム — 非言語戦略分析、行動生体認証、および継続的認証
 
