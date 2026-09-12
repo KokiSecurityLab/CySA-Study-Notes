@@ -15,7 +15,7 @@ Structural Vulnerabilities of Externally Deployed Security Tools:
 * **Absence of a Verified Boot Chain**: Systems that do not verify each stage of the boot process against a trusted reference have no guarantee that the operating system loaded at startup matches its intended, unmodified state.
 * **Undetected Configuration Drift at the Kernel Level**: Without continuous comparison against a known-good baseline, low-level configuration changes, including those made by a rootkit, can persist undetected for extended periods.
 
-### 2. Hardware Root of Trust Principles
+### 2. Hardware-Anchored Verification Design
 Root of Trust and Continuous Integrity Verification:
 
 * **Hardware Root of Trust**: A hardware-anchored root of trust, such as a Trusted Platform Module (TPM), provides a verified starting point that later boot and configuration checks can be measured against.
@@ -23,7 +23,7 @@ Root of Trust and Continuous Integrity Verification:
 * **Alignment with Baseline Boundary and Behavioral Controls**: Kernel-integrity findings are reconciled with the baseline boundary controls defined in Technical Paper #001 and the behavioral-anomaly indicators defined in Technical Paper #013, keeping detection consistent across the wider security architecture.
 
 ### 3. Signature Capture and Automated Restoration
-Root of Trust Verification and Automated Remediation:
+Ongoing Discrepancy Scanning at Defined Intervals:
 
 1. **Baseline Signature Capture**: A cryptographic signature of the verified, known-good kernel and configuration state is captured and stored as the reference for later comparison.
 2. **Continuous Discrepancy Scanning**: Automated scans compare the current runtime state against the stored signature on a defined interval, flagging any deviation for review.
@@ -59,7 +59,7 @@ Extending that verification into continuous runtime monitoring, consistent with 
 * **検証済み起動チェーンの欠如**: 起動プロセスの各段階を信頼済みの参照値と照合しないシステムには、起動時に読み込まれるオペレーティングシステムが意図した未改ざんの状態と一致しているという保証がありません。
 * **カーネルレベルでの検知されない構成ドリフト**: 既知の正常なベースラインとの継続的な比較がなければ、ルートキットによるものを含む低レイヤーの構成変更が長期間検知されないまま持続する可能性があります。
 
-### 2. ハードウェアRoot of Trustの原則
+### 2. ハードウェアに基づく検証設計
 Root of Trustと継続的な整合性検証:
 
 * **ハードウェアRoot of Trust**: TPM（Trusted Platform Module）などハードウェアに固定されたRoot of Trustは、以降の起動チェックや構成チェックの基準となる検証済みの出発点を提供します。
@@ -67,7 +67,7 @@ Root of Trustと継続的な整合性検証:
 * **ベースライン境界統制および行動統制との整合**: カーネル整合性の検知結果をTechnical Paper #001で定義されたベースライン境界統制、およびTechnical Paper #013で定義された行動異常指標と突き合わせ、より広いセキュリティアーキテクチャ全体で検知を一貫させます。
 
 ### 3. 署名取得と自動復元
-Root of Trustの検証と自動修復:
+定義済み間隔での継続的な不一致スキャン:
 
 1. **ベースライン署名の取得**: 検証済みで既知の正常なカーネルおよび構成状態の暗号学的署名を取得し、以降の比較の基準として保存します。
 2. **継続的な不一致スキャン**: 定義済みの間隔で現在のランタイム状態を保存済みの署名と自動比較し、逸脱を検出した場合はレビュー対象としてフラグ付けします。
