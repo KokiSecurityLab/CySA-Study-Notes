@@ -1,82 +1,88 @@
+arkdown
 # Koki's Technical Paper #023
 
 ## AI Hallucinations — Theory of Information Gravity via Grounding, Generative Output Governance, and RAG Integrity Verification
 
-## Summary Digest
-This technical paper introduces a deterministic approach to generative artificial intelligence governance by translating unverified hallucination risks into identifiable structural mass parameters. Grounded in CISSP Domain 3 and advanced CCSP cloud protection guidelines, this architecture operationalizes rigorous data-grounding techniques. By modeling factual metadata as a gravitational anchor, the system programmatically identifies ungrounded, probabilistic data streams as floating, zero-gravity anomalies.
+### Summary Digest
+This paper defines a RAG verification framework, aligned with CISSP Domain 8 and NIST AI RMF, that scores each generated claim by how well retrieved passages support it.
 
-Rather than processing language generation outputs based on unverified token-probability optimization, this methodology filters all runtime inferences through an active verification pipeline leveraging Retrieval-Augmented Generation (RAG). By routing incoming vector streams through a specialized policy validation structure and applying semantic density scoring, the architecture programmatically intercepts information drift prior to finalization. This optimization transforms an unguided utility into an audit-compliant, highly secure verification enclave.
+Claims below a defined support threshold, termed an information-gravity score, are withheld or flagged for review rather than returned as fact.
 
 ---
-### 1. Behavioral Anomaly Risks
-The Structural Vulnerabilities of Probabilistic LLM Generation:
-* **The Hallucination Failure Mode Mechanisms**: Generative architectures consistently output inaccurate or entirely fabricated informational arrays with high mathematical confidence, creating severe system alignment risks when unverified telemetry drifts from factual parameters.
-* **The Vulnerability of Zero-Gravity Asset Drift**: Within the model architecture, ungrounded datasets possess zero structural mass and exist merely as optimized probability vectors, presenting a severe security hazard by drifting completely away from validated fact baselines.
-* **The Ingestion Frontier Misinformation Hazard**: Because hallucinated data precisely mimics legitimate programmatic responses, unmonitored integration introduces severe misinformation vectors into secure operational sanctuaries, corrupting core system variables.
+### 1. Ungrounded Generation Risk
+Structural Risks of Unverified Language-Model Output:
 
-### 2. Methodological Foundation
-Measuring Information Gravity via Explicit Grounding:
-* **The Empirical Principles of Data Weight**: Building upon the "Information Gravity" core principles established in Technical Paper #011, this framework posits that verifiable data possesses inherent structural weight anchored to empirical facts, whereas hallucinated outputs float as unanchored anomalies.
-* **Explicit In-Line Grounding Sequences**: To arrest operational drift, this methodology deploys an explicit sequence that systematically binds the language generation engine to specific, authenticated datasets via Retrieval-Augmented Generation (RAG).
-* **Deterministic Fact Anchoring Metrics**: The verification layer continuously measures data weight by forcing the generative architecture to route text compilation through designated knowledge bases, transforming speculative pathfinding into a rule-bounded verification process.
+* **High-Confidence Fabrication**: Language models can produce fluent, confidently-phrased statements that are factually incorrect, a documented failure mode commonly referred to as hallucination, without any signal in the output format itself indicating reduced reliability.
+* **Retrieval Bypass Under Load or Failure**: Systems that fall back to generating from parametric knowledge alone when a retrieval step fails or times out lose the grounding that RAG is intended to provide, without necessarily surfacing that degradation to the user.
+* **Superficially Plausible Unsupported Claims**: Generated text that closely mimics the style of grounded, well-cited content can be mistaken for verified output even when no retrieved passage actually supports the specific claim being made.
 
-### 3. Pipeline Implementation
-Implementing the Three-Stage Fact-Checking Filter:
-1. **Retrieval Check and RAG Integration**: Setting a high-density, authoritative reference log or manual as the primary computational weight, instantly terminating the operational sequence if the generated response vector drifts beyond strict logical boundaries.
-2. **Cross-Verification Fact-Checking Framework**: Routing the generative text stream through a real-time validation platform that cross-references speculative logic with validated real-world metrics, categorizing outputs lacking empirical mass as systemic failures.
-3. **High-Granularity Density Validation Protocols**: Evaluating the semantic density, technical granularity, and internal consistency of the output to act as an automated filter that purges hollow, probabilistic data structures before they intersect with the core operational layer.
+### 2. Faithfulness Scoring Foundation
+Retrieval Grounding and Claim-Support Measurement:
 
-### 4. Boundary Governance
-Transforming Generative Drift into Structural Intelligence:
-* **Conversion from Unanchored Stochastic States**: Transitioning the language generation engine from an ungrounded, unverified system entity to an automated, structured gateway architecture that permanently binds the model to the objective terrain of verified truth.
-* **Rule-Bounded Pathfinding Enforcements**: Forcing all incoming data vectors to execute via designated logical checkpoints, transforming speculative text construction into a rule-bounded verification process.
-* **Absolute Ingestion Perimeter Protection**: Ensuring that continuous information gravity auditing functions as an uncompromised defensive control layer to guarantee the absolute safety and permanent sanctuary status of the individual system.
+* **Mandatory Retrieval Before Generation**: The language model is required to retrieve relevant source passages before generating a response, consistent with the Retrieval-Augmented Generation (RAG) approach.
+* **Information-Gravity Scoring**: Each generated claim is scored for how directly it is supported by the retrieved passages, using entailment-based comparison between the claim and the source text rather than the model's own stated confidence.
+* **Alignment with Human-Escalation Controls**: Claims that score below a defined support threshold are escalated according to the human-review process defined in Technical Paper #018, rather than being returned to the user unmodified.
+
+### 3. Retrieval, Scoring, and Filtering Sequence
+Three-Stage Fact-Checking Pipeline:
+
+1. **Source Retrieval and Ranking**: Relevant passages are retrieved from an authenticated knowledge base and ranked by relevance before being passed to the generation step.
+2. **Claim-Level Support Scoring**: Each factual claim in the generated response is compared against the retrieved passages, and an information-gravity score is calculated based on the degree of textual and semantic support found.
+3. **Threshold-Based Filtering**: Claims scoring below the defined threshold are removed, rephrased as uncertain, or routed to human review before the response is returned.
+
+### 4. Retrieval Pipeline Governance
+Knowledge-Base Integrity and Scoring Model Review:
+
+* **Restricting Generation to Authenticated Sources**: The retrieval step draws only from a defined, access-controlled knowledge base, consistent with the source-verification approach defined in Technical Paper #011, rather than an open-ended external search.
+* **Logged Retrieval-to-Claim Mapping**: The specific passages used to support each claim are logged alongside the response, providing an audit trail that connects generated text back to its source material.
+* **Continuous Scoring-Model Calibration**: The information-gravity scoring model is periodically reviewed against manually verified examples to confirm it still distinguishes supported from unsupported claims accurately.
 
 ### 5. Conclusion
-Comprehensive ingestion defense necessitates generative infrastructure resilience against hallucination errors, and embedding a professional information gravity core optimizes database survival.
+A model's fluency says nothing about whether a specific claim is actually supported by a retrieved source, which is why support must be measured separately.
 
-By routing runtime inferences through active RAG pipelines, the architecture leverages explicit anchoring sequences to programmatically bind the language engine to authenticated datasets.
-
-Ultimately, integrating semantic density validation with strict compliance governance purges hollow data structures, securing core operational layers against ungrounded stochastic drift.
+Scoring claims against retrieved passages, per CISSP Domain 8 and NIST AI RMF, gives grounds to withhold a claim rather than present it as fact.
 
 ---
-# Koki's Technical Paper #023
+# テクニカルペーパーシリーズ #023
 
-## AIのハルシネーション：グラウンディングによる情報重力理論の検証、生成出力ガバナンス、およびRAG完全性検証プロトコル
+## AIハルシネーション — グラウンディングによる情報重力理論、生成出力ガバナンス、およびRAG完全性検証
 
-## サマリー・ダイジェスト
-本テクニカルペーパーでは、検証されていないハルシネーションリスクを検証可能な構造的質量パラメータへと変換し、生成AIガバナンスにおける決定論的な保護を確立する体系的アプローチを提案します。CISSPドメイン3および高度なCCSP指針に準拠し、厳格なデータ・グラウンディング技術を運用化することで、根拠のない確率的なデータストリームを浮遊する無重力の異常値として正確に識別します。
+### サマリー・ダイジェスト
+本論文は、CISSPドメイン8およびNIST AI RMFに準拠したRAG（検索拡張生成）検証フレームワークを定義し、生成された各主張を、取得済みの文書によってどれだけ裏付けられているかでスコアリングします。
 
-トークン確率の最適化のみに依存せず、ランタイム推論のすべてを検索拡張生成（RAG）を活用した能動的検証パイプラインに通して精査します. 受信するベクトルストリームを専門の構造層に強制ルーティングし、意味的密度のスコアリングを適用することで、情報の逸脱をプログラム的に排除し、モデルを構造的現実に係留された堅牢な検証領域へと移行させます。
+定義済みの裏付けしきい値を下回る主張は「情報重力スコア」と呼ばれる指標に基づき、事実として返されるのではなく保留またはレビュー対象としてフラグ付けされます。
 
 ---
-### 1. AIモデルにおける行動アノマリーリスクの展望
-確率的テキスト生成がモたらすシステムリスクの展望:
-* **ハルシネーション障害の発生メカニズム**: 生成型構造が数学的に高い確信度を持ちながら不正確または完全に捏造された情報配列を一貫して出力する致命的な障害モードであり、セキュリティ運用の核心となります。
-* **無重力なデータ浮遊に伴う脆弱性**: 未接地なデータセットは単なる確率ベクトルとしてしか存在せず、客観的な現実と照らし合わせた場合に構造的質量を一切持たないため、事実の基準線から完全に逸脱することで深刻なリスクをもたらします。
-* **入力境界における汚染ハザード**: 捏造データは正当なプログラム応答を巧妙に模倣するため、不適切な統合は安全であるべき運用環境に深刻な誤情報ベクトルを混入させ、中核のシステム変数を破壊します。
 
-### 2. 方法論的基盤
-グラウンディングによる情報重力の測定原則:
-* **データ質量（ファクトの重量）の理論**: テクニカルペーパー#011で確立された「情報重力理論」に基づき、検証可能なデータは客観的事実に固定された固有の構造的重量を保持すると定義し、これに対しハルシネーション出力は処理ロジック内で係留を持たない異常値として浮遊します。
-* **インライン型明示的グラウンディングシーケンス**: 運用の逸脱を阻止するため、言語生成エンジンを検索拡張生成（RAG）経由で特定・認証されたデータセットに系統的に結合する明示的な制御手順を展開します。
-* **決定論的な事実の固定とログスケーリング評価**: 検証レイヤーはテキストの構築プロセスを指定された知識基盤（ナレッジベース）に強制的にルーティングすることでデータの重量を継続的に測定し、思索的なパス探索を規則に拘束された検証プロセスへと変換します。
+### 1. 未接地な生成のリスク
+未検証の言語モデル出力に伴う構造的リスク:
 
-### 3. パイプラインの実装方法
-3段階のファクトチェックフィルターの実装手順:
-1. **検索チェックとRAG統合**: 高密度で信頼性の高い履歴測定ログまたは手引書を主要な計算上の「重み」として設定し、生成された応答ベクトルがこの参照資料の厳格な論理境界を超えて逸脱した場合、運用手順を即座に強制終了します。
-2. **相互検証ファクトチェックフレームワーク**: 生成されたテキストストリームを、思索的なロジックと検証済みの現実世界の測定データとを相互参照するリアルタイム検証プラットフォームにルーティングし、必要な客観的質量が不足している場合にシステム障害として分類します。
-3. **高粒度な密度検証プロトコルの強制**: 出力の意味的密度、技術的粒度、および内部整合性を評価し、この制御レイヤーが中核となる運用レイヤーに到達する前に中身のない確率的なデータ構造を排除する自動フィルターとして機能させます。
+* **高い確信度を伴う捏造**: 言語モデルは、事実に反する内容であっても流暢で確信度の高い言い回しの文章を生成することがあります。これは一般に「ハルシネーション」と呼ばれる文書化された失敗モードであり、出力の見た目自体には信頼性低下を示す手がかりがありません。
+* **負荷・障害時の検索バイパス**: 検索ステップが失敗またはタイムアウトした際にパラメトリック知識のみからの生成へフォールバックするシステムは、RAGが本来提供するはずの裏付けを失いますが、その劣化がユーザーに必ずしも明示されるとは限りません。
+* **表面的にもっともらしい未裏付けの主張**: 根拠のある、よく引用された内容の文体を巧妙に模倣した生成テキストは、実際にはその特定の主張を裏付ける取得済み文書が存在しない場合でも、検証済みの出力と誤認される可能性があります。
 
-### 4. 運用の移行プロセス（生成的な逸脱から構造的インテグリティへの変換）
-生成的な逸脱から構造的インテリジェンスへの変換:
-* **未接地な確率的ステートからの完全自動脱却**: 構造的なグラウンディングを持たずに動作する生成言語モデルという一時的な状態から、モデルを検証済みの真実という客観的な領域に永続的に結びつける、自動化された構造的中継ゲートウェイへと移行させます。
-* **規則に拘束されたテキスト経路探索の強制**: すべての着信データベクトルに対して指定された論理チェックポイントの通過を強制し、思索的なパス探索をルールに縛られた検証プロセスへと転換します。
-* **取り込み境界の永久死守**: 継続的な情報重力監査を妥協のない防衛コントロールレイヤーとして機能させることにより、デジタル環境全体の絶対的な安全性と、不変の聖域としてのステートを強固に維持します。
+### 2. 忠実性スコアリングの基盤
+検索による裏付けと主張支持度の測定:
+
+* **生成前の検索の必須化**: 言語モデルは、応答を生成する前に関連する情報源を検索することを義務付けられます。これはRAG（検索拡張生成）のアプローチと整合します。
+* **情報重力スコアリング**: 生成された各主張は、モデル自身が述べる確信度ではなく、主張と情報源テキストとの含意関係に基づく比較を用いて、取得済み文書によってどれだけ直接的に裏付けられているかでスコアリングされます。
+* **人的エスカレーション統制との整合**: 定義済みの裏付けしきい値を下回る主張は、無修正のままユーザーへ返されるのではなく、Technical Paper #018で定義した人的レビュープロセスに沿ってエスカレーションされます。
+
+### 3. 検索・スコアリング・フィルタリングの手順
+3段階のファクトチェックパイプライン:
+
+1. **情報源の検索とランキング**: 生成ステップへ渡される前に、認証済みのナレッジベースから関連する文書を検索し、関連度に応じてランキングします。
+2. **主張単位の支持度スコアリング**: 生成された応答内の各事実主張を取得済み文書と照合し、見つかったテキスト的・意味的な裏付けの程度に基づいて情報重力スコアを算出します。
+3. **しきい値に基づくフィルタリング**: 定義済みのしきい値を下回る主張は、応答が返される前に削除、不確実である旨への言い換え、または人的レビューへの回付が行われます。
+
+### 4. 検索パイプラインのガバナンス
+ナレッジベースの完全性とスコアリングモデルのレビュー:
+
+* **生成対象を認証済みソースに限定**: 検索ステップは、無制限な外部検索ではなく、Technical Paper #011で定義したソース検証アプローチと整合する、定義済みでアクセス制御されたナレッジベースのみを参照します。
+* **検索結果と主張の対応関係の記録**: 各主張を裏付けるために使用された具体的な文書は応答とともに記録され、生成テキストを情報源まで遡って追跡できる監査証跡を提供します。
+* **スコアリングモデルの継続的な較正**: 情報重力スコアリングモデルは、手動で検証済みの事例と照合して定期的にレビューされ、裏付けのある主張とない主張を引き続き正確に区別できているかを確認します。
 
 ### 5. 結論
-入力レイヤーにおける防御の確立にはハルシネーションエラーに対する生成インフラのレジリエンスが不可欠であり、専用の情報重力コアを組み込むことはデータベース全体の生存性を最適化します。
+モデルの流暢さは、ある主張が実際に取得済みの情報源によって裏付けられているかどうかについて何も示さないため、その裏付けは別途測定する必要があります。
 
-ランタイム推論を能動的なRAGパイプラインに通過させることで、アーキテクチャは明示的なグラウンディングを強制し、言語エンジンを認証データセットへプログラム的に結合します。
-
-高粒度な密度検証と厳格なガバナンスの統合は中身のない確率的データ構造を確実に排除し、将来のすべての展開環境で中核の運用レイヤーを未接地の確率的ドリフトから防衛します。
+取得済みの文書と主張を照合してスコアリングすることは、CISSPドメイン8およびNIST AI RMFに沿いつつ、主張を事実として提示するのではなく保留する根拠をこのシステムに与えます。
