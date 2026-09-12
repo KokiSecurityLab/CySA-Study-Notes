@@ -22,7 +22,7 @@ Correlation Engines and Real-Time Alert Triggers:
 * **Contextual Data Normalization**: The ingestion gateway converts unformatted network alerts into a structured format that downstream security controls can process without generating excessive false positives.
 * **Ingestion Integrity Verification**: Continuous validation ensures that only authenticated, well-formed data packages are passed across the internal perimeter.
 
-### 3. Gateway Resource and Failover
+### 3. Gateway Resilience and Failover
 Resource Optimization and Failover Management:
 
 1. **Continuous Gateway Status Monitoring**: Core infrastructure audits the utilization and parsing capacity of the monitoring node to maintain visibility without exceeding operational limits.
