@@ -22,14 +22,14 @@ Static Typing and Schema Validation Alignment for AI Interfaces:
 * **Schema Validation of Model Output**: Model responses, particularly structured tool-call or function-call output, are validated against a defined JSON schema before being accepted as input to any downstream action.
 * **Alignment with CISSP Domain 8 and OWASP LLM Guidance**: Input and output validation controls for the AI interface are mapped to CISSP Domain 8 secure-development practices and the OWASP Top 10 for LLM Applications.
 
-### 3. Three-Stage AI Validation Sequence
+### 3. Prompt Enforcement, Output Validation, and Logging
 Three-Stage Validation for AI Request and Response Handling:
 
 1. **Outbound Prompt Schema Enforcement**: The TypeScript layer validates user input against an allowed-input schema before it is incorporated into a prompt sent to the model.
 2. **Inbound Output Schema Validation**: Model responses are parsed against a strict response schema in Python before any structured field is used to trigger an application action.
 3. **Rejection and Logging of Non-Conforming Responses**: Responses that fail schema validation are rejected and logged for review rather than passed to execution logic (see Technical Paper #002 for related SIEM correlation).
 
-### 4. Output Trust Boundaries and Execution Scope
+### 4. Untrusted Output Handling and Tool-Call Restriction
 Trust Boundary Enforcement Between Model Output and Application Logic:
 
 * **Model Output Treated as Untrusted Input**: Structured output from the model is treated with the same trust level as external user input, requiring validation before it can affect application state.
@@ -66,14 +66,14 @@ AIインターフェースにおける静的型付けとスキーマ検証の整
 * **モデル出力のスキーマ検証**: 特に構造化されたツール呼び出しや関数呼び出しの出力を、下流アクションへの入力として受け入れる前に定義済みのJSONスキーマと照合します。
 * **CISSPドメイン8およびOWASP LLMガイダンスとの整合**: AIインターフェースの入出力検証統制を、CISSPドメイン8のセキュア開発実務およびOWASP LLM Top 10に対応付けます。
 
-### 3. AI検証の3段階手順
+### 3. プロンプト強制・出力検証・ログ記録
 AIリクエストおよび応答処理のための3段階検証:
 
 1. **送信プロンプトのスキーマ強制**: TypeScript層は、モデルへ送信するプロンプトに組み込まれる前のユーザー入力を許可済みスキーマと照合します。
 2. **受信出力のスキーマ検証**: モデル応答は、構造化されたフィールドがアプリケーションの動作を引き起こす前に、Python側で厳格な応答スキーマと照合されます。
 3. **非準拠応答の拒否とログ記録**: スキーマ検証に失敗した応答は実行ロジックへ渡されずに拒否・記録されます（SIEM連携の詳細はTechnical Paper #002を参照）。
 
-### 4. 出力の信頼境界と実行範囲の制御
+### 4. 未信頼出力の取り扱いとツール呼び出しの制限
 モデル出力とアプリケーションロジック間の信頼境界の強制:
 
 * **モデル出力を未信頼入力として扱う**: モデルからの構造化出力は外部ユーザー入力と同等の信頼レベルで扱われ、アプリケーションの状態に影響を与える前に検証が必要とされます。
