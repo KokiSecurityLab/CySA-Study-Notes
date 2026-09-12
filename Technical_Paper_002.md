@@ -22,7 +22,7 @@ Correlation Engines and Real-Time Alert Triggers:
 * **Contextual Data Normalization**: The ingestion gateway converts unformatted network alerts into a structured format that downstream security controls can process without generating excessive false positives.
 * **Ingestion Integrity Verification**: Continuous validation ensures that only authenticated, well-formed data packages are passed across the internal perimeter.
 
-### 3. Gateway Resource and Failover Management
+### 3. Gateway Resource and Failover
 Resource Optimization and Failover Management:
 
 1. **Continuous Gateway Status Monitoring**: Core infrastructure audits the utilization and parsing capacity of the monitoring node to maintain visibility without exceeding operational limits.
@@ -66,7 +66,7 @@ A dedicated SIEM layer, built on CISSP Domain 7 practice, keeps that correlation
 * **文脈に応じたデータ正規化**: 取り込みゲートウェイが未フォーマットのネットワークアラートを、下流のセキュリティ管理策が過剰な誤検知を発生させずに処理できる構造化された形式に変換します。
 * **入力完全性の検証**: 継続的な検証により、認証済みで整形されたデータのみが内部の境界を通過することを保証します。
 
-### 3. ゲートウェイのリソースとフェイルオーバー管理
+### 3. ゲートウェイの耐障害性とフェイルオーバー
 リソース最適化とフェイルオーバー管理:
 
 1. **ゲートウェイ状態の継続監視**: コアインフラが監視ノードの利用状況と解析能力を監査し、運用限界を超えることなく可視性を維持します。
