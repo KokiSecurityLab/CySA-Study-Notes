@@ -42,7 +42,7 @@ Technical controls alone do not address attacks that succeed by manipulating a p
 Consistent phishing simulation, out-of-band verification procedures, and CISSP Domain 1-aligned awareness training reduce the likelihood that a social engineering attempt reaches a successful outcome.
 
 ---
-# Koki's Technical Paper #010
+# テクニカルペーパーシリーズ #010
 
 ## ハッカー心理学 — 人間要素と防御、ソーシャルエンジニアリング対策、およびセキュリティ意識向上教育
 
