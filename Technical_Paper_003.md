@@ -15,21 +15,21 @@ The Structural Framework of Non-Absorption Ingestion Strategies:
 * **Default-Deny Posture for Unauthenticated Traffic**: The reverse proxy treats all inbound data as untrusted by default, rejecting requests that fail authentication before they reach backend services.
 * **Separation of Traffic Metadata from Payload Handling**: Isolating connection metadata from payload inspection allows the gateway to log and analyze attack characteristics without exposing backend systems to the payload itself.
 
-### 2. Methodological Foundation
+### 2. Response Minimization and Tokenization
 Response Minimization and Tokenization Controls:
 
 * **Minimal Response Disclosure**: Withholding non-essential response data from unauthenticated sources limits the information available to automated scanning and reconnaissance tools.
 * **Session Isolation on Repeated Failure**: Nodes that repeatedly fail authentication are routed to an isolated handling path, preventing them from consuming resources allocated to verified sessions (see Technical Paper #013 for related response-timing controls).
 * **Inline Data Tokenization**: Sensitive data fields are replaced with non-reversible tokens before leaving the trust boundary, limiting exposure if a downstream system is compromised.
 
-### 3. Pipeline Implementation
+### 3. Reverse Proxy Deployment Sequence
 Three-Stage Deployment for Reverse Proxy Enforcement:
 
 1. **Baseline Policy Configuration**: Define allow-lists, authentication requirements, and tokenization rules for each cloud service integrated with the CASB.
 2. **Real-Time Traffic Inspection**: Inspect inbound and outbound traffic against the configured policy, flagging requests that do not meet authentication or data-handling requirements.
 3. **Automated Request Rejection and Logging**: Reject non-compliant requests at the perimeter and log the rejection for correlation with related security events (see Technical Paper #002 for SIEM integration).
 
-### 4. Boundary Governance
+### 4. Resource Preservation and Threat Containment
 Resource Preservation and Threat Containment:
 
 * **Limiting Response to Non-Compliant Requests**: Declining to process malformed or unauthenticated requests reduces the resources spent responding to reconnaissance and scanning activity.
@@ -59,21 +59,21 @@ Inline tokenization adds a second layer, so that traffic which does pass inspect
 * **未認証トラフィックに対するデフォルト拒否**: リバースプロキシは着信データを既定で未信頼として扱い、認証に失敗したリクエストをバックエンドサービスに到達する前に拒否します。
 * **トラフィックのメタデータとペイロード処理の分離**: 接続メタデータとペイロード検査を分離することで、ゲートウェイはバックエンドシステムをペイロードにさらすことなく攻撃の特徴を記録・分析できます。
 
-### 2. 方法論的基盤
+### 2. 応答最小化とトークン化
 応答の最小化とトークン化による制御:
 
 * **応答内容の最小開示**: 未認証の送信元に対して不要な応答情報を返さないことで、自動スキャンや偵察ツールが利用できる情報を制限します。
 * **認証失敗時のセッション分離**: 認証に繰り返し失敗するノードを分離された処理経路へルーティングし、検証済みセッションに割り当てられたリソースを消費させないようにします（応答タイミング制御の詳細はTechnical Paper #013を参照）。
 * **インライン型データトークン化**: 機密データフィールドは信頼境界を離れる前に復元不能なトークンへ置き換えられ、下流システムが侵害された場合の露出を制限します。
 
-### 3. パイプラインの実装
+### 3. リバースプロキシの展開手順
 リバースプロキシ適用のための3段階の展開:
 
 1. **ベースラインポリシーの設定**: CASBと連携する各クラウドサービスについて、許可リスト、認証要件、トークン化ルールを定義します。
 2. **リアルタイムトラフィック検査**: 着信・発信トラフィックを設定済みポリシーと照合し、認証またはデータ取り扱い要件を満たさないリクエストを検出します。
 3. **自動拒否とログ記録**: 非準拠のリクエストを境界で拒否し、関連するセキュリティイベントとの相関分析のためにログを記録します（SIEM連携の詳細はTechnical Paper #002を参照）。
 
-### 4. 境界統治
+### 4. リソース保全と脅威封じ込め
 リソース保全と脅威の封じ込め:
 
 * **非準拠リクエストへの応答制限**: 不正な形式や未認証のリクエストの処理を見送ることで、偵察・スキャン活動への対応に費やすリソースを削減します。
