@@ -15,21 +15,21 @@ The Structural Vulnerabilities of Implicit Perimeter Trust Models:
 * **The Vulnerability of Compromised Session Tokens**: Relying on a single point-in-time credential check leaves systems exposed if an adversary hijacks an already-authenticated session to issue further requests.
 * **Lateral Movement Following a Single Compromise**: Rigid network architectures allow an attacker who compromises one peripheral node to move laterally before manual security controls can respond.
 
-### 2. Continuous Verification Principles
+### 2. Continuous Verification Over Standing Trust
 Zero-Trust Architecture and Continuous Verification Principles:
 
 * **Continuous Per-Request Verification**: Consistent with NIST SP 800-207, every request is verified independently of prior authentication history rather than being granted standing trust after an initial login.
 * **Centralized SSO Ingestion Controls**: All external authentication requests are consolidated through a single, hardened validation gateway, ensuring consistent cryptographic checks across every access attempt.
 * **Alignment with Baseline Boundary Controls**: Identity and access tokens are reconciled with the baseline boundary controls defined in Technical Paper #001, keeping access governance consistent with the wider security architecture.
 
-### 3. Access Monitoring Sequence
+### 3. Dynamic Tokens and Behavioral Baselines
 Tactical Access Monitoring and Privilege Isolation Strategies:
 
 1. **Dynamic Token Issuance**: Authenticated identities are issued short-lived behavioral tokens that require continued verification to maintain access, rather than long-lived static credentials.
 2. **Real-Time Behavioral Anomaly Auditing**: Automated monitoring compares live session behavior against established baselines, flagging connection attempts that deviate from a user's typical access pattern.
 3. **Automated Segment Isolation**: Sessions exhibiting unauthenticated parameter drift are automatically isolated into a restricted segment, limiting the reach of a potential compromise before it affects core systems.
 
-### 4. Least-Privilege Enforcement
+### 4. Scoping Access to the Task at Hand
 Least-Privilege Enforcement and Access Review Metrics:
 
 * **Least-Privilege Access by Default**: Each authenticated session is scoped to the minimum set of permissions required for its specific task, consistent with the least-privilege principle in CISSP Domain 5.
@@ -59,21 +59,21 @@ Pairing this verification model with micro-segmented registries, consistent with
 * **侵害されたセッショントークンの脆弱性**: 単一時点での資格情報チェックのみに依存すると、攻撃者がすでに認証済みのセッションを乗っ取ってさらなるリクエストを発行した場合にシステムが露出します。
 * **単一の侵害に続く横方向の移動**: 硬直的なネットワークアーキテクチャでは、単一の周辺ノードを侵害した攻撃者が、手動のセキュリティ制御が対応する前に横方向へ移動できてしまいます。
 
-### 2. 継続的検証の原則
+### 2. 常時信頼ではなく継続的検証
 ゼロトラストアーキテクチャと継続的検証の原則:
 
 * **リクエスト単位の継続的検証**: NIST SP 800-207に準拠し、すべてのリクエストは過去の認証履歴に基づく既定の信頼を与えられるのではなく、個別に検証されます。
 * **集中管理型SSOの入力制御**: 外部からのすべての認証リクエストを単一の堅牢な検証ゲートウェイに集約し、あらゆるアクセス試行に対して一貫した暗号検証を行います。
 * **ベースライン境界統制との整合**: アイデンティティおよびアクセストークンをTechnical Paper #001で定義されたベースライン境界統制と突き合わせ、アクセス統治をより広いセキュリティアーキテクチャと一貫させます。
 
-### 3. アクセス監視手順
+### 3. 動的トークンと行動ベースライン
 戦術的アクセス監視と特権隔離の戦略:
 
 1. **動的トークンの発行**: 認証済みのアイデンティティには、長期間有効な静的資格情報ではなく、継続的な検証を要する短命の行動トークンが発行されます。
 2. **リアルタイムの行動異常監査**: 自動監視によりライブセッションの挙動を確立済みのベースラインと比較し、ユーザーの典型的なアクセスパターンから逸脱する接続要求にフラグを立てます。
 3. **自動セグメント隔離**: 未認証のパラメータドリフトを示すセッションは自動的に制限セグメントへ隔離され、侵害の可能性がコアシステムに影響を及ぼす前にその範囲を限定します。
 
-### 4. 最小権限の適用
+### 4. アクセスを目の前のタスクに限定する
 最小権限の適用とアクセスレビューの指標:
 
 * **既定での最小権限アクセス**: 認証済みの各セッションは、CISSPドメイン5の最小権限原則に沿って、その特定のタスクに必要な最小限の権限範囲に限定されます。
