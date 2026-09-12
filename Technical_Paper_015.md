@@ -15,7 +15,7 @@ Structural Vulnerabilities of Unvalidated Remote Commands:
 * **Spoofed Authority in Session Requests**: Relying on session metadata alone to establish trust allows an attacker who has compromised or spoofed a session to issue commands that appear to originate from a legitimate source.
 * **Instruction Flooding as a Cover for Injection**: A high volume of automated instructions can be used to obscure a small number of malicious commands within legitimate traffic, complicating manual review during an active incident.
 
-### 2. Allow-Listing and Digital Signature Verification
+### 2. Trust Narrowing Before Execution
 Allow-List Verification and Code-Signing Principles:
 
 * **Command Allow-Listing**: Only commands matching a predefined, reviewed allow-list are eligible for execution, reducing the set of possible actions available to an attacker who bypasses perimeter controls.
@@ -29,7 +29,7 @@ Tactical Input Rejection and Signature Verification:
 2. **Real-Time Signature Matching**: Incoming instructions are checked against the allow-list and signature database in real time, before any command is passed to internal processing logic.
 3. **Automated Rejection and Logging**: Instructions that fail allow-list or signature verification are rejected and logged for correlation with related security events (see Technical Paper #002 for SIEM integration).
 
-### 4. Distributed Enforcement and Continuous Auditing
+### 4. Multi-Point Authorization Enforcement
 Distributed Authorization and Command Review:
 
 * **Distributed Policy Enforcement**: Authorization decisions are evaluated consistently across multiple enforcement points using a shared policy definition, rather than relying on a single centralized gatekeeper that could become a bottleneck or single point of failure.
@@ -59,7 +59,7 @@ Pairing that allow-list with digital signature verification, consistent with OWA
 * **セッションリクエストにおける権威のなりすまし**: セッションのメタデータのみに基づいて信頼を確立すると、セッションを侵害またはなりすましした攻撃者が正規の発信元であるかのように見せかけたコマンドを発行できてしまいます。
 * **インジェクションを隠す手段としての命令フラッディング**: 大量の自動化された命令は、正規のトラフィックの中にわずかな悪意あるコマンドを紛れ込ませる手段として利用され、インシデント対応中の手動レビューを困難にします。
 
-### 2. アローリスト化とデジタル署名検証
+### 2. 実行前における信頼範囲の絞り込み
 アローリスト検証とコード署名の原則:
 
 * **コマンドのアローリスト化**: 事前に定義・レビューされたアローリストに一致するコマンドのみが実行対象となり、境界統制を回避した攻撃者が取り得る行動の範囲を狭めます。
@@ -73,7 +73,7 @@ Pairing that allow-list with digital signature verification, consistent with OWA
 2. **リアルタイムの署名照合**: 着信する命令はアローリストおよび署名データベースとリアルタイムで照合され、内部処理ロジックへ渡される前に検証されます。
 3. **自動拒否とログ記録**: アローリストまたは署名検証に失敗した命令は拒否・記録され、関連するセキュリティイベントとの相関分析に用いられます（SIEM連携の詳細はTechnical Paper #002を参照）。
 
-### 4. 分散適用と継続的監査
+### 4. 複数地点での認可適用
 分散型認可とコマンドレビュー:
 
 * **分散型ポリシー適用**: 認可判断は、単一の中央集権的なゲートキーパー（ボトルネックや単一障害点となり得る）に依存するのではなく、共有されたポリシー定義を用いて複数の適用ポイントで一貫して評価されます。
