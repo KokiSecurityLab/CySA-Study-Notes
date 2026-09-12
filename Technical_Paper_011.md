@@ -42,7 +42,7 @@ Distinguishing verified from unverified content depends on corroboration and pro
 Applying C2PA-aligned provenance verification alongside CISSP Domain 2 data-integrity practices reduces the likelihood that fabricated or poisoned data reaches production systems undetected.
 
 ---
-# Koki's Technical Paper #011
+# テクニカルペーパーシリーズ #011
 
 ## 情報の重力 — 論理ベースの誤情報対策、ソース出自検証、およびデータポイズニング検出
 
