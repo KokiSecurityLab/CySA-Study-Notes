@@ -42,7 +42,7 @@ Treating prompts and model output as inputs requiring validation, not trusted in
 Applying CISSP Domain 8 practices alongside the OWASP LLM Top 10 gives this TypeScript-Python pairing a concrete basis for handling unpredictable model behavior.
 
 ---
-# Koki's Technical Paper #005
+# テクニカルペーパーシリーズ #005
 
 ## Python＆TypeScript — AIセキュリティにおけるプログラミングシナジー、構造化出力の検証、およびLLM入力制御
 
