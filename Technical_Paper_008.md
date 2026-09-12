@@ -42,7 +42,7 @@ Verifying every request independently, rather than trusting a session once it pa
 Pairing this verification model with micro-segmented registries, consistent with CISSP Domain 5 and NIST SP 800-207, limits how far a single compromised token can reach.
 
 ---
-# Koki's Technical Paper #008
+# テクニカルペーパーシリーズ #008
 
 ## SSO＆ゼロトラスト — アイデンティティベースのアクセス戦略、継続的認証、およびセッションハイジャック緩和プロトコル
 
