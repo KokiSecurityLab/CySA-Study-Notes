@@ -42,7 +42,7 @@ Continuous file-integrity monitoring, tied to cryptographic baseline hashing, gi
 Default-deny access control at the perimeter keeps that signal meaningful by limiting how much unauthenticated traffic ever reaches the monitored files, consistent with CySA+ practice.
 
 ---
-# Koki's Technical Paper #001
+# テクニカルペーパーシリーズ #001
 
 ## FIM＆トリップワイヤー — ファイル整合性監視、取り込み監査、および境界侵入検知
 
