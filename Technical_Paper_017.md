@@ -42,7 +42,7 @@ Sharing threat indicators only helps if the sharing happens before, not after, m
 Structuring that sharing around STIX and TAXII, consistent with CISSP Domain 4, gives this propagation a standard format rather than one tied to a single vendor's tools.
 
 ---
-# Koki's Technical Paper #017
+# テクニカルペーパーシリーズ #017
 
 ## エンタングルメント・ファイアウォール — ゼロレイテンシとスウォーム警戒の統合、分散型脅威インテリジェンス共有、および自動ノード隔離
 
