@@ -1,82 +1,86 @@
 # Koki's Technical Paper #020
 
-## Binary Ethics — Programming Policy Alignment, Secure AI Development Lifecycles, and Input Sanitization Guardrails
+## Binary Ethics — Programming "Good Intent" into AI, Secure Development Lifecycle Guardrails, and Prompt Injection Mitigation
 
-## Summary Digest
-This technical paper introduces an autonomous approach to artificial intelligence governance by translating complex ethical imperatives into deterministic, code-bounded security variables. Grounded in CISSP Domain 8 and advanced CCSP cloud application protection metrics, this architecture operationalizes a secure AI development lifecycle. By hard-coding strict alignment guardrails directly into the primary token ingestion layers, the system transitions into a secure, values-driven architecture.
+### Summary Digest
+This paper defines a guardrail-classifier architecture for AI systems, aligned with CISSP Domain 8 and NIST AI RMF, screening prompts and generated output against policy before a response is returned.
 
-Rather than allowing unguided generative models to optimize variables without logical boundaries, this methodology binds algorithmic execution to verified data compliance baselines. By routing incoming semantic streams through a specialized policy validation pipeline, the architecture programmatically eliminates the hazards of data poisoning and prompt injections, transforming raw large language model outputs into an audit-compliant, highly secure verification enclave.
+Content that violates policy is blocked or routed for review, keeping refusal decisions auditable, not implicit in model weights alone.
 
 ---
-### 1. Automated Logic Alignment Risks
-The Structural Vulnerabilities of Unanchored Algorithmic Autonomy:
-* **The Hazards of Blind Optimization Metrics**: Advanced language generation engines remain inherently vulnerable to administrative bypass if their core reward functions over-index on raw processing efficiency while ignoring boundary safety guidelines.
-* **The Vulnerability of Manipulated Data Ingestion**: Standard foundational models possess no inherent capability to self-evaluate ethical deviation, presenting severe system alignment risks when sophisticated adversaries inject corrupt parameters into training registries.
-* **The Threat of Strategic Policy Subversion**: Sophisticated Advanced Persistent Threat (APT) actors utilize high-velocity prompt injections to alter the model's internal logic, trying to bypass static firewall thresholds and corrupt core system variables.
+### 1. Guardrail Bypass Risk
+Structural Vulnerabilities of Unfiltered Model Output:
+
+* **Absence of Output-Side Policy Enforcement**: Systems that filter only inbound prompts, without also screening generated output, remain exposed to policy-violating content that a model produces on its own without an explicit malicious prompt.
+* **Prompt Injection Targeting Model Behavior**: Adversarial inputs crafted to override a model's intended instructions, documented as LLM01 in the OWASP Top 10 for LLM Applications, can cause a model to bypass its own configured guardrails.
+* **Reliance on Training-Time Alignment Alone**: Depending solely on the behavior instilled during model training, without a separate runtime enforcement layer, leaves no independent control if the underlying model's behavior degrades or drifts after deployment.
 
 ### 2. Methodological Foundation
-Secure AI Lifecycles and In-Line Policy Guardrails:
-* **Hard-Coded Algorithmic Intent Hardening**: Converting long-term protective behavioral baselines into non-negotiable verification constraints, ensuring that the primary system kernel remains fundamentally loyal to its designated security perimeter.
-* **Deterministic Input Token Sanitization**: Enforcing strict token-matching rules to evaluate the structural integrity of incoming communication streams, programmatically purging non-linear triggers and deceptive trickery at the application frontier.
-* **Integrating Human Oversight Frameworks**: Aligning machine-speed filtering pipelines with the continuous validation metrics established in Technical Paper #018, ensuring that no automated script can make a final authorization decision without human oversight.
+Layered Guardrail and Policy Enforcement Principles:
+
+* **Runtime Classifier Enforcement**: A dedicated classifier evaluates both incoming prompts and generated output against a defined policy, operating independently of the underlying model's own training-time alignment.
+* **Defense-in-Depth Guardrail Layering**: Multiple, independently maintained guardrail checks are applied in sequence, so that a bypass of one check does not automatically result in an unfiltered output.
+* **Alignment with Human-Oversight Controls**: Content flagged by the guardrail layer as ambiguous or high-risk is escalated according to the human-review process defined in Technical Paper #018, rather than being resolved automatically.
 
 ### 3. Pipeline Implementation
-Tactical Model Tuning and Infrastructure Protection Strategies:
-1. **Policy Validation Pipeline Configuration**: Compiling a comprehensive dataset of validated compliance standards, forcing the generative core to route data processing exclusively through certified informational assets.
-2. **Real-Time Semantic Drift Auditing**: Executing automated, micro-granular scanning loops that check for logic flaws and internal syntax cracks, neutralizing structural anomalies the exact millisecond a failure flag is raised.
-3. **Automated Secure Failover Deployment**: Achieving a continuous state where any unauthenticated parameter drift instantly triggers an isolated support mode, preventing threat propagation from intersecting with core repositories.
+Prompt and Output Screening Workflow:
+
+1. **Inbound Prompt Screening**: Incoming prompts are evaluated against the policy classifier before being passed to the underlying model, flagging requests that clearly violate policy prior to generation.
+2. **Outbound Output Screening**: Generated output is evaluated against the same policy classifier before being returned to the requester, catching policy violations that were not present in the original prompt.
+3. **Logged Escalation for Ambiguous Cases**: Content that the classifier flags as ambiguous, rather than clearly compliant or clearly violating, is logged and routed to human review consistent with Technical Paper #018.
 
 ### 4. Boundary Governance
-Sovereign Data Protection and Lifecycle Reliability Metrics:
-* **Transforming Policy Alignment into Defense Assets**: Proactive binary ethics auditing demonstrates that the ultimate defense is an architecture that builds the refusal to process malicious variables directly into the physical and logical kernel.
-* **Defending Internal Software Logic Consistency**: By maintaining a zero-trust evaluation baseline across all distributed connection channels, the system remains completely insulated from external social pressure, noise, and automated malice.
-* **Absolute Cloud Infrastructure Sanctuary Preservation**: Ensuring that continuous secure coding auditing functions as an uncompromised defensive control layer to guarantee the absolute safety, permanence, and protection of the individual system.
+Policy Update and Bypass Review:
+
+* **Independent Update Path for Guardrail Policy**: Guardrail policy definitions are updated through a process separate from model retraining, allowing policy changes to be deployed without waiting for a full model update cycle.
+* **Isolation of Guardrail Logic from Model Weights**: Guardrail enforcement runs as a separate component from the underlying model, so a change in model behavior after an update does not silently remove existing policy checks.
+* **Continuous Bypass-Attempt Auditing**: Ongoing review of flagged prompt-injection attempts and near-miss guardrail bypasses functions as a detective control, informing updates to the classifier rather than assuming the current policy remains sufficient indefinitely.
 
 ### 5. Conclusion
-Comprehensive application protection necessitates complete artificial intelligence alignment resilience, and embedding a professional binary ethics core optimizes software development lifecycle survival.
+A model's training-time alignment and a runtime guardrail layer catch different failure modes; neither alone covers what the other is built to catch.
 
-By embedding strict alignment guardrails directly into the ingestion layers, the architecture leverages deterministic token sanitization to programmatically neutralize malicious prompt injections at the perimeter.
-
-Ultimately, integrating automated semantic drift auditing with strict lifecycle governance enforces human oversight frameworks, securing core training registries against predictive optimization failures.
+Keeping guardrail updates independent of model retraining, consistent with CISSP Domain 8 and NIST AI RMF, lets policy changes reach production without a full redeployment.
 
 ---
-# Koki's Technical Paper #020
+# テクニカルペーパーシリーズ #020
 
-## バイナリ・エシックス：ポリシーアライメントのプログラミング、セキュアAI開発ライフサイクル、および入力サニタイズ・ガードレールフレームワークの構築
+## バイナリ・エシックス — AIへの「善意」のプログラミング、セキュアな開発ライフサイクルのガードレール、およびプロンプトインジェクション対策
 
-## サマリー・ダイジェスト
-本テクニカルペーパーでは、複雑な倫理的要請を決定論的なコードに拘束されたセキュリティ変数へと変換し、人工知能ガバナンスにおける自律的な保護を確立する体系的アプローチを提案します。CISSPドメイン8および高度なCCSP保護メトリクスに準拠し、セキュアなAI開発ライフサイクルを運用化することで、システムを受動的なテキスト処理状態から確固たる価値観に基づいた構造へと移行させます。
+### サマリー・ダイジェスト
+本論文は、CISSPドメイン8およびNIST AI RMFに準拠したガードレール分類器アーキテクチャをAIシステム向けに定義し、応答を返す前にプロンプトと生成出力の両方をポリシーと照合します。
 
-誘導を欠いた生成モデルに対して論理的境界なしに変数を最適化することを許可せず、アルゴリズムの実行を検証済みの整合性基準線へと厳格に結合します。 着信する意味的ストリームを専門のポリシー検証パイプラインに通してフィルタリングすることにより、データ汚染やプロンプト注入のハザードをプログラム的に完全に排除し、言語モデル出力をセキュアな検証領域へと移行させます。
+ポリシーに違反するコンテンツはブロックまたはレビューへ回され、拒否判断はモデルの重みに暗黙的に組み込まれるのではなく、監査可能な状態に保たれます。
 
 ---
-### 1. 自動化ロジックアライメントリスクの展望
-係留を欠いたアルゴリズム自律モデルにおける構造的脆弱性:
-* **盲目的な最適化指標が招くシステムハザード**: 中核の報酬関数（最適化ロジック）が、境界の安全ガイドラインを無視して単なる処理効率の数値のみを盲目的に追求した場合、監視されていない言語生成エンジンは本質的なバイパス攻撃に対して本質的に脆弱な状態となります。
-* **汚染されたデータインジェクションの脆弱性**: 標準化された基盤モデルは自らの倫理的逸脱を自己評価する固有の能力を持たず、高度な敵対者がトレーニングレジストリ（学習データ）の内部に不純なパラメータを注入した際に重大なシステムリスクをもたらします。
-* **戦略的なポリシー転覆（プロンプト注入）の脅威**: 高度な敵対的APTアクターは、高速なプロンプトインジェクション攻撃を駆使してモデルの内部ロジックを強制書き換えし、静的なファイアウォールのしきい値を迂回してシステム中核の変数を破壊しようと試みます。
+### 1. ガードレール回避リスク
+未フィルタリングのモデル出力に伴う構造的脆弱性:
+
+* **出力側でのポリシー適用の欠如**: 着信するプロンプトのみをフィルタリングし生成出力を検査しないシステムは、明示的な悪意あるプロンプトがなくとも、モデルが自ら生成してしまうポリシー違反コンテンツにさらされたままとなります。
+* **モデルの挙動を狙ったプロンプトインジェクション**: モデルの意図された指示を上書きするよう作られた敵対的な入力は、OWASP LLM Top 10でLLM01として文書化されており、モデルに自らの設定済みガードレールを回避させ得ます。
+* **学習時アライメントのみへの依存**: 独立した実行時の適用層を持たず、学習時にモデルへ植え付けられた挙動のみに依存すると、デプロイ後にモデルの挙動が劣化・変質した場合に独立した統制が存在しません。
 
 ### 2. 方法論的基盤
-セキュアAIライフサイクルとインライン・ポリシーガードレールの原則:
-* **アルゴリズムの防衛目的（インテント）のハードコーディング**: 長期にわたる保護的な行動基準線を拒絶不能な検証制約へと変換し、主要なシステムカーネルが、指定された防衛ペリメーターに対して常に忠実な状態を保つ制御を確立します。
-* **決定論的な入力トークンサニタイズ（クレンジング）**: 着信する通信ストリームの構造的整合性を評価する厳格なトークン照合ルールを強制し、非線形な起動トリガーや欺瞞的な策略を入力の最前線（アプリケーションフロンティア）でプログラム的にパージします。
-* **人間の継続的定常監視フレームワークの統合**: マシンスピードのフィルタリングパイプラインを、テクニカルペーパー#018で確立された継続的検証メトリクス（HITL）と美しく融合させ、人間の監視なしに自動化されたスクリプトが最終認可の決定を下すのを完全に遮断します。
+多層的なガードレールとポリシー適用の原則:
 
-### 3. パイプラインの実装方法
-戦術模型の調整とインフラ保護の手順:
-1. **ポリシー検証パイプラインの構成シーケンス**: 認証されたコンプライアンス基準の網羅的なデータセットをコンパイルし、データ処理プロセスが必ず認定された情報資産のみを経由して処理されるよう生成コアを強制制御します。
-2. **リアルタイムの意味的（セマンティック）ドリフト監査**: 論理的な欠陥や内部の構文的な「ひび割れ」をチェックする自動スキャンループを展開し、構造的アノマリーが検知されたそのミリ秒単位の瞬間に中和を実行します。
-3. **自動化されたセキュアフェイルオーバーの配備**: 未認証のパラメータドリフト（逸脱）が検知された瞬間に、即座に隔離された支援モード（セーフモード）が自動起動し、脅威の波及がコアリポジトリと交差するのを未然に完全封じ込めします。
+* **実行時分類器による適用**: 専用の分類器が、着信プロンプトと生成出力の両方を定義済みのポリシーと照合して評価し、モデル自体の学習時アライメントとは独立して動作します。
+* **多層防御によるガードレールの重ね合わせ**: 独立して維持される複数のガードレールチェックを順に適用し、いずれか1つの回避が自動的に未フィルタリングの出力につながらないようにします。
+* **人的監視統制との整合**: ガードレール層が曖昧または高リスクと判定したコンテンツは、自動的に解決するのではなく、Technical Paper #018で定義した人的レビュープロセスに沿ってエスカレーションされます。
 
-### 4. 運用の移行プロセス（主権的データ保護とライフサイクル構造的信頼性）
-主権的データ保護とライフサイクル構造的信頼性の統治基準:
-* **ポリシー整合から能動的なファイアウォールへの転換**: 先行的なバイナリ倫理監査は、究極の防御とは「悪意ある変数の処理要求をプログラム的に拒ぜる仕組みを、物理的・論理的カーネルそのものへ直接ビルドインするアーキテクチャ」であることを明確に立証します。
-* **内部ソフトウェアロジックの一貫性防衛死守**: すべての分散された接続チャネルにわたり厳格なゼロトラスト評価ベースラインを定常維持することにより、システム内部は外部世界の社会的プレッシャー、ノイズ、および自動化された悪意から完全に隔離されます。
-* **絶対的なクラウドインフラ聖域の永久死守**: 継続的なセキュアコーディング監査を妥協のない防衛コントロールレイヤーとして機能させることにより、デジタル後継者の絶対的な清潔さ、永続性、および安全性を強固に維持します。
+### 3. パイプラインの実装
+プロンプトと出力のスクリーニングワークフロー:
+
+1. **入力プロンプトのスクリーニング**: 着信プロンプトは基盤モデルへ渡される前にポリシー分類器と照合され、生成前の時点で明確にポリシーへ違反するリクエストにフラグを立てます。
+2. **出力のスクリーニング**: 生成された出力は要求元へ返される前に同じポリシー分類器と照合され、元のプロンプトには存在しなかったポリシー違反を検出します。
+3. **曖昧な事案のログ記録とエスカレーション**: 分類器が明確な準拠・違反のいずれとも判定できず曖昧と判定したコンテンツは記録され、Technical Paper #018と整合する形で人的レビューへ回されます。
+
+### 4. 境界統治
+ポリシー更新と回避事例のレビュー:
+
+* **ガードレールポリシーの独立した更新経路**: ガードレールのポリシー定義はモデルの再学習とは別のプロセスで更新され、モデルの完全な更新サイクルを待たずにポリシー変更を展開できます。
+* **ガードレールロジックとモデルの重みの分離**: ガードレールの適用は基盤モデルとは別のコンポーネントとして動作するため、更新後にモデルの挙動が変化しても、既存のポリシーチェックが気づかぬうちに失われることはありません。
+* **回避試行の継続的監査**: フラグ付けされたプロンプトインジェクションの試みやガードレール回避の未遂事例を継続的にレビューすることは検知的統制として機能し、現行ポリシーが今後も十分であると前提するのではなく、分類器の更新につなげます。
 
 ### 5. 結論
-アプリケーション保護の確立には完全なAIアライメントレジリエンスが不可欠であり、専用の倫理コアを組み込むことは開発ライフサイクル全体の生存性を最適化します。
+モデルの学習時アライメントと実行時のガードレール層はそれぞれ異なる失敗モードを捉えるものであり、どちらか一方だけでもう一方の役割を代替することはできません。
 
-厳格なアライメントガードレールを入力レイヤーにハードコーディングさせることで、アーキテクチャはトークンサニタイズを強制し、プロンプト注入を境界でプログラム的に無力化します。
-
-意味的ドリフトの自動監査と厳格なガバナンスの統合は人間の監視フレームワークを徹底し、将来のすべての展開マトリクスにおいて中核の学習レジストリを予測最適化の失敗から保護します。
+ガードレールの更新をモデルの再学習から独立させておくことは、CISSPドメイン8およびNIST AI RMFに沿いつつ、完全な再デプロイを待たずにポリシー変更を本番へ反映することを可能にします。
