@@ -23,14 +23,14 @@ Graph-Based Topology Mapping and Entropy-Based Obfuscation Detection:
 * **Alignment with Baseline Boundary Controls**: Topology and entropy-based findings are reconciled with the baseline boundary controls defined in Technical Paper #001, keeping detection consistent with the wider security architecture.
 
 ### 3. Graph Construction and Entropy-Based Correlation
-Topology Rendering and Anomaly Correlation:
+Dependency Graph Rendering and Anomaly Correlation:
 
 1. **Dependency Graph Construction**: Asset and network dependency data is compiled into a graph structure, replacing flat log review with a visual representation of how systems connect.
 2. **Automated Entropy Scanning**: Files entering the environment are scanned for entropy values above a defined threshold, flagging candidates for deeper static or dynamic malware analysis.
 3. **Path-Based Anomaly Correlation**: Correlation logic evaluates whether flagged files or connections form a plausible attack path across the dependency graph, prioritizing findings that align with a coherent multi-step technique sequence.
 
 ### 4. Failure-Point Prioritization and Model Review
-Topology-Aware Access Review:
+Structural Risk Prioritization and Detection Model Review:
 
 * **Prioritizing Single Points of Failure**: Topology analysis is used to prioritize hardening and monitoring effort on components whose compromise would affect the largest number of downstream systems.
 * **Isolation of Flagged Files Pending Analysis**: Files flagged through entropy analysis are held in an isolated review area rather than reaching production systems until static or dynamic analysis confirms their behavior.
@@ -67,14 +67,14 @@ Combining that graph view with entropy-based file screening, consistent with CIS
 * **ベースライン境界統制との整合**: トポロジおよびエントロピーに基づく検知結果をTechnical Paper #001で定義されたベースライン境界統制と突き合わせ、検知をより広いセキュリティアーキテクチャと一貫させます。
 
 ### 3. グラフ構築とエントロピーに基づく相関分析
-トポロジのレンダリングと異常の相関分析:
+依存関係グラフの描画と異常の相関分析:
 
 1. **依存関係グラフの構築**: 資産およびネットワークの依存関係データをグラフ構造として構築し、平面的なログレビューをシステム間のつながりを表す可視化表現に置き換えます。
 2. **自動エントロピースキャン**: 環境に入ってくるファイルを定義済みのしきい値を超えるエントロピー値についてスキャンし、より詳細な静的・動的マルウェア分析の候補としてフラグ付けします。
 3. **経路に基づく異常の相関分析**: フラグ付けされたファイルや接続が依存関係グラフ上で妥当な攻撃経路を形成しているかを評価し、一貫した複数段階の手法シーケンスと整合する所見を優先します。
 
 ### 4. 障害点の優先順位付けとモデルレビュー
-トポロジを踏まえたアクセスレビュー:
+構造的リスクの優先順位付けと検知モデルレビュー:
 
 * **単一障害点の優先対応**: トポロジ分析を用いて、侵害された場合に最も多くの下流システムへ影響を及ぼすコンポーネントへ強化・監視の労力を優先的に振り向けます。
 * **フラグ付けされたファイルの分析待機中の隔離**: エントロピー分析でフラグ付けされたファイルは、静的・動的分析でその挙動が確認されるまで本番システムに到達せず、隔離されたレビュー領域に保持されます。
