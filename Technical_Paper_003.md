@@ -29,7 +29,7 @@ Three-Stage Deployment for Reverse Proxy Enforcement:
 2. **Real-Time Traffic Inspection**: Inspect inbound and outbound traffic against the configured policy, flagging requests that do not meet authentication or data-handling requirements.
 3. **Automated Request Rejection and Logging**: Reject non-compliant requests at the perimeter and log the rejection for correlation with related security events (see Technical Paper #002 for SIEM integration).
 
-### 4. Containing the Cost of Reconnaissance
+### 4. Resource and Threat Containment
 Resource Preservation and Threat Containment:
 
 * **Limiting Response to Non-Compliant Requests**: Declining to process malformed or unauthenticated requests reduces the resources spent responding to reconnaissance and scanning activity.
@@ -73,7 +73,7 @@ Inline tokenization adds a second layer, so that traffic which does pass inspect
 2. **リアルタイムトラフィック検査**: 着信・発信トラフィックを設定済みポリシーと照合し、認証またはデータ取り扱い要件を満たさないリクエストを検出します。
 3. **自動拒否とログ記録**: 非準拠のリクエストを境界で拒否し、関連するセキュリティイベントとの相関分析のためにログを記録します（SIEM連携の詳細はTechnical Paper #002を参照）。
 
-### 4. 偵察コストの封じ込め
+### 4. リソースと脅威の封じ込め
 リソース保全と脅威の封じ込め:
 
 * **非準拠リクエストへの応答制限**: 不正な形式や未認証のリクエストの処理を見送ることで、偵察・スキャン活動への対応に費やすリソースを削減します。
