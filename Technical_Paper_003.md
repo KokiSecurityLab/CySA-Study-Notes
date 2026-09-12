@@ -1,4 +1,3 @@
-markdown
 # Koki's Technical Paper #003
 
 ## CASB Essentials — Multi-Cloud Security Control, Reverse Proxy Deflection, and Data Tokenization Protocols
@@ -43,7 +42,7 @@ Rejecting unauthenticated traffic at the proxy, rather than absorbing it into ba
 Inline tokenization adds a second layer, so that traffic which does pass inspection carries no data of direct value if intercepted downstream.
 
 ---
-# Koki's Technical Paper #003
+# テクニカルペーパーシリーズ #003
 
 ## CASBの基本概念 — マルチクラウドセキュリティ制御、リバースプロキシによる脅威遮断、およびデータトークン化プロトコル
 
