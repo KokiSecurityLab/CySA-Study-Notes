@@ -64,7 +64,7 @@ Structuring that sharing around STIX and TAXII, consistent with CISSP Domain 4, 
 
 * **STIX形式での指標交換**: 脅威指標をStructured Threat Information Expression（STIX）形式で構造化し、異なるセキュリティツール間で共有するための一貫した機械可読な形式を提供します。
 * **TAXIIに基づく自動配信**: Trusted Automated Exchange of Intelligence Information（TAXII）プロトコルを用いてノード間で指標を配信し、手動介入なしに新しい指標が購読中のノードへ到達できるようにします。
-* **自己修復およびベースライン統制との整合**: 分散ファイアウォールの構成を、Technical Paper #016で定義した自動修復アプローチおよびTechnical Paper #001で定義したベースライン境界統制と突き合わせます。
+* **自己修復およびベースライン統制との整合**: 分散ファイアウォールの構成を、テクニカルペーパーシリーズ #016で定義した自動修復アプローチおよび　テクニカルペーパーシリーズ #001で定義したベースライン境界統制と突き合わせます。
 
 ### 3. 指標配信とノード隔離
 指標の伝播とノードの隔離:
