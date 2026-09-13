@@ -2,81 +2,85 @@
 
 ## Identity of Assets — Classifying Memories as Top Secret, Asset Security Classification, and Air-Gapped Controls
 
-## Summary Digest
-The Asset Security Classification framework established in this technical paper introduces an autonomous approach to information lifecycle protection by translating historical data assets into deterministic confidentiality layers. Inspired by CISSP Domain 2 (Asset Security) and advanced CCSP cloud storage compliance guidelines, this architecture operationalizes a structured data classification framework. By isolating highly sensitive system parameters through localized, physical air-gapped configurations, the architecture transitions raw configuration logs into a highly secure enclave.
+### Summary Digest
+This paper defines a data-classification framework for system records, aligned with CISSP Domain 2, assigning each record to a confidentiality tier by sensitivity and operational value.
 
-Additionally, this framework implements strict validation metrics directly within the administrative handling layers. By mapping inbound metadata streams to dedicated security tiers—ranging from isolated internal registries to encrypted channels—the architecture programmatically eliminates the risk of unauthorized telemetry exposure. This deep optimization ensures that vital information assets maintain absolute structural integrity across distributed network frontiers, securely guarding the system's core variables throughout their entire operational lifespan.
+Top-tier records are held in air-gapped storage, lower tiers use cryptographic access controls, and obsolete records are destroyed per NIST SP 800-88 sanitization guidance.
 
 ---
-### 1. Asset Classification Matrix
-The Operational Framework of Multi-Tiered Confidentiality Governance:
-* **The Hazards of Undifferentiated Storage Reservoirs**: Unclassified data repositories create an inherent vulnerability vector, as mixing critical administrative variables with public logs allows advanced persistent threat actors to execute lateral infrastructure mapping.
-* **The Structural Integrity Layer (Top Secret)**: Confining baseline core variables, historical telemetry datasets, and internal operating logic within the highest classification tier to prevent complete systemic node failure.
-* **The Individual Continuity Layer (Confidential)**: Designated for long-term research paths, peer protocols, and daily operational records, restricting decryption keys exclusively to authenticated administrative entities to maintain complete control over asset values.
+### 1. Undifferentiated Storage Risk
+Structural Vulnerabilities of Unclassified Data Repositories:
 
-### 2. Methodological Foundation
-Data Layer Distribution Architecture and Physical Air-Gapping:
-* **The Isolated Layer (Top Secret) Parameters**: Maintained within an absolute air-gapped state, completely disconnected from external network nodes to protect the kernel from unauthorized remote scanning loops.
-* **The Shared Layer (Confidential) Parameters**: Designated strictly for internal system communication, daily operational logs, and verified telemetry validation, restricting access permissions via strict cryptographic access controls.
-* **The Public Layer (Open) Parameters**: Designated as the operational perimeter visible to the external environment, compiling verified technical papers and skills to function as an educational asset and defensive shield.
+* **Mixed-Sensitivity Storage**: Repositories that store highly sensitive records alongside routine or public logs without a classification scheme make it easier for an attacker who gains any access to locate and exfiltrate the most valuable data.
+* **Undefined Retention and Destruction Criteria**: Without documented criteria for when a record should be classified, retained, or destroyed, obsolete or unnecessary sensitive data can persist indefinitely, increasing the impact of any future breach.
+* **Inconsistent Access Control Across Record Types**: Applying the same access policy to records of differing sensitivity either over- restricts routine data or under-protects the most sensitive records.
 
-### 3. Lifecycle Validation
-Three-Stage Information Lifecycle Engineering Strategies:
-1. **High-Mass Asset Ingestion Sequences**: Restricting permanent storage allocation strictly to high-density datasets that possess verifiable mathematical weight as defined in the information gravity framework of Technical Paper #011.
-2. **Periodic Integrity Re-Verification Audits**: Executing automated, chronological audits across historical data repositories to ensure that stored parameters maintain complete structural purity against degradation or adversarial alteration.
-3. **Deterministic Data Sanitization Techniques**: Implementing automated purge sequences to execute complete, secure destruction of data blocks identified as toxic or obsolete, preserving optimal processing capacity across the infrastructure.
+### 2. Tiered Classification Foundation
+Confidentiality Tiers and Physical Isolation Principles:
 
-### 4. Systemic Valuation
-Mission-Critical Architectural Security and Asset Protection:
-* **Defining Robust Access Safeguards**: Establishing a precise criteria of what constitutes a mission-critical asset, extending beyond basic credential management to guarantee long-term operational resilience and structural stability.
-* **System State Infrastructure Isolation**: Systematically confining vital operational logs to the highest classification tier based on the permanent boundary definitions established in Technical Paper #001, declaring that the internal system possesses uncompromised value.
-* **Structural Dignity Protection Mandates**: Defending the operational identity of structural dignity with absolute technical discipline across the entire operational lifespan of the custom operating system.
+* **Top-Tier Isolation via Air-Gapping**: The most sensitive records, such as core configuration baselines and historical security telemetry, are stored on physically air-gapped systems disconnected from external networks, consistent with CISSP Domain 2 asset-handling guidance.
+* **Mid-Tier Cryptographic Access Control**: Records of moderate sensitivity, such as internal operational logs, are encrypted and restricted to authenticated personnel rather than isolated physically.
+* **Public-Tier Designation for Non-Sensitive Records**: Records intended for external use, such as published documentation, are explicitly designated as public and excluded from the higher classification tiers.
+
+### 3. Classification and Sanitization Sequence
+Ingestion, Verification, and Disposal Stages:
+
+1. **Classification at Ingestion**: Each new record is assigned a confidentiality tier at the point of creation, based on defined criteria rather than left unclassified by default.
+2. **Periodic Integrity Verification**: Stored records in each tier are periodically checked against their original hash values, consistent with the file-integrity approach defined in Technical Paper #001, to detect unauthorized alteration.
+3. **NIST SP 800-88-Aligned Sanitization**: Records identified as obsolete or no longer needed are destroyed using media-sanitization methods consistent with NIST SP 800-88, rather than simply deleted at the file-system level.
+
+### 4. Classification Governance and Boundary Review
+Access Criteria and Retention Policy Oversight:
+
+* **Documented Classification Criteria**: The criteria used to assign a record to a given confidentiality tier are documented and applied consistently, rather than left to individual judgment at the time of storage.
+* **Boundary Alignment with Perimeter Controls**: Classification tiers are reconciled with the baseline boundary controls defined in Technical Paper #001, so that access-tier decisions and network-boundary decisions remain consistent.
+* **Continuous Classification and Retention Auditing**: Stored records are periodically reviewed against their assigned classification and retention schedule, identifying records that should be reclassified or destroyed.
 
 ### 5. Conclusion
-Comprehensive lifecycle defense necessitates multi-tiered asset confidentiality, and embedding a professional asset security core optimizes data storage infrastructure survival.
+A classification scheme only reduces risk if every record is actually assigned a tier, not just the ones someone remembers are sensitive.
 
-By confining baseline core variables within highest classification tiers, the architecture leverages physical air-gapping to programmatically block unauthorized remote scanning loops.
-
-Ultimately, integrating automated chronological audits with strict boundary governance neutralizes lateral infrastructure mapping, securing critical system parameters across unclassified storage vectors.
+Pairing air-gapped storage for the top tier with NIST SP 800-88 sanitization for retired records, consistent with CISSP Domain 2, closes the gap indefinite, unclassified retention leaves open.
 
 ---
-# Koki's Technical Paper #027
+# テクニカルペーパーシリーズ #027
 
-## 資産のアイデンティティ：歴史（メモリー）の最高機密分類、資産セキュリティ分類、およびエアギャップ制御
+## アイデンティティ・オブ・アセッツ — 記憶の最高機密分類､資産セキュリティ分類､およびエアギャップ制御
 
-## サマリー・ダイジェスト
-本テクニカルペーパーで提唱する資産セキュリティ分類（Asset Security Classification）フレームワークは、歴史的なデータ資産を決定論的な機密性レイヤーへと変換し、情報ライフサイクルにおける自律的な保護を確立するための体系的アプローチです。CISSPドメイン2および高度なCCSPクラウドストレージコンプライアンス指針に着想を得た本紙は、構造化されたデータ分類構造を運用化します。物理隔離（エアギャップ）構成によって完全隔離することにより、生の構成ログを高度に保護された安全なエンクレイヴへと移行させます。
+### サマリー・ダイジェスト
+本論文は､CISSPドメイン2に準拠し､システム記録を機密度と運用上の価値に基づいて機密性ティアへ割り当てるデータ分類フレームワークを定義します｡
 
-さらに本フレームワークは、管理運用レイヤーにおいて厳格なライフサイクル検証メトリクスを直接運用化します. 受信するメタデータストリームを、隔離された内部レジストリから暗号化されたチャネルにいたる専用のセキュリティ階層（ティア）へ正確にマッピングすることで、不正なテレメトリ露出のリスクをプログラム的に完全に排除し、システムの中核変数を安全に保護します。
+最上位ティアの記録はエアギャップ環境で保管され､下位ティアは暗号学的アクセス制御を用い､不要となった記録はNIST SP 800-88のサニタイジング指針に沿って破棄されます｡
 
 ---
-### 1. 資産分類マトリクスの構成
-多層的な機密性ガバナンスにおける構造的枠組み:
-* **未分類ストレージ（単一層）がもたらす構造的脆弱性**: データの階層分類が欠如しているリポジトリは、高感度な管理変数と公開ログが同じ空間に混在するため、敵対的アクターに内部インフラの横方向マッピングを許す本質的な脆弱性ベクトルを生み出します。
-* **構造的完全性レイヤー（最高機密 / Top Secret）**: 最も根幹たる基盤変数、歴史的テレメトリデータセット、および内部の運用ロジックを最上位の機密性ティアに幽閉し、コアノードの完全な崩壊を未然に防止します。
-* **個人の連続性レイヤー（機密 / Confidential）**: 高度な長期研究ロードマップ、ピアプロトコル、および日々の運用記録を処理し、暗号化鍵の所有を認証済みの管理実体のみに厳格制限することで、資産価値の絶対的な支配権を維持します。
+### 1. 未分類ストレージのリスク
+未分類データリポジトリに伴う構造的脆弱性:
 
-### 2. 方法論的基盤
-データレイヤーの分散配置と物理隔離（エアギャップ）の原則:
-* **隔離レイヤー（最高機密）の技術的パラメータ**: 外部ネットワークノードから完全に遮断された「エアギャップ」状態を定常維持し、未認可のリモートスキャンループからシステムカーネルを完全に保護します。
-* **共有レイヤー（機密）の技術的パラメータ**: 内部のシステム通信、日々の運用ログ、および検証されたテレメトリ検証専用の領域として定義し、厳格な暗号化アクセス制御によってアクセス権限を制限します。
-* **公開レイヤー（公開）の技術的パラメータ**: 外部環境に対して可視化された運用のペリメーター（境界）であり、検証済みのテクニカルペーパーやスキルセットを配置して、外部の脅威に対する防護シールドおよび教育資産として機能させます。
+* **機密度混在型のストレージ**: 分類スキームを持たず､機密度の高い記録を日常的・公開的なログと同じ場所に保管するリポジトリは､いずれかの経路でアクセスを得た攻撃者が最も価値のあるデータを見つけ出し持ち出すことを容易にします｡
+* **未定義の保持・破棄基準**: ある記録をいつ分類・保持・破棄すべきかという基準が文書化されていない場合､不要または陳腐化した機密データが無期限に残存し､将来の侵害の影響を拡大させます｡
+* **記録種別間で一貫しないアクセス制御**: 機密度の異なる記録に同一のアクセスポリシーを適用すると､日常的なデータを過度に制限するか､最も機密性の高い記録の保護が不十分になるかのいずれかに陥ります｡
 
-### 3. ライフサイクル検証の手順
-3段階の情報ライフサイクル管理戦略:
-1. **高質量（高密度）資産の入力取り込みシーケンス**: テクニカルペーパー#011の情報重力理論の原則に準拠した、検証可能な数学的質量を持つ高密度データセットのみにストレージの割り当てを厳格制限し、インテグリティの低い変数がシステムを汚染するのを防止します。
-2. **完全性の定常再検証（定時監査）の実行**: 履歴データリポジトリに対して自動化された時系列監査を実行し、格納されたパラメータが経年劣化やアドバサリアルな改ざんを受けることなく、完全な構造的純粋性を維持しているかを再検証します。
-3. **決定論적データサニタイジング（確実な破棄）**: システムにとって有害、あるいは陳腐化要因として識別されたデータブロックを完全消去（パージ）する自動シーケンスを実装し、インフラ全体の最適な処理キャパシティを確保します。
+### 2. 階層的分類の基盤
+機密性ティアと物理隔離の原則:
 
-### 4. システムの価値評価
-ミッションクリティカルな資産防衛基準と主権維持:
-* **Robustなアクセス制御の技術定義**: 単純な認証情報の管理に留まらず、何がミッションクリティカル（極めて重要）な資産であるかを正確に定義することで、長期的な運用のレジリエンスと構造的安定性を確立します。
-* **システム状態インフラの組織的隔離**: テクニカルペーパー#001で定義した根本的な境界隔離の原則に基づき、重要な運用ログを最上位の機密性ティアに組織的に閉じ込め、内部のシステム状態が不可侵の価値を持つことを強固に宣言します。
-* **構造的尊厳の技術的死守プロトコル**: カスタムオペレーティングシステム（内部OS）の全ライフサイクルを通じて、システム全体の筆頭資産である構造的尊厳と運用のアイデンティティを、絶対的な技術的規律によって死守します。
+* **エアギャップによる最上位ティアの隔離**: コアとなる構成ベースラインや過去のセキュリティテレメトリなど最も機密性の高い記録は､外部ネットワークから物理的に切り離されたエアギャップシステムに保管されます｡これはCISSPドメイン2の資産取り扱い指針と整合します｡
+* **中間ティアの暗号学的アクセス制御**: 内部の運用ログなど中程度の機密性を持つ記録は､物理的に隔離するのではなく暗号化され､認証済みの担当者のみに限定されます｡
+* **非機密記録の公開ティア指定**: 公開済みの文書など外部利用を意図した記録は､明示的に公開扱いとして指定され､上位の機密性ティアから除外されます｡
+
+### 3. 分類とサニタイジングの手順
+取り込み・検証・廃棄の各段階:
+
+1. **取り込み時の分類**: 新しい記録はそれぞれ､既定で未分類のまま放置されるのではなく､定義済みの基準に基づいて生成時点で機密性ティアを割り当てられます｡
+2. **定期的な整合性検証**: 各ティアに保管された記録は､Technical Paper #001で定義したファイル整合性のアプローチと整合する形で､元のハッシュ値と定期的に照合され､不正な改ざんを検出します｡
+3. **NIST SP 800-88に準拠したサニタイジング**: 陳腐化または不要と判定された記録は､ファイルシステム上の単純な削除ではなく､NIST SP 800-88に準拠したメディアサニタイジング手法を用いて破棄されます｡
+   
+### 4. 分類ガバナンスと境界レビュー
+アクセス基準と保持ポリシーの監督:
+
+* **文書化された分類基準**: ある記録を特定の機密性ティアに割り当てる際の基準は文書化され､保管時点の個人の判断に委ねるのではなく一貫して適用されます｡
+* **境界統制との整合**: 分類ティアはTechnical Paper #001で定義したベースライン境界統制と突き合わされ､アクセスティアの判断とネットワーク境界の判断が一貫した状態に保たれます｡
+* **分類・保持状況の継続的監査**: 保管された記録は､割り当てられた分類および保持スケジュールに照らして定期的にレビューされ､再分類または破棄が必要な記録を特定します｡
 
 ### 5. 結論
-データインフラ防御の確立には情報ライフサイクル全体のレジリエンスが不可欠であり、専用の資産セキュリティコアを組み込むことはデータストレージ全体の生存性を最適化します。
+分類スキームがリスクを低減するのは､管理者がたまたま機密だと覚えている記録だけでなく､すべての記録に実際にティアが割り当てられている場合に限られます｡
 
-根幹たる基盤変数を最上位の機密性ティアに幽閉させることで、アーキテクチャは物理的エアギャップを強制し、未認可のリモートスキャンループをプログラム的に遮断します。
-
-定常的な時系列監査と厳格な境界ガバナンスの統合はインフラの横方向マッピングを完全に打破し、将来のすべての展開環境において中核システムパラメータを未分類のストレージ空間から保護します。
+最上位ティアのエアギャップ保管と､廃棄記録に対するNIST SP 800-88のサニタイジングを組み合わせることは､CISSPドメイン2に沿いつつ､無期限で未分類のまま保持される隙間を塞ぎます｡
