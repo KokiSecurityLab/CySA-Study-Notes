@@ -80,3 +80,4 @@ The foundational security controls documented in this series are actively scaled
 | 034 | Automated Defense | Implementing SOAR for protection |
 | 035 | Zero Trust Life | Sovereignty through verification |
 | 036 | Social Engineering | Detecting manipulation as logical bugs |
+| 037 | Sensory Shielding | Edge AI as an Accessibility Patch |
