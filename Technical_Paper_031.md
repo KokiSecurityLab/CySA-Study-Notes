@@ -42,7 +42,7 @@ Implementing hot-swapping architectural perimeters that immediately isolate degr
 Ultimately, integrating structural risk diversification with strict service level enforcements thwarts vendor degradation. This comprehensive alignment secures core processing registries and permanently mitigates weakest-link systemic vulnerabilities.
 
 ---
-# Koki's Technical Paper #031
+# テクニカルペーパーシリーズ #031
 
 ## サプライチェーンリスク：外部依存関係管理、サードパーティ・インフラの能動的緩和、およびデータ取込脆弱性の防御
 
