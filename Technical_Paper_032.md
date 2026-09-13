@@ -1,86 +1,86 @@
 # Koki's Technical Paper #032
 
-## Quantum Defense: Protecting Memories from Future Threats with Lattice-Based Cryptography
+## Quantum Defense — Protecting Memories from Future Threats, Post-Quantum Cryptography Migration, and Forward Secrecy Assurance
 
 ### Summary Digest
-The Post-Quantum Cryptography framework establishes network infrastructure longevity by converting upcoming quantum computing threat vectors into verifiable cryptographic variables. Grounded in CISSP Domain 3 and CCSP validation rules, this architecture addresses legacy vulnerabilities within traditional asymmetric encryption standards.
+This paper defines a post-quantum cryptography migration framework, aligned with CISSP Domain 3 and NIST FIPS 203/204/205, replacing vulnerable asymmetric algorithms with lattice-based alternatives before quantum decryption matures.
 
-By integrating multi-dimensional lattice-based configurations directly into storage architectures, the system ensures resilient mathematical protection against Shor's algorithm exploits. This cryptographic engineering enforces strict forward secrecy protocols, isolating encrypted repositories from retrospective decryption attacks.
+Store-now-decrypt-later interception is addressed by migrating encrypted archives ahead of the threat, rather than waiting until a cryptographically relevant quantum computer exists.
 
 ---
 ### 1. Cryptographic Longevity Exposure
-The Structural Vulnerabilities of Legacy Asymmetric Encryption Standards:
+Structural Vulnerabilities of Legacy Asymmetric Encryption:
 
-* **The Hazards of Asymmetric Standard Collapse**: Future research focused on cryptographic longevity establishes that current foundational models over-index on hardware permanence while remaining highly vulnerable to instant decryption via advanced quantum processing engines.
-* **The Threat of Retrospective Decryption Attacks**: Sophisticated adversaries intercept and store encrypted data streams today, optimizing their databases to exploit future decryption capabilities and retroactively expose highly sensitive internal parameter logs.
-* **The Vulnerability of Ingress Key Degradation**: Standard parameters possess no inherent awareness of temporal key degradation, presenting systemic alignment risks where a single future key exposure compromises the structural purity of the entire historical archive.
+* **Shor's Algorithm Threat to Asymmetric Cryptography**: RSA and elliptic-curve algorithms currently in use are theoretically vulnerable to Shor's algorithm on a sufficiently capable quantum computer, a risk documented in NIST's post-quantum cryptography standardization effort.
+* **Store-Now-Decrypt-Later (SNDL) Interception**: Adversaries can intercept and store currently encrypted traffic today with the intent of decrypting it once quantum computing capability becomes available, exposing historically sensitive data retroactively.
+* **Undocumented Long-Lived Key Exposure**: Archives encrypted years ago with long-since-rotated keys may still be discoverable and stored by an adversary, meaning historical data retains exposure even after current key material is retired.
 
-### 2. Methodological Foundation
-Post-Quantum Cryptography Paradigms and Lattice Shielding:
+### 2. Lattice Cryptography and Standards Foundation
+NIST-Standardized Algorithms and Forward Secrecy Principles:
 
-* **Lattice-Based Cryptographic Shielding Metrics**: Moving toward complex, multi-dimensional mathematical structures that offer no known shortcuts, ensuring that processing vectors remain fundamentally resistant to quantum calculation topologies.
-* **Proactive Forward Secrecy Implementations**: Deploying mathematical protocols that isolate individual session keys, guaranteeing that past communications remain uncompromised even if a future administrative endpoint is breached.
-* **NIST-Standard Early Adoption Criteria**: Systematically aligning the core architecture with emerging global quantum-resistant standards, transforming passive defense preparation into a rule-bounded algorithmic integration process.
+* **NIST FIPS 203/204/205 Algorithm Selection**: Migration prioritizes the algorithms formally standardized by NIST in FIPS 203 (ML-KEM), FIPS 204 (ML-DSA), and FIPS 205 (SLH-DSA), rather than unstandardized or vendor-proprietary lattice constructions.
+* **Forward Secrecy for Session Keys**: Session keys are derived independently for each session, consistent with forward-secrecy design principles, so that compromise of a later key does not expose previously recorded traffic.
+* **Alignment with Baseline Boundary Controls**: Cryptographic migration is reconciled with the baseline boundary controls defined in Technical Paper #001, keeping algorithm changes consistent with the wider security architecture.
 
-### 3. Pipeline Implementation
-Asymmetric Algorithm Ingestion and Hybrid Layering Strategies:
+### 3. Hybrid Migration Sequence
+Algorithm Inventory, Hybrid Deployment, and Legacy Retirement:
 
-1. **NIST Algorithm Ingestion Sequence**: Compiling comprehensive mathematical libraries based on the perimeter safeguards defined in Technical Paper #001 to deploy certified quantum-resistant algorithms early, preventing legacy system variables from corrupting future registries.
-2. **Defense-In-Depth Hybrid Layering Filters**: Routing all inbound training variables through a specialized multi-tiered encryption filter, ensuring that traditional and post-quantum layers co-process data to maintain systemic stability.
-3. **Secret Sovereign Enclave Configuration**: Achieving a continuous state where historical data assets and core metadata are strictly confined within a hard-coded sovereign data territory, neutralizing unauthorized public scanning loops.
+1. **Cryptographic Algorithm Inventory**: Systems and protocols using vulnerable asymmetric algorithms are inventoried to establish which components require migration and in what priority order.
+2. **Hybrid Classical-PQC Deployment**: New connections use a hybrid scheme combining a classical algorithm with a NIST-standardized post-quantum algorithm, maintaining compatibility during the transition period.
+3. **Scheduled Legacy Algorithm Retirement**: Once hybrid deployment is validated and interoperability is confirmed, purely classical asymmetric algorithms are retired from active use on a defined schedule.
 
-### 4. Phased Transformation to Post-Quantum Architecture
-Deploying Mathematical Sovereignty and Permanent Cryptographic Lifecycle Safeguards:
+### 4. Migration Governance and Archive Review
+Historical Data Re-Encryption and Transition Tracking:
 
-* **Algorithmic Transition to Quantum-Resistant Standards**: Migrating the active cryptographic engine away from vulnerable asymmetric infrastructure toward baseline lattice primitives validated under global NIST benchmarks.
-* **Inline Forward Secrecy Ephemeral Mapping**: rocessing all session handshakes through non-linear key generation logic, converting historical storage vectors into mathematically independent, programmatically undecipherable blocks.
-* **Immutable Storage Enclave Isolation**: Enforcing hardware-anchored mathematical constraints across memory boundaries to protect cold data repositories from advanced cryptographic state tampering.
+* **Re-Encryption of Sensitive Historical Archives**: Archived data still within its sensitivity or retention period is identified and re-encrypted using post-quantum algorithms, rather than left protected only by its original, now-vulnerable encryption.
+* **Isolation of Legacy-Encrypted Cold Storage**: Data that cannot yet be re-encrypted is isolated in access-restricted cold storage, consistent with the classification approach defined in Technical Paper #027, reducing its exposure while migration is completed.
+* **Continuous Migration Progress Auditing**: The proportion of systems and archives migrated to post-quantum algorithms is tracked and reviewed on a defined cadence against the overall migration plan.
 
 ### 5. Conclusion
-Neutralizing future quantum decryption capabilities demands the immediate deployment of multi-dimensional lattice-based mathematical structures that render legacy asymmetric cryptography obsolete. Transitioning localized data layers into a quantum-resistant enclave guarantees that historical logs remain secure against retrospective decryption attacks.
+Data encrypted today with a vulnerable algorithm can be exposed years from now, which is why migration must start before a capable quantum computer exists.
 
-By hard-coding strict forward secrecy protocols deep within the storage architecture, the system establishes a permanent safeguard against advanced computational exploits. This specialized cryptographic engineering ensures long-term asset compliance across the entire systemic lifecycle.
+Adopting the NIST FIPS 203/204/205 algorithms in hybrid configuration, consistent with CISSP Domain 3, moves that timeline ahead of the threat rather than behind it.
 
 ---
-# Koki's Technical Paper #032
+# テクニカルペーパーシリーズ #032
 
-## 量子防衛：格子暗号による未来的脅威からのメモリー保護、耐量子計算機暗号フレームワーク、および暗号資産の長期生存性確立
+## 量子防衛 — 未来の脅威から記憶を守る、ポスト量子暗号への移行、および前方秘匿性の保証
 
 ### サマリー・ダイジェスト
-本耐量子計算機暗号（PQC）フレームワークは、量子コンピューティング由来の脅威ベクトルを決定論的な暗号変数へと変換し、ネットワークインフラの長期的な生存性を確立します。CISSPドメイン3およびCCSPの検証規則に準拠し、ショアのアルゴリズムに対して脆弱性を持つレガシーな非対称暗号標準（RSA/AES等）の構造的欠陥を根本から解決します。
+本論文は、CISSPドメイン3およびNIST FIPS 203/204/205に準拠したPQC移行フレームワークを定義し、量子解読能力が成熟する前に脆弱な非対称アルゴリズムを格子暗号ベースへ置き換えます。
 
-さらに、記憶階層（ストレージレイヤー）内に多次元の格子暗号構成を直接実装します。これにより、将来的な暗号鍵の漏洩時にも過去の通信ログの秘匿性を維持する強力な前方秘匿性（PFS）を強制し、データライフサイクル全体における情報の完全性を担保します。
+ストア・ナウ、デクリプト・レイター（SNDL）による傍受には、暗号的に有意な量子コンピュータの登場を待つのではなく、暗号化アーカイブを脅威に先立って移行することで対処します。
 
 ---
 ### 1. 暗号寿命の露出リスク
-レガシーな非対称暗号標準モデルにおける構造的脆弱性の分析：
+レガシーな非対称暗号に伴う構造的脆弱性:
 
-* **非対称暗号標準の構造的崩壊ハザード**: 暗号の長期的な生存性に焦点を当てた今後の研究において、従来の防御モデルがハードウェアの永続性に過度に依存する一方、高度な量子処理エンジンによる即時解読に対して極めて脆弱である現実を分析・検証します。
-* **ストア・ナウ、デクリプト・レイター（SNDL）攻撃の脅威**: 高度な敵対的アクターは、現行の暗号化データストリームを事前に傍受・蓄積し、将来的な量子解読能力の獲得を待って、過去の高感度な内部パラメータログを事後的に解読・暴露する最適化を実行します。
-* **入力鍵の経年劣化に伴う完全性喪失**: 標準化されたパラメータは鍵の経年劣化に対する固有の認識を持たず、将来的な単一の鍵露出が、歴史的アーカイブ全体の構造的純粋性を根本から破壊する深刻なシステムリスクをもたらします。
+* **非対称暗号に対するショアのアルゴリズムの脅威**: 現在使用されているRSAや楕円曲線アルゴリズムは、十分な性能を持つ量子コンピュータ上でショアのアルゴリズムに対して理論上脆弱です。これはNISTのポスト量子暗号標準化の取り組みで文書化されているリスクです。
+* **ストア・ナウ、デクリプト・レイター（SNDL）による傍受**: 攻撃者は、量子コンピューティング能力が利用可能になった時点で解読する意図を持って、現在暗号化されている通信を今のうちに傍受・蓄積し、過去の機微なデータを事後的に暴露する可能性があります。
+* **未文書化された長期利用鍵の露出**: 何年も前にすでにローテーション済みの鍵で暗号化されたアーカイブでも、攻撃者によって発見・保存され得るため、現行の鍵素材が失効した後も過去のデータは露出リスクを保持し続けます。
 
-### 2. 方法論的基盤
-耐量子計算機暗号（PQC）パラダイムと格子遮断の原則：
+### 2. 格子暗号と標準規格の基盤
+NIST標準化アルゴリズムと前方秘匿性の原則:
 
-* **格子暗号による遮蔽規準**: 近道（ショートカット）が存在しない多次元の複雑な数学的構造へと移行し、量子計算トポロジに対しても、データ処理ベクトルが本質的に耐性を保持するシステム制御を確立します。
-* **能動的な前方秘匿性のプロトコル実装**: 個別のセッション鍵を完全に隔離する数学的プロトコルを展開し、将来的に管理ノードが侵害された場合であっても、過去のすべての通信の安全性を恒久的に保証します。
-* **NIST標準の早期採用基準**: 中核構造を世界的な次世代耐量子標準（NIST規格）に系統的に適応（アライメント）させ、受動的な脅威への警戒を、ルールに縛られたアルゴリズムの統合プロセスへと変換します。
+* **NIST FIPS 203/204/205アルゴリズムの選定**: 移行では、標準化されていない、またはベンダー独自の格子構成ではなく、NISTがFIPS 203（ML-KEM）、FIPS 204（ML-DSA）、FIPS 205（SLH-DSA）として正式に標準化したアルゴリズムを優先します。
+* **セッション鍵の前方秘匿性**: セッション鍵はセッションごとに独立して導出され、前方秘匿性の設計原則と整合するため、後の鍵が侵害されても以前に記録された通信が露出することはありません。
+* **ベースライン境界統制との整合**: 暗号移行をテクニカルペーパーシリーズ #001で定義したベースライン境界統制と突き合わせ、アルゴリズムの変更をより広いセキュリティアーキテクチャと一貫させます。
 
-### 3. パイプラインの実装方法
-非対称アルゴリズム取り込みと多層防御の手順：
+### 3. ハイブリッド移行の手順
+アルゴリズム棚卸し・ハイブリッド展開・レガシーの廃止:
 
-1.  **NIST規格アルゴリズムの制御手順（入力シーケンス）**: テクニカルペーパー#001で定義した周辺防衛セーフガードに準拠し、認証された耐量子アルゴリズムを早期に配備するための網羅的な数学ライブラリをコンパイルし、レガシー変数が将来のシステムレジストリを汚染するのをプログラム的に防止します。
-2.  **多層防御のハイブリッド実装**: すべての入力変数を専用の多層暗号フィルターにルーティングし、従来の暗号層と耐量子暗号層を協調処理させることで、システムの安定性を恒久的に維持します。
-3.  **機密主権領域の構成**: 過去のデータ資産やコアメタデータを、ハードコーディングされた主権データ領域の内部に厳格に閉じ込め、認可されていない公開領域からの網羅的走査（パブリックなスキャンループ）を根本から遮断する防衛状況を維持します。
+1. **暗号アルゴリズムの棚卸し**: 脆弱な非対称アルゴリズムを使用しているシステムとプロトコルを棚卸しし、どのコンポーネントをどの優先順位で移行すべきかを明らかにします。
+2. **クラシック・PQCハイブリッド展開**: 新規接続では、従来のアルゴリズムとNIST標準化済みのポスト量子アルゴリズムを組み合わせたハイブリッド方式を用い、移行期間中の互換性を維持します。
+3. **レガシーアルゴリズムの計画的廃止**: ハイブリッド展開が検証され相互運用性が確認された後、純粋な従来型非対称アルゴリズムは定められたスケジュールで運用から廃止されます。
 
-### 4. 耐量子暗号アーキテクチャへの段階的転換
-数学的情報主権の確立と暗号ライフサイクルの永久保護：
+### 4. 移行ガバナンスとアーカイブレビュー
+過去データの再暗号化と移行状況の追跡:
 
-* **耐量子グローバル標準への自律移行**: 稼働中の暗号化エンジンを脆弱なレガシー非対称暗号インフラから、NISTベンチマークに準拠した多次元格子暗号アルゴリズムへと完全シフトさせます。
-* **エフェメラル鍵マッピングによるインライン前方秘匿**: すべてのセッションハンドシェイクに非線形な鍵生成ロジックを強制し、蓄積されたデータ資産を数学的に独立させ、事後的な解読をプログラム的に不可能にします。
-* **不変ストレージエンクレイヴのハードウェア隔離**: メモリ境界にハードウェア暗号プリミティブをバインドし、蓄積されたコールドデータリポジトリを将来的な暗号状態の改ざんや不正解析から永久に隔離します。
+* **機微な過去アーカイブの再暗号化**: 機密性・保持期間内にあるアーカイブデータは特定され、脆弱になった元の暗号化のみに保護を委ねるのではなく、ポスト量子アルゴリズムで再暗号化されます。
+* **レガシー暗号化されたコールドストレージの隔離**: まだ再暗号化できていないデータは、テクニカルペーパーシリーズ #027で定義した分類アプローチと整合する形でアクセス制限されたコールドストレージに隔離され、移行完了までの露出を低減します。
+* **移行進捗の継続的監査**: ポスト量子アルゴリズムへ移行済みのシステムおよびアーカイブの割合は、全体の移行計画に照らして定められた周期で追跡・レビューされます。
 
 ### 5. 結論
-将来的な量子解読の脅威を無力化するには、レガシーな非対称暗号標準を完全に陳腐化させる多次元格子暗号の早期配備が不可欠です。ローカルデータ層を堅牢な耐量子エンクレイヴへと移行させることで、蓄積されたログファイルやシステム構成情報を、先着蓄積型・事後解読攻撃のリスクから永続的に保護します。
+今日弱いアルゴリズムで暗号化されたデータは、何年も先になっても露出し得るため、実用的な量子コンピュータが実在するようになる前に移行を開始する必要があります。
 
-ストレージアーキテクチャの根幹に前方秘匿性（PFS）を組み込むことは、将来的な管理ノードの侵害に対する確実なセーフガードとなります。この高度な暗号エンジニアリングにより、外部の技術的脅威に左右されない絶対的な情報主権と長期的な資産コンプライアンスを確立します。
+NIST FIPS 203/204/205のアルゴリズムをハイブリッド構成で採用することは、CISSPドメイン3に沿いつつ、この移行時期を脅威の後ではなく前へ動かします。
