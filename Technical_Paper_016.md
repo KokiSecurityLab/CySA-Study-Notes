@@ -42,7 +42,7 @@ A root of trust is only useful if the baseline it verifies against is itself kno
 Extending that verification into continuous runtime monitoring, consistent with CISSP Domain 3 practices, is what turns a one-time boot check into an ongoing integrity control.
 
 ---
-# Koki's Technical Paper #016
+# テクニカルペーパーシリーズ #016
 
 ## コア・パーシステンス — 深層論理統合、カーネルレベルのセキュリティ統制、およびRoot of Trust検証
 
