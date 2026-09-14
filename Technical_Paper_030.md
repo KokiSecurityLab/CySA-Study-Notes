@@ -3,13 +3,9 @@
 ## Access Control — Implementing Least Privilege in Life, Identity and Access Management, and Ingestion Governance
 
 ### Summary Digest
-This paper defines an access-control model combining Role-Based
-Access Control (RBAC) and need-to-know restrictions, aligned with
-CISSP Domain 5 and NIST SP 800-53 access-control practices.
+This paper defines an access-control model combining Role-Based Access Control (RBAC) and need-to-know restrictions, aligned with CISSP Domain 5 and NIST SP 800-53 access-control practices.
 
-Access requests are evaluated against defined roles and attributes
-before being granted, consistent with default-deny rather than
-implicit trust.
+Access requests are evaluated against defined roles and attributes before being granted, consistent with default-deny rather than implicit trust.
 
 ---
 ### 1. Implicit Trust Exposure
@@ -41,13 +37,9 @@ Token Lifecycle and Continuous Policy Auditing:
 * **Continuous RBAC and ACL Auditing**: Role definitions and access control lists are reviewed on a defined cadence to identify permissions that no longer match a role's actual current responsibilities.
 
 ### 5. Conclusion
-An access-control model only works if roles stay current, since a role
-that no longer matches someone's job quietly becomes an
-unnecessary grant of access.
+An access-control model only works if roles stay current, since a role that no longer matches someone's job quietly becomes an unnecessary grant of access.
 
-Reviewing RBAC assignments and access lists on a defined schedule,
-per CISSP Domain 5 and NIST SP 800-53, keeps least privilege from
-eroding over time.
+Reviewing RBAC assignments and access lists on a defined schedule, per CISSP Domain 5 and NIST SP 800-53, keeps least privilege from eroding over time.
 
 ---
 # テクニカルペーパーシリーズ #030
@@ -55,12 +47,9 @@ eroding over time.
 ## アクセス制御 — 最小権限原則の実装､アイデンティティ・アクセス管理､およびデータ取込統制ガバナンス
 
 ### サマリー・ダイジェスト
-本論文は､CISSPドメイン5およびNIST SP 800-53のアクセス制御実務に
-準拠した､ロールベースアクセス制御RBACとニード・トゥ・ノウの制限
-を組み合わせたアクセス制御モデルを定義します｡
+本論文は､CISSPドメイン5およびNIST SP 800-53のアクセス制御実務に準拠した､ロールベースアクセス制御RBACとニード・トゥ・ノウの制限を組み合わせたアクセス制御モデルを定義します｡
 
-アクセス要求は､暗黙の信頼ではなくデフォルト拒否の姿勢と整合する形
-で､権限を付与される前に定義済みのロールおよび属性と照合されます｡
+アクセス要求は､暗黙の信頼ではなくデフォルト拒否の姿勢と整合する形で､権限を付与される前に定義済みのロールおよび属性と照合されます｡
 
 ---
 ### 1. 暗黙的信頼への露出
@@ -80,22 +69,18 @@ eroding over time.
 ### 3. アクセスリストとセッション制御の手順
 ACL設定・リクエスト評価・隔離:
 
-1. **アクセス制御リストの設定**: 許可されたロールとそれに紐づく権限は､テクニカルペーパーシリーズ #001で定義したベースライン境界統制と整合する形でアクセス制御リストへ集約されます｡
+1. **アクセス制御リストの設定**: 許可されたロールとそれに紐づく権限は､テクニカルペーパーシリーズ #001 で定義したベースライン境界統制と整合する形でアクセス制御リストへ集約されます｡
 2. **リクエスト単位での認可評価**: 着信する各リクエストは､単一のセッションレベルのチェックに頼るのではなく､アクセスが許可される前に該当するロールおよび属性ポリシーと照合されます｡
-3. **エンドポイントの分離とエアギャップ化**: 内部の管理ログは､テクニカルペーパーシリーズ #018で定義した人的監視の境界と整合する形で､外部向けのエンドポイントから構造的に分離されます｡
+3. **エンドポイントの分離とエアギャップ化**: 内部の管理ログは､テクニカルペーパーシリーズ #018 で定義した人的監視の境界と整合する形で､外部向けのエンドポイントから構造的に分離されます｡
 
 ### 4. セッションガバナンスと失効レビュー
 トークンのライフサイクルと継続的なポリシー監査:
 
 * **自動化されたセッショントークンの失効**: アクセストークンは､発行後に無期限で有効であり続けるのではなく､異常が検知された場合や定義済みのセッション期間が経過した場合に自動的に無効化されます｡
-* **静的チェックから継続的チェックへの移行**: アクセス適用は､単一時点での許可からリクエストごとのインライン検証へと移行します｡これは テクニカルペーパーシリーズ #008で定義した継続的検証アプローチと整合します｡
+* **静的チェックから継続的チェックへの移行**: アクセス適用は､単一時点での許可からリクエストごとのインライン検証へと移行します｡これは テクニカルペーパーシリーズ #008 で定義した継続的検証アプローチと整合します｡
 * **RBACおよびACLの継続的監査**: ロール定義とアクセス制御リストは定められた周期でレビューされ､そのロールの実際の現在の職責と一致しなくなった権限を特定します｡
 
 ### 5. 結論
-アクセス制御モデルが機能するのは､ロールが最新の状態に保たれている場
-合に限られます｡実際の職務と一致しなくなったロールは､気づかぬうちに
-不要なアクセス権限の付与となってしまうためです｡
+アクセス制御モデルが機能するのは､ロールが最新の状態に保たれている場合に限られます｡実際の職務と一致しなくなったロールは､気づかぬうちに不要なアクセス権限の付与となってしまうためです｡
 
-CISSPドメイン5およびNIST SP 800-53に沿い､RBACの割り当てとアク
-セス制御リストを定められたスケジュールでレビューすることが､最小権限
-の形骸化を防ぎます｡
+CISSPドメイン5およびNIST SP 800-53に沿い､RBACの割り当てとアクセス制御リストを定められたスケジュールでレビューすることが､最小権限の形骸化を防ぎます｡
