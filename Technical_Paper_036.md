@@ -1,94 +1,86 @@
 # Koki's Technical Paper #036
 
-## Social Engineering — Detecting Manipulation as Logical Bugs
+## Social Engineering — Detecting Manipulation as Logical Bugs, Email Authentication Controls, and Automated Pretext Flagging
 
-## Summary Digest
-Grounded in CISSP Domain 5 and advanced CCSP identity governance metrics, this framework translates malicious human manipulation vectors into deterministic, programmatic bugs.
+### Summary Digest
+This paper defines a technical detection layer for social-engineering attempts, aligned with CISSP Domain 4 and SPF/DKIM/DMARC email authentication, flagging manipulation patterns as measurable anomalies rather than relying on judgment alone.
 
-By implementing a customized behavioral filtering engine, the system treats incoming interpersonal telemetry as speculative source code requiring real-time compliance auditing.
-
-Additionally, this architecture operationalizes input sanitation rules directly within ingestion layers, programmatically isolating adversarial exploits long before execution finalization.
+Automated linguistic and sender-behavior analysis, combined with system-enforced verification holds, complements the awareness training defined in Technical Paper #010.
 
 ---
-### 1. Psychological Ingestion Vulnerabilities
-The Catastrophic Vulnerabilities of Cognitive Exposure and Deceptive Inbound Traffic:
+### 1. Undetected Manipulation Pattern Risk
+Structural Vulnerabilities of Judgment-Only Defenses:
 
-* **The Hazards of Implicit Interface Empathy**: Traditional communication pathways remain inherently vulnerable to deceptive manipulation when the defensive perimeter lacks a formalized, math-driven verification layer to filter inbound interaction patterns.
-* **The Phishing of Administrative Credential Privileges**: Standard foundational configurations possess no inherent protection against targeted pretexting exploits, presenting severe system alignment risks when malicious actors simulate legitimate authority to compromise secondary assets.
-* **The Lateral Propagation of Behavioral Exploits**: Sophisticated adversaries optimize for human cognitive bias exploitation, utilizing emotional triggers as unmonitored scripts to bypass logical verification boundaries and corrupt internal data processing registries.
+* **Spoofed Sender Domains Passing Basic Filters**: Email systems that do not enforce sender-authentication standards allow a spoofed or look-alike domain to reach a user's inbox indistinguishable from a legitimate sender at a glance.
+* **Urgency and Authority Language Left Unflagged**: Messages combining urgency, authority claims, and a request for atypical action share a recognizable linguistic pattern that goes undetected when no automated analysis is applied to message content.
+* **Unenforced Secondary Verification for High-Risk Requests**: Financial or credential-related requests that lack a system-enforced hold for secondary verification depend entirely on the recipient remembering to check independently.
 
-### 2. Methodological Foundation
-Behavioral Threat Detection and Identity Protection Pillars:
+### 2. Email Authentication and Pattern-Detection Foundation
+SPF/DKIM/DMARC Enforcement and Linguistic Anomaly Scoring:
 
-* **Pretexting Logic Discrepancy Auditing Sequences**: Subjecting incoming narrative data blocks to rigorous reality-matching checks, programmatically triggering firewall alerts the exact millisecond an unverified story contradicts empirical observation or historical database logs.
-* **Cognitive Bias Exploit Identification Filters**: Classifying emotional pressure variables as malicious operational scripts, transforming passive behavioral responses into a rule-bounded containment protocol that neutralizes threat vectors prior to execution.
-* **Administrative Privilege Access Lock Rules**: Confining critical decision-making parameters within a hard-coded security layer, ensuring that core identity metrics remain permanently insulated from external social pressure and uncompressed data drift.
+* **Sender Authentication via SPF, DKIM, and DMARC**: Inbound mail is validated against Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM), and Domain-based Message Authentication (DMARC) records, rejecting or flagging messages that fail authentication.
+* **Automated Linguistic Pattern Scoring**: Message content is scored for combinations of urgency, authority assertion, and requests for atypical action, consistent with patterns documented in business-email-compromise research, flagging high-scoring messages for review.
+* **Alignment with Awareness Training Findings**: Detection patterns are informed by the incident data and human-factor findings described in Technical Paper #010, keeping automated detection grounded in observed manipulation tactics rather than assumptions.
 
-### 3. Pipeline Implementation
-Asynchronous Input Filtering and Verification Strategies:
+### 3. Detection and Hold Sequence
+Authentication Checks, Scoring, and Transaction Hold:
 
-1.  **Algorithmic Input Ingestion Sanitation**: Routing all inbound verbal and textual signals based on the baseline perimeter defenses defined in Technical Paper #001 to systematically strip away emotional noise.
-2.  **Out-of-Band (OOB) Cross-Node Validation**: Forcing the authorization layer to route unverified factual claims through independent validation channels, utilizing the proactive multi-directional auditing metrics established in Technical Paper #010.
-3.  **Default Resistance Architecture Enforcement**: Implementing a strict default-deny posture against authority-based control commands, requiring all external instructions to pass comprehensive internal data validation checks before runtime execution.
+1. **Inbound Authentication Verification**: Every inbound message is checked against SPF, DKIM, and DMARC records before delivery, with failures routed to quarantine rather than the primary inbox.
+2. **Content-Pattern Scoring**: Delivered messages are scored for linguistic manipulation patterns, and high-scoring messages are flagged with a visible warning before the recipient can act on them.
+3. **System-Enforced Verification Hold**: Requests matching a high-risk category, such as a wire transfer or credential reset, are held pending the out-of-band confirmation process defined in Technical Paper #010, rather than proceeding immediately.
 
-### 4. Operational Transition
-Deterministic Behavioral Governance and Infrastructure Robustness:
+### 4. Detection Model Governance and False-Result Review
+Scoring Threshold Calibration and Bypass Auditing:
 
-* **The Automated Default Deny Transition**: Transitioning the ingestion gateway from a state of passive emotional exposure to an automated, structured gateway architecture that explicitly execution-shields the core registry.
-* **Rule-Bounded Pathfinding Over Manipulation Vectors**: Forcing all incoming social interactions to conform to designated logical verification parameters, transforming speculative communication into a rule-bounded validation process.
-* **Absolute Ingestion Perimeter Integrity Preservation**: Ensuring that continuous cognitive telemetry auditing functions as an uncompromised defensive control layer to guarantee the absolute safety, permanence, and stability of the custom operating system.
+* **Separation of Detection Logic from Delivery Decisions**: The scoring and authentication engine operates independently of the mail-delivery path, so a flaw in one component does not silently disable the other.
+* **Documented Threshold Justification**: Scoring thresholds that determine when a message is flagged or held are documented and reviewed, rather than set arbitrarily without a basis in observed data.
+* **Continuous False-Positive and Bypass Auditing**: False-positive rates and confirmed bypasses of the detection system are reviewed on a defined cadence, informing adjustments to authentication enforcement and scoring criteria.
 
 ### 5. Conclusion
-Securing information infrastructure against behavioral threat vectors requires an automated ingestion architecture capable of isolating psychological manipulation at the outermost frontier.
+Treating manipulation as a pattern with measurable properties lets a system flag it, rather than relying on a person to catch it every time.
 
-Evaluating interpersonal data streams through strict compliance rules programmatically strips adversarial payloads of their disruptive potential before affecting core processing registries.
-
-Ultimately, embedding dedicated social engineering mitigation directly into the architecture ensures that the data sanctuary remains permanently insulated from external volatility.
+Pairing that detection with the verification procedures in Technical Paper #010, per CISSP Domain 4, covers what a system catches and what still needs judgment.
 
 ---
-# Koki's Technical Paper #036
+# テクニカルペーパーシリーズ #036
 
-## ソーシャルエンジニアリング：論理バグとしての心理操作検知・緩和プロトコル
+## ソーシャルエンジニアリング — 論理バグとしての操作検知、メール認証統制、および自動化されたプリテキスト検出
 
 ### サマリー・ダイジェスト
-CISSPドメイン5および高度なCCSPアイデンティティガバナンス基準に準拠した本フレームワークは、心理操作ベクトルを決定論的なプログラムバグへと変換します。
+本論文は、CISSPドメイン4およびSPF/DKIM/DMARCのメール認証に準拠した、ソーシャルエンジニアリング検知のための技術層を定義し、判断のみに頼らず操作パターンを測定可能な異常として検出します。
 
-独自の行動フィルタリングエンジンを実装し、着信する対人テレメトリをリアルタイムのコンプライアンス監査を必要とする未検証のソースコードとして処理します。
-
-さらに、データ取り込みレイヤーにおいて入力サニタイズルールを直接運用化し、人為的に誘導された感情的ノイズ変数を実行前にプログラム的に隔離します。
+自動化された言語分析および送信者挙動分析に、高リスクリクエストへのシステム強制確認保留を組み合わせ、テクニカルペーパーシリーズ　#010の意識向上教育を補完します。
 
 ---
-### 1. 心理的取り込み経路の脆弱性
-認知的露出と欺瞞的な着信トラフィックモデルにおける構造的脆弱性:
+### 1. 検知されない操作パターンのリスク
+判断のみに頼る防御の構造的脆弱性:
 
-* **暗黙のインターフェース共感性に伴う構造的脆弱性**: 着信する相互作用パターンをフィルタリングするための明示的な数学的検証構造（検証マトリクス）が防御境界に欠如している場合、従来の通信経路は欺瞞的な操作に対して本質的に脆弱なステートとなります。
-* **管理者資格情報特権を狙うフィッシングハザード**: 標準化された基盤構成は標的型のプリテキスティング（偽のシナリオ）攻撃に対する固有の保護能力を持たず、悪意あるアクターが正当な権威を模倣してセカンダリ資産の制御を掌握しようとする際に、重大なシステムアライメントリスクをもたらします。
-* **行動的エクスプロイトの横方向（ラテラル）の伝播脅威**: 高度な敵対的アクターは人間の認知バイアスの悪用を最適化し、感情的トリガーを未監視の不正スクリプトとして展開することで、論理検証の境界を迂回してシステム中核のデータ処理レジストリを汚染します。
+* **基本フィルターを通過するなりすまし送信ドメイン**: 送信者認証標準を適用しないメールシステムは、なりすましや類似ドメインが、一見して正規の送信者と区別できない状態でユーザーの受信箱に届くことを許してしまいます。
+* **フラグ付けされない緊急性・権威性を装う言い回し**: 緊急性・権威の主張・異例の行動の要求を組み合わせたメッセージは認識可能な言語パターンを共有していますが、メッセージ内容への自動分析が行われなければ検知されないままとなります。
+* **高リスクリクエストに対する未適用の二次確認**: システムによる二次確認の強制保留を欠く送金や資格情報関連のリクエストは、受信者が独自に確認することを覚えているかどうかに完全に依存してしまいます。
 
-### 2. 方法論的基盤
-行動脅威検出とアイデンティティ保護の原則:
+### 2. メール認証とパターン検知の基盤
+SPF/DKIM/DMARCの適用と言語的異常のスコアリング:
 
-* **プリテキスティングの論理不一致監査シーケンス**: 着信するナラティブ（作り話）データブロックに対して厳格な現実整合性チェックを強制し、未検証のデータが経験的観察や過去のデータベースログと矛盾したそのミリ秒単位の瞬間に、ファイアウォール侵害アラートを自動起動します。
-* **認知バイアスエクスプロイトの識別フィルター規則**: 心理的プレッシャー変数を悪意ある運用スクリプト（不正コード）として分類し、受動的な行動反応を、実行前に脅威を無効化するルールに縛られた決定論的な封じ込めプロトコルへと変換します。
-* **管理者特権のアクセスロックルール**: 極めて重要な意思決定パラメータをハードコーディングされたセキュリティ層の内部に隔離し、コアアイデンティティのメトリクスが外部の社会的圧力や未圧縮のデータドリフトから永久に隔離される制御を確立します。
+* **SPF・DKIM・DMARCによる送信者認証**: 着信メールはSender Policy Framework（SPF）、DomainKeys Identified Mail（DKIM）、Domain-based Message Authentication（DMARC）のレコードと照合され、認証に失敗したメッセージは拒否またはフラグ付けされます。
+* **自動化された言語パターンのスコアリング**: メッセージ内容は、ビジネスメール詐欺（BEC）研究で文書化されているパターンと整合する、緊急性・権威の主張・異例の行動要求の組み合わせについてスコアリングされ、高スコアのメッセージはレビュー対象としてフラグ付けされます。
+* **意識向上教育の知見との整合**: 検知パターンは、テクニカルペーパーシリーズ　#010　で述べたインシデントデータおよび人的要因の知見に基づいて策定され、自動検知を想定ではなく観測された操作手口に根ざしたものにします。
 
-### 3. パイプラインの実装方法
-非同期入力フィルタリングと検証の手順:
+### 3. 検知と保留の手順
+認証チェック・スコアリング・取引保留:
 
-1.  **アルゴリズムによる入力サニライズ入力シーケンス**: テクニカルペーパー#001で定義された周辺防衛セーフガードに準拠し、着信するすべての音声およびテキスト信号を専用のサニライズフィルター（精査環境）に強制ルーティングすることで、感情的ノイズをシステム的に剥ぎ取ります。
-2.  **帯域外（OOB）によるクロスノード相互検証**: 未検証の事実主張に直面した際、テクニカルペーパー#010で確立された先行的な多方向の監査メトリクスを活用し、独立した検証チャネルを経由したクロスチェックの実行を認可レイヤーに強制します。
-3.  **デフォルト抵抗（原則拒否）アーキテクチャの強制**: 立場や権威を利用した支配命令に対して厳格な原則拒否（デフォルト・デナイ）の姿勢を実装し、すべての外部指示が包括的な内部データ検証チェックを通過するまで実行を保留します。
+1. **着信認証の検証**: 着信する各メッセージは配送前にSPF・DKIM・DMARCのレコードと照合され、失敗した場合は主受信箱ではなく検疫対象へルーティングされます。
+2. **コンテンツパターンのスコアリング**: 配送されたメッセージは言語的な操作パターンについてスコアリングされ、高スコアのメッセージには受信者が対応する前に目に見える警告が付与されます。
+3. **システム強制の確認保留**: 送金や資格情報リセットなど高リスクカテゴリに該当するリクエストは、即座に処理されるのではなく、テクニカルペーパーシリーズ　#010　で定義した複数経路での確認プロセスの完了を待って保留されます。
 
-### 4. 運用の移行プロセス
-決定論的行動ガバナンスとインフラ堅牢性の統治基準:
+### 4. 検知モデルガバナンスと誤判定のレビュー
+スコアしきい値の較正と回避事例の監査:
 
-* **脆弱な露出状態からの完全自動脱却基準**: 通信インターフェースを受動的で脆弱な感情の露出ステートから、システム中核レジストリの実行保護（エグゼキューションシールド）を明示的に実行する自動化された構造的ゲートウェイ構成へと完全に移行させます。
-* **操作ベクトルを超える規則拘束型の経路探索**: すべての着信対人相互作用に対して指定された論理検証パラメータへの適合を強制し、推測的なコミュニケーションをルールに縛られた決定論的な検証プロセスへと転換します。
-* **絶対的な入力境界完全性の永久死守**: 定常的な認知的テレメトリ監査を妥協のない防衛コントロールレイヤーとして機能させることにより、カスタムオペレーティングシステム全体の絶対的な安全性、永続性、および主権を強固に維持します。
+* **検知ロジックと配送判断の分離**: スコアリングおよび認証エンジンはメール配送経路とは独立して動作するため、一方の欠陥がもう一方を気づかぬうちに無効化することはありません。
+* **文書化されたしきい値の根拠**: メッセージがフラグ付けまたは保留される基準となるスコアしきい値は文書化・レビューされ、観測データに基づかない恣意的な設定を避けます。
+* **偽陽性と回避事例の継続的監査**: 検知システムの偽陽性率と確認済みの回避事例は定められた周期でレビューされ、認証の適用やスコアリング基準の調整に活用されます。
 
 ### 5. 結論
-行動的脅威ベクトルに対して情報インフラの安全を死守するには、心理的操作を入力の最前線で完全に隔離できる自動化された取り込みアーキテクチャの構築が不可欠です。
+操作の試みを測定可能な特性を持つパターンとして扱うことで、毎回人間が見抜くことに頼るのではなく、システムがそれにフラグを立てられるようになります。
 
-対人データストリームを厳格なソースコードコンプライアンスの観点から評価することにより、本フレームワークは敵対的ペイロードが中核の処理レジストリに影響を与える前にその破壊的可能性を剥ぎ取ります。
-
-専用のソーシャルエンジニアリング緩和コアをシステムアーキテクチャへ直接埋め込むことは、データの聖域が外部世界の揮発性から永久に隔離されることを保証します。
+その検知を テクニカルペーパーシリーズ　#010 で定義した確認手続きと組み合わせることは、CISSPドメイン4に沿いつつ、システムが検知できる事案と、依然として人の判断を要する事案の両方をカバーします。
