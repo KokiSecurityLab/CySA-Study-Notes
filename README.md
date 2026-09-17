@@ -81,3 +81,5 @@ The foundational security controls documented in this series are actively scaled
 | 035 | Zero Trust Life | Sovereignty through verification |
 | 036 | Social Engineering | Detecting manipulation as logical bugs |
 | 037 | Sensory Shielding | Edge AI as an Accessibility Patch |
+| 038 | 2030 Engineer Vision | Leveraging unique specs for leadership |
+| 039 | The Last Patch | Secure SDLC Finalization |
