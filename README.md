@@ -83,3 +83,4 @@ The foundational security controls documented in this series are actively scaled
 | 037 | Sensory Shielding | Edge AI as an Accessibility Patch |
 | 038 | 2030 Engineer Vision | Leveraging unique specs for leadership |
 | 039 | The Last Patch | Secure SDLC Finalization |
+| 040 | AI Threat Hunting | Predictive cross-node correlation |
