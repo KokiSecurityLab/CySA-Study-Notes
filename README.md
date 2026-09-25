@@ -86,3 +86,4 @@ The foundational security controls documented in this series are actively scaled
 | 040 | AI Threat Hunting | Predictive cross-node correlation |
 | 041 | Swarm Decoy Systems | Deceptive threat deflection |
 | 042 | Cognitive Cryptography | Biometric-driven engine safety | 
+| 043 | Quantum Ingestion Filters | Post-Quantum Traffic Sanitization | 
