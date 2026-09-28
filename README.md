@@ -87,3 +87,4 @@ The foundational security controls documented in this series are actively scaled
 | 041 | Swarm Decoy Systems | Deceptive threat deflection |
 | 042 | Cognitive Cryptography | Biometric-driven engine safety | 
 | 043 | Quantum Ingestion Filters | Post-Quantum Traffic Sanitization | 
+| 044 | Zero-Trust Mesh | Service Mesh mTLS Enforcement |
