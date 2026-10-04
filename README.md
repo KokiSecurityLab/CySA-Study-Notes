@@ -90,3 +90,4 @@ The foundational security controls documented in this series are actively scaled
 | 044 | Zero-Trust Mesh | Service Mesh mTLS Enforcement |
 | 045 | Autonomous BCP Drills | Machine-Speed Recovery Orchestration |
 | 046 | Orbital Link Hardening | Satellite telemetry encryption | 
+| 047 | Solar Flare Mitigation | Radiation-Driven Anomaly Isolation | 
