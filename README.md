@@ -91,3 +91,4 @@ The foundational security controls documented in this series are actively scaled
 | 045 | Autonomous BCP Drills | Machine-Speed Recovery Orchestration |
 | 046 | Orbital Link Hardening | Satellite telemetry encryption | 
 | 047 | Solar Flare Mitigation | Radiation-Driven Anomaly Isolation | 
+| 048 | Deep-Space Firewalls | Decoupled cross-border traffic governance | 
