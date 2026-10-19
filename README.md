@@ -97,3 +97,5 @@ The foundational security controls documented in this series are actively scaled
 | 051 | Security Governance | Policy frameworks and risk metrics |
 | 052 | Risk Assessment | Quantitative risk metrics |
 | 053 | Compliance Mapping | Regulatory Obligation Tracking |
+| 054 | Personnel Security | Background Screening and Offboarding |
+
