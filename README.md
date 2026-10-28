@@ -100,3 +100,4 @@ The foundational security controls documented in this series are actively scaled
 | 054 | Personnel Security | Background Screening and Offboarding |
 | 055 | Threat Modeling | STRIDE Methodology Application |
 | 056 | Data Ownership Roles | Data Lifecycle Stage Controls |
+| 057 | Data Loss Prevention | Content Inspection and Exfiltration Blocking |
