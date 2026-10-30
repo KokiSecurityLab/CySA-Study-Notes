@@ -101,3 +101,4 @@ The foundational security controls documented in this series are actively scaled
 | 055 | Threat Modeling | STRIDE Methodology Application |
 | 056 | Data Ownership Roles | Data Lifecycle Stage Controls |
 | 057 | Data Loss Prevention | Content Inspection and Exfiltration Blocking |
+| 058 | Asset Inventory Management | Automated Discovery and CMDB Reconciliation |
