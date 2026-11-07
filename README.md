@@ -104,3 +104,4 @@ The foundational security controls documented in this series are actively scaled
 | 058 | Asset Inventory Management | Automated Discovery and CMDB Reconciliation |
 | 059 | Data State Encryption | At-Rest, In-Transit, and In-Use Protection |
 | 060 | Security Baseline Tailoring | Control Scoping by Classification and Environment |
+| 061 | Secure Design Principles | Saltzer and Schroeder Framework Application |
