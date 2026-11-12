@@ -107,3 +107,4 @@ The foundational security controls documented in this series are actively scaled
 | 061 | Secure Design Principles | Saltzer and Schroeder Framework Application |
 | 062 | Formal Security Models | Bell-LaPadula and Biba Model Application |
 | 063 | Lattice Cryptography Architecture | Learning With Errors Problem Application |
+| 064 | Physical Security Design | CPTED Principles and Layered Facility Controls |
