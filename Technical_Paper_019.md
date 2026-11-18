@@ -25,9 +25,9 @@ Disclosure Standards and Verification Principles:
 ### 3. Content Tagging and Pre-Publication Review
 Review and Disclosure Workflow:
 
-1. **Generation-Time Tagging**: Content produced by an AI system is tagged with its generation source and confidence indicators at the point of creation, before any human review step.
-2. **Human Review Prior to Publication**: AI-generated content intended for external audiences is reviewed by a designated human reviewer before publication, consistent with the escalation approach defined in Technical Paper #018.
-3. **Disclosure Application**: Approved content is published with the required synthetic-content disclosure applied, and the review decision is logged for later audit.
+* **Generation-Time Tagging**: Content produced by an AI system is tagged with its generation source and confidence indicators at the point of creation, before any human review step.
+* **Human Review Prior to Publication**: AI-generated content intended for external audiences is reviewed by a designated human reviewer before publication, consistent with the escalation approach defined in Technical Paper #018.
+* **Disclosure Application**: Approved content is published with the required synthetic-content disclosure applied, and the review decision is logged for later audit.
 
 ### 4. Advisory Status and Publication Separation
 Overreliance Mitigation and Disclosure Compliance Review:
@@ -69,9 +69,9 @@ Disclosure requirements under EU AI Act Article 50, combined with human review b
 ### 3. コンテンツのタグ付けと公開前レビュー
 レビューと開示のワークフロー:
 
-1. **生成時点でのタグ付け**: AIシステムが生成したコンテンツには、人間によるレビュー工程の前に、生成元と信頼度指標のタグが付与されます。
-2. **公開前の人的レビュー**: 外部向けのAI生成コンテンツは、公開前に指定されたレビュー担当者によるレビューを受けます。これは テクニカルペーパーシリーズ #018 で定義したエスカレーションの考え方と整合します。
-3. **開示の適用**: 承認済みのコンテンツは必要な合成コンテンツ開示を付与された上で公開され、レビュー判断は後の監査のために記録されます。
+* **生成時点でのタグ付け**: AIシステムが生成したコンテンツには、人間によるレビュー工程の前に、生成元と信頼度指標のタグが付与されます。
+* **公開前の人的レビュー**: 外部向けのAI生成コンテンツは、公開前に指定されたレビュー担当者によるレビューを受けます。これは テクニカルペーパーシリーズ #018 で定義したエスカレーションの考え方と整合します。
+* **開示の適用**: 承認済みのコンテンツは必要な合成コンテンツ開示を付与された上で公開され、レビュー判断は後の監査のために記録されます。
 
 ### 4. 参考情報としての位置づけと公開承認の分離
 過信の緩和と開示コンプライアンスのレビュー:
