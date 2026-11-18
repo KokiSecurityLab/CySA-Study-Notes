@@ -25,9 +25,9 @@ Remote Pulse Detection and Visual Artifact Analysis:
 ### 3. Liveness and Provenance Verification Sequence
 Signal Extraction, Artifact Scoring, and Cross-Verification:
 
-1. **Physiological Signal Extraction**: The rPPG pulse signal and other physiological indicators are extracted from the incoming video stream and compared against expected characteristics of live human tissue.
-2. **Artifact Scoring**: Facial and audio artifacts are scored against known generative-model signatures maintained in a reference set, flagging content with a high artifact score for further review.
-3. **Provenance Cross-Check**: Where available, content-provenance credentials are checked against the C2PA-based approach defined in Technical Paper #011, providing a second, independent line of evidence.
+* **Physiological Signal Extraction**: The rPPG pulse signal and other physiological indicators are extracted from the incoming video stream and compared against expected characteristics of live human tissue.
+* **Artifact Scoring**: Facial and audio artifacts are scored against known generative-model signatures maintained in a reference set, flagging content with a high artifact score for further review.
+* **Provenance Cross-Check**: Where available, content-provenance credentials are checked against the C2PA-based approach defined in Technical Paper #011, providing a second, independent line of evidence.
 
 ### 4. Detection Model Governance
 Model Currency and False-Result Review:
@@ -69,9 +69,9 @@ Combining physiological analysis with provenance checks, consistent with CISSP D
 ### 3. 実体検知と出自検証の手順
 信号抽出・アーティファクトスコアリング・相互検証:
 
-1. **生理的信号の抽出**: 着信映像ストリームからrPPG脈拍信号などの生理的指標を抽出し、生きている人体組織に期待される特性と比較します。
-2. **アーティファクトスコアリング**: 顔・音声のアーティファクトを、参照セットとして維持されている既知の生成モデルシグネチャと照合してスコアリングし、スコアの高いコンテンツを追加レビュー対象としてフラグ付けします。
-3. **出自の相互確認**: 利用可能な場合、コンテンツの出自証明を、テクニカルペーパーシリーズ #011 で定義したC2PAベースのアプローチと照合し、独立した第二の根拠を提供します。
+* **生理的信号の抽出**: 着信映像ストリームからrPPG脈拍信号などの生理的指標を抽出し、生きている人体組織に期待される特性と比較します。
+* **アーティファクトスコアリング**: 顔・音声のアーティファクトを、参照セットとして維持されている既知の生成モデルシグネチャと照合してスコアリングし、スコアの高いコンテンツを追加レビュー対象としてフラグ付けします。
+* **出自の相互確認**: 利用可能な場合、コンテンツの出自証明を、テクニカルペーパーシリーズ #011 で定義したC2PAベースのアプローチと照合し、独立した第二の根拠を提供します。
 
 ### 4. 検知モデルのガバナンス
 モデルの鮮度と誤判定のレビュー:
