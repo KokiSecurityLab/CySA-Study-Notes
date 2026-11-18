@@ -25,9 +25,9 @@ Controlled Failure Injection and RTO Verification Principles:
 ### 3. Drill Execution and Verification Sequence
 Failure Injection, Recovery Measurement, and Reporting:
 
-1. **Scoped Failure Injection**: A specific, bounded failure, such as simulated node loss or network partition, is introduced into a defined portion of the environment under controlled conditions.
-2. **Automated Recovery Time Measurement**: The time from failure injection to confirmed, verified recovery is measured automatically and compared against documented RTO targets.
-3. **Drill Outcome Reporting**: Results, including any deviation from expected recovery time or unexpected failure-mode behavior, are logged and reported for review rather than discarded after the drill concludes.
+* **Scoped Failure Injection**: A specific, bounded failure, such as simulated node loss or network partition, is introduced into a defined portion of the environment under controlled conditions.
+* **Automated Recovery Time Measurement**: The time from failure injection to confirmed, verified recovery is measured automatically and compared against documented RTO targets.
+* **Drill Outcome Reporting**: Results, including any deviation from expected recovery time or unexpected failure-mode behavior, are logged and reported for review rather than discarded after the drill concludes.
 
 ### 4. Drill Program Governance and Blast-Radius Control
 Injection Scope Limits and Outcome-Driven Adjustment:
@@ -69,9 +69,9 @@ Running that test continuously and automatically, per CISSP Domain 7 and Technic
 ### 3. 訓練実行と検証の手順
 障害注入・復旧測定・報告:
 
-1. **範囲を限定した障害注入**: 模擬的なノード喪失やネットワーク分断など、特定かつ範囲を限定した障害が、制御された条件下で環境の定義済みの一部分に導入されます。
-2. **復旧時間の自動測定**: 障害注入から確認済みの検証された復旧までの時間が自動的に測定され、文書化されたRTO目標と比較されます。
-3. **訓練結果の報告**: 想定復旧時間からの逸脱や予期しない障害モードの挙動を含む結果は、訓練終了後に破棄されるのではなく記録・レビュー対象として報告されます。
+* **範囲を限定した障害注入**: 模擬的なノード喪失やネットワーク分断など、特定かつ範囲を限定した障害が、制御された条件下で環境の定義済みの一部分に導入されます。
+* **復旧時間の自動測定**: 障害注入から確認済みの検証された復旧までの時間が自動的に測定され、文書化されたRTO目標と比較されます。
+* **訓練結果の報告**: 想定復旧時間からの逸脱や予期しない障害モードの挙動を含む結果は、訓練終了後に破棄されるのではなく記録・レビュー対象として報告されます。
 
 ### 4. 訓練プログラムガバナンスと影響範囲の制御
 注入範囲の制限と結果に基づく調整:
