@@ -25,9 +25,9 @@ Obligation Register and Timeline Documentation Principles:
 ### 3. Obligation Verification and Notification Sequence
 Applicability Review, Control Mapping, and Timeline Activation:
 
-1. **Regulatory Applicability Review**: New or changed business activities are reviewed against the compliance obligation register to determine which regulations newly apply or no longer apply.
-2. **Control Coverage Verification**: Each applicable obligation is checked against the control-mapping register to confirm a corresponding control actually exists and is currently active.
-3. **Incident-Triggered Notification Clock**: A confirmed incident involving regulated data immediately triggers the documented notification timeline for the applicable jurisdiction, consistent with the incident-response process defined in Technical Paper #033.
+* **Regulatory Applicability Review**: New or changed business activities are reviewed against the compliance obligation register to determine which regulations newly apply or no longer apply.
+* **Control Coverage Verification**: Each applicable obligation is checked against the control-mapping register to confirm a corresponding control actually exists and is currently active.
+* **Incident-Triggered Notification Clock**: A confirmed incident involving regulated data immediately triggers the documented notification timeline for the applicable jurisdiction, consistent with the incident-response process defined in Technical Paper #033.
 
 ### 4. Compliance Governance and Register Auditing
 Register Currency and Notification Readiness Review:
@@ -69,9 +69,9 @@ GDPR第33条の72時間要件を含む侵害通知の期限を追跡し、確認
 ### 3. 義務検証と通知の手順
 適用性レビュー・統制マッピング・期限の起動:
 
-1. **規制適用性レビュー**: 新規または変更された事業活動は、コンプライアンス義務台帳に照らしてレビューされ、新たに適用される、または適用されなくなった規制を特定します。
-2. **統制カバレッジの検証**: 適用される各義務は統制マッピング台帳と照合され、対応する統制が実際に存在し現在も有効であることを確認します。
-3. **インシデントによる通知時計の起動**: 規制対象データに関わる確認済みのインシデントは、テクニカルペーパーシリーズ #033 で定義したインシデント対応プロセスと整合する形で、適用される法域の文書化された通知期限を直ちに起動させます。
+* **規制適用性レビュー**: 新規または変更された事業活動は、コンプライアンス義務台帳に照らしてレビューされ、新たに適用される、または適用されなくなった規制を特定します。
+* **統制カバレッジの検証**: 適用される各義務は統制マッピング台帳と照合され、対応する統制が実際に存在し現在も有効であることを確認します。
+* **インシデントによる通知時計の起動**: 規制対象データに関わる確認済みのインシデントは、テクニカルペーパーシリーズ #033 で定義したインシデント対応プロセスと整合する形で、適用される法域の文書化された通知期限を直ちに起動させます。
 
 ### 4. コンプライアンスガバナンスと台帳監査
 台帳の鮮度と通知対応能力のレビュー:
