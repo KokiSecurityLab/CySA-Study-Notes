@@ -25,9 +25,9 @@ Third-Party Risk Scoring and Dependency Scanning Principles:
 ### 3. Dependency Mapping and Scanning Sequence
 Inventory, Scanning, and Alternative-Source Evaluation:
 
-1. **Dependency Inventory Compilation**: A current inventory of external vendors, libraries, and infrastructure dependencies is compiled and reconciled with the boundary controls defined in Technical Paper #001.
-2. **Scheduled Vulnerability Scanning**: Dependencies are scanned against updated vulnerability databases on a defined schedule, rather than only at initial integration, to catch newly disclosed weaknesses.
-3. **Alternative-Source Evaluation**: Where feasible, qualified alternative vendors or libraries are identified in advance, reducing the time needed to replace a dependency that is later found to be compromised or unmaintained.
+* **Dependency Inventory Compilation**: A current inventory of external vendors, libraries, and infrastructure dependencies is compiled and reconciled with the boundary controls defined in Technical Paper #001.
+* **Scheduled Vulnerability Scanning**: Dependencies are scanned against updated vulnerability databases on a defined schedule, rather than only at initial integration, to catch newly disclosed weaknesses.
+* **Alternative-Source Evaluation**: Where feasible, qualified alternative vendors or libraries are identified in advance, reducing the time needed to replace a dependency that is later found to be compromised or unmaintained.
 
 ### 4. Vendor Diversification and SLA Governance
 Redundancy Planning and Service-Level Review:
@@ -69,9 +69,9 @@ Continuous scanning and vendor scoring, consistent with CISSP Domain 1 and NIST 
 ### 3. 依存関係マッピングとスキャンの手順
 棚卸し・スキャン・代替ソースの評価:
 
-1. **依存関係の棚卸し**: 外部ベンダー、ライブラリ、インフラ依存関係の最新の一覧を作成し、テクニカルペーパーシリーズ #001 で定義した境界統制と突き合わせます。
-2. **定期的な脆弱性スキャン**: 依存関係は、初回統合時のみでなく定められたスケジュールで更新済みの脆弱性データベースと照合してスキャンされ、新たに公表された弱点を捕捉します。
-3. **代替ソースの評価**: 実現可能な場合、適格な代替ベンダーやライブラリをあらかじめ特定しておき、後に侵害または保守放棄が判明した依存関係を置き換えるまでの時間を短縮します。
+* **依存関係の棚卸し**: 外部ベンダー、ライブラリ、インフラ依存関係の最新の一覧を作成し、テクニカルペーパーシリーズ #001 で定義した境界統制と突き合わせます。
+* **定期的な脆弱性スキャン**: 依存関係は、初回統合時のみでなく定められたスケジュールで更新済みの脆弱性データベースと照合してスキャンされ、新たに公表された弱点を捕捉します。
+* **代替ソースの評価**: 実現可能な場合、適格な代替ベンダーやライブラリをあらかじめ特定しておき、後に侵害または保守放棄が判明した依存関係を置き換えるまでの時間を短縮します。
 
 ### 4. ベンダー多様化とSLAガバナンス
 冗長化計画とサービスレベルのレビュー:
