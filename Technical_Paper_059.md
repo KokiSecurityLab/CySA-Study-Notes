@@ -25,9 +25,9 @@ State-Specific Mechanisms and Confidential Computing Principles:
 ### 3. State Transition Protection Sequence
 Storage, Transmission, and Processing Coverage Verification:
 
-1. **At-Rest Coverage Verification**: All storage locations, including backups and temporary files, are verified to have encryption applied consistently, not only primary storage.
-2. **In-Transit Coverage Verification**: Network paths are verified to use current TLS configuration for all data transmission, including internal service-to-service traffic.
-3. **In-Use Coverage for Sensitive Processing**: Processing of the most sensitive data categories, as classified under Technical Paper #027, is routed through a trusted execution environment rather than standard unprotected memory.
+* **At-Rest Coverage Verification**: All storage locations, including backups and temporary files, are verified to have encryption applied consistently, not only primary storage.
+* **In-Transit Coverage Verification**: Network paths are verified to use current TLS configuration for all data transmission, including internal service-to-service traffic.
+* **In-Use Coverage for Sensitive Processing**: Processing of the most sensitive data categories, as classified under Technical Paper #027, is routed through a trusted execution environment rather than standard unprotected memory.
 
 ### 4. Encryption Coverage Governance and Gap Auditing
 State Coverage Mapping and Residual Gap Review:
@@ -69,9 +69,9 @@ Extending protection into that state with confidential computing, consistent wit
 ### 3. 状態遷移保護の手順
 保管・伝送・処理カバレッジの検証:
 
-1. **保管時カバレッジの検証**: バックアップや一時ファイルを含むすべての保管場所について、主要ストレージのみでなく暗号化が一貫して適用されていることが検証されます。
-2. **転送時カバレッジの検証**: 内部のサービス間トラフィックを含むすべてのデータ伝送について、ネットワーク経路が最新のTLS構成を使用していることが検証されます。
-3. **機微な処理に対する使用時カバレッジ**: テクニカルペーパーシリーズ #027 で分類された最も機微なデータカテゴリの処理は、標準的な無防備なメモリではなく信頼実行環境を経由させられます。
+* **保管時カバレッジの検証**: バックアップや一時ファイルを含むすべての保管場所について、主要ストレージのみでなく暗号化が一貫して適用されていることが検証されます。
+* **転送時カバレッジの検証**: 内部のサービス間トラフィックを含むすべてのデータ伝送について、ネットワーク経路が最新のTLS構成を使用していることが検証されます。
+* **機微な処理に対する使用時カバレッジ**: テクニカルペーパーシリーズ #027 で分類された最も機微なデータカテゴリの処理は、標準的な無防備なメモリではなく信頼実行環境を経由させられます。
 
 ### 4. 暗号化カバレッジガバナンスと隙間監査
 状態カバレッジマッピングと残存する隙間のレビュー:
