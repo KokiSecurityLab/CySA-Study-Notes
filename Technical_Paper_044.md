@@ -25,9 +25,9 @@ mTLS Sidecar Enforcement and Authorization Policy Principles:
 ### 3. Policy Enforcement and Quarantine Sequence
 Sidecar Injection, Policy Evaluation, and Isolation:
 
-1. **Automatic Sidecar Injection**: Each service instance is automatically paired with a sidecar proxy at deployment time, consistent with the deployment-approval process defined in Technical Paper #021.
-2. **Per-Request Policy Evaluation**: Each service-to-service request is evaluated against the applicable mesh authorization policy by the sidecar before being forwarded, rather than trusted based on network location alone.
-3. **Anomaly-Triggered Quarantine**: A service exhibiting request patterns inconsistent with its established baseline is automatically isolated from the mesh pending review, consistent with the behavioral-anomaly approach defined in Technical Paper #013.
+* **Automatic Sidecar Injection**: Each service instance is automatically paired with a sidecar proxy at deployment time, consistent with the deployment-approval process defined in Technical Paper #021.
+* **Per-Request Policy Evaluation**: Each service-to-service request is evaluated against the applicable mesh authorization policy by the sidecar before being forwarded, rather than trusted based on network location alone.
+* **Anomaly-Triggered Quarantine**: A service exhibiting request patterns inconsistent with its established baseline is automatically isolated from the mesh pending review, consistent with the behavioral-anomaly approach defined in Technical Paper #013.
 
 ### 4. Mesh Governance and Control-Plane Resilience
 Control-Plane Redundancy and Policy Audit Review:
@@ -69,9 +69,9 @@ mTLSサイドカー適用と認可ポリシーの原則:
 ### 3. ポリシー適用と隔離の手順
 サイドカー注入・ポリシー評価・隔離:
 
-1. **自動サイドカー注入**: 各サービスインスタンスは、テクニカルペーパーシリーズ #021 で定義したデプロイ承認プロセスと整合する形で、デプロイ時に自動的にサイドカープロキシと組み合わされます。
-2. **リクエスト単位のポリシー評価**: サービス間の各リクエストは、単にネットワーク上の所在地に基づいて信頼されるのではなく、転送前にサイドカーによって該当するメッシュ認可ポリシーと照合されます。
-3. **異常検知に基づく隔離**: 確立されたベースラインと整合しないリクエストパターンを示すサービスは、テクニカルペーパーシリーズ #013 で定義した行動異常アプローチと整合する形で、レビューを待つ間メッシュから自動的に隔離されます。
+* **自動サイドカー注入**: 各サービスインスタンスは、テクニカルペーパーシリーズ #021 で定義したデプロイ承認プロセスと整合する形で、デプロイ時に自動的にサイドカープロキシと組み合わされます。
+* **リクエスト単位のポリシー評価**: サービス間の各リクエストは、単にネットワーク上の所在地に基づいて信頼されるのではなく、転送前にサイドカーによって該当するメッシュ認可ポリシーと照合されます。
+* **異常検知に基づく隔離**: 確立されたベースラインと整合しないリクエストパターンを示すサービスは、テクニカルペーパーシリーズ #013 で定義した行動異常アプローチと整合する形で、レビューを待つ間メッシュから自動的に隔離されます。
 
 ### 4. メッシュガバナンスとコントロールプレーンの耐障害性
 コントロールプレーンの冗長性とポリシー監査レビュー:
