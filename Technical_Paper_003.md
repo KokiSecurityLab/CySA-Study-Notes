@@ -25,9 +25,9 @@ Response Minimization and Tokenization Controls:
 ### 3. Policy Configuration, Inspection, and Rejection
 Three-Stage Deployment for Reverse Proxy Enforcement:
 
-1. **Baseline Policy Configuration**: Define allow-lists, authentication requirements, and tokenization rules for each cloud service integrated with the CASB.
-2. **Real-Time Traffic Inspection**: Inspect inbound and outbound traffic against the configured policy, flagging requests that do not meet authentication or data-handling requirements.
-3. **Automated Request Rejection and Logging**: Reject non-compliant requests at the perimeter and log the rejection for correlation with related security events (see Technical Paper #002 for SIEM integration).
+* **Baseline Policy Configuration**: Define allow-lists, authentication requirements, and tokenization rules for each cloud service integrated with the CASB.
+* **Real-Time Traffic Inspection**: Inspect inbound and outbound traffic against the configured policy, flagging requests that do not meet authentication or data-handling requirements.
+* **Automated Request Rejection and Logging**: Reject non-compliant requests at the perimeter and log the rejection for correlation with related security events (see Technical Paper #002 for SIEM integration).
 
 ### 4. Reconnaissance Cost and Propagation Control
 Resource Preservation and Threat Containment:
@@ -69,9 +69,9 @@ Inline tokenization adds a second layer, so that traffic which does pass inspect
 ### 3. ポリシー設定・検査・拒否
 リバースプロキシ適用のための3段階の展開:
 
-1. **ベースラインポリシーの設定**: CASBと連携する各クラウドサービスについて、許可リスト、認証要件、トークン化ルールを定義します。
-2. **リアルタイムトラフィック検査**: 着信・発信トラフィックを設定済みポリシーと照合し、認証またはデータ取り扱い要件を満たさないリクエストを検出します。
-3. **自動拒否とログ記録**: 非準拠のリクエストを境界で拒否し、関連するセキュリティイベントとの相関分析のためにログを記録します（SIEM連携の詳細は テクニカルペーパーシリーズ #002 参照）。
+* **ベースラインポリシーの設定**: CASBと連携する各クラウドサービスについて、許可リスト、認証要件、トークン化ルールを定義します。
+* **リアルタイムトラフィック検査**: 着信・発信トラフィックを設定済みポリシーと照合し、認証またはデータ取り扱い要件を満たさないリクエストを検出します。
+* **自動拒否とログ記録**: 非準拠のリクエストを境界で拒否し、関連するセキュリティイベントとの相関分析のためにログを記録します（SIEM連携の詳細は テクニカルペーパーシリーズ #002 参照）。
 
 ### 4. 偵察コストと伝播の制御
 リソース保全と脅威の封じ込め:
