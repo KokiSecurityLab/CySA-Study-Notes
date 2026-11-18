@@ -25,9 +25,9 @@ Layered Zone Design and Facility Control Principles:
 ### 3. Access Control and Environmental Monitoring Sequence
 Vestibule Verification, Zone Transition, and Sensor Monitoring:
 
-1. **Access Control Vestibule Verification**: Entry to higher-security zones requires passing through a mantrap-style access control vestibule that verifies a single authorized individual before permitting entry, preventing tailgating.
-2. **Zone Transition Logging**: Movement between concentric security zones is logged with individual identity and timestamp, consistent with the accountability-logging approach defined in Technical Paper #018.
-3. **Environmental Sensor Monitoring**: Temperature, humidity, and smoke sensors in server areas are continuously monitored, triggering alerts before conditions reach a threshold that risks equipment damage.
+* **Access Control Vestibule Verification**: Entry to higher-security zones requires passing through a mantrap-style access control vestibule that verifies a single authorized individual before permitting entry, preventing tailgating.
+* **Zone Transition Logging**: Movement between concentric security zones is logged with individual identity and timestamp, consistent with the accountability-logging approach defined in Technical Paper #018.
+* **Environmental Sensor Monitoring**: Temperature, humidity, and smoke sensors in server areas are continuously monitored, triggering alerts before conditions reach a threshold that risks equipment damage.
 
 ### 4. Physical Security Governance and Zone Auditing
 Access Log Review and Environmental Control Testing:
@@ -69,9 +69,9 @@ Layering CPTED principles across concentric physical zones, consistent with CISS
 ### 3. アクセス制御と環境監視の手順
 ベスティビュール検証・ゾーン移動・センサー監視:
 
-1. **アクセス制御ベスティビュールでの検証**: より高セキュリティのゾーンへの入場には、共連れを防ぐため、入場前に単一の許可された個人を検証するマントラップ方式のアクセス制御ベスティビュールを通過することが求められます。
-2. **ゾーン移動のログ記録**: 同心円状のセキュリティゾーン間の移動は、テクニカルペーパーシリーズ #018 で定義した説明責任のログ記録アプローチと整合する形で、個人の身元とタイムスタンプとともに記録されます。
-3. **環境センサーの監視**: サーバーエリアの温度・湿度・煙センサーは継続的に監視され、機器損傷のリスクがあるしきい値に達する前に警告を発生させます。
+* **アクセス制御ベスティビュールでの検証**: より高セキュリティのゾーンへの入場には、共連れを防ぐため、入場前に単一の許可された個人を検証するマントラップ方式のアクセス制御ベスティビュールを通過することが求められます。
+* **ゾーン移動のログ記録**: 同心円状のセキュリティゾーン間の移動は、テクニカルペーパーシリーズ #018 で定義した説明責任のログ記録アプローチと整合する形で、個人の身元とタイムスタンプとともに記録されます。
+* **環境センサーの監視**: サーバーエリアの温度・湿度・煙センサーは継続的に監視され、機器損傷のリスクがあるしきい値に達する前に警告を発生させます。
 
 ### 4. 物理セキュリティガバナンスとゾーン監査
 アクセスログレビューと環境統制のテスト:
