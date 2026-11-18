@@ -25,9 +25,9 @@ M-of-N Secret Sharing and Custodian Governance Principles:
 ### 3. Share Distribution and Reconstruction Sequence
 Share Generation, Custodian Distribution, and Verified Reconstruction:
 
-1. **Secret Share Generation**: The root key is generated within a controlled environment and immediately split into shares using the threshold scheme, with the original unsplit key never persisted to storage.
-2. **Independent Custodian Distribution**: Each share is distributed to a separate, independently vetted custodian, with no single custodian receiving enough shares to reconstruct the key alone.
-3. **Witnessed Reconstruction Events**: Reconstructing the key for an authorized operation requires the defined minimum number of custodians to be physically present and participate, with the event logged and witnessed.
+* **Secret Share Generation**: The root key is generated within a controlled environment and immediately split into shares using the threshold scheme, with the original unsplit key never persisted to storage.
+* **Independent Custodian Distribution**: Each share is distributed to a separate, independently vetted custodian, with no single custodian receiving enough shares to reconstruct the key alone.
+* **Witnessed Reconstruction Events**: Reconstructing the key for an authorized operation requires the defined minimum number of custodians to be physically present and participate, with the event logged and witnessed.
 
 ### 4. Custodian Governance and Ceremony Auditing
 Custodian Vetting and Ceremony Record Review:
@@ -43,6 +43,7 @@ Splitting control across custodians through threshold cryptography, consistent w
 
 ---
 # テクニカルペーパーシリーズ #049
+
 ## コグニティブ・ルートキー — 究極の人間アンカー型信頼の起点、複数当事者による鍵儀式、およびしきい値暗号方式
 
 ### サマリー・ダイジェスト
@@ -68,9 +69,9 @@ M-of-N秘密分散とカストディアンガバナンスの原則:
 ### 3. シェア配布と再構成の手順
 シェア生成・カストディアン配布・立会いのもとでの再構成:
 
-1. **秘密シェアの生成**: ルート鍵は統制された環境内で生成され、しきい値方式を用いて即座に複数のシェアへ分割されます。分割前の元の鍵が保存されることはありません。
-2. **独立したカストディアンへの配布**: 各シェアは個別に審査された独立のカストディアンへ配布され、単独のカストディアンが鍵を再構成できるだけのシェアを保有することはありません。
-3. **立会いのもとでの再構成イベント**: 承認された操作のために鍵を再構成するには、定義済みの最低人数のカストディアンが物理的に出席・参加する必要があり、そのイベントは記録・立会いされます。
+* **秘密シェアの生成**: ルート鍵は統制された環境内で生成され、しきい値方式を用いて即座に複数のシェアへ分割されます。分割前の元の鍵が保存されることはありません。
+* **独立したカストディアンへの配布**: 各シェアは個別に審査された独立のカストディアンへ配布され、単独のカストディアンが鍵を再構成できるだけのシェアを保有することはありません。
+* **立会いのもとでの再構成イベント**: 承認された操作のために鍵を再構成するには、定義済みの最低人数のカストディアンが物理的に出席・参加する必要があり、そのイベントは記録・立会いされます。
 
 ### 4. カストディアンガバナンスと儀式の監査
 カストディアンの審査と儀式記録のレビュー:
