@@ -25,9 +25,9 @@ Continuous Discovery and Reconciliation Principles:
 ### 3. Discovery and Reconciliation Sequence
 Scanning, Matching, and Discrepancy Flagging:
 
-1. **Automated Asset Discovery Scan**: Scheduled and continuous scans identify active devices and installed software across the environment.
-2. **CMDB Matching**: Discovered assets are matched against existing CMDB entries, confirming known assets remain accurately recorded.
-3. **Discrepancy Flagging and Investigation**: Assets discovered but not present in the CMDB are flagged as potential shadow IT and routed for investigation and formal onboarding or removal.
+* **Automated Asset Discovery Scan**: Scheduled and continuous scans identify active devices and installed software across the environment.
+* **CMDB Matching**: Discovered assets are matched against existing CMDB entries, confirming known assets remain accurately recorded.
+* **Discrepancy Flagging and Investigation**: Assets discovered but not present in the CMDB are flagged as potential shadow IT and routed for investigation and formal onboarding or removal.
 
 ### 4. Inventory Governance and Discrepancy Review
 CMDB Accuracy and Shadow IT Resolution Review:
@@ -69,9 +69,9 @@ Continuous automated discovery reconciled against a CMDB, consistent with CIS Co
 ### 3. 検出と照合の手順
 スキャン・照合・不一致のフラグ付け:
 
-1. **自動資産検出スキャン**: 定期的かつ継続的なスキャンにより、環境全体で稼働中のデバイスとインストール済みソフトウェアが特定されます。
-2. **CMDB照合**: 検出された資産は既存のCMDBエントリと照合され、既知の資産が正確に記録され続けていることを確認します。
-3. **不一致のフラグ付けと調査**: 検出されたがCMDBに存在しない資産は、潜在的なシャドーITとしてフラグ付けされ、調査および正式なオンボーディングまたは撤去へ回されます。
+* **自動資産検出スキャン**: 定期的かつ継続的なスキャンにより、環境全体で稼働中のデバイスとインストール済みソフトウェアが特定されます。
+* **CMDB照合**: 検出された資産は既存のCMDBエントリと照合され、既知の資産が正確に記録され続けていることを確認します。
+* **不一致のフラグ付けと調査**: 検出されたがCMDBに存在しない資産は、潜在的なシャドーITとしてフラグ付けされ、調査および正式なオンボーディングまたは撤去へ回されます。
 
 ### 4. 棚卸しガバナンスと不一致レビュー
 CMDBの正確性とシャドーIT解消のレビュー:
