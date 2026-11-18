@@ -25,9 +25,9 @@ Health-Check-Triggered Recovery and Root-Cause Diagnostics:
 ### 3. RTO/RPO Targets and Failover Execution
 RTO/RPO-Aligned Recovery and Hardening Integration:
 
-1. **Defined RTO and RPO Targets**: Recovery Time Objective (RTO) and Recovery Point Objective (RPO) values are defined for each service, setting explicit targets for how quickly a service must be restored and how much data loss is acceptable.
-2. **Automated Failover Execution**: When a service exceeds its failure threshold, traffic is automatically redirected to a standby instance or region, consistent with the defined RTO.
-3. **Post-Incident Hardening Integration**: Configuration changes identified during root-cause analysis of a failure are integrated into the baseline configuration used for future deployments, consistent with the post-incident process defined in Technical Paper #006.
+* **Defined RTO and RPO Targets**: Recovery Time Objective (RTO) and Recovery Point Objective (RPO) values are defined for each service, setting explicit targets for how quickly a service must be restored and how much data loss is acceptable.
+* **Automated Failover Execution**: When a service exceeds its failure threshold, traffic is automatically redirected to a standby instance or region, consistent with the defined RTO.
+* **Post-Incident Hardening Integration**: Configuration changes identified during root-cause analysis of a failure are integrated into the baseline configuration used for future deployments, consistent with the post-incident process defined in Technical Paper #006.
 
 ### 4. What Counts as "Recovered"
 Recovery Governance and Continuity Review:
@@ -69,9 +69,9 @@ Correlating each failure root cause with recovery configuration changes, consist
 ### 3. RTO・RPO目標とフェイルオーバーの実行
 RTO・RPOに基づく復旧と強化策の統合:
 
-1. **RTO・RPO目標の設定**: 各サービスについてRTO（目標復旧時間）とRPO（目標復旧時点）の値を定義し、サービスをどれだけ迅速に復旧させるべきか、どの程度のデータ損失が許容されるかを明確な目標として設定します。
-2. **自動フェイルオーバーの実行**: サービスが障害しきい値を超えた場合、定義済みのRTOに沿ってトラフィックがスタンバイ用のインスタンスまたはリージョンへ自動的にリダイレクトされます。
-3. **インシデント後の強化策統合**: 障害の根本原因分析で特定された構成変更は、将来のデプロイに使用されるベースライン構成へ統合されます。これは テクニカルペーパーシリーズ #006 で定義したポストインシデントプロセスと整合します。
+* **RTO・RPO目標の設定**: 各サービスについてRTO（目標復旧時間）とRPO（目標復旧時点）の値を定義し、サービスをどれだけ迅速に復旧させるべきか、どの程度のデータ損失が許容されるかを明確な目標として設定します。
+* **自動フェイルオーバーの実行**: サービスが障害しきい値を超えた場合、定義済みのRTOに沿ってトラフィックがスタンバイ用のインスタンスまたはリージョンへ自動的にリダイレクトされます。
+* **インシデント後の強化策統合**: 障害の根本原因分析で特定された構成変更は、将来のデプロイに使用されるベースライン構成へ統合されます。これは テクニカルペーパーシリーズ #006 で定義したポストインシデントプロセスと整合します。
 
 ### 4. 「復旧した」と言える条件
 復旧ガバナンスと継続性レビュー:
