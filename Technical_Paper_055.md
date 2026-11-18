@@ -25,9 +25,9 @@ Threat Category Definitions and Diagramming Principles:
 ### 3. Diagramming and Threat Enumeration Sequence
 Diagram Construction, Boundary Identification, and Category Review:
 
-1. **Data Flow Diagram Construction**: The system under review is diagrammed to show processes, data stores, external entities, and the trust boundaries between them.
-2. **Systematic STRIDE Application**: Each element crossing a trust boundary is evaluated against all six STRIDE categories in turn, rather than only the categories that come to mind first.
-3. **Threat Documentation and Handoff**: Each identified threat is documented with its STRIDE category and affected component, then handed off for quantitative scoring consistent with Technical Paper #052.
+* **Data Flow Diagram Construction**: The system under review is diagrammed to show processes, data stores, external entities, and the trust boundaries between them.
+* **Systematic STRIDE Application**: Each element crossing a trust boundary is evaluated against all six STRIDE categories in turn, rather than only the categories that come to mind first.
+* **Threat Documentation and Handoff**: Each identified threat is documented with its STRIDE category and affected component, then handed off for quantitative scoring consistent with Technical Paper #052.
 
 ### 4. Threat Model Governance and Currency Review
 Model Maintenance and Design-Change Review:
@@ -69,9 +69,9 @@ Applying STRIDE systematically to a data flow diagram, per CISSP Domain 1 and th
 ### 3. 図式化と脅威列挙の手順
 図の構築・境界特定・カテゴリレビュー:
 
-1. **データフロー図の構築**: レビュー対象のシステムは、プロセス、データストア、外部エンティティ、およびそれらの間の信頼境界を示す形で図式化されます。
-2. **STRIDEの体系的な適用**: 信頼境界を越える各要素は、最初に思いついたカテゴリのみではなく、6つのSTRIDEカテゴリすべてに順に照らして評価されます。
-3. **脅威の文書化と引き渡し**: 特定された各脅威は、そのSTRIDEカテゴリと影響を受けるコンポーネントとともに文書化され、テクニカルペーパーシリーズ #052 と整合する定量的スコアリングへ引き渡されます。
+* **データフロー図の構築**: レビュー対象のシステムは、プロセス、データストア、外部エンティティ、およびそれらの間の信頼境界を示す形で図式化されます。
+* **STRIDEの体系的な適用**: 信頼境界を越える各要素は、最初に思いついたカテゴリのみではなく、6つのSTRIDEカテゴリすべてに順に照らして評価されます。
+* **脅威の文書化と引き渡し**: 特定された各脅威は、そのSTRIDEカテゴリと影響を受けるコンポーネントとともに文書化され、テクニカルペーパーシリーズ #052 と整合する定量的スコアリングへ引き渡されます。
 
 ### 4. 脅威モデルガバナンスと鮮度レビュー
 モデルの維持と設計変更時のレビュー:
