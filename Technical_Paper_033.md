@@ -25,9 +25,9 @@ NIST SP 800-61 Phases and Detection Criteria:
 ### 3. Eradication and Recovery Sequence
 Removal, Restoration, and Lessons-Learned Handoff:
 
-1. **Eradication of the Root Cause**: The specific vulnerability or malicious presence that enabled the incident is removed, rather than only addressing its visible symptoms.
-2. **Verified Recovery to Normal Operation**: Affected systems are restored to verified, known-good operation using the recovery approach defined in Technical Paper #012, rather than returned to service without confirmation.
-3. **Handoff to Post-Incident Review**: Incident timeline data and root-cause findings are handed off to the post-incident review process defined in Technical Paper #006, rather than being treated as complete once systems are restored.
+* **Eradication of the Root Cause**: The specific vulnerability or malicious presence that enabled the incident is removed, rather than only addressing its visible symptoms.
+* **Verified Recovery to Normal Operation**: Affected systems are restored to verified, known-good operation using the recovery approach defined in Technical Paper #012, rather than returned to service without confirmation.
+* **Handoff to Post-Incident Review**: Incident timeline data and root-cause findings are handed off to the post-incident review process defined in Technical Paper #006, rather than being treated as complete once systems are restored.
 
 ### 4. Playbook Governance and Response Metrics
 Playbook Currency and Response-Time Review:
@@ -69,9 +69,9 @@ NIST SP 800-61のフェーズと検知基準:
 ### 3. 根絶と復旧の手順
 除去・復元・教訓の引き継ぎ:
 
-1. **根本原因の根絶**: インシデントを可能にした特定の脆弱性や悪意ある存在は、目に見える症状への対処にとどまらず除去されます。
-2. **検証済み通常運用への復旧**: 影響を受けたシステムは、確認なしに復帰させるのではなく、テクニカルペーパーシリーズ #012 で定義した復旧アプローチを用いて検証済みの正常な状態へ復元されます。
-3. **ポストインシデントレビューへの引き継ぎ**: インシデントのタイムラインデータと根本原因の知見は、システム復旧をもって完了とみなすのではなく、テクニカルペーパーシリーズ #006 で定義したポストインシデントレビュープロセスへ引き継がれます。
+* **根本原因の根絶**: インシデントを可能にした特定の脆弱性や悪意ある存在は、目に見える症状への対処にとどまらず除去されます。
+* **検証済み通常運用への復旧**: 影響を受けたシステムは、確認なしに復帰させるのではなく、テクニカルペーパーシリーズ #012 で定義した復旧アプローチを用いて検証済みの正常な状態へ復元されます。
+* **ポストインシデントレビューへの引き継ぎ**: インシデントのタイムラインデータと根本原因の知見は、システム復旧をもって完了とみなすのではなく、テクニカルペーパーシリーズ #006 で定義したポストインシデントレビュープロセスへ引き継がれます。
 
 ### 4. プレイブックガバナンスと対応指標
 プレイブックの鮮度と対応時間のレビュー:
