@@ -25,9 +25,9 @@ Confidence-Based Escalation and Oversight Principles:
 ### 3. Escalation Tagging and Reviewer Assignment
 Review Routing and Accountability Logging:
 
-1. **Confidence and Category Tagging**: Each automated output is tagged with its confidence score and decision category at the point of generation, before any escalation logic is applied.
-2. **Routing to a Designated Reviewer**: Outputs requiring review are routed to a designated human reviewer with the relevant context, rather than a general queue lacking supporting information.
-3. **Signed Decision Logging**: The reviewer's decision, along with their identity and the rationale provided, is logged for accountability and later audit, consistent with the logging approach in Technical Paper #002.
+* **Confidence and Category Tagging**: Each automated output is tagged with its confidence score and decision category at the point of generation, before any escalation logic is applied.
+* **Routing to a Designated Reviewer**: Outputs requiring review are routed to a designated human reviewer with the relevant context, rather than a general queue lacking supporting information.
+* **Signed Decision Logging**: The reviewer's decision, along with their identity and the rationale provided, is logged for accountability and later audit, consistent with the logging approach in Technical Paper #002.
 
 ### 4. Independent Pause Mechanism Design
 Override Authority and Escalation Review:
@@ -69,9 +69,9 @@ Aligning those criteria with CISSP Domain 1 and EU AI Act human-oversight expect
 ### 3. エスカレーションのタグ付けとレビュー担当者の割り当て
 レビューへの振り分けと説明責任のログ記録:
 
-1. **信頼度およびカテゴリのタグ付け**: 各自動出力は、エスカレーションロジックが適用される前の生成時点で、信頼度スコアと判断カテゴリのタグを付与されます。
-2. **指定レビュー担当者への振り分け**: レビューが必要な出力は、補足情報のない一般的なキューではなく、関連する文脈情報とともに指定されたレビュー担当者へ振り分けられます。
-3. **署名付きの判断ログ記録**: レビュー担当者の判断は、その担当者の識別情報および判断理由とともに、説明責任と後の監査のために記録されます。これは テクニカルペーパーシリーズ #002 で述べたログ記録の考え方と整合します。
+* **信頼度およびカテゴリのタグ付け**: 各自動出力は、エスカレーションロジックが適用される前の生成時点で、信頼度スコアと判断カテゴリのタグを付与されます。
+* **指定レビュー担当者への振り分け**: レビューが必要な出力は、補足情報のない一般的なキューではなく、関連する文脈情報とともに指定されたレビュー担当者へ振り分けられます。
+* **署名付きの判断ログ記録**: レビュー担当者の判断は、その担当者の識別情報および判断理由とともに、説明責任と後の監査のために記録されます。これは テクニカルペーパーシリーズ #002 で述べたログ記録の考え方と整合します。
 
 ### 4. 独立した一時停止機構の設計
 上書き権限とエスカレーションレビュー:
