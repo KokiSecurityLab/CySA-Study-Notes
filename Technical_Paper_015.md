@@ -25,9 +25,9 @@ Allow-List Verification and Code-Signing Principles:
 ### 3. Signature Configuration and Real-Time Matching
 Tactical Input Rejection and Signature Verification:
 
-1. **Allow-List and Signature Configuration**: An allow-list of approved commands and their associated digital signatures is compiled and maintained as the reference for all subsequent verification.
-2. **Real-Time Signature Matching**: Incoming instructions are checked against the allow-list and signature database in real time, before any command is passed to internal processing logic.
-3. **Automated Rejection and Logging**: Instructions that fail allow-list or signature verification are rejected and logged for correlation with related security events (see Technical Paper #002 for SIEM integration).
+* **Allow-List and Signature Configuration**: An allow-list of approved commands and their associated digital signatures is compiled and maintained as the reference for all subsequent verification.
+* **Real-Time Signature Matching**: Incoming instructions are checked against the allow-list and signature database in real time, before any command is passed to internal processing logic.
+* **Automated Rejection and Logging**: Instructions that fail allow-list or signature verification are rejected and logged for correlation with related security events (see Technical Paper #002 for SIEM integration).
 
 ### 4. Multi-Point Authorization Enforcement
 Distributed Authorization and Command Review:
@@ -69,9 +69,9 @@ Pairing that allow-list with digital signature verification, consistent with OWA
 ### 3. 署名設定とリアルタイム照合
 戦術的な入力拒否と署名検証:
 
-1. **アローリストと署名の設定**: 承認済みコマンドとそれに対応するデジタル署名のアローリストを作成・維持し、以降のすべての検証における参照元とします。
-2. **リアルタイムの署名照合**: 着信する命令はアローリストおよび署名データベースとリアルタイムで照合され、内部処理ロジックへ渡される前に検証されます。
-3. **自動拒否とログ記録**: アローリストまたは署名検証に失敗した命令は拒否・記録され、関連するセキュリティイベントとの相関分析に用いられます（SIEM連携の詳細は テクニカルペーパーシリーズ #002 を参照）。
+* **アローリストと署名の設定**: 承認済みコマンドとそれに対応するデジタル署名のアローリストを作成・維持し、以降のすべての検証における参照元とします。
+* **リアルタイムの署名照合**: 着信する命令はアローリストおよび署名データベースとリアルタイムで照合され、内部処理ロジックへ渡される前に検証されます。
+* **自動拒否とログ記録**: アローリストまたは署名検証に失敗した命令は拒否・記録され、関連するセキュリティイベントとの相関分析に用いられます（SIEM連携の詳細は テクニカルペーパーシリーズ #002 を参照）。
 
 ### 4. 複数地点での認可適用
 分散型認可とコマンドレビュー:
