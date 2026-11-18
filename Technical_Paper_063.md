@@ -25,9 +25,9 @@ Mathematical Basis and Standardized Parameter Principles:
 ### 3. Integration and Validation Sequence
 Parameter Selection, Size Accommodation, and Side-Channel Testing:
 
-1. **Standardized Parameter Selection**: The NIST-standardized parameter set matching the required security level is selected rather than a custom or reduced configuration.
-2. **Protocol Field Size Accommodation**: Affected protocol fields and buffers are resized or redesigned to accommodate the larger key and ciphertext sizes before deployment.
-3. **Side-Channel Resistance Testing**: The implementation is tested for timing and power side-channel leakage using established testing methodologies before being approved for production use.
+* **Standardized Parameter Selection**: The NIST-standardized parameter set matching the required security level is selected rather than a custom or reduced configuration.
+* **Protocol Field Size Accommodation**: Affected protocol fields and buffers are resized or redesigned to accommodate the larger key and ciphertext sizes before deployment.
+* **Side-Channel Resistance Testing**: The implementation is tested for timing and power side-channel leakage using established testing methodologies before being approved for production use.
 
 ### 4. Lattice Implementation Governance and Update Review
 Parameter Currency and Cryptanalytic Advance Monitoring:
@@ -69,9 +69,9 @@ Using NIST-standardized parameters and vetted implementations, consistent with C
 ### 3. 統合と検証の手順
 パラメータ選定・サイズ対応・サイドチャネルテスト:
 
-1. **標準化パラメータの選定**: 独自または縮小された構成ではなく、必要なセキュリティレベルに一致するNIST標準化パラメータセットが選定されます。
-2. **プロトコルフィールドのサイズ対応**: 影響を受けるプロトコルフィールドとバッファは、デプロイ前に大きくなる鍵・暗号文サイズに対応できるようリサイズまたは再設計されます。
-3. **サイドチャネル耐性テスト**: 実装は、本番利用が承認される前に、確立されたテスト手法を用いてタイミングおよび電力サイドチャネル漏えいについてテストされます。
+* **標準化パラメータの選定**: 独自または縮小された構成ではなく、必要なセキュリティレベルに一致するNIST標準化パラメータセットが選定されます。
+* **プロトコルフィールドのサイズ対応**: 影響を受けるプロトコルフィールドとバッファは、デプロイ前に大きくなる鍵・暗号文サイズに対応できるようリサイズまたは再設計されます。
+* **サイドチャネル耐性テスト**: 実装は、本番利用が承認される前に、確立されたテスト手法を用いてタイミングおよび電力サイドチャネル漏えいについてテストされます。
 
 ### 4. 格子実装ガバナンスと更新レビュー
 パラメータの鮮度と暗号解読の進展の監視:
