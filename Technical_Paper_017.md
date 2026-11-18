@@ -25,9 +25,9 @@ Standards-Based Threat Intelligence Sharing:
 ### 3. Indicator Distribution and Node Quarantine
 Indicator Propagation and Node Isolation:
 
-1. **Indicator Validation and Formatting**: Confirmed threat indicators are validated and structured in STIX format before being queued for distribution to other nodes.
-2. **Automated Cross-Node Distribution**: Validated indicators are pushed to subscribed nodes via TAXII, updating each node's block list without requiring manual configuration changes.
-3. **Automated Node Quarantine**: A node that confirms a match against a distributed indicator, or exhibits behavior consistent with compromise, is automatically segmented from the broader network mesh pending manual review.
+* **Indicator Validation and Formatting**: Confirmed threat indicators are validated and structured in STIX format before being queued for distribution to other nodes.
+* **Automated Cross-Node Distribution**: Validated indicators are pushed to subscribed nodes via TAXII, updating each node's block list without requiring manual configuration changes.
+* **Automated Node Quarantine**: A node that confirms a match against a distributed indicator, or exhibits behavior consistent with compromise, is automatically segmented from the broader network mesh pending manual review.
 
 ### 4. Feed Trust Requirements and Reintegration Review
 Shared Intelligence Governance and Node Reintegration:
@@ -69,9 +69,9 @@ Structuring that sharing around STIX and TAXII, consistent with CISSP Domain 4, 
 ### 3. 指標配信とノード隔離
 指標の伝播とノードの隔離:
 
-1. **指標の検証とフォーマット化**: 確認済みの脅威指標は、他のノードへ配信されるキューに入る前にSTIX形式で検証・構造化されます。
-2. **ノード間の自動配信**: 検証済みの指標はTAXII経由で購読中のノードへプッシュされ、手動での構成変更を必要とせずに各ノードのブロックリストを更新します。
-3. **自動ノード隔離**: 配信された指標との一致が確認された、または侵害と整合する挙動を示したノードは、手動レビューを待つ間、より広いネットワークメッシュから自動的に隔離されます。
+* **指標の検証とフォーマット化**: 確認済みの脅威指標は、他のノードへ配信されるキューに入る前にSTIX形式で検証・構造化されます。
+* **ノード間の自動配信**: 検証済みの指標はTAXII経由で購読中のノードへプッシュされ、手動での構成変更を必要とせずに各ノードのブロックリストを更新します。
+* **自動ノード隔離**: 配信された指標との一致が確認された、または侵害と整合する挙動を示したノードは、手動レビューを待つ間、より広いネットワークメッシュから自動的に隔離されます。
 
 ### 4. フィード信頼要件と復帰レビュー
 共有インテリジェンスのガバナンスとノード復帰:
