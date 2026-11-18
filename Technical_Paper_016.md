@@ -25,9 +25,9 @@ Root of Trust and Continuous Integrity Verification:
 ### 3. Signature Capture and Automated Restoration
 Ongoing Discrepancy Scanning at Defined Intervals:
 
-1. **Baseline Signature Capture**: A cryptographic signature of the verified, known-good kernel and configuration state is captured and stored as the reference for later comparison.
-2. **Continuous Discrepancy Scanning**: Automated scans compare the current runtime state against the stored signature on a defined interval, flagging any deviation for review.
-3. **Automated Configuration Remediation**: When a deviation is confirmed, the affected configuration is automatically restored to the verified baseline, and the incident is logged for correlation with related security events (see Technical Paper #006 for post-incident review).
+* **Baseline Signature Capture**: A cryptographic signature of the verified, known-good kernel and configuration state is captured and stored as the reference for later comparison.
+* **Continuous Discrepancy Scanning**: Automated scans compare the current runtime state against the stored signature on a defined interval, flagging any deviation for review.
+* **Automated Configuration Remediation**: When a deviation is confirmed, the affected configuration is automatically restored to the verified baseline, and the incident is logged for correlation with related security events (see Technical Paper #006 for post-incident review).
 
 ### 4. Isolation and Bounded Remediation
 Long-Term Integrity Assurance and Recovery Review:
@@ -69,9 +69,9 @@ Root of Trustと継続的な整合性検証:
 ### 3. 署名取得と自動復元
 定義済み間隔での継続的な不一致スキャン:
 
-1. **ベースライン署名の取得**: 検証済みで既知の正常なカーネルおよび構成状態の暗号学的署名を取得し、以降の比較の基準として保存します。
-2. **継続的な不一致スキャン**: 定義済みの間隔で現在のランタイム状態を保存済みの署名と自動比較し、逸脱を検出した場合はレビュー対象としてフラグ付けします。
-3. **自動化された構成修復**: 逸脱が確認された場合、該当する構成は自動的に検証済みベースラインへ復元され、そのインシデントは関連するセキュリティイベントとの相関分析のために記録されます（ポストインシデントレビューの詳細は テクニカルペーパーシリーズ #006 を参照）。
+* **ベースライン署名の取得**: 検証済みで既知の正常なカーネルおよび構成状態の暗号学的署名を取得し、以降の比較の基準として保存します。
+* **継続的な不一致スキャン**: 定義済みの間隔で現在のランタイム状態を保存済みの署名と自動比較し、逸脱を検出した場合はレビュー対象としてフラグ付けします。
+* **自動化された構成修復**: 逸脱が確認された場合、該当する構成は自動的に検証済みベースラインへ復元され、そのインシデントは関連するセキュリティイベントとの相関分析のために記録されます（ポストインシデントレビューの詳細は テクニカルペーパーシリーズ #006 を参照）。
 
 ### 4. 隔離と範囲限定された修復
 長期的な整合性保証と復旧レビュー:
