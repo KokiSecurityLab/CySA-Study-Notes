@@ -25,9 +25,9 @@ Static Typing and Schema Validation Alignment for AI Interfaces:
 ### 3. Prompt Enforcement, Output Validation, and Logging
 Three-Stage Validation for AI Request and Response Handling:
 
-1. **Outbound Prompt Schema Enforcement**: The TypeScript layer validates user input against an allowed-input schema before it is incorporated into a prompt sent to the model.
-2. **Inbound Output Schema Validation**: Model responses are parsed against a strict response schema in Python before any structured field is used to trigger an application action.
-3. **Rejection and Logging of Non-Conforming Responses**: Responses that fail schema validation are rejected and logged for review rather than passed to execution logic (see Technical Paper #002 for related SIEM correlation).
+* **Outbound Prompt Schema Enforcement**: The TypeScript layer validates user input against an allowed-input schema before it is incorporated into a prompt sent to the model.
+* **Inbound Output Schema Validation**: Model responses are parsed against a strict response schema in Python before any structured field is used to trigger an application action.
+* **Rejection and Logging of Non-Conforming Responses**: Responses that fail schema validation are rejected and logged for review rather than passed to execution logic (see Technical Paper #002 for related SIEM correlation).
 
 ### 4. Untrusted Output Handling and Tool-Call Restriction
 Trust Boundary Enforcement Between Model Output and Application Logic:
@@ -69,9 +69,9 @@ AIインターフェースにおける静的型付けとスキーマ検証の整
 ### 3. プロンプト強制・出力検証・ログ記録
 AIリクエストおよび応答処理のための3段階検証:
 
-1. **送信プロンプトのスキーマ強制**: TypeScript層は、モデルへ送信するプロンプトに組み込まれる前のユーザー入力を許可済みスキーマと照合します。
-2. **受信出力のスキーマ検証**: モデル応答は、構造化されたフィールドがアプリケーションの動作を引き起こす前に、Python側で厳格な応答スキーマと照合されます。
-3. **非準拠応答の拒否とログ記録**: スキーマ検証に失敗した応答は実行ロジックへ渡されずに拒否・記録されます（SIEM連携の詳細は テクニカルペーパーシリーズ #002 を参照）。
+* **送信プロンプトのスキーマ強制**: TypeScript層は、モデルへ送信するプロンプトに組み込まれる前のユーザー入力を許可済みスキーマと照合します。
+* **受信出力のスキーマ検証**: モデル応答は、構造化されたフィールドがアプリケーションの動作を引き起こす前に、Python側で厳格な応答スキーマと照合されます。
+* **非準拠応答の拒否とログ記録**: スキーマ検証に失敗した応答は実行ロジックへ渡されずに拒否・記録されます（SIEM連携の詳細は テクニカルペーパーシリーズ #002 を参照）。
 
 ### 4. 未信頼出力の取り扱いとツール呼び出しの制限
 モデル出力とアプリケーションロジック間の信頼境界の強制:
