@@ -25,9 +25,9 @@ Pattern Matching and Classification-Aware Enforcement Principles:
 ### 3. Inspection and Blocking Sequence
 Channel Monitoring, Policy Matching, and Enforcement Action:
 
-1. **Egress Channel Monitoring**: Email, removable media, and cloud-upload channels are monitored continuously for outbound content, rather than only at designated checkpoints.
-2. **Policy Match Evaluation**: Detected content is evaluated against classification-aware DLP policy to determine whether the specific channel and content combination is permitted.
-3. **Enforcement Action Application**: Content violating policy is blocked, quarantined for review, or flagged with a warning to the sender, depending on the severity defined for that policy violation.
+* **Egress Channel Monitoring**: Email, removable media, and cloud-upload channels are monitored continuously for outbound content, rather than only at designated checkpoints.
+* **Policy Match Evaluation**: Detected content is evaluated against classification-aware DLP policy to determine whether the specific channel and content combination is permitted.
+* **Enforcement Action Application**: Content violating policy is blocked, quarantined for review, or flagged with a warning to the sender, depending on the severity defined for that policy violation.
 
 ### 4. DLP Program Governance and Tuning Review
 False-Positive Reduction and Policy Currency Review:
@@ -69,9 +69,9 @@ Tying DLP policy to classification tiers, consistent with CISSP Domain 2, connec
 ### 3. 検査とブロックの手順
 チャネル監視・ポリシー照合・適用アクション:
 
-1. **出口チャネルの監視**: メール、リムーバブルメディア、クラウドアップロードの各チャネルは、指定されたチェックポイントのみでなく継続的に発信コンテンツについて監視されます。
-2. **ポリシー照合評価**: 検知されたコンテンツは、特定のチャネルとコンテンツの組み合わせが許可されているかを判断するため、分類対応型のDLPポリシーと照合して評価されます。
-3. **適用アクションの実行**: ポリシーに違反するコンテンツは、そのポリシー違反に定義された深刻度に応じて、ブロック、レビュー待ちの検疫、または送信者への警告フラグ付けのいずれかとして処理されます。
+* **出口チャネルの監視**: メール、リムーバブルメディア、クラウドアップロードの各チャネルは、指定されたチェックポイントのみでなく継続的に発信コンテンツについて監視されます。
+* **ポリシー照合評価**: 検知されたコンテンツは、特定のチャネルとコンテンツの組み合わせが許可されているかを判断するため、分類対応型のDLPポリシーと照合して評価されます。
+* **適用アクションの実行**: ポリシーに違反するコンテンツは、そのポリシー違反に定義された深刻度に応じて、ブロック、レビュー待ちの検疫、または送信者への警告フラグ付けのいずれかとして処理されます。
 
 ### 4. DLPプログラムガバナンスとチューニングレビュー
 偽陽性の低減とポリシー鮮度のレビュー:
