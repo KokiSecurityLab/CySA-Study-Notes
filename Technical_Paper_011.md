@@ -25,9 +25,9 @@ Source Corroboration and Provenance Verification Principles:
 ### 3. Source Authentication and Anomaly Screening
 Tactical Source Verification and Poisoning Detection:
 
-1. **Source Authentication Checks**: Incoming connections are validated against a maintained list of authenticated source identities, and sources with a documented history of submitting manipulated data are blocked at ingestion.
-2. **Statistical Anomaly Review**: Automated review compares new submissions against established statistical baselines, flagging content whose volume, timing, or pattern deviates significantly from historical norms for further review.
-3. **Data-Poisoning Isolation**: Data flagged as inconsistent with verified baselines is routed to an isolated review queue rather than being merged into training or production datasets, consistent with data-poisoning mitigation guidance in MITRE ATLAS.
+* **Source Authentication Checks**: Incoming connections are validated against a maintained list of authenticated source identities, and sources with a documented history of submitting manipulated data are blocked at ingestion.
+* **Statistical Anomaly Review**: Automated review compares new submissions against established statistical baselines, flagging content whose volume, timing, or pattern deviates significantly from historical norms for further review.
+* **Data-Poisoning Isolation**: Data flagged as inconsistent with verified baselines is routed to an isolated review queue rather than being merged into training or production datasets, consistent with data-poisoning mitigation guidance in MITRE ATLAS.
 
 ### 4. Verified-Source Prioritization and Provenance Auditing
 Data Integrity Policy and Verification Review:
@@ -69,9 +69,9 @@ Applying C2PA-aligned provenance verification alongside CISSP Domain 2 data-inte
 ### 3. ソース認証と異常スクリーニング
 戦術的ソース検証とポイズニング検出:
 
-1. **ソース認証チェック**: 着信接続を維持管理された認証済みソースIDのリストと照合し、改ざんデータの提出履歴が記録されているソースは取り込み時点で遮断します。
-2. **統計的異常のレビュー**: 新規に提出されたデータを確立済みの統計的ベースラインと比較する自動レビューを行い、量・タイミング・パターンが過去の傾向から大きく逸脱するコンテンツを追加レビューの対象としてフラグ付けします。
-3. **データポイズニングの隔離**: 検証済みベースラインと矛盾するとフラグ付けされたデータは、学習用データセットや本番データセットへ統合されることなく、隔離されたレビューキューへ送られます。これはMITRE ATLASのデータポイズニング緩和指針と整合します。
+* **ソース認証チェック**: 着信接続を維持管理された認証済みソースIDのリストと照合し、改ざんデータの提出履歴が記録されているソースは取り込み時点で遮断します。
+* **統計的異常のレビュー**: 新規に提出されたデータを確立済みの統計的ベースラインと比較する自動レビューを行い、量・タイミング・パターンが過去の傾向から大きく逸脱するコンテンツを追加レビューの対象としてフラグ付けします。
+* **データポイズニングの隔離**: 検証済みベースラインと矛盾するとフラグ付けされたデータは、学習用データセットや本番データセットへ統合されることなく、隔離されたレビューキューへ送られます。これはMITRE ATLASのデータポイズニング緩和指針と整合します。
 
 ### 4. 検証済みソースの優先と出自監査
 データ完全性ポリシーと検証レビュー:
