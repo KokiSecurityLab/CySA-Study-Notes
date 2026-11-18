@@ -25,9 +25,9 @@ Cross-Border Compliance and Deep Packet Inspection Principles:
 ### 3. Regional Enforcement and Verification Sequence
 Policy Mapping, Boundary Inspection, and Drift Correction:
 
-1. **Regional Policy Compilation**: Residency and cross-border transfer requirements applicable to each region are compiled into a machine-readable policy set used by the filtering layer.
-2. **Boundary Traffic Inspection**: Traffic attempting to cross a regional boundary is inspected against the applicable policy in real time, blocking transfers that would violate the mapped requirements.
-3. **Automated Configuration Reconciliation**: Regional configurations are automatically compared against the central policy baseline on a defined schedule, correcting drift before it results in a compliance gap.
+* **Regional Policy Compilation**: Residency and cross-border transfer requirements applicable to each region are compiled into a machine-readable policy set used by the filtering layer.
+* **Boundary Traffic Inspection**: Traffic attempting to cross a regional boundary is inspected against the applicable policy in real time, blocking transfers that would violate the mapped requirements.
+* **Automated Configuration Reconciliation**: Regional configurations are automatically compared against the central policy baseline on a defined schedule, correcting drift before it results in a compliance gap.
 
 ### 4. Residency Governance and Compliance Review
 Policy Currency and Cross-Region Audit Review:
@@ -69,9 +69,9 @@ Enforcing that boundary with deep packet inspection, consistent with CISSP Domai
 ### 3. リージョン適用と検証の手順
 ポリシーマッピング・境界検査・ドリフト是正:
 
-1. **リージョンポリシーのコンパイル**: 各リージョンに適用されるレジデンシーおよび国境間転送要件は、フィルタリング層が使用する機械可読なポリシーセットへコンパイルされます。
-2. **境界トラフィックの検査**: リージョン境界を越えようとするトラフィックはリアルタイムで該当ポリシーと照合され、マッピングされた要件に違反する転送はブロックされます。
-3. **自動化された構成の突き合わせ**: リージョンの構成は定められたスケジュールで中央のポリシーベースラインと自動的に比較され、コンプライアンス上の隙間となる前にドリフトが是正されます。
+* **リージョンポリシーのコンパイル**: 各リージョンに適用されるレジデンシーおよび国境間転送要件は、フィルタリング層が使用する機械可読なポリシーセットへコンパイルされます。
+* **境界トラフィックの検査**: リージョン境界を越えようとするトラフィックはリアルタイムで該当ポリシーと照合され、マッピングされた要件に違反する転送はブロックされます。
+* **自動化された構成の突き合わせ**: リージョンの構成は定められたスケジュールで中央のポリシーベースラインと自動的に比較され、コンプライアンス上の隙間となる前にドリフトが是正されます。
 
 ### 4. レジデンシーガバナンスとコンプライアンスレビュー
 ポリシーの鮮度とリージョン横断監査レビュー:
