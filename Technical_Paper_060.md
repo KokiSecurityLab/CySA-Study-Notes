@@ -25,9 +25,9 @@ NIST SP 800-53B Baselines and Compensating Control Principles:
 ### 3. Tailoring Application and Approval Sequence
 Baseline Assignment, Scoping Decisions, and Sign-Off:
 
-1. **Baseline Assignment by Classification**: Each system is assigned its applicable control baseline based on its documented classification tier and data states.
-2. **Scoping and Tailoring Decisions**: Individual controls within the assigned baseline are scoped in, scoped out, or tailored, with each decision documented alongside its rationale.
-3. **Compensating Control Approval**: Any proposed compensating control is reviewed and approved by an accountable party before being accepted as equivalent to the original specified control.
+* **Baseline Assignment by Classification**: Each system is assigned its applicable control baseline based on its documented classification tier and data states.
+* **Scoping and Tailoring Decisions**: Individual controls within the assigned baseline are scoped in, scoped out, or tailored, with each decision documented alongside its rationale.
+* **Compensating Control Approval**: Any proposed compensating control is reviewed and approved by an accountable party before being accepted as equivalent to the original specified control.
 
 ### 4. Baseline Governance and Deviation Review
 Tailoring Documentation Currency and Deviation Auditing:
@@ -69,9 +69,9 @@ NIST SP 800-53Bベースラインと代替統制の原則:
 ### 3. テーラリング適用と承認の手順
 ベースライン割り当て・適用範囲決定・承認:
 
-1. **分類に基づくベースライン割り当て**: 各システムには、文書化された分類ティアとデータ状態に基づいて適用すべき統制ベースラインが割り当てられます。
-2. **適用範囲決定とテーラリングの判断**: 割り当てられたベースライン内の個々の統制は、対象に含める・対象外とする・調整するのいずれかとされ、各判断はその根拠とともに文書化されます。
-3. **代替統制の承認**: 提案された代替統制は、元の指定統制と同等であると認められる前に、責任を負う者によってレビュー・承認されます。
+* **分類に基づくベースライン割り当て**: 各システムには、文書化された分類ティアとデータ状態に基づいて適用すべき統制ベースラインが割り当てられます。
+* **適用範囲決定とテーラリングの判断**: 割り当てられたベースライン内の個々の統制は、対象に含める・対象外とする・調整するのいずれかとされ、各判断はその根拠とともに文書化されます。
+* **代替統制の承認**: 提案された代替統制は、元の指定統制と同等であると認められる前に、責任を負う者によってレビュー・承認されます。
 
 ### 4. ベースラインガバナンスと逸脱レビュー
 テーラリング文書の鮮度と逸脱の監査:
