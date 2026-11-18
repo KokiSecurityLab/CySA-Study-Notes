@@ -25,9 +25,9 @@ Hybrid TLS Key Exchange and eBPF/XDP Principles:
 ### 3. Ingress Filtering and Handshake Sequence
 Kernel Filtering, Handshake Verification, and Escalation:
 
-1. **eBPF/XDP Packet Filtering**: Inbound packets are evaluated against kernel-level filtering rules immediately upon arrival, dropping malformed packets before they consume application-layer processing resources.
-2. **Hybrid TLS Handshake Verification**: Connections that pass initial filtering complete a hybrid classical-PQC TLS handshake before any application data is processed.
-3. **Anomalous Payload Escalation**: Payloads that pass filtering but exhibit anomalous characteristics are logged and escalated for further review, consistent with the SIEM correlation approach defined in Technical Paper #002.
+* **eBPF/XDP Packet Filtering**: Inbound packets are evaluated against kernel-level filtering rules immediately upon arrival, dropping malformed packets before they consume application-layer processing resources.
+* **Hybrid TLS Handshake Verification**: Connections that pass initial filtering complete a hybrid classical-PQC TLS handshake before any application data is processed.
+* **Anomalous Payload Escalation**: Payloads that pass filtering but exhibit anomalous characteristics are logged and escalated for further review, consistent with the SIEM correlation approach defined in Technical Paper #002.
 
 ### 4. Filter Governance and Throughput Review
 Filtering Rule Currency and Latency Monitoring:
@@ -69,9 +69,9 @@ eBPF/XDPに基づくフィルタリング実務と整合するライン速度の
 ### 3. 入力フィルタリングとハンドシェイクの手順
 カーネルフィルタリング・ハンドシェイク検証・エスカレーション:
 
-1. **eBPF/XDPパケットフィルタリング**: 着信パケットは到着直後にカーネルレベルのフィルタリングルールと照合され、アプリケーション層の処理リソースを消費する前に不正な形式のパケットが破棄されます。
-2. **ハイブリッドTLSハンドシェイク検証**: 初期フィルタリングを通過した接続は、アプリケーションデータが処理される前にハイブリッド従来型・PQC TLSハンドシェイクを完了します。
-3. **異常ペイロードのエスカレーション**: フィルタリングを通過したものの異常な特徴を示すペイロードは記録され、テクニカルペーパーシリーズ #002 で定義したSIEM相関分析アプローチと整合する形でさらなるレビューへエスカレーションされます。
+* **eBPF/XDPパケットフィルタリング**: 着信パケットは到着直後にカーネルレベルのフィルタリングルールと照合され、アプリケーション層の処理リソースを消費する前に不正な形式のパケットが破棄されます。
+* **ハイブリッドTLSハンドシェイク検証**: 初期フィルタリングを通過した接続は、アプリケーションデータが処理される前にハイブリッド従来型・PQC TLSハンドシェイクを完了します。
+* **異常ペイロードのエスカレーション**: フィルタリングを通過したものの異常な特徴を示すペイロードは記録され、テクニカルペーパーシリーズ #002 で定義したSIEM相関分析アプローチと整合する形でさらなるレビューへエスカレーションされます。
 
 ### 4. フィルターガバナンスとスループットレビュー
 フィルタリングルールの鮮度とレイテンシ監視:
