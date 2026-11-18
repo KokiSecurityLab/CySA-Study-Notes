@@ -25,9 +25,9 @@ Individualized Accommodation and Detection-Strength Principles:
 ### 3. Accommodation and Integration Sequence
 Role Design, Tooling Adjustment, and Outcome Review:
 
-1. **Role and Workflow Assessment**: Each analyst's working style is assessed to identify where standardized tooling or process creates unnecessary friction without improving actual security outcomes.
-2. **Tooling and Environment Adjustment**: Interfaces, alerting formats, and work environment factors are adjusted where feasible to reduce friction, consistent with accessibility-minded design principles.
-3. **Outcome-Based Effectiveness Review**: Adjusted workflows are evaluated against the same detection and response outcomes as standardized workflows, confirming that accommodation supports performance rather than simply changing process.
+* **Role and Workflow Assessment**: Each analyst's working style is assessed to identify where standardized tooling or process creates unnecessary friction without improving actual security outcomes.
+* **Tooling and Environment Adjustment**: Interfaces, alerting formats, and work environment factors are adjusted where feasible to reduce friction, consistent with accessibility-minded design principles.
+* **Outcome-Based Effectiveness Review**: Adjusted workflows are evaluated against the same detection and response outcomes as standardized workflows, confirming that accommodation supports performance rather than simply changing process.
 
 ### 4. Governance Consistency and Outcome Auditing
 Standard Maintenance and Accommodation Review:
@@ -69,9 +69,9 @@ Pairing individualized accommodation with a consistent technical baseline, consi
 ### 3. 配慮と統合の手順
 役割設計・ツール調整・成果レビュー:
 
-1. **役割とワークフローの評価**: 各アナリストの働き方を評価し、標準化されたツールやプロセスが実際のセキュリティ成果を改善することなく不要な摩擦を生んでいる箇所を特定します。
-2. **ツールと環境の調整**: インターフェース、アラート形式、作業環境の要因は、アクセシビリティを意識した設計原則と整合する形で、実現可能な範囲で摩擦を減らすよう調整されます。
-3. **成果に基づく効果のレビュー**: 調整されたワークフローは標準的なワークフローと同一の検知・対応成果に照らして評価され、配慮が単なるプロセス変更ではなく成果の向上を支えていることを確認します。
+* **役割とワークフローの評価**: 各アナリストの働き方を評価し、標準化されたツールやプロセスが実際のセキュリティ成果を改善することなく不要な摩擦を生んでいる箇所を特定します。
+* **ツールと環境の調整**: インターフェース、アラート形式、作業環境の要因は、アクセシビリティを意識した設計原則と整合する形で、実現可能な範囲で摩擦を減らすよう調整されます。
+* **成果に基づく効果のレビュー**: 調整されたワークフローは標準的なワークフローと同一の検知・対応成果に照らして評価され、配慮が単なるプロセス変更ではなく成果の向上を支えていることを確認します。
 
 ### 4. ガバナンスの一貫性と成果監査
 標準の維持と配慮のレビュー:
