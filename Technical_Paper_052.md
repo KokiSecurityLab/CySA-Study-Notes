@@ -25,9 +25,9 @@ ALE Calculation and Threat-Vulnerability Pairing Principles:
 ### 3. Assessment Calculation and Prioritization Sequence
 Valuation, Calculation, and Ranked Output Stages:
 
-1. **Asset Valuation**: Each in-scope asset is assigned a documented value reflecting its replacement cost and business value, forming the basis for subsequent loss calculations.
-2. **SLE and ALE Calculation**: For each paired threat-vulnerability combination, SLE and ALE are calculated using the documented asset value, exposure factor, and rate of occurrence.
-3. **Risk Register Prioritization**: Calculated ALE values are used to rank entries in the risk register, directing remediation attention toward the highest calculated financial exposure first.
+* **Asset Valuation**: Each in-scope asset is assigned a documented value reflecting its replacement cost and business value, forming the basis for subsequent loss calculations.
+* **SLE and ALE Calculation**: For each paired threat-vulnerability combination, SLE and ALE are calculated using the documented asset value, exposure factor, and rate of occurrence.
+* **Risk Register Prioritization**: Calculated ALE values are used to rank entries in the risk register, directing remediation attention toward the highest calculated financial exposure first.
 
 ### 4. Assessment Governance and Estimate Review
 Input Documentation and Recalculation Cadence:
@@ -69,9 +69,9 @@ ALE算出と脅威・脆弱性ペアリングの原則:
 ### 3. 評価の算出と優先順位付けの手順
 評価・算出・順位付けされた出力の各段階:
 
-1. **資産評価**: 対象範囲内の各資産には、その再調達コストと事業価値を反映した文書化された価値が割り当てられ、以降の損失算出の基礎となります。
-2. **SLEおよびALEの算出**: 対応付けられた脅威・脆弱性の組み合わせごとに、文書化された資産価値・暴露係数・発生率を用いてSLEおよびALEが算出されます。
-3. **リスクレジスターの優先順位付け**: 算出されたALEの値はリスクレジスター内の項目の順位付けに用いられ、算出された金銭的露出が最も大きいものから修復対応の注意を向けます。
+* **資産評価**: 対象範囲内の各資産には、その再調達コストと事業価値を反映した文書化された価値が割り当てられ、以降の損失算出の基礎となります。
+* **SLEおよびALEの算出**: 対応付けられた脅威・脆弱性の組み合わせごとに、文書化された資産価値・暴露係数・発生率を用いてSLEおよびALEが算出されます。
+* **リスクレジスターの優先順位付け**: 算出されたALEの値はリスクレジスター内の項目の順位付けに用いられ、算出された金銭的露出が最も大きいものから修復対応の注意を向けます。
 
 ### 4. 評価ガバナンスと見積もりのレビュー
 入力値の文書化と再計算の頻度:
