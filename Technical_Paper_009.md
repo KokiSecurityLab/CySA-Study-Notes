@@ -25,9 +25,9 @@ Rate Limiting and Workload Isolation Principles:
 ### 3. Queuing, Quotas, and Source Isolation
 Tactical Resource Allocation and Queue Management:
 
-1. **Workload Queuing Configuration**: Incoming requests above a defined threshold are placed in a bounded queue rather than processed immediately, preventing a traffic spike from consuming all available processing capacity at once.
-2. **Resource Quota Enforcement**: Individual processes or containers are assigned fixed CPU and memory quotas, for example through cgroups or container resource limits, containing the impact of any single compromised or misbehaving component.
-3. **Automated Throttled-Source Isolation**: Sources that repeatedly exceed the configured rate limit are automatically placed in a restricted-access state, requiring additional verification, such as a CAPTCHA challenge, before further requests are processed.
+* **Workload Queuing Configuration**: Incoming requests above a defined threshold are placed in a bounded queue rather than processed immediately, preventing a traffic spike from consuming all available processing capacity at once.
+* **Resource Quota Enforcement**: Individual processes or containers are assigned fixed CPU and memory quotas, for example through cgroups or container resource limits, containing the impact of any single compromised or misbehaving component.
+* **Automated Throttled-Source Isolation**: Sources that repeatedly exceed the configured rate limit are automatically placed in a restricted-access state, requiring additional verification, such as a CAPTCHA challenge, before further requests are processed.
 
 ### 4. Resource Boundaries and Capacity Auditing
 Availability Assurance and Capacity Review Metrics:
@@ -69,9 +69,9 @@ Applying these controls consistent with CISSP Domain 3 and NIST SP 800-63B keeps
 ### 3. キューイング・クォータ・送信元隔離
 戦術的リソース配分とキュー管理:
 
-1. **ワークロードキューイングの設定**: 定義済みのしきい値を超える着信リクエストは即座に処理されるのではなく、制限付きのキューに配置され、トラフィックの急増が利用可能な処理能力を一度に消費し尽くすことを防ぎます。
-2. **リソースクォータの適用**: 個々のプロセスやコンテナに対し、cgroupsやコンテナのリソース制限などを用いて固定のCPU・メモリクォータを割り当て、単一の侵害または不正動作コンポーネントの影響範囲を限定します。
-3. **スロットリング対象送信元の自動隔離**: 設定済みのレート制限を繰り返し超過した送信元は自動的にアクセス制限状態に置かれ、以降のリクエスト処理にはCAPTCHAなどの追加検証が要求されます。
+* **ワークロードキューイングの設定**: 定義済みのしきい値を超える着信リクエストは即座に処理されるのではなく、制限付きのキューに配置され、トラフィックの急増が利用可能な処理能力を一度に消費し尽くすことを防ぎます。
+* **リソースクォータの適用**: 個々のプロセスやコンテナに対し、cgroupsやコンテナのリソース制限などを用いて固定のCPU・メモリクォータを割り当て、単一の侵害または不正動作コンポーネントの影響範囲を限定します。
+* **スロットリング対象送信元の自動隔離**: 設定済みのレート制限を繰り返し超過した送信元は自動的にアクセス制限状態に置かれ、以降のリクエスト処理にはCAPTCHAなどの追加検証が要求されます。
 
 ### 4. リソース境界と容量監査
 可用性保証と容量レビューの指標:
