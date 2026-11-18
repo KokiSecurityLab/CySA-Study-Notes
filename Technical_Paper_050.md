@@ -25,9 +25,9 @@ Traceability Matrix Structure and Domain Alignment Principles:
 ### 3. Matrix Construction and Maintenance Sequence
 Control Extraction, Cross-Referencing, and Currency Checks:
 
-1. **Control Extraction from Source Papers**: Each named control from Technical Papers #001 through #049 is extracted into the matrix along with its originating paper number and domain tag.
-2. **Cross-Reference Validation**: Controls addressing similar or overlapping risks are cross-referenced to each other, flagging cases where two papers' controls should be reconciled rather than treated as independent.
-3. **Scheduled Matrix Currency Review**: The matrix is reviewed against the current state of each source paper on a defined schedule, updating entries when an underlying paper is revised.
+* **Control Extraction from Source Papers**: Each named control from Technical Papers #001 through #049 is extracted into the matrix along with its originating paper number and domain tag.
+* **Cross-Reference Validation**: Controls addressing similar or overlapping risks are cross-referenced to each other, flagging cases where two papers' controls should be reconciled rather than treated as independent.
+* **Scheduled Matrix Currency Review**: The matrix is reviewed against the current state of each source paper on a defined schedule, updating entries when an underlying paper is revised.
 
 ### 4. Matrix Governance and Audit Support
 Change Tracking and Audit-Readiness Review:
@@ -69,9 +69,9 @@ Consolidating that index into a single, cross-referenced matrix, consistent with
 ### 3. マトリクス構築と維持の手順
 統制の抽出・相互参照・鮮度確認:
 
-1. **元論文からの統制抽出**: テクニカルペーパーシリーズ #001〜#049 それぞれの名前付き統制は、出典となった論文番号とドメインタグとともにマトリクスへ抽出されます。
-2. **相互参照の検証**: 類似または重複するリスクに対処する統制同士が相互参照され、2つの論文の統制を独立したものとして扱うのではなく整合させるべき事例にフラグが付けられます。
-3. **定期的なマトリクス鮮度レビュー**: マトリクスは定められたスケジュールで各元論文の最新状態と照合してレビューされ、元となる論文が改訂された際には該当項目が更新されます。
+* **元論文からの統制抽出**: テクニカルペーパーシリーズ #001〜#049 それぞれの名前付き統制は、出典となった論文番号とドメインタグとともにマトリクスへ抽出されます。
+* **相互参照の検証**: 類似または重複するリスクに対処する統制同士が相互参照され、2つの論文の統制を独立したものとして扱うのではなく整合させるべき事例にフラグが付けられます。
+* **定期的なマトリクス鮮度レビュー**: マトリクスは定められたスケジュールで各元論文の最新状態と照合してレビューされ、元となる論文が改訂された際には該当項目が更新されます。
 
 ### 4. マトリクスガバナンスと監査支援
 変更履歴の追跡と監査対応レビュー:
