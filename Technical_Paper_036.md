@@ -25,9 +25,9 @@ SPF/DKIM/DMARC Enforcement and Linguistic Anomaly Scoring:
 ### 3. Detection and Hold Sequence
 Authentication Checks, Scoring, and Transaction Hold:
 
-1. **Inbound Authentication Verification**: Every inbound message is checked against SPF, DKIM, and DMARC records before delivery, with failures routed to quarantine rather than the primary inbox.
-2. **Content-Pattern Scoring**: Delivered messages are scored for linguistic manipulation patterns, and high-scoring messages are flagged with a visible warning before the recipient can act on them.
-3. **System-Enforced Verification Hold**: Requests matching a high-risk category, such as a wire transfer or credential reset, are held pending the out-of-band confirmation process defined in Technical Paper #010, rather than proceeding immediately.
+* **Inbound Authentication Verification**: Every inbound message is checked against SPF, DKIM, and DMARC records before delivery, with failures routed to quarantine rather than the primary inbox.
+* **Content-Pattern Scoring**: Delivered messages are scored for linguistic manipulation patterns, and high-scoring messages are flagged with a visible warning before the recipient can act on them.
+* **System-Enforced Verification Hold**: Requests matching a high-risk category, such as a wire transfer or credential reset, are held pending the out-of-band confirmation process defined in Technical Paper #010, rather than proceeding immediately.
 
 ### 4. Detection Model Governance and False-Result Review
 Scoring Threshold Calibration and Bypass Auditing:
@@ -69,9 +69,9 @@ SPF/DKIM/DMARCの適用と言語的異常のスコアリング:
 ### 3. 検知と保留の手順
 認証チェック・スコアリング・取引保留:
 
-1. **着信認証の検証**: 着信する各メッセージは配送前にSPF・DKIM・DMARCのレコードと照合され、失敗した場合は主受信箱ではなく検疫対象へルーティングされます。
-2. **コンテンツパターンのスコアリング**: 配送されたメッセージは言語的な操作パターンについてスコアリングされ、高スコアのメッセージには受信者が対応する前に目に見える警告が付与されます。
-3. **システム強制の確認保留**: 送金や資格情報リセットなど高リスクカテゴリに該当するリクエストは、即座に処理されるのではなく、テクニカルペーパーシリーズ #010 で定義した複数経路での確認プロセスの完了を待って保留されます。
+* **着信認証の検証**: 着信する各メッセージは配送前にSPF・DKIM・DMARCのレコードと照合され、失敗した場合は主受信箱ではなく検疫対象へルーティングされます。
+* **コンテンツパターンのスコアリング**: 配送されたメッセージは言語的な操作パターンについてスコアリングされ、高スコアのメッセージには受信者が対応する前に目に見える警告が付与されます。
+* **システム強制の確認保留**: 送金や資格情報リセットなど高リスクカテゴリに該当するリクエストは、即座に処理されるのではなく、テクニカルペーパーシリーズ #010 で定義した複数経路での確認プロセスの完了を待って保留されます。
 
 ### 4. 検知モデルガバナンスと誤判定のレビュー
 スコアしきい値の較正と回避事例の監査:
