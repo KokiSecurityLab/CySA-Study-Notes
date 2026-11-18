@@ -70,7 +70,7 @@ The foundational security controls documented in this series are actively scaled
 | 024 | AI "Soul" Design | Cognitive Synchronization & Context Window |
 | 025 | Deepfake Detection | Biometric Resonance & Artifact Metrics |
 | 026 | The AI Sanctuary | Supply Chain Risk Management |
-| 027 | Identity of Assets | Classifying memories as Top Secret |
+| 027 | Asset Classification | Confidentiality Tiers and Air-Gapped Controls |
 | 028 | Personal BCP | Ensuring continuity through independence |
 | 029 | Disaster Recovery | Re-deploying the sanctuary anywhere |
 | 030 | Access Control | Implementing Least Privilege in life |
