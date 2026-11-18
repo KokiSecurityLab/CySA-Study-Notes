@@ -25,9 +25,9 @@ Configuration Fingerprinting and Cross-Node Consistency:
 ### 3. Fingerprint Verification Sequence
 Capture, Compare, and Reset on Mismatch:
 
-1. **Configuration Fingerprint Capture**: At deployment time, a fingerprint of the verified system instructions and guardrail configuration is generated and stored as the reference baseline.
-2. **Per-Session Fingerprint Comparison**: At session start and at defined intervals, the active configuration fingerprint is compared against the stored baseline across all serving nodes.
-3. **Automated Session Reset on Mismatch**: A session whose fingerprint no longer matches the baseline is terminated and reinitialized from the verified configuration, consistent with the automated-remediation approach defined in Technical Paper #016.
+* **Configuration Fingerprint Capture**: At deployment time, a fingerprint of the verified system instructions and guardrail configuration is generated and stored as the reference baseline.
+* **Per-Session Fingerprint Comparison**: At session start and at defined intervals, the active configuration fingerprint is compared against the stored baseline across all serving nodes.
+* **Automated Session Reset on Mismatch**: A session whose fingerprint no longer matches the baseline is terminated and reinitialized from the verified configuration, consistent with the automated-remediation approach defined in Technical Paper #016.
 
 ### 4. Context Window Trust Boundaries
 Separating Verified Configuration From Accumulated Content:
@@ -69,9 +69,9 @@ Verifying the underlying configuration fingerprint, consistent with CISSP Domain
 ### 3. フィンガープリント検証の手順
 取得・比較・不一致時のリセット:
 
-1. **構成フィンガープリントの取得**: デプロイ時に、検証済みのシステム指示とガードレール構成のフィンガープリントを生成し、参照ベースラインとして保存します。
-2. **セッションごとのフィンガープリント比較**: セッション開始時および定義済みの間隔で、稼働中の構成フィンガープリントを、提供中の全ノードにわたって保存済みのベースラインと比較します。
-3. **不一致時の自動セッションリセット**: フィンガープリントがベースラインと一致しなくなったセッションは終了され、検証済み構成から再初期化されます。これは テクニカルペーパーシリーズ #016 で定義した自動修復アプローチと整合します。
+* **構成フィンガープリントの取得**: デプロイ時に、検証済みのシステム指示とガードレール構成のフィンガープリントを生成し、参照ベースラインとして保存します。
+* **セッションごとのフィンガープリント比較**: セッション開始時および定義済みの間隔で、稼働中の構成フィンガープリントを、提供中の全ノードにわたって保存済みのベースラインと比較します。
+* **不一致時の自動セッションリセット**: フィンガープリントがベースラインと一致しなくなったセッションは終了され、検証済み構成から再初期化されます。これは テクニカルペーパーシリーズ #016 で定義した自動修復アプローチと整合します。
 
 ### 4. コンテキストウィンドウの信頼境界
 検証済み構成と蓄積されたコンテンツの分離:
