@@ -25,9 +25,9 @@ Error-Correcting Memory and Redundant Voting Principles:
 ### 3. Detection and Isolation Sequence
 ECC Correction, Voting Comparison, and Segment Isolation:
 
-1. **Real-Time ECC Correction**: Memory errors detected by ECC hardware are corrected automatically at the point of detection, without requiring the affected process to restart.
-2. **TMR Output Comparison**: Outputs from the three redundant modules are compared, and a module producing a minority result is flagged as a candidate fault requiring further diagnostic review.
-3. **Automated Segment Isolation**: A processing segment confirmed to have an uncorrectable fault is isolated from the active processing pool pending manual inspection, consistent with the baseline safeguards defined in Technical Paper #037.
+* **Real-Time ECC Correction**: Memory errors detected by ECC hardware are corrected automatically at the point of detection, without requiring the affected process to restart.
+* **TMR Output Comparison**: Outputs from the three redundant modules are compared, and a module producing a minority result is flagged as a candidate fault requiring further diagnostic review.
+* **Automated Segment Isolation**: A processing segment confirmed to have an uncorrectable fault is isolated from the active processing pool pending manual inspection, consistent with the baseline safeguards defined in Technical Paper #037.
 
 ### 4. Hardware Reliability Governance
 Node Health Review and Redundancy Verification:
@@ -69,9 +69,9 @@ ECCメモリとトリプルモジュラー冗長（TMR）投票という確立�
 ### 3. 検知と隔離の手順
 ECC訂正・投票比較・セグメント隔離:
 
-1. **リアルタイムのECC訂正**: ECCハードウェアによって検知されたメモリエラーは、影響を受けたプロセスの再起動を必要とせず、検知された時点で自動的に訂正されます。
-2. **TMR出力の比較**: 3つの冗長モジュールからの出力が比較され、少数派の結果を出したモジュールは、さらなる診断レビューを要する故障候補としてフラグ付けされます。
-3. **自動化されたセグメント隔離**: 訂正不能な故障が確認された処理セグメントは、テクニカルペーパーシリーズ #037 で定義したベースラインの安全策と整合する形で、手動検査を待つ間アクティブな処理プールから隔離されます。
+* **リアルタイムのECC訂正**: ECCハードウェアによって検知されたメモリエラーは、影響を受けたプロセスの再起動を必要とせず、検知された時点で自動的に訂正されます。
+* **TMR出力の比較**: 3つの冗長モジュールからの出力が比較され、少数派の結果を出したモジュールは、さらなる診断レビューを要する故障候補としてフラグ付けされます。
+* **自動化されたセグメント隔離**: 訂正不能な故障が確認された処理セグメントは、テクニカルペーパーシリーズ #037 で定義したベースラインの安全策と整合する形で、手動検査を待つ間アクティブな処理プールから隔離されます。
 
 ### 4. ハードウェア信頼性ガバナンス
 ノード健全性レビューと冗長性検証:
