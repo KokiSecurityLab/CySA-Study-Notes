@@ -25,9 +25,9 @@ Correlation Engines and Real-Time Alert Triggers:
 ### 3. Gateway Resilience and Failover
 Resource Optimization and Failover Management:
 
-1. **Continuous Gateway Status Monitoring**: Core infrastructure audits the utilization and parsing capacity of the monitoring node to maintain visibility without exceeding operational limits.
-2. **Automated Secondary Failover Activation**: Monitoring loops shift logging load to auxiliary gateways when the primary node falls below defined performance thresholds.
-3. **Baseline Re-Stabilization**: A defined control state restores monitoring-node stability and resource allocation, supporting continued availability of the event-driven infrastructure.
+* **Continuous Gateway Status Monitoring**: Core infrastructure audits the utilization and parsing capacity of the monitoring node to maintain visibility without exceeding operational limits.
+* **Automated Secondary Failover Activation**: Monitoring loops shift logging load to auxiliary gateways when the primary node falls below defined performance thresholds.
+* **Baseline Re-Stabilization**: A defined control state restores monitoring-node stability and resource allocation, supporting continued availability of the event-driven infrastructure.
 
 ### 4. Analytical Space Segregation
 Analytical Space Segregation and Ingestion Path Control:
@@ -69,9 +69,9 @@ A dedicated SIEM layer, built on CISSP Domain 7 practice, keeps that correlation
 ### 3. ゲートウェイの耐障害性とフェイルオーバー
 リソース最適化とフェイルオーバー管理:
 
-1. **ゲートウェイ状態の継続監視**: コアインフラが監視ノードの利用状況と解析能力を監査し、運用限界を超えることなく可視性を維持します。
-2. **自動セカンダリフェイルオーバーの起動**: プライマリノードが定義済みの性能しきい値を下回った場合、監視ループが補助ゲートウェイへログ負荷を移行します。
-3. **ベースライン再安定化**: 定められた制御状態により監視ノードの安定性とリソース配分を復元し、イベント駆動型インフラの継続的な可用性を支えます。
+* **ゲートウェイ状態の継続監視**: コアインフラが監視ノードの利用状況と解析能力を監査し、運用限界を超えることなく可視性を維持します。
+* **自動セカンダリフェイルオーバーの起動**: プライマリノードが定義済みの性能しきい値を下回った場合、監視ループが補助ゲートウェイへログ負荷を移行します。
+* **ベースライン再安定化**: 定められた制御状態により監視ノードの安定性とリソース配分を復元し、イベント駆動型インフラの継続的な可用性を支えます。
 
 ### 4. 分析空間の分離
 分析空間の分離と入力経路の制御:
