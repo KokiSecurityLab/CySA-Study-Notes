@@ -25,9 +25,9 @@ Saltzer and Schroeder Principle Definitions:
 ### 3. Principle-Based Review Sequence
 Architecture Mapping, Principle Checking, and Finding Documentation:
 
-1. **Architecture Diagramming**: The system architecture is diagrammed showing components, trust boundaries, and access paths, consistent with the data flow diagramming approach defined in Technical Paper #055.
-2. **Principle-by-Principle Evaluation**: Each Saltzer and Schroeder principle is evaluated against the diagrammed architecture in turn, documenting where the design satisfies or violates each one.
-3. **Finding Remediation Planning**: Identified violations are documented as findings with a proposed remediation, prioritized consistent with the risk-scoring approach defined in Technical Paper #052.
+* **Architecture Diagramming**: The system architecture is diagrammed showing components, trust boundaries, and access paths, consistent with the data flow diagramming approach defined in Technical Paper #055.
+* **Principle-by-Principle Evaluation**: Each Saltzer and Schroeder principle is evaluated against the diagrammed architecture in turn, documenting where the design satisfies or violates each one.
+* **Finding Remediation Planning**: Identified violations are documented as findings with a proposed remediation, prioritized consistent with the risk-scoring approach defined in Technical Paper #052.
 
 ### 4. Design Review Governance and Recurrence Auditing
 Review Cadence and Principle-Violation Recurrence Tracking:
@@ -69,9 +69,9 @@ Applying the Saltzer and Schroeder framework systematically, consistent with CIS
 ### 3. 原則に基づくレビューの手順
 アーキテクチャマッピング・原則の確認・所見の文書化:
 
-1. **アーキテクチャの図式化**: テクニカルペーパーシリーズ #055 で定義したデータフロー図作成アプローチと整合する形で、システムアーキテクチャはコンポーネント、信頼境界、アクセス経路を示す形で図式化されます。
-2. **原則ごとの評価**: サルツァー＝シュローダーの各原則が図式化されたアーキテクチャに対して順に評価され、設計がどの原則を満たし、どの原則に違反しているかが文書化されます。
-3. **所見の是正計画**: 特定された違反は、提案された是正策とともに所見として文書化され、テクニカルペーパーシリーズ #052で定義したリスクスコアリングアプローチと整合する形で優先順位付けされます。
+* **アーキテクチャの図式化**: テクニカルペーパーシリーズ #055 で定義したデータフロー図作成アプローチと整合する形で、システムアーキテクチャはコンポーネント、信頼境界、アクセス経路を示す形で図式化されます。
+* **原則ごとの評価**: サルツァー＝シュローダーの各原則が図式化されたアーキテクチャに対して順に評価され、設計がどの原則を満たし、どの原則に違反しているかが文書化されます。
+* **所見の是正計画**: 特定された違反は、提案された是正策とともに所見として文書化され、テクニカルペーパーシリーズ #052で定義したリスクスコアリングアプローチと整合する形で優先順位付けされます。
 
 ### 4. 設計レビューガバナンスと再発監査
 レビュー頻度と原則違反の再発追跡:
