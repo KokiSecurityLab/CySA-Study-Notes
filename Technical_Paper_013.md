@@ -25,9 +25,9 @@ Behavioral Biometrics and Baseline Modeling:
 ### 3. Baseline Modeling and Step-Up Authentication
 Continuous Verification and Step-Up Authentication:
 
-1. **Baseline Profile Establishment**: A behavioral profile is built for each user over an initial observation period, capturing typical interaction patterns under normal conditions.
-2. **Real-Time Deviation Scoring**: Live session activity is compared against the stored baseline on an ongoing basis, generating a deviation score whenever interaction patterns diverge significantly.
-3. **Step-Up Authentication on High Deviation**: Sessions that exceed a defined deviation threshold are prompted for an additional authentication factor before continuing, consistent with CISSP Domain 5 multi-factor authentication practices.
+* **Baseline Profile Establishment**: A behavioral profile is built for each user over an initial observation period, capturing typical interaction patterns under normal conditions.
+* **Real-Time Deviation Scoring**: Live session activity is compared against the stored baseline on an ongoing basis, generating a deviation score whenever interaction patterns diverge significantly.
+* **Step-Up Authentication on High Deviation**: Sessions that exceed a defined deviation threshold are prompted for an additional authentication factor before continuing, consistent with CISSP Domain 5 multi-factor authentication practices.
 
 ### 4. Data Minimization and Model Accuracy Review
 Privacy-Aware Behavioral Data Handling:
@@ -69,9 +69,9 @@ Keeping that behavioral check continuous, rather than confined to login, is what
 ### 3. ベースラインモデリングとステップアップ認証
 継続的検証とステップアップ認証:
 
-1. **ベースラインプロファイルの確立**: 初期の観察期間を通じて各ユーザーの行動プロファイルを構築し、通常状態における典型的な操作パターンを記録します。
-2. **リアルタイムの逸脱スコアリング**: ライブセッションの活動を保存済みのベースラインと継続的に照合し、操作パターンが大きく乖離するたびに逸脱スコアを生成します。
-3. **高逸脱時のステップアップ認証**: 定義済みの逸脱しきい値を超えたセッションには、継続前に追加の認証要素の入力が求められます。これはCISSPドメイン5の多要素認証実務と整合します。
+* **ベースラインプロファイルの確立**: 初期の観察期間を通じて各ユーザーの行動プロファイルを構築し、通常状態における典型的な操作パターンを記録します。
+* **リアルタイムの逸脱スコアリング**: ライブセッションの活動を保存済みのベースラインと継続的に照合し、操作パターンが大きく乖離するたびに逸脱スコアを生成します。
+* **高逸脱時のステップアップ認証**: 定義済みの逸脱しきい値を超えたセッションには、継続前に追加の認証要素の入力が求められます。これはCISSPドメイン5の多要素認証実務と整合します。
 
 ### 4. データ最小化とモデル精度レビュー
 プライバシーに配慮した行動データの取り扱い:
