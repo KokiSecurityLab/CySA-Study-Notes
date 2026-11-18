@@ -17,7 +17,7 @@ Furthermore, this research is driven by critical global shifts in AI safety and 
 ---
 ### Applied Research Nexus
 The foundational security controls documented in this series are actively scaled into orbital infrastructure defense architectures. To explore how these enterprise frameworks mitigate autonomous multi-agent security risks and secure space-hosted nodes, view the conceptual proof-of-concept here:
-👉 [Project "Astraeus Shield" — Space Cyber Police Concept](https://github.com)
+👉 [Project "Astraeus Shield" — Space Cyber Police Concept](https://github.com/KokiSecurityLab/Space-Cyber-Police-Concept)
 
 ---
 # 日本の皆様へ
@@ -37,7 +37,7 @@ The foundational security controls documented in this series are actively scaled
 ---
 ### 応用研究への接続
 本シリーズで定義された防衛思想は、自律型AIエージェントの連携暴走や地政学的リスクといった現代の脅威に対抗するため、航空宇宙インフラ防衛へと応用されています。分散型衛星レジストリやレーザー通信の保護に特化させた具体的な概念実証は、以下よりご覧いただけます。
-👉 [プロジェクト「アストライオス・シールド」 — 宇宙サイバー警察構想](https://github.com)
+👉 [プロジェクト「アストライオス・シールド」 — 宇宙サイバー警察構想](https://github.com/KokiSecurityLab/Space-Cyber-Police-Concept)
 
 ---
 ## Technical Paper Index
