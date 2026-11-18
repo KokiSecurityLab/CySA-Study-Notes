@@ -25,9 +25,9 @@ Tamperproof, Always-Invoked, and Verifiable Design Principles:
 ### 3. TCB Boundary Definition and Verification Sequence
 Scope Documentation, Enforcement Testing, and Independent Review:
 
-1. **TCB Boundary Documentation**: The specific hardware, firmware, and software components composing the TCB are explicitly documented, distinguishing them from components outside the trust boundary.
-2. **Enforcement Path Testing**: All identified access paths to protected resources are tested to confirm each one passes through the reference monitor without an undocumented bypass.
-3. **Independent Kernel Verification**: The security kernel's implementation is independently reviewed against its documented specification to confirm it correctly implements the intended enforcement logic.
+* **TCB Boundary Documentation**: The specific hardware, firmware, and software components composing the TCB are explicitly documented, distinguishing them from components outside the trust boundary.
+* **Enforcement Path Testing**: All identified access paths to protected resources are tested to confirm each one passes through the reference monitor without an undocumented bypass.
+* **Independent Kernel Verification**: The security kernel's implementation is independently reviewed against its documented specification to confirm it correctly implements the intended enforcement logic.
 
 ### 4. TCB Governance and Boundary Change Review
 Boundary Currency and Modification Control:
@@ -69,9 +69,9 @@ Documenting the TCB boundary and testing all three reference monitor properties,
 ### 3. TCB境界の定義と検証の手順
 範囲の文書化・執行テスト・独立レビュー:
 
-1. **TCB境界の文書化**: TCBを構成する特定のハードウェア・ファームウェア・ソフトウェアのコンポーネントは、信頼境界の外側にあるコンポーネントと区別する形で明示的に文書化されます。
-2. **執行経路のテスト**: 保護対象リソースへの特定されたすべてのアクセス経路は、それぞれが文書化されていない迂回なしにリファレンスモニタを経由することを確認するためテストされます。
-3. **独立したカーネル検証**: セキュリティカーネルの実装は、意図された執行ロジックを正しく実装しているかを確認するため、文書化された仕様に照らして独立してレビューされます。
+* **TCB境界の文書化**: TCBを構成する特定のハードウェア・ファームウェア・ソフトウェアのコンポーネントは、信頼境界の外側にあるコンポーネントと区別する形で明示的に文書化されます。
+* **執行経路のテスト**: 保護対象リソースへの特定されたすべてのアクセス経路は、それぞれが文書化されていない迂回なしにリファレンスモニタを経由することを確認するためテストされます。
+* **独立したカーネル検証**: セキュリティカーネルの実装は、意図された執行ロジックを正しく実装しているかを確認するため、文書化された仕様に照らして独立してレビューされます。
 
 ### 4. TCBガバナンスと境界変更のレビュー
 境界の鮮度と変更管理:
