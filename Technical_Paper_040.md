@@ -26,9 +26,9 @@ Cross-Endpoint Telemetry Correlation Principles:
 ### 3. Detection and Sandbox Analysis Sequence
 Anomaly Flagging, Correlation, and Isolated Execution:
 
-1. **Behavioral Anomaly Flagging**: Activity that deviates from an account's or endpoint's established baseline, such as a transaction occurring outside typical hours, is flagged for review.
-2. **Cross-Domain Indicator Correlation**: Indicators from separate infrastructure segments are mapped into a shared correlation layer to identify activity consistent with a coordinated, multi-stage campaign.
-3. **Sandboxed Dynamic Analysis**: Unverified or suspicious applications are executed within an isolated sandbox environment, where their behavior is monitored until latent malicious functionality is revealed or ruled out.
+* **Behavioral Anomaly Flagging**: Activity that deviates from an account's or endpoint's established baseline, such as a transaction occurring outside typical hours, is flagged for review.
+* **Cross-Domain Indicator Correlation**: Indicators from separate infrastructure segments are mapped into a shared correlation layer to identify activity consistent with a coordinated, multi-stage campaign.
+* **Sandboxed Dynamic Analysis**: Unverified or suspicious applications are executed within an isolated sandbox environment, where their behavior is monitored until latent malicious functionality is revealed or ruled out.
 
 ### 4. SOC Interface Governance and Escalation Boundaries
 Query Access Controls and Human Decision Authority:
@@ -70,9 +70,9 @@ Routing what that correlation surfaces to sandboxed analysis and human judgment,
 ### 3. 検知とサンドボックス分析の手順
 異常フラグ付け・相関分析・隔離実行:
 
-1. **行動異常のフラグ付け**: アカウントまたはエンドポイントの確立されたベースラインから逸脱する活動（例えば通常とは異なる時間帯に発生した取引）はレビュー対象としてフラグ付けされます。
-2. **クロスドメインの指標相関分析**: 別々のインフラセグメントから得られた指標は共有の相関分析レイヤーへ集約され、協調的な多段階キャンペーンと整合する活動を特定します。
-3. **サンドボックスでの動的分析**: 未検証または不審なアプリケーションは隔離されたサンドボックス環境内で実行され、潜在的な悪意ある機能が明らかになるか排除されるまでその挙動が監視されます。
+* **行動異常のフラグ付け**: アカウントまたはエンドポイントの確立されたベースラインから逸脱する活動（例えば通常とは異なる時間帯に発生した取引）はレビュー対象としてフラグ付けされます。
+* **クロスドメインの指標相関分析**: 別々のインフラセグメントから得られた指標は共有の相関分析レイヤーへ集約され、協調的な多段階キャンペーンと整合する活動を特定します。
+* **サンドボックスでの動的分析**: 未検証または不審なアプリケーションは隔離されたサンドボックス環境内で実行され、潜在的な悪意ある機能が明らかになるか排除されるまでその挙動が監視されます。
 
 ### 4. SOCインターフェースガバナンスとエスカレーション境界
 クエリのアクセス制御と人間の判断権限:
