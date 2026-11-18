@@ -25,9 +25,9 @@ Adversarial Training and Statistical Anomaly Screening:
 ### 3. Evaluation and Hardening Cycle
 Adversarial Robustness Testing and Escalation Sequencing:
 
-1. **Adversarial Test-Set Evaluation**: The model is evaluated against a maintained set of known adversarial examples and attack techniques documented in MITRE ATLAS, establishing a measurable robustness baseline before deployment.
-2. **Statistical Perturbation Detection**: Incoming inputs are screened for statistical properties consistent with known perturbation techniques, flagging candidates for additional review rather than direct classification.
-3. **Manual Review of Flagged Inputs**: Inputs flagged by the detection step are routed to human review before any classification result is acted upon, particularly for safety-relevant categories.
+* **Adversarial Test-Set Evaluation**: The model is evaluated against a maintained set of known adversarial examples and attack techniques documented in MITRE ATLAS, establishing a measurable robustness baseline before deployment.
+* **Statistical Perturbation Detection**: Incoming inputs are screened for statistical properties consistent with known perturbation techniques, flagging candidates for additional review rather than direct classification.
+* **Manual Review of Flagged Inputs**: Inputs flagged by the detection step are routed to human review before any classification result is acted upon, particularly for safety-relevant categories.
 
 ### 4. Model Integrity Governance
 Retraining Oversight and Detection Threshold Review:
@@ -69,9 +69,9 @@ Combining adversarial training with statistical detection at inference time, con
 ### 3. 評価と強化のサイクル
 敵対的頑健性テストとエスカレーションの手順:
 
-1. **敵対的テストセットでの評価**: モデルを、MITRE ATLASに文書化された既知の敵対的事例と攻撃手法の維持管理されたセットに対して評価し、デプロイ前に測定可能な頑健性の基準線を確立します。
-2. **統計的な摂動検知**: 着信入力を、既知の摂動手法と整合する統計的性質についてスクリーニングし、直接分類するのではなく追加レビューの候補としてフラグ付けします。
-3. **フラグ付けされた入力の手動レビュー**: 検知ステップでフラグ付けされた入力は、特に安全関連のカテゴリについて、分類結果に基づく対応が取られる前に人的レビューへ回されます。
+* **敵対的テストセットでの評価**: モデルを、MITRE ATLASに文書化された既知の敵対的事例と攻撃手法の維持管理されたセットに対して評価し、デプロイ前に測定可能な頑健性の基準線を確立します。
+* **統計的な摂動検知**: 着信入力を、既知の摂動手法と整合する統計的性質についてスクリーニングし、直接分類するのではなく追加レビューの候補としてフラグ付けします。
+* **フラグ付けされた入力の手動レビュー**: 検知ステップでフラグ付けされた入力は、特に安全関連のカテゴリについて、分類結果に基づく対応が取られる前に人的レビューへ回されます。
 
 ### 4. モデル整合性ガバナンス
 再学習の監督と検知しきい値のレビュー:
