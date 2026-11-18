@@ -25,9 +25,9 @@ Honeypot Design and Engagement Principles:
 ### 3. Decoy Deployment and Redirection Sequence
 Asset Placement, Traffic Redirection, and Containment:
 
-1. **Decoy Asset Placement**: Simulated high-value assets are placed at ingress points and internal network segments, consistent with the boundary controls defined in Technical Paper #001, positioned where reconnaissance activity is likely to encounter them.
-2. **Automated Traffic Redirection**: Traffic matching known reconnaissance or exploitation patterns is redirected to the decoy environment in real time rather than reaching production systems.
-3. **Isolated Interaction Logging**: Attacker interaction with the decoy is logged and contained within an isolated environment, generating threat-intelligence data without exposing genuine infrastructure.
+* **Decoy Asset Placement**: Simulated high-value assets are placed at ingress points and internal network segments, consistent with the boundary controls defined in Technical Paper #001, positioned where reconnaissance activity is likely to encounter them.
+* **Automated Traffic Redirection**: Traffic matching known reconnaissance or exploitation patterns is redirected to the decoy environment in real time rather than reaching production systems.
+* **Isolated Interaction Logging**: Attacker interaction with the decoy is logged and contained within an isolated environment, generating threat-intelligence data without exposing genuine infrastructure.
 
 ### 4. Deception Program Governance and Intelligence Review
 Engagement Data Handling and Decoy Currency Review:
@@ -69,9 +69,9 @@ Structuring that upkeep around the MITRE Engage framework, consistent with CISSP
 ### 3. デコイ展開とリダイレクトの手順
 資産配置・トラフィックリダイレクト・封じ込め:
 
-1. **デコイ資産の配置**: シミュレートされた高価値資産は、テクニカルペーパーシリーズ 001 で定義した境界統制と整合する形で、入力ポイントおよび内部ネットワークセグメントのうち、偵察活動が遭遇しやすい箇所に配置されます。
-2. **自動化されたトラフィックリダイレクト**: 既知の偵察または悪用パターンに一致するトラフィックは、本番システムに到達するのではなくリアルタイムでデコイ環境へリダイレクトされます。
-3. **隔離された対話のログ記録**: 攻撃者とデコイとのやり取りは隔離環境内で記録・封じ込められ、正規のインフラを露出させることなく脅威インテリジェンスデータを生成します。
+* **デコイ資産の配置**: シミュレートされた高価値資産は、テクニカルペーパーシリーズ 001 で定義した境界統制と整合する形で、入力ポイントおよび内部ネットワークセグメントのうち、偵察活動が遭遇しやすい箇所に配置されます。
+* **自動化されたトラフィックリダイレクト**: 既知の偵察または悪用パターンに一致するトラフィックは、本番システムに到達するのではなくリアルタイムでデコイ環境へリダイレクトされます。
+* **隔離された対話のログ記録**: 攻撃者とデコイとのやり取りは隔離環境内で記録・封じ込められ、正規のインフラを露出させることなく脅威インテリジェンスデータを生成します。
 
 ### 4. 欺瞞プログラムのガバナンスとインテリジェンスレビュー
 エンゲージメントデータの取り扱いとデコイ鮮度のレビュー:
