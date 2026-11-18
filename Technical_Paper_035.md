@@ -25,9 +25,9 @@ SPIFFE/SPIRE Identity Issuance and Mutual Authentication:
 ### 3. Identity Issuance and Rotation Sequence
 Certificate Issuance, Short-Lived Rotation, and Verification:
 
-1. **Automated Identity Issuance**: A workload identity provider, consistent with the SPIRE reference implementation, issues short-lived identity certificates to services at startup based on verified attestation of the workload itself.
-2. **Scheduled Certificate Rotation**: Identity certificates are rotated automatically on a short, defined interval, reducing the window during which a stolen certificate would remain valid.
-3. **Per-Connection Mutual Verification**: Each new connection between services triggers mutual certificate verification before any application data is exchanged, rather than relying on a session established once and reused indefinitely.
+* **Automated Identity Issuance**: A workload identity provider, consistent with the SPIRE reference implementation, issues short-lived identity certificates to services at startup based on verified attestation of the workload itself.
+* **Scheduled Certificate Rotation**: Identity certificates are rotated automatically on a short, defined interval, reducing the window during which a stolen certificate would remain valid.
+* **Per-Connection Mutual Verification**: Each new connection between services triggers mutual certificate verification before any application data is exchanged, rather than relying on a session established once and reused indefinitely.
 
 ### 4. Service Identity Governance and Segmentation
 Communication Policy and Certificate Lifecycle Review:
@@ -69,9 +69,9 @@ SPIFFE/SPIREによるアイデンティティ発行と相互認証:
 ### 3. アイデンティティ発行とローテーションの手順
 証明書発行・短命ローテーション・検証:
 
-1. **自動化されたアイデンティティ発行**: SPIREのリファレンス実装と整合するワークロードアイデンティティプロバイダが、起動時にワークロード自体の検証済みアテステーションに基づいて短命のアイデンティティ証明書をサービスへ発行します。
-2. **定期的な証明書ローテーション**: アイデンティティ証明書は短く定義された間隔で自動的にローテーションされ、盗まれた証明書が有効であり続ける期間を短縮します。
-3. **接続ごとの相互検証**: サービス間の新規接続はそれぞれ、一度確立されたセッションを無期限に再利用するのではなく、アプリケーションデータが交換される前に相互証明書検証を発生させます。
+* **自動化されたアイデンティティ発行**: SPIREのリファレンス実装と整合するワークロードアイデンティティプロバイダが、起動時にワークロード自体の検証済みアテステーションに基づいて短命のアイデンティティ証明書をサービスへ発行します。
+* **定期的な証明書ローテーション**: アイデンティティ証明書は短く定義された間隔で自動的にローテーションされ、盗まれた証明書が有効であり続ける期間を短縮します。
+* **接続ごとの相互検証**: サービス間の新規接続はそれぞれ、一度確立されたセッションを無期限に再利用するのではなく、アプリケーションデータが交換される前に相互証明書検証を発生させます。
 
 ### 4. サービスアイデンティティのガバナンスとセグメント化
 通信ポリシーと証明書ライフサイクルのレビュー:
