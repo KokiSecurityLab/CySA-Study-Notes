@@ -25,9 +25,9 @@ OWASP SAMM Practices and Release Gate Criteria:
 ### 3. Release Gate and Verification Sequence
 Testing, Remediation, and Sign-Off Stages:
 
-1. **Pre-Release Penetration Testing**: The candidate release undergoes structured penetration testing against defined scope and severity criteria before proceeding further.
-2. **Finding Remediation and Re-Verification**: Identified vulnerabilities are remediated and the affected components are re-tested, confirming resolution before the release proceeds.
-3. **Documented Release Sign-Off**: A named approver confirms that testing results meet the defined release criteria, consistent with the deployment-approval process defined in Technical Paper #021, before production release.
+* **Pre-Release Penetration Testing**: The candidate release undergoes structured penetration testing against defined scope and severity criteria before proceeding further.
+* **Finding Remediation and Re-Verification**: Identified vulnerabilities are remediated and the affected components are re-tested, confirming resolution before the release proceeds.
+* **Documented Release Sign-Off**: A named approver confirms that testing results meet the defined release criteria, consistent with the deployment-approval process defined in Technical Paper #021, before production release.
 
 ### 4. SDLC Governance and Maturity Review
 Cross-Phase Coverage and Maturity Progression:
@@ -69,9 +69,9 @@ OWASP SAMMの実務とリリースゲートの基準:
 ### 3. リリースゲートと検証の手順
 テスト・修復・サインオフの各段階:
 
-1. **リリース前ペネトレーションテスト**: リリース候補は、次の段階へ進む前に、定義済みの範囲と深刻度基準に沿った構造化されたペネトレーションテストを受けます。
-2. **検出事案の修復と再検証**: 特定された脆弱性は修復され、該当コンポーネントは再テストされ、リリースが進む前に解消を確認します。
-3. **文書化されたリリースサインオフ**: 指名された承認者が、テスト結果が定義済みのリリース基準を満たしていることを確認します。これは テクニカルペーパーシリーズ #021 で定義したデプロイ承認プロセスと整合し、本番リリース前に行われます。
+* **リリース前ペネトレーションテスト**: リリース候補は、次の段階へ進む前に、定義済みの範囲と深刻度基準に沿った構造化されたペネトレーションテストを受けます。
+* **検出事案の修復と再検証**: 特定された脆弱性は修復され、該当コンポーネントは再テストされ、リリースが進む前に解消を確認します。
+* **文書化されたリリースサインオフ**: 指名された承認者が、テスト結果が定義済みのリリース基準を満たしていることを確認します。これは テクニカルペーパーシリーズ #021 で定義したデプロイ承認プロセスと整合し、本番リリース前に行われます。
 
 ### 4. SDLCガバナンスと成熟度レビュー
 フェーズ横断のカバレッジと成熟度の進展:
