@@ -25,9 +25,9 @@ Owner, Custodian, and Steward Role Definitions:
 ### 3. Lifecycle Control Mapping Sequence
 Stage Identification, Control Assignment, and Verification:
 
-1. **Lifecycle Stage Identification**: Each data asset is mapped to its current lifecycle stage, create, store, use, share, archive, or destroy, as the basis for determining applicable controls.
-2. **Stage-Specific Control Assignment**: Controls appropriate to each stage, such as encryption at rest for storage or the sanitization approach defined in Technical Paper #027 for destruction, are assigned and documented.
-3. **Owner Sign-Off on Control Adequacy**: The data owner confirms that the assigned controls satisfy the classification requirement before the asset is considered adequately protected at that stage.
+* **Lifecycle Stage Identification**: Each data asset is mapped to its current lifecycle stage, create, store, use, share, archive, or destroy, as the basis for determining applicable controls.
+* **Stage-Specific Control Assignment**: Controls appropriate to each stage, such as encryption at rest for storage or the sanitization approach defined in Technical Paper #027 for destruction, are assigned and documented.
+* **Owner Sign-Off on Control Adequacy**: The data owner confirms that the assigned controls satisfy the classification requirement before the asset is considered adequately protected at that stage.
 
 ### 4. Ownership Governance and Lifecycle Auditing
 Role Currency and Cross-Stage Control Review:
@@ -69,9 +69,9 @@ Assigning a documented owner and custodian to each lifecycle stage, per CISSP Do
 ### 3. ライフサイクル統制マッピングの手順
 段階特定・統制割り当て・検証:
 
-1. **ライフサイクル段階の特定**: 各データ資産は、適用すべき統制を判断する基礎として、生成・保管・利用・共有・保管（アーカイブ）・破棄のうち現在の段階にマッピングされます。
-2. **段階ごとの統制割り当て**: 保管時の保管時暗号化や、破棄時の テクニカルペーパーシリーズ #027 で定義したサニタイジングアプローチなど、各段階に適した統制が割り当てられ文書化されます。
-3. **統制の妥当性に対するオーナーの承認**: データオーナーは、その段階で資産が十分に保護されているとみなされる前に、割り当てられた統制が分類要件を満たしていることを確認します。
+* **ライフサイクル段階の特定**: 各データ資産は、適用すべき統制を判断する基礎として、生成・保管・利用・共有・保管（アーカイブ）・破棄のうち現在の段階にマッピングされます。
+* **段階ごとの統制割り当て**: 保管時の保管時暗号化や、破棄時の テクニカルペーパーシリーズ #027 で定義したサニタイジングアプローチなど、各段階に適した統制が割り当てられ文書化されます。
+* **統制の妥当性に対するオーナーの承認**: データオーナーは、その段階で資産が十分に保護されているとみなされる前に、割り当てられた統制が分類要件を満たしていることを確認します。
 
 ### 4. 所有権ガバナンスとライフサイクル監査
 役割の鮮度と段階横断的な統制レビュー:
