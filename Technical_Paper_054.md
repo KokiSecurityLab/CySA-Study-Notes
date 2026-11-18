@@ -25,9 +25,9 @@ Background Verification and Access-Timing Principles:
 ### 3. Onboarding and Offboarding Sequence
 Screening Confirmation, Provisioning, and Immediate Revocation:
 
-1. **Screening Confirmation Before Access Grant**: Access provisioning does not proceed until background screening for the role is confirmed complete, rather than running in parallel with onboarding.
-2. **Least-Privilege Initial Provisioning**: Initial access is scoped to the minimum required for the role's function, consistent with the least-privilege approach defined in Technical Paper #030, with additional access requested separately as needed.
-3. **Immediate Termination Revocation**: Access across all systems is revoked at the effective moment of termination, consistent with the automated session-revocation approach defined in Technical Paper #030, rather than at the end of a manual offboarding checklist.
+* **Screening Confirmation Before Access Grant**: Access provisioning does not proceed until background screening for the role is confirmed complete, rather than running in parallel with onboarding.
+* **Least-Privilege Initial Provisioning**: Initial access is scoped to the minimum required for the role's function, consistent with the least-privilege approach defined in Technical Paper #030, with additional access requested separately as needed.
+* **Immediate Termination Revocation**: Access across all systems is revoked at the effective moment of termination, consistent with the automated session-revocation approach defined in Technical Paper #030, rather than at the end of a manual offboarding checklist.
 
 ### 4. Personnel Control Governance and Access Auditing
 Deprovisioning Timeliness and Rotation Compliance Review:
@@ -69,9 +69,9 @@ Automating provisioning and revocation around documented lifecycle events, consi
 ### 3. オンボーディングとオフボーディングの手順
 審査確認・付与・即時剥奪:
 
-1. **アクセス付与前の審査確認**: アクセス付与は、オンボーディングと並行して進めるのではなく、その役職の身元審査が完了したと確認されるまで進みません。
-2. **最小権限による初期付与**: 初期アクセスは、テクニカルペーパーシリーズ #030 で定義した最小権限アプローチと整合する形でその役職の職務に必要な最小限に限定され、追加のアクセスは必要に応じて別途申請されます。
-3. **離職時の即時剥奪**: すべてのシステムにわたるアクセスは、手動のオフボーディングチェックリストの完了時点ではなく、テクニカルペーパーシリーズ #030 で定義した自動セッション失効アプローチと整合する形で、離職の発効時点で剥奪されます。
+* **アクセス付与前の審査確認**: アクセス付与は、オンボーディングと並行して進めるのではなく、その役職の身元審査が完了したと確認されるまで進みません。
+* **最小権限による初期付与**: 初期アクセスは、テクニカルペーパーシリーズ #030 で定義した最小権限アプローチと整合する形でその役職の職務に必要な最小限に限定され、追加のアクセスは必要に応じて別途申請されます。
+* **離職時の即時剥奪**: すべてのシステムにわたるアクセスは、手動のオフボーディングチェックリストの完了時点ではなく、テクニカルペーパーシリーズ #030 で定義した自動セッション失効アプローチと整合する形で、離職の発効時点で剥奪されます。
 
 ### 4. 人事統制ガバナンスとアクセス監査
 剥奪の迅速性とローテーション遵守のレビュー:
