@@ -25,9 +25,9 @@ Zero-Trust Architecture and Continuous Verification Principles:
 ### 3. Dynamic Tokens and Behavioral Baselines
 Tactical Access Monitoring and Privilege Isolation Strategies:
 
-1. **Dynamic Token Issuance**: Authenticated identities are issued short-lived behavioral tokens that require continued verification to maintain access, rather than long-lived static credentials.
-2. **Real-Time Behavioral Anomaly Auditing**: Automated monitoring compares live session behavior against established baselines, flagging connection attempts that deviate from a user's typical access pattern.
-3. **Automated Segment Isolation**: Sessions exhibiting unauthenticated parameter drift are automatically isolated into a restricted segment, limiting the reach of a potential compromise before it affects core systems.
+* **Dynamic Token Issuance**: Authenticated identities are issued short-lived behavioral tokens that require continued verification to maintain access, rather than long-lived static credentials.
+* **Real-Time Behavioral Anomaly Auditing**: Automated monitoring compares live session behavior against established baselines, flagging connection attempts that deviate from a user's typical access pattern.
+* **Automated Segment Isolation**: Sessions exhibiting unauthenticated parameter drift are automatically isolated into a restricted segment, limiting the reach of a potential compromise before it affects core systems.
 
 ### 4. Least-Privilege Scoping and Segmentation
 Least-Privilege Enforcement and Access Review Metrics:
@@ -69,9 +69,9 @@ Pairing this verification model with micro-segmented registries, consistent with
 ### 3. 動的トークンと行動ベースライン
 戦術的アクセス監視と特権隔離の戦略:
 
-1. **動的トークンの発行**: 認証済みのアイデンティティには、長期間有効な静的資格情報ではなく、継続的な検証を要する短命の行動トークンが発行されます。
-2. **リアルタイムの行動異常監査**: 自動監視によりライブセッションの挙動を確立済みのベースラインと比較し、ユーザーの典型的なアクセスパターンから逸脱する接続要求にフラグを立てます。
-3. **自動セグメント隔離**: 未認証のパラメータドリフトを示すセッションは自動的に制限セグメントへ隔離され、侵害の可能性がコアシステムに影響を及ぼす前にその範囲を限定します。
+* **動的トークンの発行**: 認証済みのアイデンティティには、長期間有効な静的資格情報ではなく、継続的な検証を要する短命の行動トークンが発行されます。
+* **リアルタイムの行動異常監査**: 自動監視によりライブセッションの挙動を確立済みのベースラインと比較し、ユーザーの典型的なアクセスパターンから逸脱する接続要求にフラグを立てます。
+* **自動セグメント隔離**: 未認証のパラメータドリフトを示すセッションは自動的に制限セグメントへ隔離され、侵害の可能性がコアシステムに影響を及ぼす前にその範囲を限定します。
 
 ### 4. 最小権限のスコープ設定とセグメント化
 最小権限の適用とアクセスレビューの指標:
