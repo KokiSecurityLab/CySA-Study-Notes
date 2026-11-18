@@ -25,9 +25,9 @@ Retrieval Grounding and Claim-Support Measurement:
 ### 3. Retrieval, Scoring, and Filtering Sequence
 Three-Stage Fact-Checking Pipeline:
 
-1. **Source Retrieval and Ranking**: Relevant passages are retrieved from an authenticated knowledge base and ranked by relevance before being passed to the generation step.
-2. **Claim-Level Support Scoring**: Each factual claim in the generated response is compared against the retrieved passages, and an information-gravity score is calculated based on the degree of textual and semantic support found.
-3. **Threshold-Based Filtering**: Claims scoring below the defined threshold are removed, rephrased as uncertain, or routed to human review before the response is returned.
+* **Source Retrieval and Ranking**: Relevant passages are retrieved from an authenticated knowledge base and ranked by relevance before being passed to the generation step.
+* **Claim-Level Support Scoring**: Each factual claim in the generated response is compared against the retrieved passages, and an information-gravity score is calculated based on the degree of textual and semantic support found.
+* **Threshold-Based Filtering**: Claims scoring below the defined threshold are removed, rephrased as uncertain, or routed to human review before the response is returned.
 
 ### 4. Retrieval Pipeline Governance
 Knowledge-Base Integrity and Scoring Model Review:
@@ -69,9 +69,9 @@ Scoring claims against retrieved passages, per CISSP Domain 8 and NIST AI RMF, g
 ### 3. 検索・スコアリング・フィルタリングの手順
 3段階のファクトチェックパイプライン:
 
-1. **情報源の検索とランキング**: 生成ステップへ渡される前に、認証済みのナレッジベースから関連する文書を検索し、関連度に応じてランキングします。
-2. **主張単位の支持度スコアリング**: 生成された応答内の各事実主張を取得済み文書と照合し、見つかったテキスト的・意味的な裏付けの程度に基づいて情報重力スコアを算出します。
-3. **しきい値に基づくフィルタリング**: 定義済みのしきい値を下回る主張は、応答が返される前に削除、不確実である旨への言い換え、または人的レビューへの回付が行われます。
+* **情報源の検索とランキング**: 生成ステップへ渡される前に、認証済みのナレッジベースから関連する文書を検索し、関連度に応じてランキングします。
+* **主張単位の支持度スコアリング**: 生成された応答内の各事実主張を取得済み文書と照合し、見つかったテキスト的・意味的な裏付けの程度に基づいて情報重力スコアを算出します。
+* **しきい値に基づくフィルタリング**: 定義済みのしきい値を下回る主張は、応答が返される前に削除、不確実である旨への言い換え、または人的レビューへの回付が行われます。
 
 ### 4. 検索パイプラインのガバナンス
 ナレッジベースの完全性とスコアリングモデルのレビュー:
