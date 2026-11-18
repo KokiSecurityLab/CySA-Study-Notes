@@ -25,9 +25,9 @@ NIST-Standardized Algorithms and Forward Secrecy Principles:
 ### 3. Hybrid Migration Sequence
 Algorithm Inventory, Hybrid Deployment, and Legacy Retirement:
 
-1. **Cryptographic Algorithm Inventory**: Systems and protocols using vulnerable asymmetric algorithms are inventoried to establish which components require migration and in what priority order.
-2. **Hybrid Classical-PQC Deployment**: New connections use a hybrid scheme combining a classical algorithm with a NIST-standardized post-quantum algorithm, maintaining compatibility during the transition period.
-3. **Scheduled Legacy Algorithm Retirement**: Once hybrid deployment is validated and interoperability is confirmed, purely classical asymmetric algorithms are retired from active use on a defined schedule.
+* **Cryptographic Algorithm Inventory**: Systems and protocols using vulnerable asymmetric algorithms are inventoried to establish which components require migration and in what priority order.
+* **Hybrid Classical-PQC Deployment**: New connections use a hybrid scheme combining a classical algorithm with a NIST-standardized post-quantum algorithm, maintaining compatibility during the transition period.
+* **Scheduled Legacy Algorithm Retirement**: Once hybrid deployment is validated and interoperability is confirmed, purely classical asymmetric algorithms are retired from active use on a defined schedule.
 
 ### 4. Migration Governance and Archive Review
 Historical Data Re-Encryption and Transition Tracking:
@@ -69,9 +69,9 @@ NIST標準化アルゴリズムと前方秘匿性の原則:
 ### 3. ハイブリッド移行の手順
 アルゴリズム棚卸し・ハイブリッド展開・レガシーの廃止:
 
-1. **暗号アルゴリズムの棚卸し**: 脆弱な非対称アルゴリズムを使用しているシステムとプロトコルを棚卸しし、どのコンポーネントをどの優先順位で移行すべきかを明らかにします。
-2. **クラシック・PQCハイブリッド展開**: 新規接続では、従来のアルゴリズムとNIST標準化済みのポスト量子アルゴリズムを組み合わせたハイブリッド方式を用い、移行期間中の互換性を維持します。
-3. **レガシーアルゴリズムの計画的廃止**: ハイブリッド展開が検証され相互運用性が確認された後、純粋な従来型非対称アルゴリズムは定められたスケジュールで運用から廃止されます。
+* **暗号アルゴリズムの棚卸し**: 脆弱な非対称アルゴリズムを使用しているシステムとプロトコルを棚卸しし、どのコンポーネントをどの優先順位で移行すべきかを明らかにします。
+* **クラシック・PQCハイブリッド展開**: 新規接続では、従来のアルゴリズムとNIST標準化済みのポスト量子アルゴリズムを組み合わせたハイブリッド方式を用い、移行期間中の互換性を維持します。
+* **レガシーアルゴリズムの計画的廃止**: ハイブリッド展開が検証され相互運用性が確認された後、純粋な従来型非対称アルゴリズムは定められたスケジュールで運用から廃止されます。
 
 ### 4. 移行ガバナンスとアーカイブレビュー
 過去データの再暗号化と移行状況の追跡:
