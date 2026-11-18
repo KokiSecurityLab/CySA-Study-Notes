@@ -25,9 +25,9 @@ OSI Model Mapping and Port-Based Authentication Principles:
 ### 3. Cross-Layer Deployment Sequence
 Layer Mapping, Control Deployment, and Gap Verification:
 
-1. **Layer-by-Layer Control Mapping**: Existing and planned controls are mapped against each OSI layer to identify which layers currently lack a dedicated technical control.
-2. **802.1X Deployment at Network Access Points**: Port-based authentication is deployed at switch ports and wireless access points, requiring device authentication before data-link-layer access is granted.
-3. **Cross-Layer Gap Verification**: A penetration test specifically targets layer-boundary assumptions, confirming that a control effective at one layer is not silently relied upon to cover an adjacent layer's risks.
+* **Layer-by-Layer Control Mapping**: Existing and planned controls are mapped against each OSI layer to identify which layers currently lack a dedicated technical control.
+* **802.1X Deployment at Network Access Points**: Port-based authentication is deployed at switch ports and wireless access points, requiring device authentication before data-link-layer access is granted.
+* **Cross-Layer Gap Verification**: A penetration test specifically targets layer-boundary assumptions, confirming that a control effective at one layer is not silently relied upon to cover an adjacent layer's risks.
 
 ### 4. Layered Control Governance and Coverage Auditing
 Layer Coverage Mapping Currency and Control Effectiveness Review:
@@ -69,9 +69,9 @@ OSIモデルのマッピングとポートベース認証の原則:
 ### 3. 層横断的な展開の手順
 層マッピング・統制展開・隙間検証:
 
-1. **層ごとの統制マッピング**: 既存および計画中の統制は各OSI層に照らしてマッピングされ、現在専用の技術的統制を欠いている層が特定されます。
-2. **ネットワークアクセスポイントへの802.1X展開**: ポートベース認証はスイッチポートおよび無線アクセスポイントに展開され、データリンク層のアクセスが許可される前にデバイス認証を要求します。
-3. **層横断的な隙間の検証**: ペネトレーションテストは層の境界に関する想定を特に対象とし、ある層で有効な統制が隣接する層のリスクをカバーするものとして黙って頼りにされていないことを確認します。
+* **層ごとの統制マッピング**: 既存および計画中の統制は各OSI層に照らしてマッピングされ、現在専用の技術的統制を欠いている層が特定されます。
+* **ネットワークアクセスポイントへの802.1X展開**: ポートベース認証はスイッチポートおよび無線アクセスポイントに展開され、データリンク層のアクセスが許可される前にデバイス認証を要求します。
+* **層横断的な隙間の検証**: ペネトレーションテストは層の境界に関する想定を特に対象とし、ある層で有効な統制が隣接する層のリスクをカバーするものとして黙って頼りにされていないことを確認します。
 
 ### 4. 層別統制のガバナンスとカバレッジ監査
 層カバレッジマッピングの鮮度と統制実効性のレビュー:
