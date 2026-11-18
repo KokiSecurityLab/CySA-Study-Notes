@@ -25,9 +25,9 @@ Space Data Link Encryption and Anti-Jamming Principles:
 ### 3. Command Authentication and Anomaly Sequence
 Uplink Verification, Telemetry Monitoring, and Isolation:
 
-1. **Cryptographic Command Authentication**: Every uplink command is authenticated against the CCSDS security protocol keys before execution, rejecting commands that fail authentication regardless of apparent source.
-2. **Continuous Downlink Telemetry Monitoring**: Telemetry integrity is monitored in real time, consistent with the integrity-verification approach defined in Technical Paper #001, flagging inconsistencies for review.
-3. **Isolation of a Compromised Ground Station**: A ground station exhibiting anomalous command patterns is isolated from uplink capability pending investigation, preventing it from issuing further commands to the satellite.
+* **Cryptographic Command Authentication**: Every uplink command is authenticated against the CCSDS security protocol keys before execution, rejecting commands that fail authentication regardless of apparent source.
+* **Continuous Downlink Telemetry Monitoring**: Telemetry integrity is monitored in real time, consistent with the integrity-verification approach defined in Technical Paper #001, flagging inconsistencies for review.
+* **Isolation of a Compromised Ground Station**: A ground station exhibiting anomalous command patterns is isolated from uplink capability pending investigation, preventing it from issuing further commands to the satellite.
 
 ### 4. Space-Link Governance and Key Management
 Key Rotation Scheduling and Link Integrity Review:
@@ -69,9 +69,9 @@ Applying CCSDS-standardized encryption and authentication, consistent with CISSP
 ### 3. コマンド認証と異常検知の手順
 アップリンク検証・テレメトリ監視・隔離:
 
-1. **暗号によるコマンド認証**: すべてのアップリンクコマンドは、実行前にCCSDSセキュリティプロトコルの鍵と照合して認証され、見かけ上の発信元にかかわらず認証に失敗したコマンドは拒否されます。
-2. **継続的なダウンリンクテレメトリ監視**: テレメトリの整合性は、テクニカルペーパーシリーズ #001 で定義した整合性検証アプローチと整合する形でリアルタイムに監視され、不整合はレビュー対象としてフラグ付けされます。
-3. **侵害された地上局の隔離**: 異常なコマンドパターンを示す地上局は、調査を待つ間アップリンク能力から隔離され、衛星へのさらなるコマンド発行を防ぎます。
+* **暗号によるコマンド認証**: すべてのアップリンクコマンドは、実行前にCCSDSセキュリティプロトコルの鍵と照合して認証され、見かけ上の発信元にかかわらず認証に失敗したコマンドは拒否されます。
+* **継続的なダウンリンクテレメトリ監視**: テレメトリの整合性は、テクニカルペーパーシリーズ #001 で定義した整合性検証アプローチと整合する形でリアルタイムに監視され、不整合はレビュー対象としてフラグ付けされます。
+* **侵害された地上局の隔離**: 異常なコマンドパターンを示す地上局は、調査を待つ間アップリンク能力から隔離され、衛星へのさらなるコマンド発行を防ぎます。
 
 ### 4. 宇宙リンクガバナンスと鍵管理
 鍵ローテーションの計画とリンク整合性のレビュー:
