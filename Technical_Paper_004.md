@@ -25,9 +25,9 @@ Predictive Data Refinement and Signature Recognition Metrics:
 ### 3. Hardening, Segmentation, and Verification
 Tactical System Hardening and Infrastructure Isolation Strategies:
 
-1. **Automated Configuration Hardening**: Scan findings trigger predefined hardening profiles that adjust affected configuration settings, closing identified gaps before they can be leveraged (see Technical Paper #003 for related reverse-proxy controls).
-2. **Segmentation of Affected Assets**: Systems with unresolved high-severity findings are isolated from broader network segments until remediation is confirmed, limiting unnecessary exposure to external networks (see Technical Paper #001 for related boundary controls).
-3. **Verification of Remediation**: Rescanning confirms that identified vulnerabilities have been resolved before affected systems are returned to normal network segmentation.
+* **Automated Configuration Hardening**: Scan findings trigger predefined hardening profiles that adjust affected configuration settings, closing identified gaps before they can be leveraged (see Technical Paper #003 for related reverse-proxy controls).
+* **Segmentation of Affected Assets**: Systems with unresolved high-severity findings are isolated from broader network segments until remediation is confirmed, limiting unnecessary exposure to external networks (see Technical Paper #001 for related boundary controls).
+* **Verification of Remediation**: Rescanning confirms that identified vulnerabilities have been resolved before affected systems are returned to normal network segmentation.
 
 ### 4. Preventive Posture and Coverage Verification
 Foresight Optimization and Analytical Asset Protection:
@@ -69,9 +69,9 @@ Scoring vulnerabilities with CVSS and routing high-severity findings through the
 ### 3. 強化・セグメント化・検証
 戦術的システム強化とインフラ隔離の戦略:
 
-1. **自動化された構成強化**: スキャン結果に応じて定義済みの強化プロファイルが適用され、該当する構成設定を調整して悪用される前に既知のギャップを解消します（リバースプロキシ関連の統制は テクニカルペーパーシリーズ #003 を参照）。　
-2. **該当資産のセグメント化**: 未解決の高深刻度事案を抱えるシステムは、修復が確認されるまで広範なネットワークセグメントから隔離され、外部ネットワークへの不要な露出を制限します（境界統制の詳細は テクニカルペーパーシリーズ #001 を参照）。
-3. **修復状況の検証**: 再スキャンにより、対象システムが通常のネットワークセグメントに復帰する前に、特定された脆弱性が解消されていることを確認します。
+* **自動化された構成強化**: スキャン結果に応じて定義済みの強化プロファイルが適用され、該当する構成設定を調整して悪用される前に既知のギャップを解消します（リバースプロキシ関連の統制は テクニカルペーパーシリーズ #003 を参照）。　
+* **該当資産のセグメント化**: 未解決の高深刻度事案を抱えるシステムは、修復が確認されるまで広範なネットワークセグメントから隔離され、外部ネットワークへの不要な露出を制限します（境界統制の詳細は テクニカルペーパーシリーズ #001 を参照）。
+* **修復状況の検証**: 再スキャンにより、対象システムが通常のネットワークセグメントに復帰する前に、特定された脆弱性が解消されていることを確認します。
 
 ### 4. 予防的姿勢と検出網羅性の検証
 先見性の最適化と分析資産の保護基準:
