@@ -25,9 +25,9 @@ Governance Structure and Quantitative Risk Principles:
 ### 3. Policy Development and Approval Sequence
 Drafting, Review, and Executive Ratification Stages:
 
-1. **Policy Drafting Against Business Objectives**: Security policy is drafted with explicit reference to documented business objectives, consistent with the principle that security governance exists to support, not obstruct, organizational mission.
-2. **Cross-Functional Review**: Draft policy is reviewed by legal, compliance, and affected business units before executive submission, surfacing conflicts with existing obligations before ratification.
-3. **Executive or Board Ratification**: Final policy is formally ratified by an accountable executive or board committee, with the ratification decision documented and retained.
+* **Policy Drafting Against Business Objectives**: Security policy is drafted with explicit reference to documented business objectives, consistent with the principle that security governance exists to support, not obstruct, organizational mission.
+* **Cross-Functional Review**: Draft policy is reviewed by legal, compliance, and affected business units before executive submission, surfacing conflicts with existing obligations before ratification.
+* **Executive or Board Ratification**: Final policy is formally ratified by an accountable executive or board committee, with the ratification decision documented and retained.
 
 ### 4. Governance Maintenance and Metrics Review
 Policy Currency and Risk-Metric Reporting Cadence:
@@ -69,9 +69,9 @@ Pairing that structure with quantitative risk metrics such as ALE, consistent wi
 ### 3. ポリシー策定と承認の手順
 起草・レビュー・経営層による承認の各段階:
 
-1. **事業目標に基づくポリシー起草**: セキュリティポリシーは文書化された事業目標を明示的に参照して起草され、セキュリティガバナンスが組織の使命を阻害するのではなく支えるために存在するという原則と整合します。
-2. **部門横断レビュー**: 起草されたポリシーは、経営層への提出前に法務・コンプライアンス部門および影響を受ける事業部門によってレビューされ、承認前に既存の義務との矛盾を明らかにします。
-3. **経営層または取締役会による承認**: 最終的なポリシーは、責任を負う経営層または取締役会委員会によって正式に承認され、その承認判断は文書化・保管されます。
+* **事業目標に基づくポリシー起草**: セキュリティポリシーは文書化された事業目標を明示的に参照して起草され、セキュリティガバナンスが組織の使命を阻害するのではなく支えるために存在するという原則と整合します。
+* **部門横断レビュー**: 起草されたポリシーは、経営層への提出前に法務・コンプライアンス部門および影響を受ける事業部門によってレビューされ、承認前に既存の義務との矛盾を明らかにします。
+* **経営層または取締役会による承認**: 最終的なポリシーは、責任を負う経営層または取締役会委員会によって正式に承認され、その承認判断は文書化・保管されます。
 
 ### 4. ガバナンス維持と指標レビュー
 ポリシーの鮮度とリスク指標報告の頻度:
