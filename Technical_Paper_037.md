@@ -25,9 +25,9 @@ Local Inference Models and Resource-Governance Principles:
 ### 3. Local Processing and Failover Sequence
 Model Execution, Load Monitoring, and Degraded-Mode Handling:
 
-1. **Local Model Execution**: Incoming audio or sensory input is processed by the on-device model in real time, with no dependency on network connectivity for core functionality.
-2. **Processing-Load Monitoring**: The device monitors its own processing load against defined thresholds, consistent with the resource-monitoring approach defined in Technical Paper #009.
-3. **Graceful Degraded-Mode Fallback**: If load exceeds capacity, the device falls back to a defined reduced-functionality mode rather than failing completely, preserving baseline assistance during peak conditions.
+* **Local Model Execution**: Incoming audio or sensory input is processed by the on-device model in real time, with no dependency on network connectivity for core functionality.
+* **Processing-Load Monitoring**: The device monitors its own processing load against defined thresholds, consistent with the resource-monitoring approach defined in Technical Paper #009.
+* **Graceful Degraded-Mode Fallback**: If load exceeds capacity, the device falls back to a defined reduced-functionality mode rather than failing completely, preserving baseline assistance during peak conditions.
 
 ### 4. Accessibility Reliability Governance
 Availability Metrics and On-Device Update Review:
@@ -69,9 +69,9 @@ Applying the resource-governance approach from Technical Paper #009 to that devi
 ### 3. ローカル処理とフェイルオーバーの手順
 モデル実行・負荷監視・縮退モード対応:
 
-1. **ローカルモデルの実行**: 着信する音声または感覚入力は、コア機能についてネットワーク接続への依存なしに、オンデバイスモデルによってリアルタイムで処理されます。
-2. **処理負荷の監視**: デバイスは、テクニカルペーパーシリーズ #009 で定義したリソース監視アプローチと整合する形で、自らの処理負荷を定義済みのしきい値と照合して監視します。
-3. **段階的な縮退モードへのフォールバック**: 負荷が容量を超えた場合、デバイスは完全に機能停止するのではなく定義済みの機能縮小モードへフォールバックし、ピーク時にも基本的な支援を維持します。
+* **ローカルモデルの実行**: 着信する音声または感覚入力は、コア機能についてネットワーク接続への依存なしに、オンデバイスモデルによってリアルタイムで処理されます。
+* **処理負荷の監視**: デバイスは、テクニカルペーパーシリーズ #009 で定義したリソース監視アプローチと整合する形で、自らの処理負荷を定義済みのしきい値と照合して監視します。
+* **段階的な縮退モードへのフォールバック**: 負荷が容量を超えた場合、デバイスは完全に機能停止するのではなく定義済みの機能縮小モードへフォールバックし、ピーク時にも基本的な支援を維持します。
 
 ### 4. アクセシビリティ信頼性ガバナンス
 可用性指標とオンデバイス更新のレビュー:
