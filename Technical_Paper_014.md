@@ -25,9 +25,9 @@ Graph-Based Topology Mapping and Entropy-Based Obfuscation Detection:
 ### 3. Graph Construction and Entropy-Based Correlation
 Dependency Graph Rendering and Anomaly Correlation:
 
-1. **Dependency Graph Construction**: Asset and network dependency data is compiled into a graph structure, replacing flat log review with a visual representation of how systems connect.
-2. **Automated Entropy Scanning**: Files entering the environment are scanned for entropy values above a defined threshold, flagging candidates for deeper static or dynamic malware analysis.
-3. **Path-Based Anomaly Correlation**: Correlation logic evaluates whether flagged files or connections form a plausible attack path across the dependency graph, prioritizing findings that align with a coherent multi-step technique sequence.
+* **Dependency Graph Construction**: Asset and network dependency data is compiled into a graph structure, replacing flat log review with a visual representation of how systems connect.
+* **Automated Entropy Scanning**: Files entering the environment are scanned for entropy values above a defined threshold, flagging candidates for deeper static or dynamic malware analysis.
+* **Path-Based Anomaly Correlation**: Correlation logic evaluates whether flagged files or connections form a plausible attack path across the dependency graph, prioritizing findings that align with a coherent multi-step technique sequence.
 
 ### 4. Failure-Point Prioritization and Model Review
 Structural Risk Prioritization and Detection Model Review:
@@ -69,9 +69,9 @@ Combining that graph view with entropy-based file screening, consistent with CIS
 ### 3. グラフ構築とエントロピーに基づく相関分析
 依存関係グラフの描画と異常の相関分析:
 
-1. **依存関係グラフの構築**: 資産およびネットワークの依存関係データをグラフ構造として構築し、平面的なログレビューをシステム間のつながりを表す可視化表現に置き換えます。
-2. **自動エントロピースキャン**: 環境に入ってくるファイルを定義済みのしきい値を超えるエントロピー値についてスキャンし、より詳細な静的・動的マルウェア分析の候補としてフラグ付けします。
-3. **経路に基づく異常の相関分析**: フラグ付けされたファイルや接続が依存関係グラフ上で妥当な攻撃経路を形成しているかを評価し、一貫した複数段階の手法シーケンスと整合する所見を優先します。
+* **依存関係グラフの構築**: 資産およびネットワークの依存関係データをグラフ構造として構築し、平面的なログレビューをシステム間のつながりを表す可視化表現に置き換えます。
+* **自動エントロピースキャン**: 環境に入ってくるファイルを定義済みのしきい値を超えるエントロピー値についてスキャンし、より詳細な静的・動的マルウェア分析の候補としてフラグ付けします。
+* **経路に基づく異常の相関分析**: フラグ付けされたファイルや接続が依存関係グラフ上で妥当な攻撃経路を形成しているかを評価し、一貫した複数段階の手法シーケンスと整合する所見を優先します。
 
 ### 4. 障害点の優先順位付けとモデルレビュー
 構造的リスクの優先順位付けと検知モデルレビュー:
