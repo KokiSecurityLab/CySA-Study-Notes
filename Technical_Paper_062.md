@@ -25,9 +25,9 @@ Confidentiality and Integrity Model Principles:
 ### 3. Level Assignment and Enforcement Sequence
 Subject-Object Labeling, Rule Application, and Verification:
 
-1. **Security Level Assignment**: Subjects and objects are formally assigned a security or integrity level, providing the labeled basis the model's rules require.
-2. **Access Rule Enforcement**: Read and write requests are evaluated against the applicable model's rules, Bell-LaPadula for confidentiality-focused systems or Biba for integrity-focused systems, before being permitted.
-3. **Cross-Level Request Logging**: Requests denied due to a level-crossing violation are logged for review, consistent with the audit-logging approach defined in Technical Paper #002, rather than silently discarded.
+* **Security Level Assignment**: Subjects and objects are formally assigned a security or integrity level, providing the labeled basis the model's rules require.
+* **Access Rule Enforcement**: Read and write requests are evaluated against the applicable model's rules, Bell-LaPadula for confidentiality-focused systems or Biba for integrity-focused systems, before being permitted.
+* **Cross-Level Request Logging**: Requests denied due to a level-crossing violation are logged for review, consistent with the audit-logging approach defined in Technical Paper #002, rather than silently discarded.
 
 ### 4. Model Governance and Level Assignment Auditing
 Level Currency and Enforcement Exception Review:
@@ -69,9 +69,9 @@ Choosing the model matching a system's primary concern, consistent with CISSP Do
 ### 3. レベル割り当てと執行の手順
 主体・客体のラベル付け・ルール適用・検証:
 
-1. **セキュリティレベルの割り当て**: 主体と客体には正式にセキュリティレベルまたは完全性レベルが割り当てられ、モデルのルールが必要とするラベル付けされた基盤を提供します。
-2. **アクセスルールの執行**: 読み取り・書き込み要求は、許可される前に、機密性重視のシステムであればベル・ラパドゥラ、完全性重視のシステムであればビバという該当するモデルのルールと照合して評価されます。
-3. **レベル越境要求のログ記録**: レベル越境の違反により拒否された要求は、黙って破棄されるのではなく、テクニカルペーパーシリーズ  #002 で定義した監査ログのアプローチと整合する形でレビュー対象として記録されます。
+* **セキュリティレベルの割り当て**: 主体と客体には正式にセキュリティレベルまたは完全性レベルが割り当てられ、モデルのルールが必要とするラベル付けされた基盤を提供します。
+* **アクセスルールの執行**: 読み取り・書き込み要求は、許可される前に、機密性重視のシステムであればベル・ラパドゥラ、完全性重視のシステムであればビバという該当するモデルのルールと照合して評価されます。
+* **レベル越境要求のログ記録**: レベル越境の違反により拒否された要求は、黙って破棄されるのではなく、テクニカルペーパーシリーズ  #002 で定義した監査ログのアプローチと整合する形でレビュー対象として記録されます。
 
 ### 4. モデルガバナンスとレベル割り当ての監査
 レベルの鮮度と適用除外のレビュー:
