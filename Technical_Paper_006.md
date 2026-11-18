@@ -25,9 +25,9 @@ Root Cause Analysis and Infrastructure Hardening Metrics:
 ### 3. Patch Generation and Access-Control Tuning
 Tactical Patch Deployment and Optimization Strategies:
 
-1. **Historical Log Cross-Verification**: Compile a dataset of past incidents and related security events to identify recurring attack patterns and inform prioritization of remediation work.
-2. **Automated Signature and Patch Generation**: Newly identified vulnerabilities are translated into updated detection signatures and patches, applied once validated to prevent regression to a previously exploited state.
-3. **Access-Control Rule Tuning**: Access control lists are refined based on post-analysis findings, reducing the chance that a localized issue affects broader system availability.
+* **Historical Log Cross-Verification**: Compile a dataset of past incidents and related security events to identify recurring attack patterns and inform prioritization of remediation work.
+* **Automated Signature and Patch Generation**: Newly identified vulnerabilities are translated into updated detection signatures and patches, applied once validated to prevent regression to a previously exploited state.
+* **Access-Control Rule Tuning**: Access control lists are refined based on post-analysis findings, reducing the chance that a localized issue affects broader system availability.
 
 ### 4. Preventive Controls and Change Verification
 Deterministic Lifecycle Security and Prevention Metrics:
@@ -69,9 +69,9 @@ This process, aligned with CISSP Domain 7 and the NIST incident-response lifecyc
 ### 3. パッチ生成とアクセス制御の調整
 戦術的パッチ展開と最適化の戦略:
 
-1. **履歴ログの相互検証**: 過去のインシデントおよび関連するセキュリティイベントのデータセットを収集し、繰り返し発生する攻撃パターンを特定して修復作業の優先順位付けに役立てます。
-2. **シグネチャおよびパッチの自動生成**: 新たに特定された脆弱性を更新済みの検知シグネチャとパッチへ変換し、検証後に適用することで過去に悪用された状態への退行を防ぎます。
-3. **アクセス制御ルールの調整**: 事後分析の知見に基づいてアクセス制御リストを調整し、局所的な問題が広範なシステム可用性に影響を及ぼす可能性を低減します。
+* **履歴ログの相互検証**: 過去のインシデントおよび関連するセキュリティイベントのデータセットを収集し、繰り返し発生する攻撃パターンを特定して修復作業の優先順位付けに役立てます。
+* **シグネチャおよびパッチの自動生成**: 新たに特定された脆弱性を更新済みの検知シグネチャとパッチへ変換し、検証後に適用することで過去に悪用された状態への退行を防ぎます。
+* **アクセス制御ルールの調整**: 事後分析の知見に基づいてアクセス制御リストを調整し、局所的な問題が広範なシステム可用性に影響を及ぼす可能性を低減します。
 
 ### 4. 予防的統制と変更の検証
 決定論的ライフサイクルセキュリティと未然防止の指標:
