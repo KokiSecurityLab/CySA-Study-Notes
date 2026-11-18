@@ -25,9 +25,9 @@ Error-Tolerant Key Derivation and Cancelable Biometrics:
 ### 3. Enrollment and Derivation Sequence
 Baseline Enrollment, Transform Application, and Key Extraction:
 
-1. **Baseline Biometric Enrollment**: An initial set of behavioral biometric measurements is collected to establish the reference template used for later key derivation.
-2. **Cancelable Transform Application**: The enrolled template is passed through a revocable transform before any cryptographic material is derived, so the underlying raw trait is never stored directly.
-3. **Fuzzy-Extractor Key Reconstruction**: At each use, new biometric input is combined with stored helper data to reconstruct the same derived key, tolerating natural variation without revealing the original template.
+* **Baseline Biometric Enrollment**: An initial set of behavioral biometric measurements is collected to establish the reference template used for later key derivation.
+* **Cancelable Transform Application**: The enrolled template is passed through a revocable transform before any cryptographic material is derived, so the underlying raw trait is never stored directly.
+* **Fuzzy-Extractor Key Reconstruction**: At each use, new biometric input is combined with stored helper data to reconstruct the same derived key, tolerating natural variation without revealing the original template.
 
 ### 4. Template Governance and Revocation Review
 Compromise Response and Transform Rotation:
@@ -69,9 +69,9 @@ Combining fuzzy extractors with cancelable biometrics, consistent with CISSP Dom
 ### 3. 登録と導出の手順
 ベースライン登録・変換適用・鍵抽出:
 
-1. **ベースラインとなる生体情報の登録**: 後の鍵導出に用いる参照テンプレートを確立するため、初期の行動生体測定値のセットが収集されます。
-2. **キャンセラブル変換の適用**: 登録されたテンプレートは、暗号素材が導出される前に取り消し可能な変換を経るため、元の生の特徴が直接保存されることはありません。
-3. **ファジーエクストラクタによる鍵の再構成**: 使用のたびに、新たな生体入力は保存済みのヘルパーデータと組み合わされて同じ導出鍵を再構成し、元のテンプレートを明かすことなく自然な変動を許容します。
+* **ベースラインとなる生体情報の登録**: 後の鍵導出に用いる参照テンプレートを確立するため、初期の行動生体測定値のセットが収集されます。
+* **キャンセラブル変換の適用**: 登録されたテンプレートは、暗号素材が導出される前に取り消し可能な変換を経るため、元の生の特徴が直接保存されることはありません。
+* **ファジーエクストラクタによる鍵の再構成**: 使用のたびに、新たな生体入力は保存済みのヘルパーデータと組み合わされて同じ導出鍵を再構成し、元のテンプレートを明かすことなく自然な変動を許容します。
 
 ### 4. テンプレートガバナンスと失効レビュー
 侵害対応と変換のローテーション:
