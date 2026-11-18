@@ -25,9 +25,9 @@ Orchestration Triggers and Automated Action Principles:
 ### 3. Automated Containment Sequence
 Detection, Token Revocation, and Isolation Stages:
 
-1. **High-Confidence Detection Matching**: Incoming alerts are matched against playbook trigger criteria, and only those meeting a defined confidence threshold proceed to automated action.
-2. **Automated Credential Revocation**: Network authorization tokens associated with a confirmed compromised account or session are revoked immediately upon trigger, without waiting for manual approval.
-3. **Host and Segment Isolation**: The affected host or network segment is automatically isolated, consistent with the containment approach defined in Technical Paper #033, pending further investigation.
+* **High-Confidence Detection Matching**: Incoming alerts are matched against playbook trigger criteria, and only those meeting a defined confidence threshold proceed to automated action.
+* **Automated Credential Revocation**: Network authorization tokens associated with a confirmed compromised account or session are revoked immediately upon trigger, without waiting for manual approval.
+* **Host and Segment Isolation**: The affected host or network segment is automatically isolated, consistent with the containment approach defined in Technical Paper #033, pending further investigation.
 
 ### 4. Playbook Governance and Execution Auditing
 Action Scope Review and Logged Accountability:
@@ -69,9 +69,9 @@ Reducing containment time from hours to seconds for high-confidence detections, 
 ### 3. 自動封じ込めの手順
 検知・トークン失効・隔離の各段階:
 
-1. **高信頼度の検知照合**: 着信アラートはプレイブックのトリガー基準と照合され、定義済みの信頼度しきい値を満たすもののみが自動アクションへ進みます。
-2. **自動化された資格情報の失効**: 確認済みの侵害アカウントまたはセッションに紐づくネットワーク認可トークンは、手動承認を待たずにトリガー時点で即座に失効させられます。
-3. **ホストおよびセグメントの隔離**: 影響を受けたホストまたはネットワークセグメントは、テクニカルペーパーシリーズ #033 で定義した封じ込めアプローチと整合する形で、さらなる調査を待つ間自動的に隔離されます。
+* **高信頼度の検知照合**: 着信アラートはプレイブックのトリガー基準と照合され、定義済みの信頼度しきい値を満たすもののみが自動アクションへ進みます。
+* **自動化された資格情報の失効**: 確認済みの侵害アカウントまたはセッションに紐づくネットワーク認可トークンは、手動承認を待たずにトリガー時点で即座に失効させられます。
+* **ホストおよびセグメントの隔離**: 影響を受けたホストまたはネットワークセグメントは、テクニカルペーパーシリーズ #033 で定義した封じ込めアプローチと整合する形で、さらなる調査を待つ間自動的に隔離されます。
 
 ### 4. プレイブックガバナンスと実行監査
 アクション範囲のレビューと記録された説明責任:
