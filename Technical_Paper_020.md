@@ -25,9 +25,9 @@ Layered Guardrail and Policy Enforcement Principles:
 ### 3. Bidirectional Policy Screening
 Prompt and Output Screening Workflow:
 
-1. **Inbound Prompt Screening**: Incoming prompts are evaluated against the policy classifier before being passed to the underlying model, flagging requests that clearly violate policy prior to generation.
-2. **Outbound Output Screening**: Generated output is evaluated against the same policy classifier before being returned to the requester, catching policy violations that were not present in the original prompt.
-3. **Logged Escalation for Ambiguous Cases**: Content that the classifier flags as ambiguous, rather than clearly compliant or clearly violating, is logged and routed to human review consistent with Technical Paper #018.
+* **Inbound Prompt Screening**: Incoming prompts are evaluated against the policy classifier before being passed to the underlying model, flagging requests that clearly violate policy prior to generation.
+* **Outbound Output Screening**: Generated output is evaluated against the same policy classifier before being returned to the requester, catching policy violations that were not present in the original prompt.
+* **Logged Escalation for Ambiguous Cases**: Content that the classifier flags as ambiguous, rather than clearly compliant or clearly violating, is logged and routed to human review consistent with Technical Paper #018.
 
 ### 4. Decoupled Policy Update Path
 Policy Update and Bypass Review:
@@ -69,9 +69,9 @@ Keeping guardrail updates independent of model retraining, consistent with CISSP
 ### 3. 双方向のポリシースクリーニング
 プロンプトと出力のスクリーニングワークフロー:
 
-1. **入力プロンプトのスクリーニング**: 着信プロンプトは基盤モデルへ渡される前にポリシー分類器と照合され、生成前の時点で明確にポリシーへ違反するリクエストにフラグを立てます。
-2. **出力のスクリーニング**: 生成された出力は要求元へ返される前に同じポリシー分類器と照合され、元のプロンプトには存在しなかったポリシー違反を検出します。
-3. **曖昧な事案のログ記録とエスカレーション**: 分類器が明確な準拠・違反のいずれとも判定できず曖昧と判定したコンテンツは記録され、テクニカルペーパーシリーズ #018 と整合する形で人的レビューへ回されます。
+* **入力プロンプトのスクリーニング**: 着信プロンプトは基盤モデルへ渡される前にポリシー分類器と照合され、生成前の時点で明確にポリシーへ違反するリクエストにフラグを立てます。
+* **出力のスクリーニング**: 生成された出力は要求元へ返される前に同じポリシー分類器と照合され、元のプロンプトには存在しなかったポリシー違反を検出します。
+* **曖昧な事案のログ記録とエスカレーション**: 分類器が明確な準拠・違反のいずれとも判定できず曖昧と判定したコンテンツは記録され、テクニカルペーパーシリーズ #018 と整合する形で人的レビューへ回されます。
 
 ### 4. モデルから切り離されたポリシー更新経路
 ポリシー更新と回避事例のレビュー:
