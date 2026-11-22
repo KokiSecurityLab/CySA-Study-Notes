@@ -110,3 +110,4 @@ The foundational security controls documented in this series are actively scaled
 | 064 | Physical Security Design | CPTED Principles and Layered Facility Controls |
 | 065 | Trusted Computing Base | Reference Monitor Concept Application |
 | 066 | OSI Layered Security | Layer-Specific Control Mapping |
+| 067 | Network Segmentation | VLAN Architecture and DMZ Design |
