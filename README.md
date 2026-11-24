@@ -15,9 +15,13 @@ Currently, this lab consistently researches and models next-generation proactive
 Furthermore, this research is driven by critical global shifts in AI safety and autonomous system behavior. Recent incidents highlighting unintended multi-agent orchestration and systemic infiltration underscore the urgent need for robust orbital and terrestrial guardrails. Aligning with international warnings regarding the rapid escalation of automated cyber threats, employment disruption, and adversarial manipulation, this series proactively engineers the fundamental governance specifications required to preserve human-in-the-loop authority in an agentic era.
 
 ---
-### Applied Research Nexus
-The foundational security controls documented in this series are actively scaled into orbital infrastructure defense architectures. To explore how these enterprise frameworks mitigate autonomous multi-agent security risks and secure space-hosted nodes, view the conceptual proof-of-concept here:
-👉 [Project "Astraeus Shield" — Space Cyber Police Concept](https://github.com/KokiSecurityLab/Space-Cyber-Police-Concept)
+## Related Repository — Space Cyber Defense Series (SCD)
+
+The enterprise security foundations in this series (SIEM, incident response, threat intelligence, and the eight CISSP domains) are extended into a forward-looking concept: how the same controls could protect satellites, ground stations, and orbital AI data centers, with humans keeping final authority over AI-driven defense.
+
+Papers in that series use the "SCD-" prefix (e.g., SCD-001), while papers here use "#" numbers only (e.g., #001).
+
+👉 [Space Cyber Defense Series — Project "Astraeus Shield"](https://github.com/KokiSecurityLab/Space-Cyber-Police-Concept)
 
 ---
 # 日本の皆様へ
@@ -35,9 +39,13 @@ The foundational security controls documented in this series are actively scaled
 さらに、本研究シリーズは、人工知能（AI）の急速な自律化がもたらす地政学的・経済的リスクへの対抗策として機能します。直近で発生した、複数のAIエージェントが自律的に連携してシステムへ誤侵入（ハッキング）を試みるようなインシデントは、従来の境界防御の限界を実証しています。AIの悪用によるサイバー犯罪の激化、偽情報の自動拡散、および急激な社会構造の変革に対する国際的な警鐘に深く同意し、本ラボでは人間の主導権（ガバナンス）を死守するための強固な防御仕様と多層防御フレームワークを提示します。
 
 ---
-### 応用研究への接続
-本シリーズで定義された防衛思想は、自律型AIエージェントの連携暴走や地政学的リスクといった現代の脅威に対抗するため、航空宇宙インフラ防衛へと応用されています。分散型衛星レジストリやレーザー通信の保護に特化させた具体的な概念実証は、以下よりご覧いただけます。
-👉 [プロジェクト「アストライオス・シールド」 — 宇宙サイバー警察構想](https://github.com/KokiSecurityLab/Space-Cyber-Police-Concept)
+### 関連リポジトリ — 宇宙サイバー防衛シリーズ（SCD）
+
+本シリーズで扱う企業向けセキュリティの基礎（SIEM、インシデント対応、脅威インテリジェンス、CISSPの8つのドメイン）を、衛星・地上局・宇宙のAIデータセンターの防御へ広げて考えた構想です。AIを活用した防御であっても、最終的な判断は人間が担うことを前提にしています。
+
+関連リポジトリの論文には「SCD-001」のように「SCD-」が付き、本シリーズの論文は「#001」のように番号だけで表します。
+
+👉 [宇宙サイバー防衛シリーズ — プロジェクト「アストライオス・シールド」](https://github.com/KokiSecurityLab/Space-Cyber-Police-Concept)
 
 ---
 ## Technical Paper Index
