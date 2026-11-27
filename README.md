@@ -119,3 +119,4 @@ Papers in that series use the "SCD-" prefix (e.g., SCD-001), while papers here u
 | 065 | Trusted Computing Base | Reference Monitor Concept Application |
 | 066 | OSI Layered Security | Layer-Specific Control Mapping |
 | 067 | Network Segmentation | VLAN Architecture and DMZ Design |
+| 068 | Wireless Security | WPA3 SAE Handshake Implementation |
